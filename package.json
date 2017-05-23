@@ -1,0 +1,23 @@
+{
+  "name": "football-predictions-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanspita/football-predictions-server.git"
+  },
+  "author": "Stefan Spita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanspita/football-predictions-server/issues"
+  },
+  "homepage": "https://github.com/stefanspita/football-predictions-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
