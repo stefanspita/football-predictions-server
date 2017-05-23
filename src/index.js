@@ -1,7 +1,11 @@
 const restify = require("restify")
 const {name, version} = require("../package.json")
+const pingRoute = require("./routes/ping")
 
 const server = restify.createServer({name, version})
+
+// routes init
+pingRoute(server)
 
 server.on("uncaughtException", (req, res, route, err) => {
   console.error("uncaughtException", err)
