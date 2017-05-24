@@ -1,11 +1,10 @@
 const restify = require("restify")
+const {port} = require("config")
 const {name, version} = require("../package.json")
 const pingRoute = require("./routes/ping")
+const getDb = require("./init/db")
 
 const server = restify.createServer({name, version})
-
-// routes init
-pingRoute(server)
 
 server.on("uncaughtException", (req, res, route, err) => {
   console.error("uncaughtException", err)
@@ -17,6 +16,10 @@ server.use(restify.bodyParser({mapParams: false}))
 server.use(restify.queryParser({mapParams: false}))
 server.pre(restify.pre.sanitizePath())
 
-server.listen(10002, function() {
-  console.log("Server started listening on port 10002")
+return getDb().then((db) => {
+  pingRoute(server, db)
+
+  server.listen(port, function() {
+    console.log(`Server started listening on port ${port}`)
+  })
 })

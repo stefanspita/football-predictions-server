@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.0",
+    "config": "^1.26.1",
     "moment": "^2.18.1",
     "mongodb": "^2.2.27",
     "ramda": "^0.23.0",
