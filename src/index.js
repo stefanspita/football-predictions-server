@@ -1,8 +1,9 @@
 const restify = require("restify")
 const {port} = require("config")
 const {name, version} = require("../package.json")
-const pingRoute = require("./routes/ping")
 const getDb = require("./init/db")
+
+const pingRoute = require("./routes/ping")
 
 const server = restify.createServer({name, version})
 

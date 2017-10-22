@@ -1,0 +1,7 @@
+--reporter spec
+--ui bdd
+--timeout 5000
+--check-leaks
+--recursive
+--colors
+src/**/__tests__/*.js

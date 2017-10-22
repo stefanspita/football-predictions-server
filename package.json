@@ -9,7 +9,8 @@
     "lint": "eslint src/",
     "update-to-latest": "npm-check-updates -u",
     "check-for-updates": "npm-check-updates",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test-watch": "mocha -w"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
   "homepage": "https://github.com/stefanspita/football-predictions-server#readme",
   "devDependencies": {
     "@mft/eslint-config-momentumft": "^3.1.4",
+    "chai": "^4.1.2",
     "eslint": "^4.9.0",
+    "mocha": "^4.0.1",
     "nodemon": "^1.11.0",
     "npm-check-updates": "^2.13.0"
   },
