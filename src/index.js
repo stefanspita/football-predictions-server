@@ -11,9 +11,9 @@ server.on("uncaughtException", (req, res, route, err) => {
   throw err
 })
 
-server.use(restify.authorizationParser())
-server.use(restify.bodyParser({mapParams: false}))
-server.use(restify.queryParser({mapParams: false}))
+server.use(restify.plugins.authorizationParser())
+server.use(restify.plugins.bodyParser({mapParams: true}))
+server.use(restify.plugins.queryParser({mapParams: false}))
 server.pre(restify.pre.sanitizePath())
 
 return getDb().then((db) => {
