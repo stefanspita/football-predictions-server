@@ -7,6 +7,8 @@
     "serve": "node src/index.js",
     "serve-watch": "nodemon src/index.js",
     "lint": "eslint src/",
+    "update-to-latest": "npm-check-updates -u",
+    "check-for-updates": "npm-check-updates",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +22,10 @@
   },
   "homepage": "https://github.com/stefanspita/football-predictions-server#readme",
   "devDependencies": {
-    "@mft/eslint-config-momentumft": "^2.1.2",
-    "eslint": "^3.19.0",
-    "nodemon": "^1.11.0"
+    "@mft/eslint-config-momentumft": "^3.1.4",
+    "eslint": "^4.9.0",
+    "nodemon": "^1.11.0",
+    "npm-check-updates": "^2.13.0"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
