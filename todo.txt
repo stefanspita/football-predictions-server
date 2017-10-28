@@ -1,0 +1,3 @@
+- script to get all players that haven't been yet updated for a given gameweek
+- script to take the updates and pop them into the local init files
+- script to calculate player rating and the prediction confidence
