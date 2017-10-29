@@ -30,7 +30,7 @@ function runInitDb() {
     console.log("FINISHED UPDATING DB")
     process.exit(0)
   }).catch((err) => {
-    console.err("ERROR OCCURRED", err)
+    console.error("ERROR OCCURRED", err)
     process.exit(1)
   })
 }
