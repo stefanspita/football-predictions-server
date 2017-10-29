@@ -16,10 +16,27 @@ function getTeamUpdateReport(db, gameweek) {
     .then(teamReport => fs.writeJson("./teams-update.json", teamReport))
 }
 
+function getPlayerUpdateReport(db, gameweek) {
+  function mapPlayerToReport(player) {
+    player.gwToUpdate = gameweek
+    player.price = 0
+    player.minutes = 0
+    player.points = 0
+    player.bps = 0
+    return player
+  }
+
+  const playersCollection = db.collection("players")
+  return playersCollection.find({lastUpdatedGw: {$lt: gameweek}}).project({_id: 0, id: 1, name: 1}).toArray()
+    .then(map(mapPlayerToReport))
+    .then(playerReport => fs.writeJson("./players-update.json", playerReport))
+}
+
 function createUpdateReport(gameweek) {
   return getDb().then((db) => {
     return Promise.all([
       getTeamUpdateReport(db, gameweek),
+      getPlayerUpdateReport(db, gameweek),
     ])
   }).then(() => {
     console.log("FINISHED COMPILING UPDATE REPORT")
