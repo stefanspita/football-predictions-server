@@ -9,9 +9,9 @@ function validatePlayer(player) {
     throw new Error(`Error found in player update statement for ${player.name}. price is invalid`)
   if (player.minutes < 0 || player.minutes > 90)
     throw new Error(`Error found in player update statement for ${player.name}. minutes are invalid`)
-  if (player.points < 0 || player.points > 25)
+  if (player.points < -5 || player.points > 25)
     throw new Error(`Error found in player update statement for ${player.name}. points are invalid`)
-  if (player.bps < 0 || player.bps > 100)
+  if (player.bps < -20 || player.bps > 100)
     throw new Error(`Error found in player update statement for ${player.name}. bps is invalid`)
 }
 
