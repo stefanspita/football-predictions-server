@@ -1,9 +1,9 @@
-- script to take the updates and pop them into the local init files
 - script to calculate player rating
   - as a general rule, the more games in this current season, the more weight the season has over the previous ones
-  - missing data from previous seasons doesn't affect the rating, but only the confidence
+  - calculate percentage of time played in the last 6 games
 - add the prediction confidence (as standard deviation) - uses minutes played
-- filter out players who've played less than a minimum threshold (differs for each position)
+  - missing data from previous seasons doesn't affect the rating, but only the confidence
+- combine player rating with the prediction confidence
 - add next 1, 3 and 5 fixtures in the report
 
 - a report of likely players to rise in price would be great
