@@ -6,8 +6,7 @@
   "scripts": {
     "init": "node src/processes/init/index.js",
     "create-update-report": "node src/processes/create-update-report/index.js",
-    "update-data": "node src/index.js",
-    "get-report": "node src/index.js",
+    "update-data": "node src/processes/update-data/index.js",
     "lint": "eslint src/",
     "update-to-latest": "npm-check-updates -u",
     "check-for-updates": "npm-check-updates",
