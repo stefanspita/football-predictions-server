@@ -5,6 +5,10 @@ function validateTeam(team) {
     throw new Error(`Error found in update statement for ${team.name}. gwToUpdate is invalid`)
   if (team.fixtures.length !== 5)
     throw new Error(`Error found in update statement for ${team.name}. The number of fixtures is not 5`)
+  forEach((fixture) => {
+    if (fixture < 1 || fixture > 5)
+      throw new Error(`Error found in update statement for ${team.name}. One of the fixture difficulties is invalid`)
+  }, team.fixtures)
 }
 
 function validateTeamsUpdate(teamsUpdate) {
