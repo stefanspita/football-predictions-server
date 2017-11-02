@@ -1,6 +1,6 @@
 const getDb = require("../../init/db")
-const teams = require("./teams")
-const players = require("./players")
+const teams = require("../../../teams.json")
+const players = require("../../../players.json")
 
 function updateTeams(db, teams) {
   const teamsCollection = db.collection("teams")
