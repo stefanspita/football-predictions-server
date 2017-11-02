@@ -19,7 +19,6 @@ function getTeamUpdateReport(db, gameweek) {
 function getPlayerUpdateReport(db, gameweek) {
   function mapPlayerToReport(player) {
     player.gwToUpdate = gameweek
-    player.price = 0
     player.minutes = 0
     player.points = 0
     player.bps = 0
@@ -28,7 +27,7 @@ function getPlayerUpdateReport(db, gameweek) {
 
   const playersCollection = db.collection("players")
   return playersCollection.find({lastUpdatedGw: {$lt: gameweek}})
-    .project({_id: 0, id: 1, name: 1, lastUpdatedGw: 1}).toArray()
+    .project({_id: 0, id: 1, name: 1, lastUpdatedGw: 1, price: 1}).toArray()
     .then(map(mapPlayerToReport))
     .then(playerReport => fs.writeJson("./players-update.json", playerReport))
 }
