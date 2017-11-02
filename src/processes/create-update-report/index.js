@@ -1,17 +1,17 @@
 const Promise = require("bluebird")
-const {map} = require("ramda")
+const {map, tail} = require("ramda")
 const fs = require("fs-extra")
 const getDb = require("../../init/db")
 
 function getTeamUpdateReport(db, gameweek) {
   function mapTeamToReport(team) {
     team.gwToUpdate = gameweek
-    team.newFixtureDifficulty = ""
+    team.fixtures = tail(team.fixtures)
     return team
   }
 
   const teamsCollection = db.collection("teams")
-  return teamsCollection.find({lastUpdatedGw: {$lt: gameweek}}).project({_id: 0, fixtures: 0}).toArray()
+  return teamsCollection.find({lastUpdatedGw: {$lt: gameweek}}).project({_id: 0}).toArray()
     .then(map(mapTeamToReport))
     .then(teamReport => fs.writeJson("./teams-update.json", teamReport))
 }
