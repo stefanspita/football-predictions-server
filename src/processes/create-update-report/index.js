@@ -27,13 +27,16 @@ function getPlayerUpdateReport(db, gameweek) {
   }
 
   const playersCollection = db.collection("players")
-  return playersCollection.find({lastUpdatedGw: {$lt: gameweek}}).project({_id: 0, id: 1, name: 1}).toArray()
+  return playersCollection.find({lastUpdatedGw: {$lt: gameweek}})
+    .project({_id: 0, id: 1, name: 1, lastUpdatedGw: 1}).toArray()
     .then(map(mapPlayerToReport))
     .then(playerReport => fs.writeJson("./players-update.json", playerReport))
 }
 
 function createUpdateReport(gameweek) {
   return getDb().then((db) => {
+    if (!gameweek) throw new Error("Missing gameweek argument")
+
     return Promise.all([
       getTeamUpdateReport(db, gameweek),
       getPlayerUpdateReport(db, gameweek),

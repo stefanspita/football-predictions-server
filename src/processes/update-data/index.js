@@ -2,6 +2,7 @@ const Promise = require("bluebird")
 const fs = require("fs-extra")
 const getDb = require("../../init/db")
 const updateTeams = require("./update-teams")
+const updatePlayers = require("./update-players")
 
 const TEAMS_FILE_PATH = "./teams-update.json"
 const PLAYERS_FILE_PATH = "./players-update.json"
@@ -13,7 +14,8 @@ function updateDb() {
     fs.readJson(PLAYERS_FILE_PATH),
   ]).spread((db, teamsUpdate, playersUpdate) => {
     return Promise.all([
-      updateTeams(db, teamsUpdate),
+      // updateTeams(db, teamsUpdate),
+      updatePlayers(db, playersUpdate),
     ])
   }).then(() => {
     console.log("FINISHED UPDATING DB")
