@@ -3,7 +3,8 @@
   - calculate percentage of time played in the last 6 games
 - add the prediction confidence (as standard deviation) - uses minutes played
   - missing data from previous seasons doesn't affect the rating, but only the confidence
-- combine player rating with the prediction confidence
 - add next 1, 3 and 5 fixtures in the report
+- combine player rating with the prediction confidence
+- based on the final rating and price, what would be the ideal team for the money I've got
 
 - a report of likely players to rise in price would be great
