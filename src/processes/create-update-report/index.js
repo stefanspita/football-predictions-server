@@ -27,7 +27,7 @@ function getPlayerUpdateReport(db, gameweek) {
 
   const playersCollection = db.collection("players")
   return playersCollection.find({lastUpdatedGw: {$lt: gameweek}})
-    .sort({position: 1, "thisSeason.points": -1})
+    .sort({teamId: 1, position: 1, "thisSeason.points": -1})
     .project({_id: 0, id: 1, name: 1, lastUpdatedGw: 1, price: 1}).toArray()
     .then(map(mapPlayerToReport))
     .then(playerReport => fs.writeJson("./players-update.json", playerReport))
