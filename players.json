@@ -15,7 +15,7 @@
     "name": "Antonio Valencia",
     "price": 6.7,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 61,
       "bps": 247,
       "last6GamesMinutes": [
@@ -46,7 +46,7 @@
     "name": "Phil Jones",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 893,
+      "minutesPlayed": 893,
       "points": 59,
       "bps": 265,
       "last6GamesMinutes": [
@@ -77,7 +77,7 @@
     "name": "Nicolás Otamendi",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 970,
+      "minutesPlayed": 970,
       "points": 56,
       "bps": 259,
       "last6GamesMinutes": [
@@ -103,7 +103,7 @@
     "name": "Stephen Ward",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 980,
+      "minutesPlayed": 980,
       "points": 56,
       "bps": 227,
       "last6GamesMinutes": [
@@ -124,7 +124,7 @@
     "name": "Sead Kolasinac",
     "price": 6,
     "thisSeason": {
-      "minutes": 862,
+      "minutesPlayed": 862,
       "points": 52,
       "bps": 230,
       "last6GamesMinutes": [
@@ -155,7 +155,7 @@
     "name": "Ben Davies",
     "price": 5.8,
     "thisSeason": {
-      "minutes": 620,
+      "minutesPlayed": 620,
       "points": 52,
       "bps": 194,
       "last6GamesMinutes": [
@@ -186,7 +186,7 @@
     "name": "Nacho Monreal",
     "price": 5.6,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 51,
       "bps": 272,
       "last6GamesMinutes": [
@@ -217,7 +217,7 @@
     "name": "Jan Vertonghen",
     "price": 6,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 49,
       "bps": 256,
       "last6GamesMinutes": [
@@ -248,7 +248,7 @@
     "name": "Kieran Trippier",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 633,
+      "minutesPlayed": 633,
       "points": 48,
       "bps": 210,
       "last6GamesMinutes": [
@@ -279,7 +279,7 @@
     "name": "Kyle Walker",
     "price": 6.6,
     "thisSeason": {
-      "minutes": 753,
+      "minutesPlayed": 753,
       "points": 48,
       "bps": 234,
       "last6GamesMinutes": [
@@ -310,7 +310,7 @@
     "name": "Harry Maguire",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 47,
       "bps": 246,
       "last6GamesMinutes": [
@@ -336,7 +336,7 @@
     "name": "Eric Bailly",
     "price": 6.1,
     "thisSeason": {
-      "minutes": 720,
+      "minutesPlayed": 720,
       "points": 46,
       "bps": 198,
       "last6GamesMinutes": [
@@ -367,7 +367,7 @@
     "name": "Maya Yoshida",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 810,
+      "minutesPlayed": 810,
       "points": 46,
       "bps": 205,
       "last6GamesMinutes": [
@@ -398,7 +398,7 @@
     "name": "Marcos Alonso",
     "price": 6.9,
     "thisSeason": {
-      "minutes": 935,
+      "minutesPlayed": 935,
       "points": 46,
       "bps": 206,
       "last6GamesMinutes": [
@@ -429,7 +429,7 @@
     "name": "John Stones",
     "price": 5.6,
     "thisSeason": {
-      "minutes": 854,
+      "minutesPlayed": 854,
       "points": 45,
       "bps": 223,
       "last6GamesMinutes": [
@@ -460,7 +460,7 @@
     "name": "Ben Mee",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 45,
       "bps": 207,
       "last6GamesMinutes": [
@@ -486,7 +486,7 @@
     "name": "Matthew Lowton",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 45,
       "bps": 202,
       "last6GamesMinutes": [
@@ -512,7 +512,7 @@
     "name": "Jamaal Lascelles",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 947,
+      "minutesPlayed": 947,
       "points": 44,
       "bps": 185,
       "last6GamesMinutes": [
@@ -533,7 +533,7 @@
     "name": "Mathias Jorgensen",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 41,
       "bps": 210,
       "last6GamesMinutes": [
@@ -559,7 +559,7 @@
     "name": "Alfie Mawson",
     "price": 5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 40,
       "bps": 216,
       "last6GamesMinutes": [
@@ -580,7 +580,7 @@
     "name": "Shane Duffy",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 972,
+      "minutesPlayed": 972,
       "points": 40,
       "bps": 197,
       "last6GamesMinutes": [
@@ -606,7 +606,7 @@
     "name": "Joel Matip",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 40,
       "bps": 233,
       "last6GamesMinutes": [
@@ -637,7 +637,7 @@
     "name": "Kyle Naughton",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 987,
+      "minutesPlayed": 987,
       "points": 39,
       "bps": 209,
       "last6GamesMinutes": [
@@ -668,7 +668,7 @@
     "name": "Toby Alderweireld",
     "price": 6,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 38,
       "bps": 200,
       "last6GamesMinutes": [
@@ -699,7 +699,7 @@
     "name": "Héctor Bellerín",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 38,
       "bps": 197,
       "last6GamesMinutes": [
@@ -725,7 +725,7 @@
     "name": "James Tarkowski",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 38,
       "bps": 199,
       "last6GamesMinutes": [
@@ -746,7 +746,7 @@
     "name": "Chris Lowe",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 771,
+      "minutesPlayed": 771,
       "points": 37,
       "bps": 161,
       "last6GamesMinutes": [
@@ -767,7 +767,7 @@
     "name": "Ahmed El-Sayed Hegazi",
     "price": 4.7,
     "thisSeason": {
-      "minutes": 956,
+      "minutesPlayed": 956,
       "points": 37,
       "bps": 188,
       "last6GamesMinutes": [
@@ -798,7 +798,7 @@
     "name": "Charlie Daniels",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 37,
       "bps": 194,
       "last6GamesMinutes": [
@@ -829,7 +829,7 @@
     "name": "Federico Fernandez",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 36,
       "bps": 204,
       "last6GamesMinutes": [
@@ -855,7 +855,7 @@
     "name": "Joseph Gomez",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 721,
+      "minutesPlayed": 721,
       "points": 36,
       "bps": 197,
       "last6GamesMinutes": [
@@ -886,7 +886,7 @@
     "name": "Ryan Bertrand",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 985,
+      "minutesPlayed": 985,
       "points": 36,
       "bps": 191,
       "last6GamesMinutes": [
@@ -917,7 +917,7 @@
     "name": "Alberto Moreno",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 810,
+      "minutesPlayed": 810,
       "points": 35,
       "bps": 204,
       "last6GamesMinutes": [
@@ -948,7 +948,7 @@
     "name": "Martin Olsson",
     "price": 5,
     "thisSeason": {
-      "minutes": 806,
+      "minutesPlayed": 806,
       "points": 34,
       "bps": 156,
       "last6GamesMinutes": [
@@ -979,7 +979,7 @@
     "name": "Jose Fonte",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 688,
+      "minutesPlayed": 688,
       "points": 34,
       "bps": 156,
       "last6GamesMinutes": [
@@ -1000,7 +1000,7 @@
     "name": "Francisco Femenía Far",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 853,
+      "minutesPlayed": 853,
       "points": 34,
       "bps": 198,
       "last6GamesMinutes": [
@@ -1031,7 +1031,7 @@
     "name": "Cédric Soares",
     "price": 5,
     "thisSeason": {
-      "minutes": 982,
+      "minutesPlayed": 982,
       "points": 34,
       "bps": 170,
       "last6GamesMinutes": [
@@ -1052,7 +1052,7 @@
     "name": "Davinson Sánchez",
     "price": 6,
     "thisSeason": {
-      "minutes": 631,
+      "minutesPlayed": 631,
       "points": 34,
       "bps": 168,
       "last6GamesMinutes": [
@@ -1083,7 +1083,7 @@
     "name": "Christian Fuchs",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 810,
+      "minutesPlayed": 810,
       "points": 33,
       "bps": 167,
       "last6GamesMinutes": [
@@ -1104,7 +1104,7 @@
     "name": "Christopher Schindler",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 956,
+      "minutesPlayed": 956,
       "points": 32,
       "bps": 214,
       "last6GamesMinutes": [
@@ -1135,7 +1135,7 @@
     "name": "Aaron Cresswell",
     "price": 5,
     "thisSeason": {
-      "minutes": 774,
+      "minutesPlayed": 774,
       "points": 30,
       "bps": 146,
       "last6GamesMinutes": [
@@ -1156,7 +1156,7 @@
     "name": "Antonio Rüdiger",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 744,
+      "minutesPlayed": 744,
       "points": 30,
       "bps": 170,
       "last6GamesMinutes": [
@@ -1182,7 +1182,7 @@
     "name": "Ciaran Clark",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 665,
+      "minutesPlayed": 665,
       "points": 30,
       "bps": 131,
       "last6GamesMinutes": [
@@ -1213,7 +1213,7 @@
     "name": "David Luiz Moreira Marinho",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 716,
+      "minutesPlayed": 716,
       "points": 29,
       "bps": 165,
       "last6GamesMinutes": [
@@ -1244,7 +1244,7 @@
     "name": "Danny Simpson",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 973,
+      "minutesPlayed": 973,
       "points": 28,
       "bps": 40,
       "last6GamesMinutes": [
@@ -1275,7 +1275,7 @@
     "name": "Wes Morgan",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 26,
       "bps": 158,
       "last6GamesMinutes": [
@@ -1306,7 +1306,7 @@
     "name": "James Milner",
     "price": 6.2,
     "thisSeason": {
-      "minutes": 435,
+      "minutesPlayed": 435,
       "points": 24,
       "bps": 128,
       "last6GamesMinutes": [
@@ -1337,7 +1337,7 @@
     "name": "Kurt Zouma",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 24,
       "bps": 42,
       "last6GamesMinutes": [
@@ -1368,7 +1368,7 @@
     "name": "Chris Smalling",
     "price": 5.3,
     "thisSeason": {
-      "minutes": 465,
+      "minutesPlayed": 465,
       "points": 23,
       "bps": 98,
       "last6GamesMinutes": [
@@ -1399,7 +1399,7 @@
     "name": "Erik Pieters",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 988,
+      "minutesPlayed": 988,
       "points": 20,
       "bps": 150,
       "last6GamesMinutes": [
@@ -1430,7 +1430,7 @@
     "name": "Ryan Shawcross",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 540,
+      "minutesPlayed": 540,
       "points": 18,
       "bps": 86,
       "last6GamesMinutes": [
@@ -1456,7 +1456,7 @@
     "name": "Ragnar Klavan",
     "price": 4.3,
     "thisSeason": {
-      "minutes": 450,
+      "minutesPlayed": 450,
       "points": 17,
       "bps": 104,
       "last6GamesMinutes": [
@@ -1477,7 +1477,7 @@
     "name": "Davide Zappacosta",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 225,
+      "minutesPlayed": 225,
       "points": 15,
       "bps": 49,
       "last6GamesMinutes": [
@@ -1508,7 +1508,7 @@
     "name": "Kevin Wimmer",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 495,
+      "minutesPlayed": 495,
       "points": 11,
       "bps": 36,
       "last6GamesMinutes": [
@@ -1539,7 +1539,7 @@
     "name": "Sergio Aguero",
     "price": 11.8,
     "thisSeason": {
-      "minutes": 602,
+      "minutesPlayed": 602,
       "points": 67,
       "bps": 283,
       "last6GamesMinutes": [
@@ -1570,7 +1570,7 @@
     "name": "Harry Kane",
     "price": 12.8,
     "thisSeason": {
-      "minutes": 865,
+      "minutesPlayed": 865,
       "points": 65,
       "bps": 221,
       "last6GamesMinutes": [
@@ -1601,7 +1601,7 @@
     "name": "Romelu Lukaku",
     "price": 11.6,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 64,
       "bps": 226,
       "last6GamesMinutes": [
@@ -1622,7 +1622,7 @@
     "name": "Alvaro Morata",
     "price": 10.3,
     "thisSeason": {
-      "minutes": 716,
+      "minutesPlayed": 716,
       "points": 63,
       "bps": 199,
       "last6GamesMinutes": [
@@ -1648,7 +1648,7 @@
     "name": "Gabriel Fernando de Jesus",
     "price": 10.5,
     "thisSeason": {
-      "minutes": 598,
+      "minutesPlayed": 598,
       "points": 54,
       "bps": 201,
       "last6GamesMinutes": [
@@ -1679,7 +1679,7 @@
     "name": "Jamie Vardy",
     "price": 8.6,
     "thisSeason": {
-      "minutes": 965,
+      "minutesPlayed": 965,
       "points": 52,
       "bps": 205,
       "last6GamesMinutes": [
@@ -1700,7 +1700,7 @@
     "name": "Tammy Abraham",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 895,
+      "minutesPlayed": 895,
       "points": 48,
       "bps": 156,
       "last6GamesMinutes": [
@@ -1731,7 +1731,7 @@
     "name": "Roberto Firmino",
     "price": 8.5,
     "thisSeason": {
-      "minutes": 784,
+      "minutesPlayed": 784,
       "points": 47,
       "bps": 190,
       "last6GamesMinutes": [
@@ -1752,7 +1752,7 @@
     "name": "Alexandre Lacazette",
     "price": 10.3,
     "thisSeason": {
-      "minutes": 744,
+      "minutesPlayed": 744,
       "points": 46,
       "bps": 199,
       "last6GamesMinutes": [
@@ -1783,7 +1783,7 @@
     "name": "Marcus Rashford",
     "price": 7.6,
     "thisSeason": {
-      "minutes": 697,
+      "minutesPlayed": 697,
       "points": 45,
       "bps": 151,
       "last6GamesMinutes": [
@@ -1814,7 +1814,7 @@
     "name": "Wayne Rooney",
     "price": 7.3,
     "thisSeason": {
-      "minutes": 823,
+      "minutesPlayed": 823,
       "points": 42,
       "bps": 169,
       "last6GamesMinutes": [
@@ -1845,7 +1845,7 @@
     "name": "Mame Biram Diouf",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 895,
+      "minutesPlayed": 895,
       "points": 41,
       "bps": 167,
       "last6GamesMinutes": [
@@ -1866,7 +1866,7 @@
     "name": "Javier Hernández Balcázar",
     "price": 6.9,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 41,
       "bps": 125,
       "last6GamesMinutes": [
@@ -1892,7 +1892,7 @@
     "name": "Manolo Gabbiadini",
     "price": 6.6,
     "thisSeason": {
-      "minutes": 660,
+      "minutesPlayed": 660,
       "points": 34,
       "bps": 107,
       "last6GamesMinutes": [
@@ -1918,7 +1918,7 @@
     "name": "Glenn Murray",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 471,
+      "minutesPlayed": 471,
       "points": 34,
       "bps": 97,
       "last6GamesMinutes": [
@@ -1949,7 +1949,7 @@
     "name": "Shinji Okazaki",
     "price": 5.6,
     "thisSeason": {
-      "minutes": 506,
+      "minutesPlayed": 506,
       "points": 33,
       "bps": 123,
       "last6GamesMinutes": [
@@ -1980,7 +1980,7 @@
     "name": "Jordan Ayew",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 968,
+      "minutesPlayed": 968,
       "points": 32,
       "bps": 111,
       "last6GamesMinutes": [
@@ -2001,7 +2001,7 @@
     "name": "Chris Wood",
     "price": 6.5,
     "thisSeason": {
-      "minutes": 562,
+      "minutesPlayed": 562,
       "points": 31,
       "bps": 89,
       "last6GamesMinutes": [
@@ -2027,7 +2027,7 @@
     "name": "Dominic Calvert-Lewin",
     "price": 5,
     "thisSeason": {
-      "minutes": 723,
+      "minutesPlayed": 723,
       "points": 30,
       "bps": 88,
       "last6GamesMinutes": [
@@ -2058,7 +2058,7 @@
     "name": "Danny Welbeck",
     "price": 7.3,
     "thisSeason": {
-      "minutes": 460,
+      "minutesPlayed": 460,
       "points": 29,
       "bps": 118,
       "last6GamesMinutes": [
@@ -2084,7 +2084,7 @@
     "name": "Ayoze Pérez",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 838,
+      "minutesPlayed": 838,
       "points": 29,
       "bps": 80,
       "last6GamesMinutes": [
@@ -2105,7 +2105,7 @@
     "name": "Laurent Depoitre",
     "price": 5.2,
     "thisSeason": {
-      "minutes": 616,
+      "minutesPlayed": 616,
       "points": 29,
       "bps": 93,
       "last6GamesMinutes": [
@@ -2131,7 +2131,7 @@
     "name": "Andre Gray",
     "price": 6.3,
     "thisSeason": {
-      "minutes": 650,
+      "minutesPlayed": 650,
       "points": 29,
       "bps": 75,
       "last6GamesMinutes": [
@@ -2162,7 +2162,7 @@
     "name": "Jay Rodriguez",
     "price": 5.6,
     "thisSeason": {
-      "minutes": 1077,
+      "minutesPlayed": 1077,
       "points": 28,
       "bps": 80,
       "last6GamesMinutes": [
@@ -2188,7 +2188,7 @@
     "name": "Jose Luis Mato Sanmartín",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 713,
+      "minutesPlayed": 713,
       "points": 28,
       "bps": 80,
       "last6GamesMinutes": [
@@ -2214,7 +2214,7 @@
     "name": "Sam Vokes",
     "price": 5.8,
     "thisSeason": {
-      "minutes": 372,
+      "minutesPlayed": 372,
       "points": 28,
       "bps": 94,
       "last6GamesMinutes": [
@@ -2235,7 +2235,7 @@
     "name": "Tomer Hemed",
     "price": 5,
     "thisSeason": {
-      "minutes": 446,
+      "minutesPlayed": 446,
       "points": 27,
       "bps": 81,
       "last6GamesMinutes": [
@@ -2266,7 +2266,7 @@
     "name": "Daniel Sturridge",
     "price": 8,
     "thisSeason": {
-      "minutes": 362,
+      "minutesPlayed": 362,
       "points": 23,
       "bps": 101,
       "last6GamesMinutes": [
@@ -2297,7 +2297,7 @@
     "name": "Joshua King",
     "price": 7,
     "thisSeason": {
-      "minutes": 798,
+      "minutesPlayed": 798,
       "points": 23,
       "bps": 86,
       "last6GamesMinutes": [
@@ -2328,7 +2328,7 @@
     "name": "Jermain Defoe",
     "price": 7.6,
     "thisSeason": {
-      "minutes": 505,
+      "minutesPlayed": 505,
       "points": 20,
       "bps": 65,
       "last6GamesMinutes": [
@@ -2349,7 +2349,7 @@
     "name": "Steve Mounie",
     "price": 5.8,
     "thisSeason": {
-      "minutes": 396,
+      "minutesPlayed": 396,
       "points": 19,
       "bps": 59,
       "last6GamesMinutes": [
@@ -2380,7 +2380,7 @@
     "name": "Benik Afobe",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 340,
+      "minutesPlayed": 340,
       "points": 14,
       "bps": 44,
       "last6GamesMinutes": [
@@ -2411,7 +2411,7 @@
     "name": "David de Gea",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 65,
       "bps": 255,
       "last6GamesMinutes": [
@@ -2442,7 +2442,7 @@
     "name": "Fraser Forster",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 51,
       "bps": 202,
       "last6GamesMinutes": [
@@ -2463,7 +2463,7 @@
     "name": "Jonas Lossl",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 48,
       "bps": 222,
       "last6GamesMinutes": [
@@ -2494,7 +2494,7 @@
     "name": "Thibaut Courtois",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 47,
       "bps": 211,
       "last6GamesMinutes": [
@@ -2525,7 +2525,7 @@
     "name": "Kasper Schmeichel",
     "price": 5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 46,
       "bps": 227,
       "last6GamesMinutes": [
@@ -2556,7 +2556,7 @@
     "name": "Lukasz Fabianski",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 45,
       "bps": 225,
       "last6GamesMinutes": [
@@ -2577,7 +2577,7 @@
     "name": "Nick Pope",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 684,
+      "minutesPlayed": 684,
       "points": 45,
       "bps": 188,
       "last6GamesMinutes": [
@@ -2598,7 +2598,7 @@
     "name": "Ederson Santana de Moraes",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 1035,
+      "minutesPlayed": 1035,
       "points": 42,
       "bps": 186,
       "last6GamesMinutes": [
@@ -2629,7 +2629,7 @@
     "name": "Hugo Lloris",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 41,
       "bps": 190,
       "last6GamesMinutes": [
@@ -2650,7 +2650,7 @@
     "name": "Mathew Ryan",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 41,
       "bps": 198,
       "last6GamesMinutes": [
@@ -2681,7 +2681,7 @@
     "name": "Petr Cech",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 40,
       "bps": 193,
       "last6GamesMinutes": [
@@ -2712,7 +2712,7 @@
     "name": "Robert Elliot",
     "price": 4.2,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 40,
       "bps": 186,
       "last6GamesMinutes": [
@@ -2738,7 +2738,7 @@
     "name": "Joe Hart",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 36,
       "bps": 211,
       "last6GamesMinutes": [
@@ -2769,7 +2769,7 @@
     "name": "Asmir Begovic",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 36,
       "bps": 196,
       "last6GamesMinutes": [
@@ -2800,7 +2800,7 @@
     "name": "Simon Mignolet",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 33,
       "bps": 171,
       "last6GamesMinutes": [
@@ -2831,7 +2831,7 @@
     "name": "Heurelho Gomes",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 958,
+      "minutesPlayed": 958,
       "points": 31,
       "bps": 189,
       "last6GamesMinutes": [
@@ -2862,7 +2862,7 @@
     "name": "Ben Foster",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 31,
       "bps": 160,
       "last6GamesMinutes": [
@@ -2893,7 +2893,7 @@
     "name": "Jack Butland",
     "price": 5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 30,
       "bps": 180,
       "last6GamesMinutes": [
@@ -2924,7 +2924,7 @@
     "name": "Jordan Pickford",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 27,
       "bps": 186,
       "last6GamesMinutes": [
@@ -2955,7 +2955,7 @@
     "name": "Wayne Hennessey",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 630,
+      "minutesPlayed": 630,
       "points": 19,
       "bps": 124,
       "last6GamesMinutes": [
@@ -2976,7 +2976,7 @@
     "name": "Julian Speroni",
     "price": 4,
     "thisSeason": {
-      "minutes": 360,
+      "minutesPlayed": 360,
       "points": 8,
       "bps": 48,
       "last6GamesMinutes": [
@@ -3002,7 +3002,7 @@
     "name": "Leroy Sané",
     "price": 8.8,
     "thisSeason": {
-      "minutes": 762,
+      "minutesPlayed": 762,
       "points": 73,
       "bps": 231,
       "last6GamesMinutes": [
@@ -3023,7 +3023,7 @@
     "name": "Mohamed Salah",
     "price": 9.4,
     "thisSeason": {
-      "minutes": 949,
+      "minutesPlayed": 949,
       "points": 72,
       "bps": 204,
       "last6GamesMinutes": [
@@ -3054,7 +3054,7 @@
     "name": "Kevin De Bruyne",
     "price": 10.1,
     "thisSeason": {
-      "minutes": 929,
+      "minutesPlayed": 929,
       "points": 64,
       "bps": 283,
       "last6GamesMinutes": [
@@ -3085,7 +3085,7 @@
     "name": "Christian Eriksen",
     "price": 9.7,
     "thisSeason": {
-      "minutes": 923,
+      "minutesPlayed": 923,
       "points": 63,
       "bps": 252,
       "last6GamesMinutes": [
@@ -3116,7 +3116,7 @@
     "name": "Raheem Sterling",
     "price": 8.2,
     "thisSeason": {
-      "minutes": 583,
+      "minutesPlayed": 583,
       "points": 62,
       "bps": 209,
       "last6GamesMinutes": [
@@ -3147,7 +3147,7 @@
     "name": "David Silva",
     "price": 8.5,
     "thisSeason": {
-      "minutes": 962,
+      "minutesPlayed": 962,
       "points": 61,
       "bps": 244,
       "last6GamesMinutes": [
@@ -3168,7 +3168,7 @@
     "name": "Pascal Groß",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 920,
+      "minutesPlayed": 920,
       "points": 58,
       "bps": 214,
       "last6GamesMinutes": [
@@ -3189,7 +3189,7 @@
     "name": "Richarlison de Andrade",
     "price": 6.4,
     "thisSeason": {
-      "minutes": 930,
+      "minutesPlayed": 930,
       "points": 58,
       "bps": 147,
       "last6GamesMinutes": [
@@ -3220,7 +3220,7 @@
     "name": "Riyad Mahrez",
     "price": 8.4,
     "thisSeason": {
-      "minutes": 865,
+      "minutesPlayed": 865,
       "points": 56,
       "bps": 183,
       "last6GamesMinutes": [
@@ -3251,7 +3251,7 @@
     "name": "Aaron Ramsey",
     "price": 7,
     "thisSeason": {
-      "minutes": 764,
+      "minutesPlayed": 764,
       "points": 54,
       "bps": 203,
       "last6GamesMinutes": [
@@ -3277,7 +3277,7 @@
     "name": "Henrikh Mkhitaryan",
     "price": 8.1,
     "thisSeason": {
-      "minutes": 785,
+      "minutesPlayed": 785,
       "points": 52,
       "bps": 194,
       "last6GamesMinutes": [
@@ -3303,7 +3303,7 @@
     "name": "Abdoulaye Doucouré",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 52,
       "bps": 245,
       "last6GamesMinutes": [
@@ -3334,7 +3334,7 @@
     "name": "Bamidele Alli",
     "price": 9.3,
     "thisSeason": {
-      "minutes": 891,
+      "minutesPlayed": 891,
       "points": 49,
       "bps": 145,
       "last6GamesMinutes": [
@@ -3365,7 +3365,7 @@
     "name": "Fernando Luiz Rosa",
     "price": 5.2,
     "thisSeason": {
-      "minutes": 959,
+      "minutesPlayed": 959,
       "points": 47,
       "bps": 224,
       "last6GamesMinutes": [
@@ -3396,7 +3396,7 @@
     "name": "Xherdan Shaqiri",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 827,
+      "minutesPlayed": 827,
       "points": 45,
       "bps": 178,
       "last6GamesMinutes": [
@@ -3427,7 +3427,7 @@
     "name": "Steven Davis",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 864,
+      "minutesPlayed": 864,
       "points": 44,
       "bps": 211,
       "last6GamesMinutes": [
@@ -3448,7 +3448,7 @@
     "name": "Eric Maxim Choupo-Moting",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 918,
+      "minutesPlayed": 918,
       "points": 44,
       "bps": 109,
       "last6GamesMinutes": [
@@ -3469,7 +3469,7 @@
     "name": "Aaron Mooy",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 915,
+      "minutesPlayed": 915,
       "points": 41,
       "bps": 205,
       "last6GamesMinutes": [
@@ -3500,7 +3500,7 @@
     "name": "Anthony Martial",
     "price": 8,
     "thisSeason": {
-      "minutes": 295,
+      "minutesPlayed": 295,
       "points": 40,
       "bps": 141,
       "last6GamesMinutes": [
@@ -3526,7 +3526,7 @@
     "name": "Matt Ritchie",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 975,
+      "minutesPlayed": 975,
       "points": 40,
       "bps": 194,
       "last6GamesMinutes": [
@@ -3557,7 +3557,7 @@
     "name": "Andrew Surman",
     "price": 4.7,
     "thisSeason": {
-      "minutes": 900,
+      "minutesPlayed": 900,
       "points": 39,
       "bps": 167,
       "last6GamesMinutes": [
@@ -3583,7 +3583,7 @@
     "name": "Granit Xhaka",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 957,
+      "minutesPlayed": 957,
       "points": 38,
       "bps": 171,
       "last6GamesMinutes": [
@@ -3604,7 +3604,7 @@
     "name": "Christian Atsu",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 913,
+      "minutesPlayed": 913,
       "points": 37,
       "bps": 105,
       "last6GamesMinutes": [
@@ -3635,7 +3635,7 @@
     "name": "Pedro Rodríguez Ledesma",
     "price": 7.9,
     "thisSeason": {
-      "minutes": 474,
+      "minutesPlayed": 474,
       "points": 35,
       "bps": 104,
       "last6GamesMinutes": [
@@ -3666,7 +3666,7 @@
     "name": "Robbie Brady",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 977,
+      "minutesPlayed": 977,
       "points": 35,
       "bps": 136,
       "last6GamesMinutes": [
@@ -3697,7 +3697,7 @@
     "name": "Tom Cleverley",
     "price": 5,
     "thisSeason": {
-      "minutes": 963,
+      "minutesPlayed": 963,
       "points": 34,
       "bps": 158,
       "last6GamesMinutes": [
@@ -3728,7 +3728,7 @@
     "name": "André Ayew",
     "price": 6.9,
     "thisSeason": {
-      "minutes": 592,
+      "minutesPlayed": 592,
       "points": 34,
       "bps": 121,
       "last6GamesMinutes": [
@@ -3749,7 +3749,7 @@
     "name": "Tiemoué Bakayoko",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 762,
+      "minutesPlayed": 762,
       "points": 33,
       "bps": 149,
       "last6GamesMinutes": [
@@ -3780,7 +3780,7 @@
     "name": "Nemanja Matic",
     "price": 5,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 33,
       "bps": 178,
       "last6GamesMinutes": [
@@ -3811,7 +3811,7 @@
     "name": "Jordan Henderson",
     "price": 5.5,
     "thisSeason": {
-      "minutes": 810,
+      "minutesPlayed": 810,
       "points": 32,
       "bps": 159,
       "last6GamesMinutes": [
@@ -3842,7 +3842,7 @@
     "name": "Darren Fletcher",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 32,
       "bps": 147,
       "last6GamesMinutes": [
@@ -3868,7 +3868,7 @@
     "name": "Paul Pogba",
     "price": 8,
     "thisSeason": {
-      "minutes": 360,
+      "minutesPlayed": 360,
       "points": 31,
       "bps": 100,
       "last6GamesMinutes": [
@@ -3899,7 +3899,7 @@
     "name": "Cesc Fàbregas",
     "price": 6.9,
     "thisSeason": {
-      "minutes": 797,
+      "minutesPlayed": 797,
       "points": 31,
       "bps": 176,
       "last6GamesMinutes": [
@@ -3930,7 +3930,7 @@
     "name": "Philippe Coutinho",
     "price": 8.9,
     "thisSeason": {
-      "minutes": 414,
+      "minutesPlayed": 414,
       "points": 30,
       "bps": 122,
       "last6GamesMinutes": [
@@ -3961,7 +3961,7 @@
     "name": "Marouane Fellaini",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 343,
+      "minutesPlayed": 343,
       "points": 30,
       "bps": 103,
       "last6GamesMinutes": [
@@ -3992,7 +3992,7 @@
     "name": "Alexis Sánchez",
     "price": 11.8,
     "thisSeason": {
-      "minutes": 542,
+      "minutesPlayed": 542,
       "points": 30,
       "bps": 101,
       "last6GamesMinutes": [
@@ -4023,7 +4023,7 @@
     "name": "Mesut Özil",
     "price": 9.3,
     "thisSeason": {
-      "minutes": 757,
+      "minutesPlayed": 757,
       "points": 30,
       "bps": 155,
       "last6GamesMinutes": [
@@ -4054,7 +4054,7 @@
     "name": "Matt Phillips",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 538,
+      "minutesPlayed": 538,
       "points": 30,
       "bps": 86,
       "last6GamesMinutes": [
@@ -4075,7 +4075,7 @@
     "name": "Tom Ince",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 30,
       "bps": 97,
       "last6GamesMinutes": [
@@ -4101,7 +4101,7 @@
     "name": "Jeff Hendrick",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 609,
+      "minutesPlayed": 609,
       "points": 30,
       "bps": 91,
       "last6GamesMinutes": [
@@ -4132,7 +4132,7 @@
     "name": "Tom Caroll",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 946,
+      "minutesPlayed": 946,
       "points": 29,
       "bps": 149,
       "last6GamesMinutes": [
@@ -4153,7 +4153,7 @@
     "name": "Solomon March",
     "price": 5,
     "thisSeason": {
-      "minutes": 716,
+      "minutesPlayed": 716,
       "points": 29,
       "bps": 108,
       "last6GamesMinutes": [
@@ -4184,7 +4184,7 @@
     "name": "Nathan Redmond",
     "price": 6.2,
     "thisSeason": {
-      "minutes": 785,
+      "minutesPlayed": 785,
       "points": 29,
       "bps": 114,
       "last6GamesMinutes": [
@@ -4215,7 +4215,7 @@
     "name": "Willian Borges Da Silva",
     "price": 6.7,
     "thisSeason": {
-      "minutes": 573,
+      "minutesPlayed": 573,
       "points": 28,
       "bps": 112,
       "last6GamesMinutes": [
@@ -4246,7 +4246,7 @@
     "name": "Juan Mata",
     "price": 6.9,
     "thisSeason": {
-      "minutes": 491,
+      "minutesPlayed": 491,
       "points": 27,
       "bps": 113,
       "last6GamesMinutes": [
@@ -4277,7 +4277,7 @@
     "name": "Michail Antonio",
     "price": 7.4,
     "thisSeason": {
-      "minutes": 662,
+      "minutesPlayed": 662,
       "points": 27,
       "bps": 67,
       "last6GamesMinutes": [
@@ -4308,7 +4308,7 @@
     "name": "Gareth Barry",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 862,
+      "minutesPlayed": 862,
       "points": 26,
       "bps": 116,
       "last6GamesMinutes": [
@@ -4339,7 +4339,7 @@
     "name": "Eden Hazard",
     "price": 10.6,
     "thisSeason": {
-      "minutes": 471,
+      "minutesPlayed": 471,
       "points": 26,
       "bps": 102,
       "last6GamesMinutes": [
@@ -4370,7 +4370,7 @@
     "name": "Georginio Wijnaldum",
     "price": 6.7,
     "thisSeason": {
-      "minutes": 757,
+      "minutesPlayed": 757,
       "points": 26,
       "bps": 116,
       "last6GamesMinutes": [
@@ -4396,7 +4396,7 @@
     "name": "Johann Berg Gudmundsson",
     "price": 5,
     "thisSeason": {
-      "minutes": 614,
+      "minutesPlayed": 614,
       "points": 26,
       "bps": 94,
       "last6GamesMinutes": [
@@ -4427,7 +4427,7 @@
     "name": "Demarai Gray",
     "price": 5.3,
     "thisSeason": {
-      "minutes": 394,
+      "minutesPlayed": 394,
       "points": 25,
       "bps": 93,
       "last6GamesMinutes": [
@@ -4458,7 +4458,7 @@
     "name": "Andros Townsend",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 945,
+      "minutesPlayed": 945,
       "points": 24,
       "bps": 144,
       "last6GamesMinutes": [
@@ -4484,7 +4484,7 @@
     "name": "Luka Milivojevic",
     "price": 4.6,
     "thisSeason": {
-      "minutes": 739,
+      "minutesPlayed": 739,
       "points": 23,
       "bps": 117,
       "last6GamesMinutes": [
@@ -4515,7 +4515,7 @@
     "name": "Wilfried Zaha",
     "price": 6.8,
     "thisSeason": {
-      "minutes": 436,
+      "minutesPlayed": 436,
       "points": 21,
       "bps": 56,
       "last6GamesMinutes": [
@@ -4541,7 +4541,7 @@
     "name": "Sam Clucas",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 492,
+      "minutesPlayed": 492,
       "points": 19,
       "bps": 78,
       "last6GamesMinutes": [
@@ -4572,7 +4572,7 @@
     "name": "Ruben Loftus-Cheek",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 540,
+      "minutesPlayed": 540,
       "points": 16,
       "bps": 92,
       "last6GamesMinutes": [
@@ -4603,7 +4603,7 @@
     "name": "James Ward-Prowse",
     "price": 5.1,
     "thisSeason": {
-      "minutes": 255,
+      "minutesPlayed": 255,
       "points": 14,
       "bps": 47,
       "last6GamesMinutes": [
@@ -4634,7 +4634,7 @@
     "name": "César Azpilicueta",
     "price": 6.7,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 67,
       "bps": 307,
       "last6GamesMinutes": [
@@ -4655,7 +4655,7 @@
     "name": "Paulo Gazzaniga",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 90,
+      "minutesPlayed": 90,
       "points": 9,
       "bps": 26,
       "last6GamesMinutes": [
@@ -4686,7 +4686,7 @@
     "name": "César Azpilicueta",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 669,
+      "minutesPlayed": 669,
       "points": 23,
       "bps": 112,
       "last6GamesMinutes": [
@@ -4717,7 +4717,7 @@
     "name": "Leighton Baines",
     "price": 5.8,
     "thisSeason": {
-      "minutes": 983,
+      "minutesPlayed": 983,
       "points": 28,
       "bps": 165,
       "last6GamesMinutes": [
@@ -4738,7 +4738,7 @@
     "name": "Scott Malone",
     "price": 4.3,
     "thisSeason": {
-      "minutes": 216,
+      "minutesPlayed": 216,
       "points": 12,
       "bps": 69,
       "last6GamesMinutes": [
@@ -4759,7 +4759,7 @@
     "name": "Florent Hadergjonaj",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 112,
+      "minutesPlayed": 112,
       "points": 10,
       "bps": 41,
       "last6GamesMinutes": [
@@ -4790,7 +4790,7 @@
     "name": "Nathan Ake",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 982,
+      "minutesPlayed": 982,
       "points": 30,
       "bps": 193,
       "last6GamesMinutes": [
@@ -4811,7 +4811,7 @@
     "name": "Andreas Christensen",
     "price": 5.4,
     "thisSeason": {
-      "minutes": 435,
+      "minutesPlayed": 435,
       "points": 20,
       "bps": 106,
       "last6GamesMinutes": [
@@ -4837,7 +4837,7 @@
     "name": "Christian Kabasele",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 806,
+      "minutesPlayed": 806,
       "points": 25,
       "bps": 146,
       "last6GamesMinutes": [
@@ -4868,7 +4868,7 @@
     "name": "Simon Francis",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 754,
+      "minutesPlayed": 754,
       "points": 22,
       "bps": 143,
       "last6GamesMinutes": [
@@ -4889,7 +4889,7 @@
     "name": "Bruno Saltor Grau",
     "price": 4.5,
     "thisSeason": {
-      "minutes": 826,
+      "minutesPlayed": 826,
       "points": 34,
       "bps": 156,
       "last6GamesMinutes": [
@@ -4910,7 +4910,7 @@
     "name": "Gaëtan Bong",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 360,
+      "minutesPlayed": 360,
       "points": 6,
       "bps": 76,
       "last6GamesMinutes": [
@@ -4941,7 +4941,7 @@
     "name": "Gary Cahill",
     "price": 6.2,
     "thisSeason": {
-      "minutes": 494,
+      "minutesPlayed": 494,
       "points": 15,
       "bps": 96,
       "last6GamesMinutes": [
@@ -4972,7 +4972,7 @@
     "name": "Danny Rose",
     "price": 6.4,
     "thisSeason": {
-      "minutes": 90,
+      "minutesPlayed": 90,
       "points": 6,
       "bps": 21,
       "last6GamesMinutes": [
@@ -4993,7 +4993,7 @@
     "name": "Serge Aurier",
     "price": 5.9,
     "thisSeason": {
-      "minutes": 366,
+      "minutesPlayed": 366,
       "points": 9,
       "bps": 36,
       "last6GamesMinutes": [
@@ -5014,7 +5014,7 @@
     "name": "Lewis Dunk",
     "price": 4.4,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 30,
       "bps": 185,
       "last6GamesMinutes": [
@@ -5045,7 +5045,7 @@
     "name": "Heung-Min Son",
     "price": 7.9,
     "thisSeason": {
-      "minutes": 497,
+      "minutesPlayed": 497,
       "points": 33,
       "bps": 99,
       "last6GamesMinutes": [
@@ -5066,7 +5066,7 @@
     "name": "Anthony Knockaert",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 734,
+      "minutesPlayed": 734,
       "points": 34,
       "bps": 148,
       "last6GamesMinutes": [
@@ -5087,7 +5087,7 @@
     "name": "Vicente Iborra",
     "price": 5.8,
     "thisSeason": {
-      "minutes": 380,
+      "minutesPlayed": 380,
       "points": 17,
       "bps": 91,
       "last6GamesMinutes": [
@@ -5108,7 +5108,7 @@
     "name": "Rajiv van La Parra",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 570,
+      "minutesPlayed": 570,
       "points": 21,
       "bps": 64,
       "last6GamesMinutes": [
@@ -5139,7 +5139,7 @@
     "name": "Alex Oxlade-Chamberlain",
     "price": 5.7,
     "thisSeason": {
-      "minutes": 495,
+      "minutesPlayed": 495,
       "points": 20,
       "bps": 121,
       "last6GamesMinutes": [
@@ -5165,7 +5165,7 @@
     "name": "Wilfred Ndidi",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 990,
+      "minutesPlayed": 990,
       "points": 27,
       "bps": 128,
       "last6GamesMinutes": [
@@ -5196,7 +5196,7 @@
     "name": "Manuel Lanzini",
     "price": 6.8,
     "thisSeason": {
-      "minutes": 430,
+      "minutesPlayed": 430,
       "points": 14,
       "bps": 79,
       "last6GamesMinutes": [
@@ -5227,7 +5227,7 @@
     "name": "Oumar Niasse",
     "price": 4.9,
     "thisSeason": {
-      "minutes": 287,
+      "minutesPlayed": 287,
       "points": 29,
       "bps": 101,
       "last6GamesMinutes": [
@@ -5258,7 +5258,7 @@
     "name": "Peter Crouch",
     "price": 4.8,
     "thisSeason": {
-      "minutes": 153,
+      "minutesPlayed": 153,
       "points": 22,
       "bps": 90,
       "last6GamesMinutes": [

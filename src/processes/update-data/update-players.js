@@ -7,8 +7,8 @@ function validatePlayer(player) {
     throw new Error(`Error found in player update statement for ${player.name}. gwToUpdate is invalid`)
   if (player.price < 3.8 || player.price > 14)
     throw new Error(`Error found in player update statement for ${player.name}. price is invalid`)
-  if (player.minutes < 0 || player.minutes > 90)
-    throw new Error(`Error found in player update statement for ${player.name}. minutes are invalid`)
+  if (player.minutesPlayed < 0 || player.minutesPlayed > 90)
+    throw new Error(`Error found in player update statement for ${player.name}. minutesPlayed are invalid`)
   if (player.points < -5 || player.points > 25)
     throw new Error(`Error found in player update statement for ${player.name}. points are invalid`)
   if (player.bps < -20 || player.bps > 100)
@@ -22,14 +22,14 @@ function updatePlayerData(playersCollection, player) {
       price: player.price,
     },
     $inc: {
-      "thisSeason.minutes": player.minutes,
+      "thisSeason.minutesPlayed": player.minutesPlayed,
       "thisSeason.points": player.points,
       "thisSeason.bps": player.bps,
     },
     $pop: {"thisSeason.last6GamesMinutes": -1},
   }).then(() => {
     return playersCollection.updateOne({id: player.id}, {
-      $push: {"thisSeason.last6GamesMinutes": player.minutes},
+      $push: {"thisSeason.last6GamesMinutes": player.minutesPlayed},
     })
   })
 }

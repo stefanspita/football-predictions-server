@@ -19,7 +19,7 @@ function getTeamUpdateReport(db, gameweek) {
 function getPlayerUpdateReport(db, gameweek) {
   function mapPlayerToReport(player) {
     player.gwToUpdate = gameweek
-    player.minutes = 0
+    player.minutesPlayed = 0
     player.points = 0
     player.bps = 0
     return player
