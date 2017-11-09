@@ -1,5 +1,3 @@
-- script to calculate player rating
-  - as a general rule, the more games in this current season, the more weight the season has over the previous ones
 - add the prediction confidence (as standard deviation)
   - calculate percentage of time played in the last 6 games
   - missing data from previous seasons only affects the confidence
