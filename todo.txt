@@ -1,8 +1,8 @@
 - script to calculate player rating
   - as a general rule, the more games in this current season, the more weight the season has over the previous ones
+- add the prediction confidence (as standard deviation)
   - calculate percentage of time played in the last 6 games
-- add the prediction confidence (as standard deviation) - uses minutes played
-  - missing data from previous seasons doesn't affect the rating, but only the confidence
+  - missing data from previous seasons only affects the confidence
 - add next 1, 3 and 5 fixtures in the report
 - combine player rating with the prediction confidence
 - based on the final rating and price, what would be the ideal team for the money I've got
