@@ -1,3 +1,4 @@
+const {map} = require("ramda")
 const getDb = require("../../init/db")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 
@@ -11,7 +12,7 @@ function generateReport() {
     ])
   }).spread((teams, players) => {
     return Promise.all([
-      calculatePlayerRatings(players),
+      map(calculatePlayerRatings, players),
     ])
   }).then(() => {
     console.log("FINISHED COMPILING PLAYER REPORT")

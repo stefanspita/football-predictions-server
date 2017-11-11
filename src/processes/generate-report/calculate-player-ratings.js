@@ -1,4 +1,4 @@
-const {__, compose, divide, isNil, map, max, min, subtract} = require("ramda")
+const {__, compose, divide, isNil, max, min, subtract} = require("ramda")
 const {
   MAX_MINUTE_PER_BPS, MIN_MINUTE_PER_BPS, MAX_MINUTE_PER_POINT, MIN_MINUTE_PER_POINT,
   BPS_WEIGHT, POINTS_WEIGHT, WEIGHT_MULTIPLIER_CURRENT_SEASON, WEIGHT_MULTIPLIER_2015,
@@ -44,7 +44,7 @@ function getRatings(stats_2015, stats_2016, stats_2017) {
   return {weight_2015, weight_2016, weight_2017}
 }
 
-function calculatePlayerRating(player) {
+module.exports = function calculatePlayerRating(player) {
   const {
     weight_2015, weight_2016, weight_2017,
   } = getRatings(player["2015"], player["2016"], player.thisSeason)
@@ -54,8 +54,4 @@ function calculatePlayerRating(player) {
   const rating_2017 = calculateRating(player.thisSeason, weight_2017)
   const rating = rating_2015 + rating_2016 + rating_2017
   return {id: player.id, name: player.name, teamId: player.teamId, rating}
-}
-
-module.exports = function calculatePlayerRatings(players) {
-  return map(calculatePlayerRating, players)
 }
