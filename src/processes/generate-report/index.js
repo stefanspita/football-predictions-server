@@ -1,5 +1,5 @@
 const Promise = require("bluebird")
-const {converge, mergeAll} = require("ramda")
+const {assoc, compose, converge, dissoc, mergeAll} = require("ramda")
 const getDb = require("../../init/db")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
@@ -20,8 +20,15 @@ function generateReport() {
         [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence]
       )(player)
     })
-  }).then(() => {
-    console.log("FINISHED COMPILING PLAYER REPORT")
+  }).then((playerReports) => {
+    return Promise.map(playerReports, (report) => {
+      return compose(
+        dissoc("playingChance"),
+        assoc("overallRating", report.rating * report.playingChance / 100)
+      )(report)
+    })
+  }).then((reports) => {
+    console.log("FINISHED COMPILING PLAYER REPORT", reports)
     process.exit(0)
   }).catch((err) => {
     console.error("ERROR OCCURRED", err)
