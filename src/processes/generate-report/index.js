@@ -1,6 +1,8 @@
-const {map} = require("ramda")
+const Promise = require("bluebird")
+const {converge, mergeAll} = require("ramda")
 const getDb = require("../../init/db")
 const calculatePlayerRatings = require("./calculate-player-ratings")
+const calculatePlayingChance = require("./calculate-playing-chance")
 
 function generateReport() {
   return getDb().then((db) => {
@@ -11,9 +13,12 @@ function generateReport() {
       playersCollection.find().project({_id: 0}).toArray(),
     ])
   }).spread((teams, players) => {
-    return Promise.all([
-      map(calculatePlayerRatings, players),
-    ])
+    return Promise.map(players, (player) => {
+      return converge(
+        (...reports) => mergeAll(reports),
+        [calculatePlayerRatings, calculatePlayingChance]
+      )(player)
+    })
   }).then(() => {
     console.log("FINISHED COMPILING PLAYER REPORT")
     process.exit(0)
