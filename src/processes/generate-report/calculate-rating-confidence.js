@@ -22,6 +22,6 @@ module.exports = function calculateRatingConfidence(player) {
   const confidence_2016 = calculateSeasonConfidence(player["2016"], WEIGHT_CONFIDENCE_2016)
   const confidenceThisSeason = calculateSeasonConfidence(player.thisSeason, WEIGHT_CONFIDENCE_CURRENT_SEASON)
 
-  const ratingConfidence = (confidence_2015 + confidence_2016 + confidenceThisSeason) * 100
-  return {ratingConfidence}
+  const confidence = (confidence_2015 + confidence_2016 + confidenceThisSeason) * 100
+  return {confidence}
 }

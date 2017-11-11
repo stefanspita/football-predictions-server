@@ -1,5 +1,6 @@
-- add next 1, 3 and 5 fixtures in the report
 - combine player rating with the prediction confidence
-- based on the final rating and price, what would be the ideal team for the money I've got
+- add next 1, 3 and 5 fixtures in the report
 - a report of likely players to rise in price if they perform well the next game
 - a report of likely players to drop in price if they perform badly the next game
+
+- based on the final rating and price, what would be the ideal team for the money I've got
