@@ -1,5 +1,3 @@
-- add the prediction confidence (as standard deviation)
-  - missing data from previous seasons only affects the confidence
 - add next 1, 3 and 5 fixtures in the report
 - combine player rating with the prediction confidence
 - based on the final rating and price, what would be the ideal team for the money I've got
