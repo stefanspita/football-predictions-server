@@ -1,5 +1,7 @@
 const Promise = require("bluebird")
-const {assoc, compose, converge, dissoc, mergeAll} = require("ramda")
+const json2csv = require("json2csv")
+const fs = require("fs-extra")
+const {assoc, compose, converge, dissoc, keys, merge, mergeAll, pick} = require("ramda")
 const getDb = require("../../init/db")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
@@ -15,9 +17,12 @@ function generateReport() {
     ])
   }).spread((teams, players) => {
     return Promise.map(players, (player) => {
-      return converge(
-        (...reports) => mergeAll(reports),
-        [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence]
+      return compose(
+        merge(pick(["id", "name", "teamId", "position"], player)),
+        converge(
+          (...reports) => mergeAll(reports),
+          [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence]
+        )
       )(player)
     })
   }).then((playerReports) => {
@@ -27,8 +32,12 @@ function generateReport() {
         assoc("overallRating", report.rating * report.playingChance / 100)
       )(report)
     })
-  }).then((reports) => {
-    console.log("FINISHED COMPILING PLAYER REPORT", reports)
+  }).then((finalReport) => {
+    const fields = keys(finalReport[0])
+    const csvReport = json2csv({data: finalReport, fields})
+    return fs.outputFile("./player-report.csv", csvReport)
+  }).then(() => {
+    console.log("FINISHED COMPILING PLAYER REPORT")
     process.exit(0)
   }).catch((err) => {
     console.error("ERROR OCCURRED", err)

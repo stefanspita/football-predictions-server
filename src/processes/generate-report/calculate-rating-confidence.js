@@ -6,7 +6,6 @@ const {__, compose, divide, min, multiply} = require("ramda")
 
 function calculateSeasonConfidence(season, weight) {
   if (season) {
-    console.log(season, weight)
     return compose(
       multiply(weight),
       divide(__, MINUTES_CONFIDENCE_THRESHOLD),
