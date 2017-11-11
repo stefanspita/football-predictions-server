@@ -52,6 +52,6 @@ module.exports = function calculatePlayerRating(player) {
   const rating_2015 = calculateRating(player["2015"], weight_2015)
   const rating_2016 = calculateRating(player["2016"], weight_2016)
   const rating_2017 = calculateRating(player.thisSeason, weight_2017)
-  const rating = rating_2015 + rating_2016 + rating_2017
+  const rating = (rating_2015 + rating_2016 + rating_2017) * 100
   return {id: player.id, name: player.name, teamId: player.teamId, rating}
 }
