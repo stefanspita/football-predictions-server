@@ -18,7 +18,7 @@ function generateReport() {
   }).spread((teams, players) => {
     return Promise.map(players, (player) => {
       return compose(
-        merge(pick(["id", "name", "teamId", "position"], player)),
+        merge(pick(["id", "name", "price", "position"], player)),
         converge(
           (...reports) => mergeAll(reports),
           [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence]
@@ -29,7 +29,9 @@ function generateReport() {
     return Promise.map(playerReports, (report) => {
       return compose(
         dissoc("playingChance"),
-        assoc("overallRating", report.rating * report.playingChance / 100)
+        assoc("rating", report.rating.toFixed(2)),
+        assoc("confidence", report.confidence.toFixed(2)),
+        assoc("overallRating", (report.rating * report.playingChance / 100).toFixed(2))
       )(report)
     })
   }).then((finalReport) => {
