@@ -1,11 +1,12 @@
 const Promise = require("bluebird")
 const json2csv = require("json2csv")
 const fs = require("fs-extra")
-const {assoc, compose, converge, dissoc, keys, merge, mergeAll, pick} = require("ramda")
+const {assoc, compose, converge, dissoc, find, keys, merge, mergeAll, pick, propEq} = require("ramda")
 const getDb = require("../../init/db")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
+const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 
 function generateReport() {
   return getDb().then((db) => {
@@ -17,13 +18,14 @@ function generateReport() {
     ])
   }).spread((teams, players) => {
     return Promise.map(players, (player) => {
+      const team = find(propEq("id", player.teamId), teams)
       return compose(
         merge(pick(["id", "name", "price", "position"], player)),
         converge(
           (...reports) => mergeAll(reports),
-          [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence]
+          [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty]
         )
-      )(player)
+      )(player, team)
     })
   }).then((playerReports) => {
     return Promise.map(playerReports, (report) => {
