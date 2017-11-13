@@ -1,4 +1,4 @@
-const {__, compose, divide, multiply, objOf, path, sum} = require("ramda")
+const {__, compose, divide, multiply, objOf, path, pluck, sum} = require("ramda")
 
 module.exports = function calculatePlayingChance(player) {
   return compose(
@@ -6,6 +6,7 @@ module.exports = function calculatePlayingChance(player) {
     multiply(100),
     divide(__, 90 * 6),
     sum,
-    path(["thisSeason", "last6GamesMinutes"])
+    pluck("minutesPlayed"),
+    path(["thisSeason", "last6Games"])
   )(player)
 }

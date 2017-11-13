@@ -1,11 +1,11 @@
 /* eslint-disable complexity */
 const Promise = require("bluebird")
-const {map} = require("ramda")
+const {map, pick} = require("ramda")
 
 function validatePlayer(player) {
   if (player.lastUpdatedGw !== player.gwToUpdate - 1)
     throw new Error(`Error found in player update statement for ${player.name}. gwToUpdate is invalid`)
-  if (player.price < 3.8 || player.price > 14)
+  if (player.priceChange < -0.2 || player.priceChange > 0.2)
     throw new Error(`Error found in player update statement for ${player.name}. price is invalid`)
   if (player.minutesPlayed < 0 || player.minutesPlayed > 90)
     throw new Error(`Error found in player update statement for ${player.name}. minutesPlayed are invalid`)
@@ -19,17 +19,18 @@ function updatePlayerData(playersCollection, player) {
   return playersCollection.updateOne({id: player.id}, {
     $set: {
       lastUpdatedGw: player.gwToUpdate,
-      price: player.price,
     },
     $inc: {
+      price: player.priceChange,
       "thisSeason.minutesPlayed": player.minutesPlayed,
       "thisSeason.points": player.points,
       "thisSeason.bps": player.bps,
     },
-    $pop: {"thisSeason.last6GamesMinutes": -1},
+    $pop: {"thisSeason.last6Games": -1},
   }).then(() => {
+    const lastGame = pick(["minutesPlayed", "points", "priceChange"], player)
     return playersCollection.updateOne({id: player.id}, {
-      $push: {"thisSeason.last6GamesMinutes": player.minutesPlayed},
+      $push: {"thisSeason.last6Games": lastGame},
     })
   })
 }
