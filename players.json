@@ -18,13 +18,13 @@
       "minutesPlayed": 990,
       "points": 61,
       "bps": 247,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -49,13 +49,13 @@
       "minutesPlayed": 893,
       "points": 59,
       "bps": 265,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        22,
-        90,
-        61
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 22, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0.1},
+        {"minutesPlayed": 61, "points": 1, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -80,13 +80,13 @@
       "minutesPlayed": 970,
       "points": 56,
       "bps": 259,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 15, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -106,13 +106,13 @@
       "minutesPlayed": 980,
       "points": 56,
       "bps": 227,
-      "last6GamesMinutes": [
-        90,
-        90,
-        80,
-        90,
-        90,
-        90
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0.1},
+        {"minutesPlayed": 80, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -127,13 +127,13 @@
       "minutesPlayed": 862,
       "points": 52,
       "bps": 230,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        77,
-        90
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 14, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -158,13 +158,13 @@
       "minutesPlayed": 620,
       "points": 52,
       "bps": 194,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        90,
-        1
+      "last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 1, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -189,13 +189,13 @@
       "minutesPlayed": 990,
       "points": 51,
       "bps": 272,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 15, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -220,13 +220,13 @@
       "minutesPlayed": 990,
       "points": 49,
       "bps": 256,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -251,13 +251,13 @@
       "minutesPlayed": 633,
       "points": 48,
       "bps": 210,
-      "last6GamesMinutes": [
-        12,
-        81,
-        90,
-        90,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 12, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 14, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -282,13 +282,13 @@
       "minutesPlayed": 753,
       "points": 48,
       "bps": 234,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -313,13 +313,13 @@
       "minutesPlayed": 990,
       "points": 47,
       "bps": 246,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 4, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -339,13 +339,13 @@
       "minutesPlayed": 720,
       "points": 46,
       "bps": 198,
-      "last6GamesMinutes": [
-        90,
-        0,
-        0,
-        0,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -370,13 +370,13 @@
       "minutesPlayed": 810,
       "points": 46,
       "bps": 205,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -401,13 +401,13 @@
       "minutesPlayed": 935,
       "points": 46,
       "bps": 206,
-      "last6GamesMinutes": [
-        58,
-        90,
-        90,
-        67,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 58, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -427,18 +427,18 @@
     "id": 33,
     "teamId": 1,
     "name": "John Stones",
-    "price": 5.6,
+    "price": 5.7,
     "thisSeason": {
       "minutesPlayed": 854,
       "points": 45,
       "bps": 223,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -463,13 +463,13 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 207,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -489,13 +489,13 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 202,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -515,13 +515,13 @@
       "minutesPlayed": 947,
       "points": 44,
       "bps": 185,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        54
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 54, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -536,13 +536,13 @@
       "minutesPlayed": 990,
       "points": 41,
       "bps": 210,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -562,13 +562,13 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 216,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -583,13 +583,13 @@
       "minutesPlayed": 972,
       "points": 40,
       "bps": 197,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -609,13 +609,13 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 233,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -640,13 +640,13 @@
       "minutesPlayed": 987,
       "points": 39,
       "bps": 209,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -671,13 +671,13 @@
       "minutesPlayed": 900,
       "points": 38,
       "bps": 200,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -702,13 +702,13 @@
       "minutesPlayed": 990,
       "points": 38,
       "bps": 197,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -728,13 +728,13 @@
       "minutesPlayed": 990,
       "points": 38,
       "bps": 199,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -749,13 +749,13 @@
       "minutesPlayed": 771,
       "points": 37,
       "bps": 161,
-      "last6GamesMinutes": [
-        90,
-        59,
-        9,
-        90,
-        90,
-        11
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 59, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 9, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 11, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -765,18 +765,18 @@
     "id": 43,
     "teamId": 17,
     "name": "Ahmed El-Sayed Hegazi",
-    "price": 4.7,
+    "price": 4.6,
     "thisSeason": {
       "minutesPlayed": 956,
       "points": 37,
       "bps": 188,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -801,13 +801,13 @@
       "minutesPlayed": 990,
       "points": 37,
       "bps": 194,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -832,13 +832,13 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 204,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": -1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -858,13 +858,13 @@
       "minutesPlayed": 721,
       "points": 36,
       "bps": 197,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -889,13 +889,13 @@
       "minutesPlayed": 985,
       "points": 36,
       "bps": 191,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -918,15 +918,15 @@
     "price": 4.5,
     "thisSeason": {
       "minutesPlayed": 810,
-      "points": 35,
+      "points": 29,
       "bps": 204,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -951,13 +951,13 @@
       "minutesPlayed": 806,
       "points": 34,
       "bps": 156,
-      "last6GamesMinutes": [
-        90,
-        86,
-        90,
-        90,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 86, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -982,13 +982,13 @@
       "minutesPlayed": 688,
       "points": 34,
       "bps": 156,
-      "last6GamesMinutes": [
-        73,
-        90,
-        90,
-        90,
-        75,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 73, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 75, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1003,13 +1003,13 @@
       "minutesPlayed": 853,
       "points": 34,
       "bps": 198,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": -1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1034,13 +1034,13 @@
       "minutesPlayed": 982,
       "points": 34,
       "bps": 170,
-      "last6GamesMinutes": [
-        82,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 82, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1055,13 +1055,13 @@
       "minutesPlayed": 631,
       "points": 34,
       "bps": 168,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1086,13 +1086,13 @@
       "minutesPlayed": 810,
       "points": 33,
       "bps": 167,
-      "last6GamesMinutes": [
-        0,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1107,13 +1107,13 @@
       "minutesPlayed": 956,
       "points": 32,
       "bps": 214,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        56
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 56, "points": -2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1138,13 +1138,13 @@
       "minutesPlayed": 774,
       "points": 30,
       "bps": 146,
-      "last6GamesMinutes": [
-        82,
-        90,
-        90,
-        0,
-        45,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 82, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1159,13 +1159,13 @@
       "minutesPlayed": 744,
       "points": 30,
       "bps": 170,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        90,
-        90,
-        24
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 24, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1185,13 +1185,13 @@
       "minutesPlayed": 665,
       "points": 30,
       "bps": 131,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        0,
-        35
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 35, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1216,13 +1216,13 @@
       "minutesPlayed": 716,
       "points": 29,
       "bps": 165,
-      "last6GamesMinutes": [
-        0,
-        0,
-        90,
-        90,
-        90,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1247,13 +1247,13 @@
       "minutesPlayed": 973,
       "points": 28,
       "bps": 40,
-      "last6GamesMinutes": [
-        90,
-        90,
-        73,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 73, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1278,13 +1278,13 @@
       "minutesPlayed": 990,
       "points": 26,
       "bps": 158,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1309,13 +1309,13 @@
       "minutesPlayed": 435,
       "points": 24,
       "bps": 128,
-      "last6GamesMinutes": [
-        16,
-        0,
-        0,
-        90,
-        90,
-        13
+      "Last6Games": [
+        {"minutesPlayed": 16, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 13, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1339,14 +1339,14 @@
     "thisSeason": {
       "minutesPlayed": 900,
       "points": 24,
-      "bps": 42,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "bps": 176,
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": -1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1371,13 +1371,13 @@
       "minutesPlayed": 465,
       "points": 23,
       "bps": 98,
-      "last6GamesMinutes": [
-        15,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 15, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1402,13 +1402,13 @@
       "minutesPlayed": 988,
       "points": 20,
       "bps": 150,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": -1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1433,13 +1433,13 @@
       "minutesPlayed": 540,
       "points": 18,
       "bps": 86,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1459,13 +1459,13 @@
       "minutesPlayed": 450,
       "points": 17,
       "bps": 104,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        0,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1480,13 +1480,13 @@
       "minutesPlayed": 225,
       "points": 15,
       "bps": 49,
-      "last6GamesMinutes": [
-        0,
-        0,
-        50,
-        4,
-        90,
-        65
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 50, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 4, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1511,13 +1511,13 @@
       "minutesPlayed": 495,
       "points": 11,
       "bps": 36,
-      "last6GamesMinutes": [
-        0,
-        90,
-        45,
-        0,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1542,13 +1542,13 @@
       "minutesPlayed": 602,
       "points": 67,
       "bps": 283,
-      "last6GamesMinutes": [
-        90,
-        0,
-        0,
-        75,
-        0,
-        61
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 11, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 75, "points": 7, "priceChange": 0.3},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 61, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1573,13 +1573,13 @@
       "minutesPlayed": 865,
       "points": 65,
       "bps": 221,
-      "last6GamesMinutes": [
-        88,
-        86,
-        84,
-        87,
-        0,
-        76
+      "Last6Games": [
+        {"minutesPlayed": 88, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 86, "points": 13, "priceChange": 0.2},
+        {"minutesPlayed": 84, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 87, "points": 16, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0.1},
+        {"minutesPlayed": 76, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1599,18 +1599,18 @@
     "id": 110,
     "teamId": 8,
     "name": "Romelu Lukaku",
-    "price": 11.6,
+    "price": 11.5,
     "thisSeason": {
       "minutesPlayed": 990,
       "points": 64,
       "bps": 226,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1625,13 +1625,13 @@
       "minutesPlayed": 716,
       "points": 63,
       "bps": 199,
-      "last6GamesMinutes": [
-        90,
-        34,
-        0,
-        60,
-        78,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 17, "priceChange": 0.2},
+        {"minutesPlayed": 34, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 60, "points": 1, "priceChange": 0.1},
+        {"minutesPlayed": 78, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1651,13 +1651,13 @@
       "minutesPlayed": 598,
       "points": 54,
       "bps": 201,
-      "last6GamesMinutes": [
-        0,
-        90,
-        62,
-        14,
-        81,
-        28
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.2},
+        {"minutesPlayed": 62, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 14, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 81, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 28, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1682,13 +1682,13 @@
       "minutesPlayed": 965,
       "points": 52,
       "bps": 205,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        89,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 89, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1703,13 +1703,13 @@
       "minutesPlayed": 895,
       "points": 48,
       "bps": 156,
-      "last6GamesMinutes": [
-        45,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 45, "points": 8, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1734,13 +1734,13 @@
       "minutesPlayed": 784,
       "points": 47,
       "bps": 190,
-      "last6GamesMinutes": [
-        63,
-        16,
-        86,
-        76,
-        65,
-        86
+      "Last6Games": [
+        {"minutesPlayed": 63, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 16, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 86, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 76, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 86, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1755,13 +1755,13 @@
       "minutesPlayed": 744,
       "points": 46,
       "bps": 199,
-      "last6GamesMinutes": [
-        82,
-        70,
-        67,
-        76,
-        80,
-        34
+      "Last6Games": [
+        {"minutesPlayed": 82, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 70, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 76, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 80, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 34, "points": 4, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1786,13 +1786,13 @@
       "minutesPlayed": 697,
       "points": 45,
       "bps": 151,
-      "last6GamesMinutes": [
-        90,
-        71,
-        25,
-        45,
-        69,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 71, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 25, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 69, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1817,13 +1817,13 @@
       "minutesPlayed": 823,
       "points": 42,
       "bps": 169,
-      "last6GamesMinutes": [
-        54,
-        27,
-        89,
-        73,
-        73,
-        67
+      "Last6Games": [
+        {"minutesPlayed": 54, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 27, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 89, "points": 9, "priceChange": -0.1},
+        {"minutesPlayed": 73, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 73, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1848,13 +1848,13 @@
       "minutesPlayed": 895,
       "points": 41,
       "bps": 167,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        85
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 85, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1869,13 +1869,13 @@
       "minutesPlayed": 900,
       "points": 41,
       "bps": 125,
-      "last6GamesMinutes": [
-        90,
-        77,
-        74,
-        90,
-        90,
-        71
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 74, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 71, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1895,13 +1895,13 @@
       "minutesPlayed": 660,
       "points": 34,
       "bps": 107,
-      "last6GamesMinutes": [
-        17,
-        23,
-        90,
-        90,
-        90,
-        64
+      "Last6Games": [
+        {"minutesPlayed": 17, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 23, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 64, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1916,18 +1916,18 @@
     "id": 136,
     "teamId": 11,
     "name": "Glenn Murray",
-    "price": 5.7,
+    "price": 5.8,
     "thisSeason": {
       "minutesPlayed": 471,
       "points": 34,
       "bps": 97,
-      "last6GamesMinutes": [
-        0,
-        14,
-        84,
-        90,
-        90,
-        78
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 14, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 84, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 13, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 8, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1952,13 +1952,13 @@
       "minutesPlayed": 506,
       "points": 33,
       "bps": 123,
-      "last6GamesMinutes": [
-        73,
-        68,
-        0,
-        67,
-        15,
-        57
+      "Last6Games": [
+        {"minutesPlayed": 73, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 68, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 15, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 57, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -1983,13 +1983,13 @@
       "minutesPlayed": 968,
       "points": 32,
       "bps": 111,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        80,
-        78
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 80, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 2, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2004,13 +2004,13 @@
       "minutesPlayed": 562,
       "points": 31,
       "bps": 89,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        19,
-        0,
-        64
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 19, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 64, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2030,13 +2030,13 @@
       "minutesPlayed": 723,
       "points": 30,
       "bps": 88,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        74,
-        90,
-        22
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 74, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 22, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2061,13 +2061,13 @@
       "minutesPlayed": 460,
       "points": 29,
       "bps": 118,
-      "last6GamesMinutes": [
-        0,
-        0,
-        60,
-        0,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 60, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2087,13 +2087,13 @@
       "minutesPlayed": 838,
       "points": 29,
       "bps": 80,
-      "last6GamesMinutes": [
-        90,
-        90,
-        62,
-        65,
-        75,
-        22
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 62, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 75, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 22, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2108,13 +2108,13 @@
       "minutesPlayed": 616,
       "points": 29,
       "bps": 93,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        69,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 69, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2134,13 +2134,13 @@
       "minutesPlayed": 650,
       "points": 29,
       "bps": 75,
-      "last6GamesMinutes": [
-        85,
-        15,
-        62,
-        1,
-        32,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 85, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 15, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 62, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 1, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 32, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2165,13 +2165,13 @@
       "minutesPlayed": 1077,
       "points": 28,
       "bps": 80,
-      "last6GamesMinutes": [
-        90,
-        90,
-        83,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 83, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2191,13 +2191,13 @@
       "minutesPlayed": 713,
       "points": 28,
       "bps": 80,
-      "last6GamesMinutes": [
-        70,
-        78,
-        67,
-        77,
-        90,
-        67
+      "Last6Games": [
+        {"minutesPlayed": 70, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 67, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2217,13 +2217,13 @@
       "minutesPlayed": 372,
       "points": 28,
       "bps": 94,
-      "last6GamesMinutes": [
-        0,
-        0,
-        45,
-        0,
-        0,
-        25
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 25, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2233,18 +2233,18 @@
     "id": 128,
     "teamId": 11,
     "name": "Tomer Hemed",
-    "price": 5,
+    "price": 4.9,
     "thisSeason": {
       "minutesPlayed": 446,
       "points": 27,
       "bps": 81,
-      "last6GamesMinutes": [
-        90,
-        0,
-        0,
-        0,
-        0,
-        11
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 11, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2269,13 +2269,13 @@
       "minutesPlayed": 362,
       "points": 23,
       "bps": 101,
-      "last6GamesMinutes": [
-        26,
-        73,
-        11,
-        13,
-        73,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 26, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 73, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 11, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 13, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 73, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2300,13 +2300,13 @@
       "minutesPlayed": 798,
       "points": 23,
       "bps": 86,
-      "last6GamesMinutes": [
-        78,
-        90,
-        90,
-        0,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 78, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2331,13 +2331,13 @@
       "minutesPlayed": 505,
       "points": 20,
       "bps": 65,
-      "last6GamesMinutes": [
-        74,
-        81,
-        15,
-        0,
-        45,
-        14
+      "Last6Games": [
+        {"minutesPlayed": 74, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 15, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 14, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2352,13 +2352,13 @@
       "minutesPlayed": 396,
       "points": 19,
       "bps": 59,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        20,
-        21,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 20, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 21, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2383,13 +2383,13 @@
       "minutesPlayed": 340,
       "points": 14,
       "bps": 44,
-      "last6GamesMinutes": [
-        15,
-        8,
-        0,
-        90,
-        73,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 15, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 8, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 73, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2414,13 +2414,13 @@
       "minutesPlayed": 990,
       "points": 65,
       "bps": 255,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 4, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2445,13 +2445,13 @@
       "minutesPlayed": 990,
       "points": 51,
       "bps": 202,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2464,15 +2464,15 @@
     "price": 4.6,
     "thisSeason": {
       "minutesPlayed": 900,
-      "points": 48,
-      "bps": 222,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
+      "points": 56,
+      "bps": 250,
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2497,13 +2497,13 @@
       "minutesPlayed": 990,
       "points": 47,
       "bps": 211,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2528,13 +2528,13 @@
       "minutesPlayed": 990,
       "points": 46,
       "bps": 227,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2559,13 +2559,13 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 225,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2580,13 +2580,13 @@
       "minutesPlayed": 684,
       "points": 45,
       "bps": 188,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2601,13 +2601,13 @@
       "minutesPlayed": 1035,
       "points": 42,
       "bps": 186,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2632,13 +2632,13 @@
       "minutesPlayed": 900,
       "points": 41,
       "bps": 190,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2653,13 +2653,13 @@
       "minutesPlayed": 990,
       "points": 41,
       "bps": 198,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2684,13 +2684,13 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 193,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2715,13 +2715,13 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 186,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2741,13 +2741,13 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 211,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2772,13 +2772,13 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 196,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2803,13 +2803,13 @@
       "minutesPlayed": 900,
       "points": 33,
       "bps": 171,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2834,13 +2834,13 @@
       "minutesPlayed": 958,
       "points": 31,
       "bps": 189,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        58
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 58, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2865,13 +2865,13 @@
       "minutesPlayed": 900,
       "points": 31,
       "bps": 160,
-      "last6GamesMinutes": [
-        90,
-        0,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2896,13 +2896,13 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 180,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2927,13 +2927,13 @@
       "minutesPlayed": 990,
       "points": 27,
       "bps": 186,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2958,13 +2958,13 @@
       "minutesPlayed": 630,
       "points": 19,
       "bps": 124,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -2979,13 +2979,13 @@
       "minutesPlayed": 360,
       "points": 8,
       "bps": 48,
-      "last6GamesMinutes": [
-        0,
-        0,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3000,18 +3000,18 @@
     "id": 63,
     "teamId": 1,
     "name": "Leroy Sané",
-    "price": 8.8,
+    "price": 8.9,
     "thisSeason": {
       "minutesPlayed": 762,
       "points": 73,
       "bps": 231,
-      "last6GamesMinutes": [
-        90,
-        83,
-        90,
-        90,
-        90,
-        86
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 16, "priceChange": 0.1},
+        {"minutesPlayed": 83, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0.2},
+        {"minutesPlayed": 86, "points": 2, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3026,13 +3026,13 @@
       "minutesPlayed": 949,
       "points": 72,
       "bps": 204,
-      "last6GamesMinutes": [
-        90,
-        83,
-        77,
-        90,
-        80,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 83, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 80, "points": 4, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 15, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3057,13 +3057,13 @@
       "minutesPlayed": 929,
       "points": 64,
       "bps": 283,
-      "last6GamesMinutes": [
-        90,
-        90,
-        65,
-        79,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 79, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3088,13 +3088,13 @@
       "minutesPlayed": 923,
       "points": 63,
       "bps": 252,
-      "last6GamesMinutes": [
-        72,
-        74,
-        90,
-        80,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 72, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 74, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 80, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3119,13 +3119,13 @@
       "minutesPlayed": 583,
       "points": 62,
       "bps": 209,
-      "last6GamesMinutes": [
-        60,
-        90,
-        90,
-        0,
-        29,
-        77
+      "Last6Games": [
+        {"minutesPlayed": 60, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 15, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0.1},
+        {"minutesPlayed": 29, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3150,13 +3150,13 @@
       "minutesPlayed": 962,
       "points": 61,
       "bps": 244,
-      "last6GamesMinutes": [
-        90,
-        75,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 11, "priceChange": 0.1},
+        {"minutesPlayed": 75, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3171,13 +3171,13 @@
       "minutesPlayed": 920,
       "points": 58,
       "bps": 214,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        76,
-        83,
-        84
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 76, "points": 6, "priceChange": 0.1},
+        {"minutesPlayed": 83, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 84, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3192,13 +3192,13 @@
       "minutesPlayed": 930,
       "points": 58,
       "bps": 147,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.2},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3223,13 +3223,13 @@
       "minutesPlayed": 865,
       "points": 56,
       "bps": 183,
-      "last6GamesMinutes": [
-        60,
-        15,
-        90,
-        86,
-        74,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 60, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 15, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": -0.1},
+        {"minutesPlayed": 86, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 74, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3254,13 +3254,13 @@
       "minutesPlayed": 764,
       "points": 54,
       "bps": 203,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3280,13 +3280,13 @@
       "minutesPlayed": 785,
       "points": 52,
       "bps": 194,
-      "last6GamesMinutes": [
-        74,
-        65,
-        62,
-        45,
-        64,
-        61
+      "Last6Games": [
+        {"minutesPlayed": 74, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 62, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 45, "points": 1, "priceChange": -0.2},
+        {"minutesPlayed": 64, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 61, "points": 2, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3306,13 +3306,13 @@
       "minutesPlayed": 990,
       "points": 52,
       "bps": 245,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3337,13 +3337,13 @@
       "minutesPlayed": 891,
       "points": 49,
       "bps": 145,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3368,13 +3368,13 @@
       "minutesPlayed": 959,
       "points": 47,
       "bps": 224,
-      "last6GamesMinutes": [
-        90,
-        90,
-        72,
-        77,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 72, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 77, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 13, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3399,13 +3399,13 @@
       "minutesPlayed": 827,
       "points": 45,
       "bps": 178,
-      "last6GamesMinutes": [
-        90,
-        86,
-        90,
-        0,
-        87,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 86, "points": 5, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 87, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 13, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3430,13 +3430,13 @@
       "minutesPlayed": 864,
       "points": 44,
       "bps": 211,
-      "last6GamesMinutes": [
-        72,
-        60,
-        23,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 72, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 60, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 23, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3451,13 +3451,13 @@
       "minutesPlayed": 918,
       "points": 44,
       "bps": 109,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3472,13 +3472,13 @@
       "minutesPlayed": 915,
       "points": 41,
       "bps": 205,
-      "last6GamesMinutes": [
-        90,
-        60,
-        45,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 60, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3503,13 +3503,13 @@
       "minutesPlayed": 295,
       "points": 40,
       "bps": 141,
-      "last6GamesMinutes": [
-        0,
-        18,
-        64,
-        45,
-        20,
-        28
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 18, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 64, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 20, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 28, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3529,13 +3529,13 @@
       "minutesPlayed": 975,
       "points": 40,
       "bps": 194,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        78,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": -0.1},
+        {"minutesPlayed": 78, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3560,13 +3560,13 @@
       "minutesPlayed": 900,
       "points": 39,
       "bps": 167,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3586,13 +3586,13 @@
       "minutesPlayed": 957,
       "points": 38,
       "bps": 171,
-      "last6GamesMinutes": [
-        90,
-        82,
-        90,
-        90,
-        90,
-        77
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 82, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3607,13 +3607,13 @@
       "minutesPlayed": 913,
       "points": 37,
       "bps": 105,
-      "last6GamesMinutes": [
-        90,
-        90,
-        81,
-        90,
-        90,
-        81
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3638,13 +3638,13 @@
       "minutesPlayed": 474,
       "points": 35,
       "bps": 104,
-      "last6GamesMinutes": [
-        67,
-        18,
-        33,
-        85,
-        78,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 67, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 18, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 33, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 85, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3669,13 +3669,13 @@
       "minutesPlayed": 977,
       "points": 35,
       "bps": 136,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3700,13 +3700,13 @@
       "minutesPlayed": 963,
       "points": 34,
       "bps": 158,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3731,13 +3731,13 @@
       "minutesPlayed": 592,
       "points": 34,
       "bps": 121,
-      "last6GamesMinutes": [
-        24,
-        77,
-        0,
-        45,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 24, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 77, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3752,13 +3752,13 @@
       "minutesPlayed": 762,
       "points": 33,
       "bps": 149,
-      "last6GamesMinutes": [
-        90,
-        72,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 72, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3783,13 +3783,13 @@
       "minutesPlayed": 990,
       "points": 33,
       "bps": 178,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3814,13 +3814,13 @@
       "minutesPlayed": 810,
       "points": 32,
       "bps": 159,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3845,13 +3845,13 @@
       "minutesPlayed": 990,
       "points": 32,
       "bps": 147,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3871,13 +3871,13 @@
       "minutesPlayed": 360,
       "points": 31,
       "bps": 100,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3902,13 +3902,13 @@
       "minutesPlayed": 797,
       "points": 31,
       "bps": 176,
-      "last6GamesMinutes": [
-        22,
-        90,
-        90,
-        90,
-        90,
-        78
+      "Last6Games": [
+        {"minutesPlayed": 22, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3928,18 +3928,18 @@
     "id": 92,
     "teamId": 4,
     "name": "Philippe Coutinho",
-    "price": 8.9,
+    "price": 8.8,
     "thisSeason": {
       "minutesPlayed": 414,
       "points": 30,
       "bps": 122,
-      "last6GamesMinutes": [
-        78,
-        90,
-        78,
-        90,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 78, "points": 13, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0.1},
+        {"minutesPlayed": 78, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3964,13 +3964,13 @@
       "minutesPlayed": 343,
       "points": 30,
       "bps": 103,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        0,
-        28
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 16, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 28, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -3995,13 +3995,13 @@
       "minutesPlayed": 542,
       "points": 30,
       "bps": 101,
-      "last6GamesMinutes": [
-        82,
-        90,
-        0,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 82, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4026,13 +4026,13 @@
       "minutesPlayed": 757,
       "points": 30,
       "bps": 155,
-      "last6GamesMinutes": [
-        7,
-        0,
-        29,
-        81,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 7, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 29, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 13, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4057,13 +4057,13 @@
       "minutesPlayed": 538,
       "points": 30,
       "bps": 86,
-      "last6GamesMinutes": [
-        16,
-        57,
-        0,
-        13,
-        22,
-        31
+      "Last6Games": [
+        {"minutesPlayed": 16, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 57, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 13, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 22, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 31, "points": 1, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4078,13 +4078,13 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 97,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4104,13 +4104,13 @@
       "minutesPlayed": 609,
       "points": 30,
       "bps": 91,
-      "last6GamesMinutes": [
-        73,
-        87,
-        45,
-        70,
-        90,
-        64
+      "Last6Games": [
+        {"minutesPlayed": 73, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 87, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 70, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 64, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4135,13 +4135,13 @@
       "minutesPlayed": 946,
       "points": 29,
       "bps": 149,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        83,
-        58
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 83, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 58, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4156,13 +4156,13 @@
       "minutesPlayed": 716,
       "points": 29,
       "bps": 108,
-      "last6GamesMinutes": [
-        90,
-        71,
-        72,
-        20,
-        3,
-        24
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 71, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 72, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 20, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 3, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 24, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4187,13 +4187,13 @@
       "minutesPlayed": 785,
       "points": 29,
       "bps": 114,
-      "last6GamesMinutes": [
-        90,
-        66,
-        56,
-        21,
-        18,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 66, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 56, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 21, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 18, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4218,13 +4218,13 @@
       "minutesPlayed": 573,
       "points": 28,
       "bps": 112,
-      "last6GamesMinutes": [
-        71,
-        55,
-        64,
-        22,
-        5,
-        3
+      "Last6Games": [
+        {"minutesPlayed": 71, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 55, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 64, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 22, "points": 4, "priceChange": -0.1},
+        {"minutesPlayed": 5, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 3, "points": 1, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4249,13 +4249,13 @@
       "minutesPlayed": 491,
       "points": 27,
       "bps": 113,
-      "last6GamesMinutes": [
-        61,
-        76,
-        0,
-        45,
-        0,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 61, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 76, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4280,13 +4280,13 @@
       "minutesPlayed": 662,
       "points": 27,
       "bps": 67,
-      "last6GamesMinutes": [
-        27,
-        90,
-        90,
-        90,
-        28,
-        0
+      "Last6Games": [
+        {"minutesPlayed": 27, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 28, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4311,13 +4311,13 @@
       "minutesPlayed": 862,
       "points": 26,
       "bps": 116,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        52,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 52, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4342,13 +4342,13 @@
       "minutesPlayed": 471,
       "points": 26,
       "bps": 102,
-      "last6GamesMinutes": [
-        18,
-        71,
-        90,
-        90,
-        84,
-        86
+      "Last6Games": [
+        {"minutesPlayed": 18, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 71, "points": 2, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 84, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 86, "points": 3, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4373,13 +4373,13 @@
       "minutesPlayed": 757,
       "points": 26,
       "bps": 116,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        0,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4399,13 +4399,13 @@
       "minutesPlayed": 614,
       "points": 26,
       "bps": 94,
-      "last6GamesMinutes": [
-        13,
-        0,
-        45,
-        19,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 13, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 19, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4430,13 +4430,13 @@
       "minutesPlayed": 394,
       "points": 25,
       "bps": 93,
-      "last6GamesMinutes": [
-        29,
-        90,
-        0,
-        3,
-        90,
-        79
+      "Last6Games": [
+        {"minutesPlayed": 29, "points": 4, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 3, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0},
+        {"minutesPlayed": 79, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4461,13 +4461,13 @@
       "minutesPlayed": 945,
       "points": 24,
       "bps": 144,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4487,13 +4487,13 @@
       "minutesPlayed": 739,
       "points": 23,
       "bps": 117,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4518,13 +4518,13 @@
       "minutesPlayed": 436,
       "points": 21,
       "bps": 56,
-      "last6GamesMinutes": [
-        0,
-        0,
-        90,
-        76,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 76, "points": 3, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4544,75 +4544,13 @@
       "minutesPlayed": 492,
       "points": 19,
       "bps": 78,
-      "last6GamesMinutes": [
-        45,
-        3,
-        6,
-        0,
-        90,
-        78
-      ]
-    },
-    "lastUpdatedGw": 11,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 412,
-      "points": 25,
-      "bps": 98
-    },
-    "2016": {
-      "minutesPlayed": 35,
-      "points": 6,
-      "bps": 16
-    },
-    "id": 162,
-    "teamId": 20,
-    "name": "Ruben Loftus-Cheek",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 540,
-      "points": 16,
-      "bps": 92,
-      "last6GamesMinutes": [
-        90,
-        0,
-        0,
-        13,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 11,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1545,
-      "points": 80,
-      "bps": 325
-    },
-    "2016": {
-      "minutesPlayed": 1883,
-      "points": 92,
-      "bps": 377
-    },
-    "id": 163,
-    "teamId": 15,
-    "name": "James Ward-Prowse",
-    "price": 5.1,
-    "thisSeason": {
-      "minutesPlayed": 255,
-      "points": 14,
-      "bps": 47,
-      "last6GamesMinutes": [
-        7,
-        0,
-        0,
-        0,
-        83,
-        1
+      "Last6Games": [
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 3, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 6, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 1, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4632,18 +4570,18 @@
     "id": 165,
     "teamId": 10,
     "name": "César Azpilicueta",
-    "price": 6.7,
+    "price": 6.8,
     "thisSeason": {
       "minutesPlayed": 990,
       "points": 67,
       "bps": 307,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 14, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": -1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0.1},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4658,17 +4596,17 @@
       "minutesPlayed": 90,
       "points": 9,
       "bps": 26,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
-    "position": "def"
+    "position": "gk"
   },
   {
     "2015": {
@@ -4683,19 +4621,19 @@
     },
     "id": 167,
     "teamId": 13,
-    "name": "César Azpilicueta",
+    "name": "Steve Cook",
     "price": 4.8,
     "thisSeason": {
       "minutesPlayed": 669,
       "points": 23,
       "bps": 112,
-      "last6GamesMinutes": [
-        11,
-        0,
-        90,
-        28,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 11, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 15, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4720,13 +4658,13 @@
       "minutesPlayed": 983,
       "points": 28,
       "bps": 165,
-      "last6GamesMinutes": [
-        90,
-        90,
-        83,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 83, "points": 2, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 12, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4739,15 +4677,15 @@
     "price": 4.3,
     "thisSeason": {
       "minutesPlayed": 216,
-      "points": 12,
+      "points": 15,
       "bps": 69,
-      "last6GamesMinutes": [
-        90,
-        30,
-        80,
-        1,
-        0,
-        78
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 30, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 80, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 1, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 12, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4762,13 +4700,13 @@
       "minutesPlayed": 112,
       "points": 10,
       "bps": 41,
-      "last6GamesMinutes": [
-        1,
-        0,
-        0,
-        0,
-        21,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 1, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 21, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4793,13 +4731,13 @@
       "minutesPlayed": 982,
       "points": 30,
       "bps": 193,
-      "last6GamesMinutes": [
-        82,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 82, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4814,13 +4752,13 @@
       "minutesPlayed": 435,
       "points": 20,
       "bps": 106,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 7, "priceChange": -0.1}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4840,13 +4778,13 @@
       "minutesPlayed": 806,
       "points": 25,
       "bps": 146,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        78
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 78, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4871,13 +4809,13 @@
       "minutesPlayed": 754,
       "points": 22,
       "bps": 143,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4892,13 +4830,13 @@
       "minutesPlayed": 826,
       "points": 34,
       "bps": 156,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4911,15 +4849,15 @@
     "price": 4.4,
     "thisSeason": {
       "minutesPlayed": 360,
-      "points": 6,
+      "points": 14,
       "bps": 76,
-      "last6GamesMinutes": [
-        0,
-        90,
-        0,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4944,13 +4882,13 @@
       "minutesPlayed": 494,
       "points": 15,
       "bps": 96,
-      "last6GamesMinutes": [
-        31,
-        90,
-        90,
-        90,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 31, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4975,13 +4913,13 @@
       "minutesPlayed": 90,
       "points": 6,
       "bps": 21,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -4996,13 +4934,13 @@
       "minutesPlayed": 366,
       "points": 9,
       "bps": 36,
-      "last6GamesMinutes": [
-        69,
-        0,
-        0,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 69, "points": 0, "priceChange": -0.1},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5017,13 +4955,13 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 185,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 6, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 5, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5048,13 +4986,13 @@
       "minutesPlayed": 497,
       "points": 33,
       "bps": 99,
-      "last6GamesMinutes": [
-        0,
-        3,
-        74,
-        68,
-        61,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 3, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 74, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 68, "points": 7, "priceChange": 0},
+        {"minutesPlayed": 61, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 10, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5069,13 +5007,13 @@
       "minutesPlayed": 734,
       "points": 34,
       "bps": 148,
-      "last6GamesMinutes": [
-        80,
-        14,
-        90,
-        83,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 80, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 14, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 8, "priceChange": 0},
+        {"minutesPlayed": 83, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5090,13 +5028,13 @@
       "minutesPlayed": 380,
       "points": 17,
       "bps": 91,
-      "last6GamesMinutes": [
-        0,
-        45,
-        90,
-        90,
-        90,
-        65
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 65, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5111,13 +5049,13 @@
       "minutesPlayed": 570,
       "points": 21,
       "bps": 64,
-      "last6GamesMinutes": [
-        27,
-        90,
-        90,
-        51,
-        33,
-        61
+      "Last6Games": [
+        {"minutesPlayed": 27, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 51, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 33, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 61, "points": 8, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5142,13 +5080,13 @@
       "minutesPlayed": 495,
       "points": 20,
       "bps": 121,
-      "last6GamesMinutes": [
-        11,
-        6,
-        12,
-        59,
-        24,
-        86
+      "Last6Games": [
+        {"minutesPlayed": 11, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 6, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 12, "points": 1, "priceChange": -0.1},
+        {"minutesPlayed": 59, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 24, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 86, "points": 7, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5168,13 +5106,13 @@
       "minutesPlayed": 990,
       "points": 27,
       "bps": 128,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 90, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": -0.1},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 3, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5199,13 +5137,13 @@
       "minutesPlayed": 430,
       "points": 14,
       "bps": 79,
-      "last6GamesMinutes": [
-        0,
-        28,
-        87,
-        90,
-        90,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 28, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 87, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 6, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5230,13 +5168,13 @@
       "minutesPlayed": 287,
       "points": 29,
       "bps": 101,
-      "last6GamesMinutes": [
-        35,
-        81,
-        21,
-        15,
-        45,
-        90
+      "Last6Games": [
+        {"minutesPlayed": 35, "points": 11, "priceChange": 0},
+        {"minutesPlayed": 81, "points": 2, "priceChange": 0},
+        {"minutesPlayed": 21, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 15, "points": 5, "priceChange": -0.1},
+        {"minutesPlayed": 45, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 90, "points": 9, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
@@ -5261,13 +5199,39 @@
       "minutesPlayed": 153,
       "points": 22,
       "bps": 90,
-      "last6GamesMinutes": [
-        29,
-        20,
-        0,
-        31,
-        0,
-        21
+      "Last6Games": [
+        {"minutesPlayed": 29, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 20, "points": 6, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 31, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 21, "points": 6, "priceChange": -0.1}
+      ]
+    },
+    "lastUpdatedGw": 11,
+    "position": "fwd"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 254,
+      "points": 48,
+      "bps": 169
+    },
+    "id": 190,
+    "teamId": 10,
+    "name": "Michy Batshuayi",
+    "price": 8.1,
+    "thisSeason": {
+      "minutesPlayed": 194,
+      "points": 16,
+      "bps": 56,
+      "Last6Games": [
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0},
+        {"minutesPlayed": 17, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 56, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 29, "points": 12, "priceChange": 0},
+        {"minutesPlayed": 11, "points": 1, "priceChange": 0},
+        {"minutesPlayed": 0, "points": 0, "priceChange": 0}
       ]
     },
     "lastUpdatedGw": 11,
