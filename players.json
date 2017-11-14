@@ -18,7 +18,7 @@
       "minutesPlayed": 990,
       "points": 67,
       "bps": 307,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 14,
@@ -388,7 +388,7 @@
       "minutesPlayed": 990,
       "points": 51,
       "bps": 272,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -443,7 +443,7 @@
       "minutesPlayed": 990,
       "points": 49,
       "bps": 256,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -498,7 +498,7 @@
       "minutesPlayed": 633,
       "points": 48,
       "bps": 210,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 12,
           "points": 12,
@@ -553,7 +553,7 @@
       "minutesPlayed": 753,
       "points": 48,
       "bps": 234,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -608,7 +608,7 @@
       "minutesPlayed": 990,
       "points": 47,
       "bps": 246,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 5,
@@ -658,7 +658,7 @@
       "minutesPlayed": 720,
       "points": 46,
       "bps": 198,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -713,7 +713,7 @@
       "minutesPlayed": 810,
       "points": 46,
       "bps": 205,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -768,7 +768,7 @@
       "minutesPlayed": 935,
       "points": 46,
       "bps": 206,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 58,
           "points": 0,
@@ -823,7 +823,7 @@
       "minutesPlayed": 854,
       "points": 45,
       "bps": 223,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -878,7 +878,7 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 207,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -928,7 +928,7 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 202,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -978,7 +978,7 @@
       "minutesPlayed": 947,
       "points": 44,
       "bps": 185,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1023,7 +1023,7 @@
       "minutesPlayed": 990,
       "points": 41,
       "bps": 210,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 8,
@@ -1073,7 +1073,7 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 216,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1118,7 +1118,7 @@
       "minutesPlayed": 972,
       "points": 40,
       "bps": 197,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 5,
@@ -1168,7 +1168,7 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 233,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 0,
@@ -1223,7 +1223,7 @@
       "minutesPlayed": 987,
       "points": 39,
       "bps": 209,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1278,7 +1278,7 @@
       "minutesPlayed": 900,
       "points": 38,
       "bps": 200,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1333,7 +1333,7 @@
       "minutesPlayed": 990,
       "points": 38,
       "bps": 197,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 8,
@@ -1383,7 +1383,7 @@
       "minutesPlayed": 990,
       "points": 38,
       "bps": 199,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 5,
@@ -1428,7 +1428,7 @@
       "minutesPlayed": 771,
       "points": 37,
       "bps": 161,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -1473,7 +1473,7 @@
       "minutesPlayed": 956,
       "points": 37,
       "bps": 188,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1528,7 +1528,7 @@
       "minutesPlayed": 990,
       "points": 37,
       "bps": 194,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -1583,7 +1583,7 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 204,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1633,7 +1633,7 @@
       "minutesPlayed": 721,
       "points": 36,
       "bps": 197,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1688,7 +1688,7 @@
       "minutesPlayed": 985,
       "points": 36,
       "bps": 191,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -1743,7 +1743,7 @@
       "minutesPlayed": 806,
       "points": 34,
       "bps": 156,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1798,7 +1798,7 @@
       "minutesPlayed": 688,
       "points": 34,
       "bps": 156,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 73,
           "points": 4,
@@ -1843,7 +1843,7 @@
       "minutesPlayed": 853,
       "points": 34,
       "bps": 198,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -1898,7 +1898,7 @@
       "minutesPlayed": 982,
       "points": 34,
       "bps": 170,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 82,
           "points": 2,
@@ -1943,7 +1943,7 @@
       "minutesPlayed": 631,
       "points": 34,
       "bps": 168,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -1988,7 +1988,7 @@
       "minutesPlayed": 826,
       "points": 34,
       "bps": 156,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -2043,7 +2043,7 @@
       "minutesPlayed": 810,
       "points": 33,
       "bps": 167,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -2088,7 +2088,7 @@
       "minutesPlayed": 956,
       "points": 32,
       "bps": 214,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 9,
@@ -2143,7 +2143,7 @@
       "minutesPlayed": 774,
       "points": 30,
       "bps": 146,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 82,
           "points": 1,
@@ -2188,7 +2188,7 @@
       "minutesPlayed": 744,
       "points": 30,
       "bps": 170,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -2238,7 +2238,7 @@
       "minutesPlayed": 665,
       "points": 30,
       "bps": 131,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -2293,7 +2293,7 @@
       "minutesPlayed": 982,
       "points": 30,
       "bps": 193,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 82,
           "points": 1,
@@ -2338,7 +2338,7 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 185,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -2393,7 +2393,7 @@
       "minutesPlayed": 810,
       "points": 29,
       "bps": 204,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 4,
@@ -2448,7 +2448,7 @@
       "minutesPlayed": 716,
       "points": 29,
       "bps": 165,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -2503,7 +2503,7 @@
       "minutesPlayed": 973,
       "points": 28,
       "bps": 40,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -2558,7 +2558,7 @@
       "minutesPlayed": 983,
       "points": 28,
       "bps": 165,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -2613,7 +2613,7 @@
       "minutesPlayed": 990,
       "points": 26,
       "bps": 158,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -2663,7 +2663,7 @@
       "minutesPlayed": 806,
       "points": 25,
       "bps": 146,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -2718,7 +2718,7 @@
       "minutesPlayed": 435,
       "points": 24,
       "bps": 128,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 16,
           "points": 1,
@@ -2773,7 +2773,7 @@
       "minutesPlayed": 900,
       "points": 24,
       "bps": 176,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -2828,7 +2828,7 @@
       "minutesPlayed": 465,
       "points": 23,
       "bps": 98,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 15,
           "points": 1,
@@ -2883,7 +2883,7 @@
       "minutesPlayed": 669,
       "points": 23,
       "bps": 112,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 11,
           "points": 1,
@@ -2938,7 +2938,7 @@
       "minutesPlayed": 754,
       "points": 22,
       "bps": 143,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -2993,7 +2993,7 @@
       "minutesPlayed": 988,
       "points": 20,
       "bps": 150,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 0,
@@ -3038,7 +3038,7 @@
       "minutesPlayed": 435,
       "points": 20,
       "bps": 106,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -3093,7 +3093,7 @@
       "minutesPlayed": 540,
       "points": 18,
       "bps": 86,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3143,7 +3143,7 @@
       "minutesPlayed": 450,
       "points": 17,
       "bps": 104,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3188,7 +3188,7 @@
       "minutesPlayed": 225,
       "points": 15,
       "bps": 49,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3233,7 +3233,7 @@
       "minutesPlayed": 216,
       "points": 15,
       "bps": 69,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3288,7 +3288,7 @@
       "minutesPlayed": 494,
       "points": 15,
       "bps": 96,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 31,
           "points": 1,
@@ -3333,7 +3333,7 @@
       "minutesPlayed": 360,
       "points": 14,
       "bps": 76,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3388,7 +3388,7 @@
       "minutesPlayed": 495,
       "points": 11,
       "bps": 36,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3433,7 +3433,7 @@
       "minutesPlayed": 112,
       "points": 10,
       "bps": 41,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 1,
           "points": 1,
@@ -3478,7 +3478,7 @@
       "minutesPlayed": 366,
       "points": 9,
       "bps": 36,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 69,
           "points": 0,
@@ -3533,7 +3533,7 @@
       "minutesPlayed": 90,
       "points": 6,
       "bps": 21,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3588,7 +3588,7 @@
       "minutesPlayed": 602,
       "points": 67,
       "bps": 283,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 11,
@@ -3643,7 +3643,7 @@
       "minutesPlayed": 865,
       "points": 65,
       "bps": 221,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 88,
           "points": 13,
@@ -3698,7 +3698,7 @@
       "minutesPlayed": 990,
       "points": 64,
       "bps": 226,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -3743,7 +3743,7 @@
       "minutesPlayed": 716,
       "points": 63,
       "bps": 199,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 17,
@@ -3793,7 +3793,7 @@
       "minutesPlayed": 598,
       "points": 54,
       "bps": 201,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -3848,7 +3848,7 @@
       "minutesPlayed": 965,
       "points": 52,
       "bps": 205,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -3893,7 +3893,7 @@
       "minutesPlayed": 895,
       "points": 48,
       "bps": 156,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 45,
           "points": 8,
@@ -3948,7 +3948,7 @@
       "minutesPlayed": 784,
       "points": 47,
       "bps": 190,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 63,
           "points": 2,
@@ -3993,7 +3993,7 @@
       "minutesPlayed": 744,
       "points": 46,
       "bps": 199,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 82,
           "points": 13,
@@ -4048,7 +4048,7 @@
       "minutesPlayed": 697,
       "points": 45,
       "bps": 151,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4103,7 +4103,7 @@
       "minutesPlayed": 823,
       "points": 42,
       "bps": 169,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 54,
           "points": 1,
@@ -4158,7 +4158,7 @@
       "minutesPlayed": 895,
       "points": 41,
       "bps": 167,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4203,7 +4203,7 @@
       "minutesPlayed": 900,
       "points": 41,
       "bps": 125,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 5,
@@ -4253,7 +4253,7 @@
       "minutesPlayed": 660,
       "points": 34,
       "bps": 107,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 17,
           "points": 1,
@@ -4303,7 +4303,7 @@
       "minutesPlayed": 471,
       "points": 34,
       "bps": 97,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -4358,7 +4358,7 @@
       "minutesPlayed": 506,
       "points": 33,
       "bps": 123,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 73,
           "points": 6,
@@ -4413,7 +4413,7 @@
       "minutesPlayed": 968,
       "points": 32,
       "bps": 111,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4458,7 +4458,7 @@
       "minutesPlayed": 562,
       "points": 31,
       "bps": 89,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4508,7 +4508,7 @@
       "minutesPlayed": 723,
       "points": 30,
       "bps": 88,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4563,7 +4563,7 @@
       "minutesPlayed": 460,
       "points": 29,
       "bps": 118,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -4613,7 +4613,7 @@
       "minutesPlayed": 838,
       "points": 29,
       "bps": 80,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4658,7 +4658,7 @@
       "minutesPlayed": 616,
       "points": 29,
       "bps": 93,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4708,7 +4708,7 @@
       "minutesPlayed": 650,
       "points": 29,
       "bps": 75,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 85,
           "points": 8,
@@ -4763,7 +4763,7 @@
       "minutesPlayed": 287,
       "points": 29,
       "bps": 101,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 35,
           "points": 11,
@@ -4818,7 +4818,7 @@
       "minutesPlayed": 1077,
       "points": 28,
       "bps": 80,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -4868,7 +4868,7 @@
       "minutesPlayed": 713,
       "points": 28,
       "bps": 80,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 70,
           "points": 2,
@@ -4918,7 +4918,7 @@
       "minutesPlayed": 372,
       "points": 28,
       "bps": 94,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -4963,7 +4963,7 @@
       "minutesPlayed": 446,
       "points": 27,
       "bps": 81,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 9,
@@ -5018,7 +5018,7 @@
       "minutesPlayed": 362,
       "points": 23,
       "bps": 101,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 26,
           "points": 4,
@@ -5073,7 +5073,7 @@
       "minutesPlayed": 798,
       "points": 23,
       "bps": 86,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 78,
           "points": 7,
@@ -5128,7 +5128,7 @@
       "minutesPlayed": 153,
       "points": 22,
       "bps": 90,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 29,
           "points": 0,
@@ -5183,7 +5183,7 @@
       "minutesPlayed": 505,
       "points": 20,
       "bps": 65,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 74,
           "points": 2,
@@ -5228,7 +5228,7 @@
       "minutesPlayed": 396,
       "points": 19,
       "bps": 59,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -5278,7 +5278,7 @@
       "minutesPlayed": 194,
       "points": 16,
       "bps": 56,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -5333,7 +5333,7 @@
       "minutesPlayed": 340,
       "points": 14,
       "bps": 44,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 15,
           "points": 1,
@@ -5388,7 +5388,7 @@
       "minutesPlayed": 990,
       "points": 65,
       "bps": 255,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 8,
@@ -5433,7 +5433,7 @@
       "minutesPlayed": 900,
       "points": 56,
       "bps": 250,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -5488,7 +5488,7 @@
       "minutesPlayed": 990,
       "points": 51,
       "bps": 202,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -5543,7 +5543,7 @@
       "minutesPlayed": 990,
       "points": 47,
       "bps": 211,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -5598,7 +5598,7 @@
       "minutesPlayed": 990,
       "points": 46,
       "bps": 227,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -5653,7 +5653,7 @@
       "minutesPlayed": 990,
       "points": 45,
       "bps": 225,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -5698,7 +5698,7 @@
       "minutesPlayed": 684,
       "points": 45,
       "bps": 188,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -5743,7 +5743,7 @@
       "minutesPlayed": 1035,
       "points": 42,
       "bps": 186,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -5798,7 +5798,7 @@
       "minutesPlayed": 900,
       "points": 41,
       "bps": 190,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -5843,7 +5843,7 @@
       "minutesPlayed": 990,
       "points": 41,
       "bps": 198,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 9,
@@ -5898,7 +5898,7 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 193,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -5953,7 +5953,7 @@
       "minutesPlayed": 990,
       "points": 40,
       "bps": 186,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -6003,7 +6003,7 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 211,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -6058,7 +6058,7 @@
       "minutesPlayed": 990,
       "points": 36,
       "bps": 196,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -6113,7 +6113,7 @@
       "minutesPlayed": 900,
       "points": 33,
       "bps": 171,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -6168,7 +6168,7 @@
       "minutesPlayed": 958,
       "points": 31,
       "bps": 189,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -6223,7 +6223,7 @@
       "minutesPlayed": 900,
       "points": 31,
       "bps": 160,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -6278,7 +6278,7 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 180,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 0,
@@ -6333,7 +6333,7 @@
       "minutesPlayed": 990,
       "points": 27,
       "bps": 186,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -6388,7 +6388,7 @@
       "minutesPlayed": 630,
       "points": 19,
       "bps": 124,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -6433,7 +6433,7 @@
       "minutesPlayed": 90,
       "points": 9,
       "bps": 26,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -6478,7 +6478,7 @@
       "minutesPlayed": 360,
       "points": 8,
       "bps": 48,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -6528,7 +6528,7 @@
       "minutesPlayed": 762,
       "points": 73,
       "bps": 231,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 16,
@@ -6573,7 +6573,7 @@
       "minutesPlayed": 949,
       "points": 72,
       "bps": 204,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -6628,7 +6628,7 @@
       "minutesPlayed": 929,
       "points": 64,
       "bps": 283,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -6683,7 +6683,7 @@
       "minutesPlayed": 923,
       "points": 63,
       "bps": 252,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 72,
           "points": 9,
@@ -6738,7 +6738,7 @@
       "minutesPlayed": 583,
       "points": 62,
       "bps": 209,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 60,
           "points": 13,
@@ -6793,7 +6793,7 @@
       "minutesPlayed": 962,
       "points": 61,
       "bps": 244,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 11,
@@ -6838,7 +6838,7 @@
       "minutesPlayed": 920,
       "points": 58,
       "bps": 214,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -6883,7 +6883,7 @@
       "minutesPlayed": 930,
       "points": 58,
       "bps": 147,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 7,
@@ -6938,7 +6938,7 @@
       "minutesPlayed": 865,
       "points": 56,
       "bps": 183,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 60,
           "points": 2,
@@ -6993,7 +6993,7 @@
       "minutesPlayed": 764,
       "points": 54,
       "bps": 203,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -7043,7 +7043,7 @@
       "minutesPlayed": 785,
       "points": 52,
       "bps": 194,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 74,
           "points": 3,
@@ -7093,7 +7093,7 @@
       "minutesPlayed": 990,
       "points": 52,
       "bps": 245,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -7148,7 +7148,7 @@
       "minutesPlayed": 891,
       "points": 49,
       "bps": 145,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 8,
@@ -7203,7 +7203,7 @@
       "minutesPlayed": 959,
       "points": 47,
       "bps": 224,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -7258,7 +7258,7 @@
       "minutesPlayed": 827,
       "points": 45,
       "bps": 178,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -7313,7 +7313,7 @@
       "minutesPlayed": 864,
       "points": 44,
       "bps": 211,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 72,
           "points": 2,
@@ -7358,7 +7358,7 @@
       "minutesPlayed": 918,
       "points": 44,
       "bps": 109,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -7403,7 +7403,7 @@
       "minutesPlayed": 915,
       "points": 41,
       "bps": 205,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -7458,7 +7458,7 @@
       "minutesPlayed": 295,
       "points": 40,
       "bps": 141,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -7508,7 +7508,7 @@
       "minutesPlayed": 975,
       "points": 40,
       "bps": 194,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -7563,7 +7563,7 @@
       "minutesPlayed": 900,
       "points": 39,
       "bps": 167,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -7613,7 +7613,7 @@
       "minutesPlayed": 957,
       "points": 38,
       "bps": 171,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -7658,7 +7658,7 @@
       "minutesPlayed": 913,
       "points": 37,
       "bps": 105,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -7713,7 +7713,7 @@
       "minutesPlayed": 474,
       "points": 35,
       "bps": 104,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 67,
           "points": 8,
@@ -7768,7 +7768,7 @@
       "minutesPlayed": 977,
       "points": 35,
       "bps": 136,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -7823,7 +7823,7 @@
       "minutesPlayed": 963,
       "points": 34,
       "bps": 158,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -7878,7 +7878,7 @@
       "minutesPlayed": 592,
       "points": 34,
       "bps": 121,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 24,
           "points": 0,
@@ -7923,7 +7923,7 @@
       "minutesPlayed": 734,
       "points": 34,
       "bps": 148,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 80,
           "points": 2,
@@ -7968,7 +7968,7 @@
       "minutesPlayed": 762,
       "points": 33,
       "bps": 149,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 6,
@@ -8023,7 +8023,7 @@
       "minutesPlayed": 990,
       "points": 33,
       "bps": 178,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -8078,7 +8078,7 @@
       "minutesPlayed": 497,
       "points": 33,
       "bps": 99,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -8133,7 +8133,7 @@
       "minutesPlayed": 810,
       "points": 32,
       "bps": 159,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 9,
@@ -8188,7 +8188,7 @@
       "minutesPlayed": 990,
       "points": 32,
       "bps": 147,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -8238,7 +8238,7 @@
       "minutesPlayed": 360,
       "points": 31,
       "bps": 100,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -8293,7 +8293,7 @@
       "minutesPlayed": 797,
       "points": 31,
       "bps": 176,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 22,
           "points": 1,
@@ -8348,7 +8348,7 @@
       "minutesPlayed": 414,
       "points": 30,
       "bps": 122,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 78,
           "points": 13,
@@ -8403,7 +8403,7 @@
       "minutesPlayed": 343,
       "points": 30,
       "bps": 103,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -8458,7 +8458,7 @@
       "minutesPlayed": 542,
       "points": 30,
       "bps": 101,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 82,
           "points": 5,
@@ -8513,7 +8513,7 @@
       "minutesPlayed": 757,
       "points": 30,
       "bps": 155,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 7,
           "points": 1,
@@ -8568,7 +8568,7 @@
       "minutesPlayed": 538,
       "points": 30,
       "bps": 86,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 16,
           "points": 1,
@@ -8613,7 +8613,7 @@
       "minutesPlayed": 990,
       "points": 30,
       "bps": 97,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -8663,7 +8663,7 @@
       "minutesPlayed": 609,
       "points": 30,
       "bps": 91,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 73,
           "points": 3,
@@ -8718,7 +8718,7 @@
       "minutesPlayed": 946,
       "points": 29,
       "bps": 149,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -8763,7 +8763,7 @@
       "minutesPlayed": 716,
       "points": 29,
       "bps": 108,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 3,
@@ -8818,7 +8818,7 @@
       "minutesPlayed": 785,
       "points": 29,
       "bps": 114,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -8873,7 +8873,7 @@
       "minutesPlayed": 573,
       "points": 28,
       "bps": 112,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 71,
           "points": 3,
@@ -8928,7 +8928,7 @@
       "minutesPlayed": 491,
       "points": 27,
       "bps": 113,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 61,
           "points": 3,
@@ -8983,7 +8983,7 @@
       "minutesPlayed": 662,
       "points": 27,
       "bps": 67,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 27,
           "points": 1,
@@ -9033,7 +9033,7 @@
       "minutesPlayed": 990,
       "points": 27,
       "bps": 128,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 1,
@@ -9088,7 +9088,7 @@
       "minutesPlayed": 862,
       "points": 26,
       "bps": 116,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -9143,7 +9143,7 @@
       "minutesPlayed": 471,
       "points": 26,
       "bps": 102,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 18,
           "points": 1,
@@ -9198,7 +9198,7 @@
       "minutesPlayed": 757,
       "points": 26,
       "bps": 116,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -9248,7 +9248,7 @@
       "minutesPlayed": 614,
       "points": 26,
       "bps": 94,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 13,
           "points": 1,
@@ -9303,7 +9303,7 @@
       "minutesPlayed": 394,
       "points": 25,
       "bps": 93,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 29,
           "points": 4,
@@ -9358,7 +9358,7 @@
       "minutesPlayed": 945,
       "points": 24,
       "bps": 144,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -9408,7 +9408,7 @@
       "minutesPlayed": 739,
       "points": 23,
       "bps": 117,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 90,
           "points": 2,
@@ -9463,7 +9463,7 @@
       "minutesPlayed": 436,
       "points": 21,
       "bps": 56,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -9508,7 +9508,7 @@
       "minutesPlayed": 570,
       "points": 21,
       "bps": 64,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 27,
           "points": 0,
@@ -9563,7 +9563,7 @@
       "minutesPlayed": 495,
       "points": 20,
       "bps": 121,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 11,
           "points": 1,
@@ -9613,7 +9613,7 @@
       "minutesPlayed": 492,
       "points": 19,
       "bps": 78,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 45,
           "points": 1,
@@ -9658,7 +9658,7 @@
       "minutesPlayed": 380,
       "points": 17,
       "bps": 91,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
@@ -9713,7 +9713,7 @@
       "minutesPlayed": 430,
       "points": 14,
       "bps": 79,
-      "Last6Games": [
+      "last6Games": [
         {
           "minutesPlayed": 0,
           "points": 0,
