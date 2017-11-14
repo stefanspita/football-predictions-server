@@ -1,12 +1,5 @@
-- a report of likely players to rise in price if they perform well the next game
-  - lookup FPL way of calculating price changes
-  - I believe the magic number (diff between player price and points is 2.25)
-  - the formula needs to be somewhat self-correcting and simplistic, because it won't be very accurate
-- a report of likely players to drop in price if they perform badly the next game
-
-- get own team report to aid selecting a captain
-
 - give recommandations based on price, fixture difficulty, overallRating and confidence
   - reduce each value to a rating of 1 to 5 and show top picks
+  - get own team report to aid selecting a captain
 
 - based on the final rating and price, what would be the ideal team for the money I've got
