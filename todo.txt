@@ -1,5 +1,7 @@
+- let report accept a player position parameter
+
 - give recommandations based on price, fixture difficulty, overallRating and confidence
   - reduce each value to a rating of 1 to 5 and show top picks
   - get own team report to aid selecting a captain
 
-- based on the final rating and price, what would be the ideal team for the money I've got
+http://www.fplstatistics.co.uk/Home/IndexAndroid2
