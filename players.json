@@ -9413,5 +9413,878 @@
     },
     "lastUpdatedGw": 12,
     "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 2274,
+      "points": 90,
+      "bps": 513
+    },
+    "id": 190,
+    "teamId": 3,
+    "name": "Shkodran Mustafi",
+    "price": 5.3,
+    "thisSeason": {
+      "minutesPlayed": 540,
+      "points": 40,
+      "bps": 170,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 6,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 14
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2845,
+      "points": 153,
+      "bps": 790
+    },
+    "2016": {
+      "minutesPlayed": 2821,
+      "points": 121,
+      "bps": 723
+    },
+    "id": 191,
+    "teamId": 3,
+    "name": "Laurent Koscielny",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 804,
+      "points": 31,
+      "bps": 200,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 84,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 167,
+      "points": 8,
+      "bps": 32
+    },
+    "id": 192,
+    "teamId": 4,
+    "name": "Trent Alexander-Arnold",
+    "price": 4.2,
+    "thisSeason": {
+      "minutesPlayed": 360,
+      "points": 8,
+      "bps": 68,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 255,
+      "points": 3,
+      "bps": 44
+    },
+    "2016": {
+      "minutesPlayed": 562,
+      "points": 15,
+      "bps": 121
+    },
+    "id": 193,
+    "teamId": 6,
+    "name": "Adrian Mariappa",
+    "price": 4,
+    "thisSeason": {
+      "minutesPlayed": 551,
+      "points": 12,
+      "bps": 86,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 62,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 89,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 11,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 6
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1896,
+      "points": 70,
+      "bps": 416
+    },
+    "2016": {
+      "minutesPlayed": 2553,
+      "points": 106,
+      "bps": 589
+    },
+    "id": 194,
+    "teamId": 4,
+    "name": "Dejan Lovren",
+    "price": 5.3,
+    "thisSeason": {
+      "minutesPlayed": 575,
+      "points": 22,
+      "bps": 117,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 31,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 3,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 5
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1179,
+      "points": 76,
+      "bps": 315
+    },
+    "2016": {
+      "minutesPlayed": 820,
+      "points": 57,
+      "bps": 227
+    },
+    "id": 195,
+    "teamId": 1,
+    "name": "Vincent Kompany",
+    "price": 5.8,
+    "thisSeason": {
+      "minutesPlayed": 360,
+      "points": 13,
+      "bps": 71,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 5
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "def"
+  },
+  {
+    "id": 196,
+    "teamId": 6,
+    "name": "Will Hughes",
+    "price": 4.6,
+    "thisSeason": {
+      "minutesPlayed": 183,
+      "points": 14,
+      "bps": 62,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 10,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 83,
+          "points": 14
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2546,
+      "points": 79,
+      "bps": 511
+    },
+    "2016": {
+      "minutesPlayed": 2232,
+      "points": 50,
+      "bps": 348
+    },
+    "id": 197,
+    "teamId": 9,
+    "name": "Jack Cork",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 1080,
+      "points": 37,
+      "bps": 199,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 11
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "id": 198,
+    "teamId": 11,
+    "name": "José Heriberto Izquierdo Mena",
+    "price": 5.9,
+    "thisSeason": {
+      "minutesPlayed": 408,
+      "points": 26,
+      "bps": 80,
+      "last6Games": [
+        {
+          "minutesPlayed": 75,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 17,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 69,
+          "points": 8,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 86,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 65,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 73,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2914,
+      "points": 158,
+      "bps": 568
+    },
+    "2016": {
+      "minutesPlayed": 3327,
+      "points": 181,
+      "bps": 684
+    },
+    "id": 199,
+    "teamId": 14,
+    "name": "Gylfi Sigurdsson",
+    "price": 8,
+    "thisSeason": {
+      "minutesPlayed": 849,
+      "points": 26,
+      "bps": 128,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 16,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 84,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1065,
+      "points": 40,
+      "bps": 181
+    },
+    "2016": {
+      "minutesPlayed": 760,
+      "points": 26,
+      "bps": 154
+    },
+    "id": 200,
+    "teamId": 8,
+    "name": "Ashley Young",
+    "price": 8,
+    "thisSeason": {
+      "minutesPlayed": 707,
+      "points": 27,
+      "bps": 132,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 6,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 77,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1662,
+      "points": 42,
+      "bps": 279
+    },
+    "2016": {
+      "minutesPlayed": 2956,
+      "points": 84,
+      "bps": 513
+    },
+    "id": 201,
+    "teamId": 13,
+    "name": "Harry Arter",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 640,
+      "points": 19,
+      "bps": 101,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 13,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 87,
+          "points": 7
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "id": 202,
+    "teamId": 11,
+    "name": "Davy Pröpper",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 1080,
+      "points": 34,
+      "bps": 185,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 3,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 5
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 412,
+      "points": 25,
+      "bps": 98
+    },
+    "2016": {
+      "minutesPlayed": 35,
+      "points": 6,
+      "bps": 16
+    },
+    "id": 203,
+    "teamId": 20,
+    "name": "Ruben Loftus-Cheek",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 630,
+      "points": 21,
+      "bps": 110,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 13,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 5,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 5
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 771,
+      "points": 46,
+      "bps": 161
+    },
+    "2016": {
+      "minutesPlayed": 1361,
+      "points": 63,
+      "bps": 170
+    },
+    "id": 204,
+    "teamId": 13,
+    "name": "Callum Wilson",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 181,
+      "points": 20,
+      "bps": 75,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 16,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 75,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 17
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2418,
+      "points": 88,
+      "bps": 231
+    },
+    "2016": {
+      "minutesPlayed": 1774,
+      "points": 81,
+      "bps": 241
+    },
+    "id": 205,
+    "teamId": 9,
+    "name": "Ashley Barnes",
+    "price": 5.2,
+    "thisSeason": {
+      "minutesPlayed": 402,
+      "points": 17,
+      "bps": 50,
+      "last6Games": [
+        {
+          "minutesPlayed": 2,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 9,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 70,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 25,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 771,
+      "points": 37,
+      "bps": 117
+    },
+    "id": 206,
+    "teamId": 19,
+    "name": "Dwight Gayle",
+    "price": 6.1,
+    "thisSeason": {
+      "minutesPlayed": 375,
+      "points": 17,
+      "bps": 47,
+      "last6Games": [
+        {
+          "minutesPlayed": 11,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 22,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 7,
+          "points": 1,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2,
+          "priceChange": 0
+        },
+        {
+          "minutesPlayed": 76,
+          "points": 7
+        }
+      ]
+    },
+    "lastUpdatedGw": 12,
+    "position": "fwd"
   }
 ]
