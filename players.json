@@ -3447,60 +3447,6 @@
     "position": "def"
   },
   {
-    "2015": {
-      "minutesPlayed": 2129,
-      "points": 109,
-      "bps": 536
-    },
-    "2016": {
-      "minutesPlayed": 1530,
-      "points": 84,
-      "bps": 536
-    },
-    "id": 177,
-    "teamId": 2,
-    "name": "Danny Rose",
-    "price": 6.4,
-    "thisSeason": {
-      "minutesPlayed": 90,
-      "points": 6,
-      "bps": 21,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": 6,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        }
-      ]
-    },
-    "lastUpdatedGw": 12,
-    "position": "def"
-  },
-  {
     "id": 112,
     "teamId": 10,
     "name": "Alvaro Morata",
@@ -5163,55 +5109,6 @@
     "position": "fwd"
   },
   {
-    "2016": {
-      "minutesPlayed": 254,
-      "points": 48,
-      "bps": 169
-    },
-    "id": 190,
-    "teamId": 10,
-    "name": "Michy Batshuayi",
-    "price": 8.1,
-    "thisSeason": {
-      "minutesPlayed": 194,
-      "points": 16,
-      "bps": 56,
-      "last6Games": [
-        {
-          "minutesPlayed": 17,
-          "points": 1,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 56,
-          "points": 1,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 29,
-          "points": 12,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 11,
-          "points": 1,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        }
-      ]
-    },
-    "lastUpdatedGw": 12,
-    "position": "fwd"
-  },
-  {
     "2015": {
       "minutesPlayed": 930,
       "points": 46,
@@ -6338,50 +6235,6 @@
         {
           "minutesPlayed": 90,
           "points": 2
-        }
-      ]
-    },
-    "lastUpdatedGw": 12,
-    "position": "gk"
-  },
-  {
-    "id": 166,
-    "teamId": 2,
-    "name": "Paulo Gazzaniga",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 90,
-      "points": 9,
-      "bps": 26,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": 9,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
         }
       ]
     },
