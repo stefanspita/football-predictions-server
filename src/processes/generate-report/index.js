@@ -1,45 +1,63 @@
 const Promise = require("bluebird")
 const json2csv = require("json2csv")
 const fs = require("fs-extra")
-const {assoc, compose, converge, dissoc, find, keys, merge, mergeAll, pick, propEq} = require("ramda")
+const {assoc, compose, converge, descend, dissoc, find, keys, merge, mergeAll, pick, prop, propEq, sort} = require("ramda")
 const getDb = require("../../init/db")
+const reportTypes = require("./report-types")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 
-function generateReport() {
+function round(value) {
+  return Number(Math.round(value + "e" + 2) + "e-" + 2)
+}
+
+function generateReport(teams, playersCollection, reportType) {
+  return playersCollection.find(reportType.filter).project({_id: 0}).toArray()
+    .then((players) => {
+      return Promise.map(players, (player) => {
+        const team = find(propEq("id", player.teamId), teams)
+        return compose(
+          merge(pick(["id", "name", "price", "position", "owned"], player)),
+          converge(
+            (...reports) => mergeAll(reports),
+            [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty]
+          )
+        )(player, team)
+      })
+    })
+    .then((playerReports) => {
+      return Promise.map(playerReports, (report) => {
+        return compose(
+          dissoc("playingChance"),
+          assoc("owned", report.owned ? "owned" : ""),
+          assoc("rating", report.rating.toFixed(2)),
+          assoc("confidence", report.confidence.toFixed(2)),
+          assoc("overallRating", round(report.rating * report.playingChance / 100))
+        )(report)
+      })
+    })
+    .then((playerReports) => {
+      return sort(descend(prop("overallRating")), playerReports)
+    })
+    .then((finalReport) => {
+      const fields = keys(finalReport[0])
+      const csvReport = json2csv({data: finalReport, fields})
+      return fs.outputFile(`./${reportType.fileName}.csv`, csvReport)
+    })
+}
+
+function generateReports() {
   return getDb().then((db) => {
     const teamsCollection = db.collection("teams")
     const playersCollection = db.collection("players")
-    return Promise.all([
-      teamsCollection.find().project({_id: 0}).toArray(),
-      playersCollection.find().project({_id: 0}).toArray(),
-    ])
-  }).spread((teams, players) => {
-    return Promise.map(players, (player) => {
-      const team = find(propEq("id", player.teamId), teams)
-      return compose(
-        merge(pick(["id", "name", "price", "position"], player)),
-        converge(
-          (...reports) => mergeAll(reports),
-          [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty]
-        )
-      )(player, team)
+    return teamsCollection.find().project({_id: 0}).toArray().then((teams) => {
+      return Promise.map(
+        reportTypes,
+        (reportType) => generateReport(teams, playersCollection, reportType)
+      )
     })
-  }).then((playerReports) => {
-    return Promise.map(playerReports, (report) => {
-      return compose(
-        dissoc("playingChance"),
-        assoc("rating", report.rating.toFixed(2)),
-        assoc("confidence", report.confidence.toFixed(2)),
-        assoc("overallRating", (report.rating * report.playingChance / 100).toFixed(2))
-      )(report)
-    })
-  }).then((finalReport) => {
-    const fields = keys(finalReport[0])
-    const csvReport = json2csv({data: finalReport, fields})
-    return fs.outputFile("./player-report.csv", csvReport)
   }).then(() => {
     console.log("FINISHED COMPILING PLAYER REPORT")
     process.exit(0)
@@ -49,4 +67,4 @@ function generateReport() {
   })
 }
 
-generateReport()
+generateReports()
