@@ -222,6 +222,7 @@
       "bps": 362
     },
     "id": 24,
+    "owned": true,
     "teamId": 8,
     "name": "Phil Jones",
     "price": 5.5,
@@ -428,6 +429,7 @@
       "bps": 681
     },
     "id": 25,
+    "owned": true,
     "teamId": 3,
     "name": "Nacho Monreal",
     "price": 5.6,
@@ -693,6 +695,7 @@
       "bps": 202
     },
     "id": 28,
+    "owned": true,
     "teamId": 2,
     "name": "Kieran Trippier",
     "price": 5.7,
@@ -958,6 +961,7 @@
       "bps": 692
     },
     "id": 53,
+    "owned": true,
     "teamId": 13,
     "name": "Charlie Daniels",
     "price": 4.9,
@@ -3448,6 +3452,7 @@
   },
   {
     "id": 112,
+    "owned": true,
     "teamId": 10,
     "name": "Alvaro Morata",
     "price": 10.5,
@@ -3767,6 +3772,7 @@
       "bps": 639
     },
     "id": 115,
+    "owned": true,
     "teamId": 4,
     "name": "Roberto Firmino",
     "price": 8.5,
@@ -3855,6 +3861,7 @@
   },
   {
     "id": 114,
+    "owned": true,
     "teamId": 7,
     "name": "Tammy Abraham",
     "price": 6,
@@ -5174,6 +5181,7 @@
       "bps": 575
     },
     "id": 2,
+    "owned": true,
     "teamId": 8,
     "name": "David de Gea",
     "price": 5.8,
@@ -6199,6 +6207,7 @@
   },
   {
     "id": 21,
+    "owned": true,
     "teamId": 20,
     "name": "Julian Speroni",
     "price": 4,
@@ -6243,6 +6252,7 @@
   },
   {
     "id": 65,
+    "owned": true,
     "teamId": 4,
     "name": "Mohamed Salah",
     "price": 9.6,
@@ -6292,6 +6302,7 @@
       "bps": 343
     },
     "id": 63,
+    "owned": true,
     "teamId": 1,
     "name": "Leroy Sané",
     "price": 9,
@@ -6346,6 +6357,7 @@
       "bps": 825
     },
     "id": 68,
+    "owned": true,
     "teamId": 1,
     "name": "Kevin De Bruyne",
     "price": 10.1,
@@ -6390,6 +6402,7 @@
   },
   {
     "id": 74,
+    "owned": true,
     "teamId": 11,
     "name": "Pascal Groß",
     "price": 5.9,
@@ -6488,6 +6501,7 @@
   },
   {
     "id": 69,
+    "owned": true,
     "teamId": 6,
     "name": "Richarlison de Andrade",
     "price": 6.5,
