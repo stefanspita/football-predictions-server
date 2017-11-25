@@ -26,11 +26,12 @@ function updatePlayerData(playersCollection, player) {
       "thisSeason.points": player.points,
       "thisSeason.bps": player.bps,
     },
-    $pop: {"thisSeason.last6Games": -1},
   }).then(() => {
+    if (player.injured) return true // if a player hasn't played because of injury, it shouldn't affect his numbers
+
     const lastGame = pick(["minutesPlayed", "points"], player)
-    return playersCollection.updateOne({id: player.id}, {
-      $push: {"thisSeason.last6Games": lastGame},
+    return playersCollection.updateOne({id: player.id}, {$pop: {"thisSeason.last6Games": -1}}).then(() => {
+      return playersCollection.updateOne({id: player.id}, {$push: {"thisSeason.last6Games": lastGame}})
     })
   })
 }
