@@ -3566,49 +3566,6 @@
     "position": "def"
   },
   {
-    "id": 170,
-    "teamId": 18,
-    "name": "Florent Hadergjonaj",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 202,
-      "points": 9,
-      "bps": 56,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 21,
-          "points": 1,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": 8,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": -1
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        }
-      ]
-    },
-    "lastUpdatedGw": 13,
-    "position": "def"
-  },
-  {
     "id": 178,
     "teamId": 2,
     "name": "Serge Aurier",
@@ -3641,54 +3598,6 @@
         {
           "minutesPlayed": 0,
           "points": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        }
-      ]
-    },
-    "lastUpdatedGw": 13,
-    "position": "def"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 167,
-      "points": 8,
-      "bps": 32
-    },
-    "id": 192,
-    "teamId": 4,
-    "name": "Trent Alexander-Arnold",
-    "price": 4.2,
-    "thisSeason": {
-      "minutesPlayed": 360,
-      "points": 8,
-      "bps": 68,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": 7
         },
         {
           "minutesPlayed": 0,
@@ -5186,59 +5095,6 @@
   },
   {
     "2015": {
-      "minutesPlayed": 463,
-      "points": 18,
-      "bps": 42
-    },
-    "2016": {
-      "minutesPlayed": 1343,
-      "points": 79,
-      "bps": 262
-    },
-    "id": 188,
-    "teamId": 5,
-    "name": "Peter Crouch",
-    "price": 4.8,
-    "thisSeason": {
-      "minutesPlayed": 193,
-      "points": 24,
-      "bps": 96,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 31,
-          "points": 1,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 21,
-          "points": 6,
-          "priceChange": -0.1
-        },
-        {
-          "minutesPlayed": 17,
-          "points": 1
-        },
-        {
-          "minutesPlayed": 23,
-          "points": 1
-        }
-      ]
-    },
-    "lastUpdatedGw": 13,
-    "position": "fwd"
-  },
-  {
-    "2015": {
       "minutesPlayed": 771,
       "points": 46,
       "bps": 161
@@ -5482,59 +5338,6 @@
         {
           "minutesPlayed": 90,
           "points": 2
-        }
-      ]
-    },
-    "lastUpdatedGw": 13,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 930,
-      "points": 46,
-      "bps": 133
-    },
-    "2016": {
-      "minutesPlayed": 1458,
-      "points": 88,
-      "bps": 259
-    },
-    "id": 164,
-    "teamId": 13,
-    "name": "Benik Afobe",
-    "price": 5.7,
-    "thisSeason": {
-      "minutesPlayed": 351,
-      "points": 15,
-      "bps": 47,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 90,
-          "points": 5,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 73,
-          "points": 2,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        },
-        {
-          "minutesPlayed": 11,
-          "points": 1
         }
       ]
     },
@@ -9065,59 +8868,6 @@
         {
           "minutesPlayed": 90,
           "points": 6
-        }
-      ]
-    },
-    "lastUpdatedGw": 13,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1068,
-      "points": 44,
-      "bps": 157
-    },
-    "2016": {
-      "minutesPlayed": 1604,
-      "points": 48,
-      "bps": 259
-    },
-    "id": 93,
-    "teamId": 8,
-    "name": "Marouane Fellaini",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 373,
-      "points": 32,
-      "bps": 110,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 28,
-          "points": 0,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 20,
-          "points": 1
-        },
-        {
-          "minutesPlayed": 10,
-          "points": 1
         }
       ]
     },
