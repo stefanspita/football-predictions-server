@@ -1235,6 +1235,7 @@
       "bps": 111
     },
     "id": 152,
+    "owned": true,
     "teamId": 9,
     "name": "James Tarkowski",
     "price": 4.5,
@@ -5582,6 +5583,7 @@
   },
   {
     "id": 17,
+    "owned": true,
     "teamId": 9,
     "name": "Nick Pope",
     "price": 4.6,
@@ -6338,7 +6340,6 @@
   },
   {
     "id": 21,
-    "owned": true,
     "teamId": 20,
     "name": "Julian Speroni",
     "price": 4,
