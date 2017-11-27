@@ -1,6 +1,6 @@
 /* eslint-disable complexity */
 const Promise = require("bluebird")
-const {map, pick} = require("ramda")
+const {pick} = require("ramda")
 
 function validatePlayer(player) {
   if (player.lastUpdatedGw !== player.gwToUpdate - 1)
@@ -39,13 +39,11 @@ function updatePlayerData(playersCollection, player) {
 module.exports = function updatePlayers(db, playersUpdate) {
   const playersCollection = db.collection("players")
 
-  return Promise.all(
-    map((player) => {
-      return Promise.resolve()
-        .then(() => validatePlayer(player))
-        .then(() => updatePlayerData(playersCollection, player))
-        .then(() => console.log(`Successfully updated ${player.name}`))
-        .catch((err) => console.error(err.message))
-    }, playersUpdate)
+  return Promise.map(playersUpdate,
+    (player) => Promise.resolve()
+      .then(() => validatePlayer(player))
+      .then(() => updatePlayerData(playersCollection, player))
+      .then(() => console.log(`Successfully updated ${player.name}`))
+      .catch((err) => console.error(err.message))
   )
 }
