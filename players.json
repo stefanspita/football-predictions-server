@@ -9830,5 +9830,387 @@
     },
     "lastUpdatedGw": 13,
     "position": "mid"
+  },
+  {
+    "id": 207,
+    "teamId": 6,
+    "name": "Marvin Zeegelaar",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 180,
+      "points": 22,
+      "bps": 84,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 14
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1854,
+      "points": 65,
+      "bps": 442
+    },
+    "2016": {
+      "minutesPlayed": 686,
+      "points": 35,
+      "bps": 155
+    },
+    "id": 208,
+    "teamId": 20,
+    "name": "Mamadou Sakho",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 630,
+      "points": 22,
+      "bps": 144,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 7
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 11
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2100,
+      "points": 84,
+      "bps": 495
+    },
+    "2016": {
+      "minutesPlayed": 3101,
+      "points": 104,
+      "bps": 645
+    },
+    "id": 214,
+    "teamId": 13,
+    "name": "Adam Smith",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 956,
+      "points": 24,
+      "bps": 167,
+      "last6Games": [
+        {
+          "minutesPlayed": 74,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 15,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 47,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 6
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1920,
+      "points": 96,
+      "bps": 324
+    },
+    "2016": {
+      "minutesPlayed": 2509,
+      "points": 149,
+      "bps": 468
+    },
+    "id": 209,
+    "teamId": 15,
+    "name": "Dusan Tadic",
+    "price": 6.3,
+    "thisSeason": {
+      "minutesPlayed": 1023,
+      "points": 42,
+      "bps": 171,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 80,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 83,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 75,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 54,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 77,
+          "points": 12
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2750,
+      "points": 117,
+      "bps": 550
+    },
+    "2016": {
+      "minutesPlayed": 2412,
+      "points": 95,
+      "bps": 468
+    },
+    "id": 210,
+    "teamId": 12,
+    "name": "Marc Albrighton",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 851,
+      "points": 33,
+      "bps": 151,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 7,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 10,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 66,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 10
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3007,
+      "points": 110,
+      "bps": 558
+    },
+    "2016": {
+      "minutesPlayed": 2723,
+      "points": 79,
+      "bps": 438
+    },
+    "id": 211,
+    "teamId": 16,
+    "name": "Cheikhou Kouyaté",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 874,
+      "points": 34,
+      "bps": 137,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 45,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 211,
+      "points": 15,
+      "bps": 46
+    },
+    "2016": {
+      "minutesPlayed": 934,
+      "points": 62,
+      "bps": 218
+    },
+    "id": 212,
+    "teamId": 15,
+    "name": "Charlie Austin",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 217,
+      "points": 28,
+      "bps": 98,
+      "last6Games": [
+        {
+          "minutesPlayed": 8,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 9,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 25,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 35,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 79,
+          "points": 13
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2558,
+      "points": 115,
+      "bps": 311
+    },
+    "2016": {
+      "minutesPlayed": 2892,
+      "points": 118,
+      "bps": 287
+    },
+    "id": 213,
+    "teamId": 17,
+    "name": "Salomón Rondón",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 698,
+      "points": 24,
+      "bps": 59,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 57,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 31,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 6
+        }
+      ]
+    },
+    "lastUpdatedGw": 13,
+    "position": "fwd"
   }
 ]
