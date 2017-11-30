@@ -5081,7 +5081,7 @@
       "points": 118,
       "bps": 287
     },
-    "id": 213,
+    "id": 220,
     "teamId": 17,
     "name": "Salomón Rondón",
     "price": 6,
@@ -9894,6 +9894,349 @@
         {
           "minutesPlayed": 0,
           "points": 0
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3240,
+      "points": 123,
+      "bps": 782
+    },
+    "2016": {
+      "minutesPlayed": 3160,
+      "points": 127,
+      "bps": 739
+    },
+    "id": 212,
+    "teamId": 14,
+    "name": "Ashley Williams",
+    "price": 5.2,
+    "thisSeason": {
+      "minutesPlayed": 843,
+      "points": 27,
+      "bps": 160,
+      "last6Games": [
+        {
+          "minutesPlayed": 45,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 63,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 12
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 62,
+      "points": 10,
+      "bps": 30
+    },
+    "2016": {
+      "minutesPlayed": 13,
+      "points": 1,
+      "bps": 2
+    },
+    "id": 213,
+    "teamId": 14,
+    "name": "Jonjoe Kenny",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 554,
+      "points": 15,
+      "bps": 131,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 11
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2691,
+      "points": 93,
+      "bps": 503
+    },
+    "2016": {
+      "minutesPlayed": 3417,
+      "points": 86,
+      "bps": 568
+    },
+    "id": 219,
+    "teamId": 20,
+    "name": "Joel Ward",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1124,
+      "points": 22,
+      "bps": 180,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 59,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 75,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 4
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 6
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1387,
+      "points": 52,
+      "bps": 285
+    },
+    "2016": {
+      "minutesPlayed": 1139,
+      "points": 47,
+      "bps": 237
+    },
+    "id": 215,
+    "teamId": 20,
+    "name": "Jeffrey Schlupp",
+    "price": 4.7,
+    "thisSeason": {
+      "minutesPlayed": 957,
+      "points": 20,
+      "bps": 116,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 6
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2599,
+      "points": 160,
+      "bps": 521
+    },
+    "2016": {
+      "minutesPlayed": 2242,
+      "points": 156,
+      "bps": 502
+    },
+    "id": 216,
+    "teamId": 4,
+    "name": "Sadio Mané",
+    "price": 9.3,
+    "thisSeason": {
+      "minutesPlayed": 88,
+      "points": 13,
+      "bps": 42,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 76,
+          "points": 10
+        },
+        {
+          "minutesPlayed": 73,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 1,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 88,
+          "points": 13
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3022,
+      "points": 108,
+      "bps": 695
+    },
+    "2016": {
+      "minutesPlayed": 3138,
+      "points": 83,
+      "bps": 554
+    },
+    "id": 217,
+    "teamId": 10,
+    "name": "N'Golo Kanté",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 976,
+      "points": 40,
+      "bps": 243,
+      "last6Games": [
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 76,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 8
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1612,
+      "points": 45,
+      "bps": 293
+    },
+    "2016": {
+      "minutesPlayed": 3071,
+      "points": 80,
+      "bps": 566
+    },
+    "id": 218,
+    "teamId": 15,
+    "name": "Oriol Romeu Vidal",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1124,
+      "points": 31,
+      "bps": 207,
+      "last6Games": [
+        {
+          "minutesPlayed": 66,
+          "points": 3
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 2
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 1
+        },
+        {
+          "minutesPlayed": 0,
+          "points": 0
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7
         }
       ]
     },
