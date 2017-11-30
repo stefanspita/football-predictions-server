@@ -3857,6 +3857,7 @@
       "bps": 555
     },
     "id": 118,
+    "owned": true,
     "teamId": 12,
     "name": "Jamie Vardy",
     "price": 8.5,
@@ -3953,7 +3954,6 @@
       "bps": 639
     },
     "id": 115,
-    "owned": true,
     "teamId": 4,
     "name": "Roberto Firmino",
     "price": 8.5,
