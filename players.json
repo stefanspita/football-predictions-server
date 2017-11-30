@@ -10242,5 +10242,49 @@
     },
     "lastUpdatedGw": 14,
     "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 33,
+      "points": 3,
+      "bps": 5
+    },
+    "id": 221,
+    "teamId": 4,
+    "name": "Mohamed Salah",
+    "price": 9.8,
+    "thisSeason": {
+      "minutesPlayed": 1041,
+      "points": 108,
+      "bps": 307,
+      "last6Games": [
+        {
+          "minutesPlayed": 90,
+          "points": 7
+        },
+        {
+          "minutesPlayed": 80,
+          "points": 4
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 15
+        },
+        {
+          "minutesPlayed": 79,
+          "points": 16
+        },
+        {
+          "minutesPlayed": 90,
+          "points": 7
+        },
+        {
+          "minutesPlayed": 23,
+          "points": 13
+        }
+      ]
+    },
+    "lastUpdatedGw": 14,
+    "position": "mid"
   }
 ]
