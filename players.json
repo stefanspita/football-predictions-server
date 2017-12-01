@@ -54,6 +54,7 @@
   {
     "id": 26,
     "teamId": 3,
+    "owned": true,
     "name": "Sead Kolasinac",
     "price": 6.1,
     "thisSeason": {
@@ -361,7 +362,6 @@
       "bps": 362
     },
     "id": 24,
-    "owned": true,
     "teamId": 8,
     "name": "Phil Jones",
     "price": 5.4,
@@ -619,7 +619,6 @@
       "bps": 202
     },
     "id": 28,
-    "owned": true,
     "teamId": 2,
     "name": "Kieran Trippier",
     "price": 5.7,
@@ -1595,6 +1594,7 @@
     },
     "id": 62,
     "teamId": 4,
+    "owned": true,
     "name": "Alberto Moreno",
     "price": 4.6,
     "thisSeason": {
