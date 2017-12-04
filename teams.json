@@ -3,13 +3,13 @@
     "id": 1,
     "name": "Manchester City",
     "fixtures": [
-      2,
       4,
       2,
       4,
+      2,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 2,
@@ -17,23 +17,23 @@
     "fixtures": [
       2,
       2,
-      2,
       5,
-      3
+      3,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 3,
     "name": "Arsenal",
     "fixtures": [
+      2,
+      2,
+      2,
       4,
-      2,
-      2,
-      2,
-      4
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 4,
@@ -42,70 +42,70 @@
       2,
       2,
       2,
-      2,
-      4
+      4,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 5,
     "name": "Stoke",
     "fixtures": [
-      2,
       4,
       3,
       2,
+      2,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 6,
     "name": "Watford",
     "fixtures": [
-      4,
       3,
+      2,
       2,
       2,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 7,
     "name": "Swansea",
     "fixtures": [
       2,
-      2,
       5,
       3,
-      2
+      2,
+      4
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 8,
     "name": "Manchester United",
     "fixtures": [
-      4,
       5,
       2,
       2,
-      3
+      3,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 9,
     "name": "Burnley",
     "fixtures": [
-      3,
       2,
       2,
       2,
+      4,
       4
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 10,
@@ -114,22 +114,22 @@
       2,
       2,
       2,
-      2,
-      3
+      3,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 11,
     "name": "Brighton",
     "fixtures": [
-      4,
       2,
       4,
       2,
-      2
+      2,
+      4
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 12,
@@ -138,94 +138,94 @@
       2,
       2,
       2,
-      2,
-      4
+      4,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 13,
     "name": "Bournemouth",
     "fixtures": [
       2,
-      2,
       4,
       4,
-      5
+      5,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 14,
     "name": "Everton",
     "fixtures": [
-      2,
       4,
       2,
       2,
-      4
+      4,
+      2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 15,
     "name": "Southampton",
     "fixtures": [
-      2,
       4,
       2,
       4,
-      2
+      2,
+      4
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 16,
     "name": "West Ham",
     "fixtures": [
-      5,
       4,
       4,
       2,
+      2,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 17,
     "name": "West Bromwhich",
     "fixtures": [
       2,
+      4,
+      4,
       2,
-      4,
-      4,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 18,
     "name": "Huddersfield",
     "fixtures": [
-      3,
       2,
       4,
       2,
+      2,
       2
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 19,
     "name": "Newcastle",
     "fixtures": [
-      4,
       2,
       2,
       4,
-      2
+      2,
+      5
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   },
   {
     "id": 20,
@@ -233,10 +233,10 @@
     "fixtures": [
       2,
       2,
-      2,
       3,
-      2
+      2,
+      4
     ],
-    "lastUpdatedGw": 14
+    "lastUpdatedGw": 15
   }
 ]
