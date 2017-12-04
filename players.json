@@ -5093,52 +5093,6 @@
     "position": "fwd"
   },
   {
-    "2016": {
-      "minutesPlayed": 2064,
-      "points": 121,
-      "bps": 394
-    },
-    "id": 137,
-    "teamId": 9,
-    "name": "Sam Vokes",
-    "price": 5.8,
-    "thisSeason": {
-      "minutesPlayed": 399,
-      "points": 30,
-      "bps": 98,
-      "last6Games": [
-        {
-          "minutesPlayed": 0,
-          "points": 0,
-          "priceChange": -0.1
-        },
-        {
-          "minutesPlayed": 25,
-          "points": 8,
-          "priceChange": 0
-        },
-        {
-          "minutesPlayed": 10,
-          "points": 1
-        },
-        {
-          "minutesPlayed": 0,
-          "points": 0
-        },
-        {
-          "minutesPlayed": 1,
-          "points": 0
-        },
-        {
-          "minutesPlayed": 16,
-          "points": 1
-        }
-      ]
-    },
-    "lastUpdatedGw": 15,
-    "position": "fwd"
-  },
-  {
     "id": 128,
     "teamId": 11,
     "name": "Tomer Hemed",
