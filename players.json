@@ -10112,9 +10112,9 @@
     "name": "Sadio Mané",
     "price": 9.3,
     "thisSeason": {
-      "minutesPlayed": 88,
-      "points": 13,
-      "bps": 42,
+      "minutesPlayed": 600,
+      "points": 49,
+      "bps": 175,
       "last6Games": [
         {
           "minutesPlayed": 0,
