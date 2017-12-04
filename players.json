@@ -6523,7 +6523,6 @@
       "bps": 343
     },
     "id": 63,
-    "owned": true,
     "teamId": 1,
     "name": "Leroy Sané",
     "price": 9,
@@ -7763,6 +7762,7 @@
       "bps": 631
     },
     "id": 92,
+    "owned": true,
     "teamId": 4,
     "name": "Philippe Coutinho",
     "price": 8.8,
