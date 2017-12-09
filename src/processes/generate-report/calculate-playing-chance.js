@@ -1,4 +1,4 @@
-const {__, compose, divide, multiply, path, pluck, sum} = require("ramda")
+const {__, compose, divide, multiply, path, sum} = require("ramda")
 const {PLAYING_CHANCE_GROUPS} = require("./rules")
 const {findGradeDescending} = require("./utils")
 
@@ -7,8 +7,7 @@ module.exports = function calculatePlayingChance(player) {
     multiply(100),
     divide(__, 90 * 6),
     sum,
-    pluck("minutesPlayed"),
-    path(["thisSeason", "last6Games"])
+    path(["thisSeason", "last6GamesMinutes"])
   )(player)
   const playingChance_grade = findGradeDescending(playingChance, PLAYING_CHANCE_GROUPS)
 

@@ -28,10 +28,8 @@ function updatePlayerData(playersCollection, player) {
     },
   }).then(() => {
     if (player.injured) return true // if a player hasn't played because of injury, it shouldn't affect his numbers
-
-    const lastGame = pick(["minutesPlayed", "points"], player)
-    return playersCollection.updateOne({id: player.id}, {$pop: {"thisSeason.last6Games": -1}}).then(() => {
-      return playersCollection.updateOne({id: player.id}, {$push: {"thisSeason.last6Games": lastGame}})
+    return playersCollection.updateOne({id: player.id}, {$pop: {"thisSeason.last6GamesMinutes": -1}}).then(() => {
+      return playersCollection.updateOne({id: player.id}, {$push: {"thisSeason.last6GamesMinutes": player.minutesPlayed}})
     })
   })
 }
