@@ -34,7 +34,7 @@ function generateReport(teams, playersCollection, reportType) {
         const grade = compose(
           sum,
           values,
-          pick(["fixtureDifficulty_3_grade", "fixtureDifficulty_5_grade", "rating_grade", "playingChance_grade"])
+          pick(["fixtureDifficulty_3_grade", "fixtureDifficulty_5_grade", "rating_grade", "playingChance_grade", "confidence_grade"])
         )(report)
 
         return compose(
