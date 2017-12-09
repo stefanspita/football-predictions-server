@@ -1,7 +1,7 @@
 const Promise = require("bluebird")
 const json2csv = require("json2csv")
 const fs = require("fs-extra")
-const {assoc, compose, converge, descend, dissoc, find, keys, merge, mergeAll, pick, prop, propEq, sort} = require("ramda")
+const {assoc, compose, converge, descend, find, keys, merge, mergeAll, pick, prop, propEq, sortWith} = require("ramda")
 const getDb = require("../../init/db")
 const reportTypes = require("./report-types")
 const calculatePlayerRatings = require("./calculate-player-ratings")
@@ -30,16 +30,18 @@ function generateReport(teams, playersCollection, reportType) {
     .then((playerReports) => {
       return Promise.map(playerReports, (report) => {
         return compose(
-          dissoc("playingChance"),
+          assoc("grade", report.fixtureDifficulty_3_grade + report.fixtureDifficulty_5_grade),
+          assoc("overallRating", round(report.rating * report.playingChance / 100)),
           assoc("owned", report.owned ? "owned" : ""),
-          assoc("rating", report.rating.toFixed(2)),
-          assoc("confidence", report.confidence.toFixed(2)),
-          assoc("overallRating", round(report.rating * report.playingChance / 100))
+          pick(["name", "price", "position"])
         )(report)
       })
     })
     .then((playerReports) => {
-      return sort(descend(prop("overallRating")), playerReports)
+      return sortWith([
+        descend(prop("grade")),
+        descend(prop("overallRating")),
+      ], playerReports)
     })
     .then((finalReport) => {
       const fields = keys(finalReport[0])
