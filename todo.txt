@@ -1,2 +1,1 @@
-- give recommandations based on price, fixture difficulty, overallRating and confidence
-  - reduce each value to a rating of 1 to 5 and show top picks
+- revert back to "last6Games" minutes
