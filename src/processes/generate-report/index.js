@@ -29,8 +29,10 @@ function generateReport(teams, playersCollection, reportType) {
     })
     .then((playerReports) => {
       return Promise.map(playerReports, (report) => {
+        const grade = report.fixtureDifficulty_3_grade + report.fixtureDifficulty_5_grade + report.rating_grade
+
         return compose(
-          assoc("grade", report.fixtureDifficulty_3_grade + report.fixtureDifficulty_5_grade),
+          assoc("grade", grade),
           assoc("overallRating", round(report.rating * report.playingChance / 100)),
           assoc("owned", report.owned ? "owned" : ""),
           pick(["name", "price", "position"])
