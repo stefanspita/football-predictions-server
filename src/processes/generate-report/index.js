@@ -10,6 +10,7 @@ const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
+const calculatePriceGrade = require("./calculate-price-grade")
 
 function round(value) {
   return Number(Math.round(value + "e" + 2) + "e-" + 2)
@@ -24,7 +25,7 @@ function generateReport(teams, playersCollection, reportType) {
           merge(pick(["id", "name", "price", "position", "owned"], player)),
           converge(
             (...reports) => mergeAll(reports),
-            [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty]
+            [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
           )
         )(player, team)
       })
@@ -34,7 +35,7 @@ function generateReport(teams, playersCollection, reportType) {
         const grade = compose(
           sum,
           values,
-          pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade"])
+          pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade"])
         )(report)
 
         return compose(
