@@ -725,6 +725,7 @@
   },
   {
     "id": 50,
+    "owned": true,
     "teamId": 6,
     "name": "Francisco Femenía Far",
     "price": 4.6,
@@ -1043,7 +1044,7 @@
     },
     "id": 62,
     "teamId": 4,
-    "owned": true,
+    "owned": false,
     "name": "Alberto Moreno",
     "price": 4.7,
     "thisSeason": {
