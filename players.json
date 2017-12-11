@@ -5978,5 +5978,344 @@
     },
     "lastUpdatedGw": 16,
     "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2880,
+      "points": 125,
+      "bps": 609
+    },
+    "2016": {
+      "minutesPlayed": 1440,
+      "points": 64,
+      "bps": 311
+    },
+    "id": 240,
+    "owned": false,
+    "teamId": 16,
+    "name": "Adrián San Miguel del Castillo",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 180,
+      "points": 7,
+      "bps": 39,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 180,
+      "points": 5,
+      "bps": 32
+    },
+    "id": 241,
+    "owned": false,
+    "teamId": 20,
+    "name": "Julian Speroni",
+    "price": 4.1,
+    "thisSeason": {
+      "minutesPlayed": 630,
+      "points": 23,
+      "bps": 113,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3150,
+      "points": 130,
+      "bps": 604
+    },
+    "2016": {
+      "minutesPlayed": 1752,
+      "points": 61,
+      "bps": 310
+    },
+    "id": 242,
+    "teamId": 20,
+    "name": "Scott Dann",
+    "price": 4.7,
+    "thisSeason": {
+      "minutesPlayed": 1055,
+      "points": 65,
+      "bps": 147,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        0,
+        0,
+        65
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1062,
+      "points": 41,
+      "bps": 229
+    },
+    "2016": {
+      "minutesPlayed": 1065,
+      "points": 41,
+      "bps": 230
+    },
+    "id": 243,
+    "teamId": 16,
+    "name": "Pablo Zabaleta",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 1321,
+      "points": 36,
+      "bps": 237,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "def"
+  },
+  {
+    "id": 244,
+    "teamId": 18,
+    "name": "Tommy Smith",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1114,
+      "points": 32,
+      "bps": 186,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 662,
+      "points": 16,
+      "bps": 125
+    },
+    "id": 245,
+    "teamId": 7,
+    "name": "Mike van der Hoorn",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 639,
+      "points": 29,
+      "bps": 150,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 972,
+      "points": 34,
+      "bps": 253
+    },
+    "id": 246,
+    "teamId": 16,
+    "name": "Arthur Masuaku",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 621,
+      "points": 20,
+      "bps": 135,
+      "last6GamesMinutes": [
+        0,
+        16,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3202,
+      "points": 91,
+      "bps": 372
+    },
+    "2016": {
+      "minutesPlayed": 2103,
+      "points": 69,
+      "bps": 253
+    },
+    "id": 247,
+    "teamId": 9,
+    "name": "Scott Arfield",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 645,
+      "points": 31,
+      "bps": 92,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        59,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2808,
+      "points": 165,
+      "bps": 573
+    },
+    "2016": {
+      "minutesPlayed": 2713,
+      "points": 117,
+      "bps": 401
+    },
+    "id": 248,
+    "teamId": 16,
+    "name": "Marko Arnautovic",
+    "price": 6.8,
+    "thisSeason": {
+      "minutesPlayed": 657,
+      "points": 20,
+      "bps": 71,
+      "last6GamesMinutes": [
+        29,
+        73,
+        68,
+        61,
+        21,
+        68
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "mid"
+  },
+  {
+    "id": 249,
+    "teamId": 19,
+    "name": "Mikel Merino",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 883,
+      "points": 34,
+      "bps": 203,
+      "last6GamesMinutes": [
+        0,
+        0,
+        21,
+        90,
+        84,
+        90
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2689,
+      "points": 105,
+      "bps": 562
+    },
+    "2016": {
+      "minutesPlayed": 2125,
+      "points": 91,
+      "bps": 411
+    },
+    "id": 250,
+    "teamId": 20,
+    "name": "Yohan Cabaye",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 1016,
+      "points": 34,
+      "bps": 209,
+      "last6GamesMinutes": [
+        90,
+        84,
+        90,
+        65,
+        0,
+        64
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 211,
+      "points": 15,
+      "bps": 46
+    },
+    "2016": {
+      "minutesPlayed": 934,
+      "points": 62,
+      "bps": 218
+    },
+    "id": 251,
+    "teamId": 15,
+    "name": "Charlie Austin",
+    "price": 6.1,
+    "thisSeason": {
+      "minutesPlayed": 399,
+      "points": 43,
+      "bps": 148,
+      "last6GamesMinutes": [
+        25,
+        35,
+        79,
+        7,
+        90,
+        85
+      ]
+    },
+    "lastUpdatedGw": 16,
+    "position": "fwd"
   }
 ]
