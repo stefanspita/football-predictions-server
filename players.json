@@ -1042,32 +1042,6 @@
     "position": "def"
   },
   {
-    "2016": {
-      "minutesPlayed": 2058,
-      "points": 105,
-      "bps": 542
-    },
-    "id": 31,
-    "teamId": 8,
-    "name": "Eric Bailly",
-    "price": 6,
-    "thisSeason": {
-      "minutesPlayed": 720,
-      "points": 46,
-      "bps": 198,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        90,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 17,
-    "position": "def"
-  },
-  {
     "2015": {
       "minutesPlayed": 1155,
       "points": 44,
@@ -1433,37 +1407,6 @@
   },
   {
     "2015": {
-      "minutesPlayed": 1854,
-      "points": 65,
-      "bps": 442
-    },
-    "2016": {
-      "minutesPlayed": 686,
-      "points": 35,
-      "bps": 155
-    },
-    "id": 208,
-    "teamId": 20,
-    "name": "Mamadou Sakho",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 834,
-      "points": 40,
-      "bps": 210,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        24
-      ]
-    },
-    "lastUpdatedGw": 17,
-    "position": "def"
-  },
-  {
-    "2015": {
       "minutesPlayed": 1965,
       "points": 86,
       "bps": 506
@@ -1518,37 +1461,6 @@
         0,
         0,
         1,
-        90
-      ]
-    },
-    "lastUpdatedGw": 17,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3420,
-      "points": 166,
-      "bps": 822
-    },
-    "2016": {
-      "minutesPlayed": 2601,
-      "points": 120,
-      "bps": 611
-    },
-    "id": 38,
-    "teamId": 2,
-    "name": "Toby Alderweireld",
-    "price": 5.8,
-    "thisSeason": {
-      "minutesPlayed": 900,
-      "points": 38,
-      "bps": 200,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
         90
       ]
     },
@@ -4698,37 +4610,6 @@
         5,
         90,
         57
-      ]
-    },
-    "lastUpdatedGw": 17,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2984,
-      "points": 111,
-      "bps": 577
-    },
-    "2016": {
-      "minutesPlayed": 719,
-      "points": 39,
-      "bps": 143
-    },
-    "id": 97,
-    "teamId": 9,
-    "name": "Robbie Brady",
-    "price": 5.5,
-    "thisSeason": {
-      "minutesPlayed": 1277,
-      "points": 56,
-      "bps": 216,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        30
       ]
     },
     "lastUpdatedGw": 17,
