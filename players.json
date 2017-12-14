@@ -6199,5 +6199,207 @@
     },
     "lastUpdatedGw": 17,
     "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 810,
+      "points": 41,
+      "bps": 179
+    },
+    "id": 260,
+    "teamId": 19,
+    "name": "Karl Darlow",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 360,
+      "points": 9,
+      "bps": 58,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2751,
+      "points": 79,
+      "bps": 527
+    },
+    "2016": {
+      "minutesPlayed": 1614,
+      "points": 50,
+      "bps": 261
+    },
+    "id": 261,
+    "teamId": 6,
+    "name": "Daryl Janmaat",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 315,
+      "points": 18,
+      "bps": 70,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 270,
+      "points": 3,
+      "bps": 39
+    },
+    "id": 262,
+    "teamId": 9,
+    "name": "Kevin Long",
+    "price": 3.9,
+    "thisSeason": {
+      "minutesPlayed": 180,
+      "points": 15,
+      "bps": 54,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 817,
+      "points": 20,
+      "bps": 149
+    },
+    "2016": {
+      "minutesPlayed": 1168,
+      "points": 27,
+      "bps": 174
+    },
+    "id": 263,
+    "teamId": 9,
+    "name": "Phil Bardsley",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 360,
+      "points": 14,
+      "bps": 76,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2185,
+      "points": 71,
+      "bps": 385
+    },
+    "2016": {
+      "minutesPlayed": 1999,
+      "points": 93,
+      "bps": 363
+    },
+    "id": 264,
+    "teamId": 20,
+    "name": "James McArthur",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 719,
+      "points": 33,
+      "bps": 120,
+      "last6GamesMinutes": [
+        74,
+        45,
+        24,
+        90,
+        25,
+        13
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1538,
+      "points": 80,
+      "bps": 319
+    },
+    "2016": {
+      "minutesPlayed": 509,
+      "points": 22,
+      "bps": 104
+    },
+    "id": 265,
+    "teamId": 14,
+    "name": "Aaron Lennon",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 485,
+      "points": 23,
+      "bps": 56,
+      "last6GamesMinutes": [
+        75,
+        90,
+        88,
+        70,
+        45,
+        60
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 494,
+      "points": 30,
+      "bps": 141
+    },
+    "id": 266,
+    "teamId": 2,
+    "name": "Harry Winks",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 672,
+      "points": 28,
+      "bps": 149,
+      "last6GamesMinutes": [
+        28,
+        60,
+        0,
+        4,
+        77,
+        66
+      ]
+    },
+    "lastUpdatedGw": 17,
+    "position": "mid"
   }
 ]
