@@ -3339,37 +3339,6 @@
   },
   {
     "2015": {
-      "minutesPlayed": 2418,
-      "points": 88,
-      "bps": 231
-    },
-    "2016": {
-      "minutesPlayed": 1774,
-      "points": 81,
-      "bps": 241
-    },
-    "id": 205,
-    "teamId": 9,
-    "name": "Ashley Barnes",
-    "price": 5.2,
-    "thisSeason": {
-      "minutesPlayed": 591,
-      "points": 28,
-      "bps": 90,
-      "last6GamesMinutes": [
-        90,
-        4,
-        24,
-        30,
-        19,
-        22
-      ]
-    },
-    "lastUpdatedGw": 18,
-    "position": "fwd"
-  },
-  {
-    "2015": {
       "minutesPlayed": 3060,
       "points": 142,
       "bps": 613
