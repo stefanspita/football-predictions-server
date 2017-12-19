@@ -158,7 +158,6 @@
   {
     "id": 26,
     "teamId": 3,
-    "owned": true,
     "name": "Sead Kolasinac",
     "price": 6.2,
     "thisSeason": {
@@ -366,6 +365,7 @@
       "bps": 723
     },
     "id": 191,
+    "owned": true,
     "teamId": 3,
     "name": "Laurent Koscielny",
     "price": 6,
@@ -907,7 +907,6 @@
   },
   {
     "id": 50,
-    "owned": true,
     "teamId": 6,
     "name": "Francisco Femenía Far",
     "price": 4.6,
@@ -1956,6 +1955,7 @@
       "bps": 253
     },
     "id": 246,
+    "owned": true,
     "teamId": 16,
     "name": "Arthur Masuaku",
     "price": 4.4,
