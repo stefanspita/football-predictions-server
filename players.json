@@ -5597,7 +5597,7 @@
     },
     "id": 101,
     "teamId": 7,
-    "name": "Tom Caroll",
+    "name": "Tom Carroll",
     "price": 4.4,
     "thisSeason": {
       "minutesPlayed": 1343,
@@ -6366,6 +6366,161 @@
         90,
         23,
         90
+      ]
+    },
+    "lastUpdatedGw": 18,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1526,
+      "points": 45,
+      "bps": 282
+    },
+    "2016": {
+      "minutesPlayed": 2736,
+      "points": 73,
+      "bps": 488
+    },
+    "id": 270,
+    "teamId": 4,
+    "name": "Andrew Robertson",
+    "price": 4.6,
+    "thisSeason": {
+      "minutesPlayed": 540,
+      "points": 30,
+      "bps": 130,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 18,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1961,
+      "points": 70,
+      "bps": 426
+    },
+    "2016": {
+      "minutesPlayed": 1974,
+      "points": 75,
+      "bps": 359
+    },
+    "id": 271,
+    "teamId": 20,
+    "name": "James Tomkins",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 682,
+      "points": 21,
+      "bps": 135,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 18,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2889,
+      "points": 145,
+      "bps": 599
+    },
+    "2016": {
+      "minutesPlayed": 1614,
+      "points": 102,
+      "bps": 457
+    },
+    "id": 272,
+    "teamId": 8,
+    "name": "Juan Mata",
+    "price": 6.8,
+    "thisSeason": {
+      "minutesPlayed": 822,
+      "points": 48,
+      "bps": 198,
+      "last6GamesMinutes": [
+        61,
+        0,
+        0,
+        8,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 18,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 756,
+      "points": 24,
+      "bps": 151
+    },
+    "2016": {
+      "minutesPlayed": 2405,
+      "points": 95,
+      "bps": 429
+    },
+    "id": 273,
+    "teamId": 7,
+    "name": "Leroy Fer",
+    "price": 5.2,
+    "thisSeason": {
+      "minutesPlayed": 1102,
+      "points": 33,
+      "bps": 159,
+      "last6GamesMinutes": [
+        19,
+        45,
+        84,
+        0,
+        16,
+        90
+      ]
+    },
+    "lastUpdatedGw": 18,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1529,
+      "points": 104,
+      "bps": 329
+    },
+    "2016": {
+      "minutesPlayed": 3131,
+      "points": 136,
+      "bps": 382
+    },
+    "id": 274,
+    "teamId": 20,
+    "name": "Christian Benteke",
+    "price": 7.6,
+    "thisSeason": {
+      "minutesPlayed": 1028,
+      "points": 27,
+      "bps": 23,
+      "last6GamesMinutes": [
+        45,
+        90,
+        90,
+        90,
+        90,
+        87
       ]
     },
     "lastUpdatedGw": 18,
