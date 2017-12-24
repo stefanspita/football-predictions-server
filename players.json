@@ -6525,5 +6525,88 @@
     },
     "lastUpdatedGw": 19,
     "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1850,
+      "points": 65,
+      "bps": 445
+    },
+    "2016": {
+      "minutesPlayed": 2251,
+      "points": 104,
+      "bps": 533
+    },
+    "id": 280,
+    "teamId": 14,
+    "name": "Phil Jagielka",
+    "price": 4.7,
+    "thisSeason": {
+      "minutesPlayed": 994,
+      "points": 26,
+      "bps": 205,
+      "last6GamesMinutes": [
+        0,
+        0,
+        7,
+        5,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 19,
+    "position": "def"
+  },
+  {
+    "id": 281,
+    "teamId": 15,
+    "name": "Wesley Hoedt",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 900,
+      "points": 24,
+      "bps": 182,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 19,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 463,
+      "points": 18,
+      "bps": 42
+    },
+    "2016": {
+      "minutesPlayed": 1343,
+      "points": 79,
+      "bps": 262
+    },
+    "id": 282,
+    "teamId": 5,
+    "name": "Peter Crouch",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 663,
+      "points": 41,
+      "bps": 141,
+      "last6GamesMinutes": [
+        90,
+        90,
+        20,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 19,
+    "position": "fwd"
   }
 ]
