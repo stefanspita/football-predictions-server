@@ -4304,7 +4304,6 @@
       "bps": 631
     },
     "id": 92,
-    "owned": true,
     "teamId": 4,
     "name": "Philippe Coutinho",
     "price": 9,
@@ -4415,6 +4414,7 @@
       "bps": 226
     },
     "id": 72,
+    "owned": true,
     "teamId": 6,
     "name": "Abdoulaye Doucouré",
     "price": 5.3,
