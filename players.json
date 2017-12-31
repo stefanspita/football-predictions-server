@@ -6540,5 +6540,83 @@
     },
     "lastUpdatedGw": 21,
     "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1764,
+      "points": 100,
+      "bps": 345
+    },
+    "id": 291,
+    "teamId": 13,
+    "name": "Ryan Fraser",
+    "price": 5.1,
+    "thisSeason": {
+      "minutesPlayed": 867,
+      "points": 43,
+      "bps": 161,
+      "last6GamesMinutes": [
+        86,
+        90,
+        45,
+        90,
+        85,
+        90
+      ]
+    },
+    "lastUpdatedGw": 21,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3071,
+      "points": 74,
+      "bps": 603
+    },
+    "2016": {
+      "minutesPlayed": 2681,
+      "points": 80,
+      "bps": 540
+    },
+    "id": 292,
+    "teamId": 14,
+    "name": "Idrissa Gueye",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1669,
+      "points": 44,
+      "bps": 311,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        50,
+        0,
+        70
+      ]
+    },
+    "lastUpdatedGw": 21,
+    "position": "mid"
+  },
+  {
+    "id": 293,
+    "teamId": 6,
+    "name": "André Carrillo",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1152,
+      "points": 48,
+      "bps": 210,
+      "last6GamesMinutes": [
+        78,
+        70,
+        90,
+        90,
+        89,
+        82
+      ]
+    },
+    "lastUpdatedGw": 21,
+    "position": "mid"
   }
 ]
