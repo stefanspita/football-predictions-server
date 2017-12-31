@@ -6608,5 +6608,31 @@
     },
     "lastUpdatedGw": 20,
     "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 167,
+      "points": 8,
+      "bps": 32
+    },
+    "id": 290,
+    "teamId": 4,
+    "name": "Trent Alexander-Arnold",
+    "price": 4.2,
+    "thisSeason": {
+      "minutesPlayed": 619,
+      "points": 31,
+      "bps": 158,
+      "last6GamesMinutes": [
+        90,
+        0,
+        79,
+        0,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 20,
+    "position": "def"
   }
 ]
