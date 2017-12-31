@@ -1395,38 +1395,6 @@
   },
   {
     "2015": {
-      "minutesPlayed": 2547,
-      "points": 104,
-      "bps": 565
-    },
-    "2016": {
-      "minutesPlayed": 305,
-      "points": 15,
-      "bps": 79
-    },
-    "id": 62,
-    "teamId": 4,
-    "owned": false,
-    "name": "Alberto Moreno",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 1080,
-      "points": 44,
-      "bps": 287,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 20,
-    "position": "def"
-  },
-  {
-    "2015": {
       "minutesPlayed": 3420,
       "points": 139,
       "bps": 653
@@ -1860,37 +1828,6 @@
         90,
         90,
         74
-      ]
-    },
-    "lastUpdatedGw": 20,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1479,
-      "points": 67,
-      "bps": 337
-    },
-    "2016": {
-      "minutesPlayed": 2819,
-      "points": 135,
-      "bps": 647
-    },
-    "id": 168,
-    "teamId": 14,
-    "name": "Leighton Baines",
-    "price": 5.7,
-    "thisSeason": {
-      "minutesPlayed": 1099,
-      "points": 36,
-      "bps": 189,
-      "last6GamesMinutes": [
-        83,
-        90,
-        90,
-        90,
-        90,
-        26
       ]
     },
     "lastUpdatedGw": 20,
@@ -3254,37 +3191,6 @@
         23,
         75,
         28
-      ]
-    },
-    "lastUpdatedGw": 20,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2550,
-      "points": 138,
-      "bps": 482
-    },
-    "2016": {
-      "minutesPlayed": 3322,
-      "points": 166,
-      "bps": 529
-    },
-    "id": 138,
-    "teamId": 13,
-    "name": "Jermain Defoe",
-    "price": 7.6,
-    "thisSeason": {
-      "minutesPlayed": 787,
-      "points": 41,
-      "bps": 129,
-      "last6GamesMinutes": [
-        0,
-        26,
-        68,
-        79,
-        19,
-        90
       ]
     },
     "lastUpdatedGw": 20,
