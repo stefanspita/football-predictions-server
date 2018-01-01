@@ -135,7 +135,6 @@
       "bps": 681
     },
     "id": 25,
-    "owned": true,
     "teamId": 3,
     "name": "Nacho Monreal",
     "price": 5.7,
@@ -198,6 +197,7 @@
       "bps": 362
     },
     "id": 24,
+    "owned": true,
     "teamId": 8,
     "name": "Phil Jones",
     "price": 5.6,
@@ -4144,7 +4144,6 @@
       "bps": 825
     },
     "id": 68,
-    "owned": true,
     "teamId": 1,
     "name": "Kevin De Bruyne",
     "price": 10.3,
@@ -4207,6 +4206,7 @@
       "bps": 798
     },
     "id": 64,
+    "owned": true,
     "teamId": 2,
     "name": "Christian Eriksen",
     "price": 9.3,
