@@ -448,7 +448,6 @@
       "bps": 111
     },
     "id": 152,
-    "owned": true,
     "teamId": 9,
     "name": "James Tarkowski",
     "price": 4.7,
@@ -756,6 +755,7 @@
       "bps": 98
     },
     "id": 47,
+    "owned": true,
     "teamId": 4,
     "name": "Joseph Gomez",
     "price": 4.7,
@@ -2546,6 +2546,7 @@
       "bps": 920
     },
     "id": 109,
+    "owned": true,
     "teamId": 2,
     "name": "Harry Kane",
     "price": 12.9,
@@ -2692,7 +2693,6 @@
   },
   {
     "id": 112,
-    "owned": true,
     "teamId": 10,
     "name": "Alvaro Morata",
     "price": 10.6,
@@ -3998,7 +3998,6 @@
       "bps": 32
     },
     "id": 241,
-    "owned": false,
     "teamId": 20,
     "name": "Julian Speroni",
     "price": 4.1,
@@ -4030,7 +4029,6 @@
       "bps": 311
     },
     "id": 240,
-    "owned": false,
     "teamId": 16,
     "name": "Adrián San Miguel del Castillo",
     "price": 4.3,
