@@ -18,10 +18,10 @@
       2,
       2,
       2,
-      2,
+      4,
       4
     ],
-    "lastUpdatedGw": 20
+    "lastUpdatedGw": 21
   },
   {
     "id": 3,
@@ -184,12 +184,12 @@
     "name": "West Ham",
     "fixtures": [
       2,
-      4,
+      2,
       2,
       2,
       2
     ],
-    "lastUpdatedGw": 20
+    "lastUpdatedGw": 21
   },
   {
     "id": 17,
