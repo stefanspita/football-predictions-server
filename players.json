@@ -6616,5 +6616,233 @@
     },
     "lastUpdatedGw": 22,
     "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 450,
+      "points": 27,
+      "bps": 135
+    },
+    "2016": {
+      "minutesPlayed": 688,
+      "points": 45,
+      "bps": 202
+    },
+    "id": 300,
+    "teamId": 8,
+    "name": "Luke Shaw",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 352,
+      "points": 19,
+      "bps": 91,
+      "last6GamesMinutes": [
+        82,
+        0,
+        0,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1811,
+      "points": 68,
+      "bps": 353
+    },
+    "id": 301,
+    "teamId": 19,
+    "name": "DeAndre Yedlin",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1535,
+      "points": 41,
+      "bps": 253,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1430,
+      "points": 38,
+      "bps": 210
+    },
+    "id": 302,
+    "teamId": 19,
+    "name": "Javier Manquillo",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1620,
+      "points": 43,
+      "bps": 224,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "def"
+  },
+  {
+    "id": 303,
+    "teamId": 8,
+    "name": "Victor Lindelöf",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 743,
+      "points": 27,
+      "bps": 166,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1088,
+      "points": 36,
+      "bps": 204
+    },
+    "2016": {
+      "minutesPlayed": 1763,
+      "points": 55,
+      "bps": 331
+    },
+    "id": 304,
+    "teamId": 16,
+    "name": "Pedro Obiang",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1378,
+      "points": 49,
+      "bps": 34,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        59,
+        45,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 142,
+      "points": 6,
+      "bps": 23
+    },
+    "2016": {
+      "minutesPlayed": 1950,
+      "points": 61,
+      "bps": 312
+    },
+    "id": 305,
+    "teamId": 3,
+    "name": "Jack Wilshere",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 626,
+      "points": 29,
+      "bps": 142,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1177,
+      "points": 61,
+      "bps": 223
+    },
+    "2016": {
+      "minutesPlayed": 1055,
+      "points": 36,
+      "bps": 133
+    },
+    "id": 306,
+    "teamId": 13,
+    "name": "Jordon Ibe",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1206,
+      "points": 43,
+      "bps": 171,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2111,
+      "points": 109,
+      "bps": 343
+    },
+    "2016": {
+      "minutesPlayed": 1262,
+      "points": 57,
+      "bps": 159
+    },
+    "id": 307,
+    "teamId": 19,
+    "name": "Shane Long",
+    "price": 5.6,
+    "thisSeason": {
+      "minutesPlayed": 929,
+      "points": 32,
+      "bps": 105,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        90,
+        79,
+        90
+      ]
+    },
+    "lastUpdatedGw": 22,
+    "position": "fwd"
   }
 ]
