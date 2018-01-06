@@ -4050,7 +4050,6 @@
       "bps": 5
     },
     "id": 221,
-    "owned": true,
     "teamId": 4,
     "name": "Mohamed Salah",
     "price": 10.1,
@@ -4401,6 +4400,7 @@
       "bps": 834
     },
     "id": 95,
+    "owned": true,
     "teamId": 3,
     "name": "Alexis Sánchez",
     "price": 11.8,
