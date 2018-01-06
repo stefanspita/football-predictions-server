@@ -2474,37 +2474,6 @@
   },
   {
     "2015": {
-      "minutesPlayed": 255,
-      "points": 3,
-      "bps": 44
-    },
-    "2016": {
-      "minutesPlayed": 562,
-      "points": 15,
-      "bps": 121
-    },
-    "id": 193,
-    "teamId": 6,
-    "name": "Adrian Mariappa",
-    "price": 4.1,
-    "thisSeason": {
-      "minutesPlayed": 1029,
-      "points": 22,
-      "bps": 148,
-      "last6GamesMinutes": [
-        90,
-        28,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
       "minutesPlayed": 812,
       "points": 33,
       "bps": 178
