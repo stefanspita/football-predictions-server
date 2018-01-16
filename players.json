@@ -15,9 +15,9 @@
     "name": "Marcos Alonso",
     "price": 7.3,
     "thisSeason": {
-      "minutesPlayed": 1889,
-      "points": 123,
-      "bps": 464,
+      "minutesPlayed": 1979,
+      "points": 131,
+      "bps": 492,
       "last6GamesMinutes": [
         90,
         90,
@@ -27,7 +27,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -46,9 +46,9 @@
     "name": "César Azpilicueta",
     "price": 7,
     "thisSeason": {
-      "minutesPlayed": 1890,
-      "points": 114,
-      "bps": 549,
+      "minutesPlayed": 1980,
+      "points": 121,
+      "bps": 576,
       "last6GamesMinutes": [
         90,
         90,
@@ -58,7 +58,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -77,9 +77,9 @@
     "name": "Nicolás Otamendi",
     "price": 6.5,
     "thisSeason": {
-      "minutesPlayed": 1870,
-      "points": 112,
-      "bps": 497,
+      "minutesPlayed": 1960,
+      "points": 111,
+      "bps": 507,
       "last6GamesMinutes": [
         90,
         90,
@@ -89,7 +89,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -106,44 +106,44 @@
     "id": 22,
     "teamId": 8,
     "name": "Antonio Valencia",
-    "price": 6.8,
+    "price": 6.7,
     "thisSeason": {
-      "minutesPlayed": 1595,
-      "points": 94,
-      "bps": 402,
+      "minutesPlayed": 1685,
+      "points": 109,
+      "bps": 443,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
-        90,
-        65
+        65,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
     "2015": {
-      "minutesPlayed": 2941,
-      "points": 121,
-      "bps": 706
+      "minutesPlayed": 3240,
+      "points": 172,
+      "bps": 871
     },
     "2016": {
-      "minutesPlayed": 2701,
-      "points": 142,
-      "bps": 640
+      "minutesPlayed": 2503,
+      "points": 119,
+      "bps": 569
     },
-    "id": 29,
-    "teamId": 1,
-    "name": "Kyle Walker",
-    "price": 6.6,
+    "id": 39,
+    "teamId": 3,
+    "name": "Héctor Bellerín",
+    "price": 6.1,
     "thisSeason": {
-      "minutesPlayed": 1653,
-      "points": 87,
-      "bps": 444,
+      "minutesPlayed": 2070,
+      "points": 93,
+      "bps": 442,
       "last6GamesMinutes": [
-        0,
+        90,
         90,
         90,
         90,
@@ -151,7 +151,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -171,9 +171,9 @@
     "name": "Phil Jones",
     "price": 5.7,
     "thisSeason": {
-      "minutesPlayed": 1433,
-      "points": 86,
-      "bps": 402,
+      "minutesPlayed": 1523,
+      "points": 92,
+      "bps": 430,
       "last6GamesMinutes": [
         90,
         90,
@@ -183,59 +183,28 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
     "2015": {
-      "minutesPlayed": 3249,
-      "points": 152,
-      "bps": 862
+      "minutesPlayed": 2941,
+      "points": 121,
+      "bps": 706
     },
     "2016": {
-      "minutesPlayed": 3153,
-      "points": 115,
-      "bps": 681
+      "minutesPlayed": 2701,
+      "points": 142,
+      "bps": 640
     },
-    "id": 25,
-    "teamId": 3,
-    "name": "Nacho Monreal",
-    "price": 5.7,
+    "id": 29,
+    "teamId": 1,
+    "name": "Kyle Walker",
+    "price": 6.6,
     "thisSeason": {
-      "minutesPlayed": 1665,
-      "points": 85,
-      "bps": 449,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        45
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3240,
-      "points": 172,
-      "bps": 871
-    },
-    "2016": {
-      "minutesPlayed": 2503,
-      "points": 119,
-      "bps": 569
-    },
-    "id": 39,
-    "teamId": 3,
-    "name": "Héctor Bellerín",
-    "price": 6,
-    "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 85,
-      "bps": 417,
+      "minutesPlayed": 1743,
+      "points": 90,
+      "bps": 464,
       "last6GamesMinutes": [
         90,
         90,
@@ -245,7 +214,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -264,9 +233,9 @@
     "name": "Harry Maguire",
     "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 80,
-      "bps": 449,
+      "minutesPlayed": 2070,
+      "points": 86,
+      "bps": 475,
       "last6GamesMinutes": [
         90,
         90,
@@ -276,7 +245,38 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3249,
+      "points": 152,
+      "bps": 862
+    },
+    "2016": {
+      "minutesPlayed": 3153,
+      "points": 115,
+      "bps": 681
+    },
+    "id": 25,
+    "teamId": 3,
+    "name": "Nacho Monreal",
+    "price": 5.6,
+    "thisSeason": {
+      "minutesPlayed": 1665,
+      "points": 85,
+      "bps": 449,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        45
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -295,40 +295,92 @@
     "name": "Ben Davies",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1243,
-      "points": 79,
-      "bps": 344,
+      "minutesPlayed": 1333,
+      "points": 85,
+      "bps": 369,
       "last6GamesMinutes": [
-        1,
         1,
         90,
         0,
         90,
-        81
+        81,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2594,
+      "points": 87,
+      "bps": 585
+    },
+    "2016": {
+      "minutesPlayed": 2894,
+      "points": 126,
+      "bps": 733
+    },
+    "id": 36,
+    "teamId": 2,
+    "name": "Jan Vertonghen",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 2039,
+      "points": 82,
+      "bps": 482,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 58,
+    "teamId": 10,
+    "name": "Antonio Rüdiger",
+    "price": 5.9,
+    "thisSeason": {
+      "minutesPlayed": 1374,
+      "points": 81,
+      "bps": 371,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        90,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
     "id": 26,
     "teamId": 3,
     "name": "Sead Kolasinac",
-    "price": 6.1,
+    "price": 5.9,
     "thisSeason": {
       "minutesPlayed": 1423,
       "points": 78,
       "bps": 344,
       "last6GamesMinutes": [
-        90,
         0,
         0,
         0,
         90,
-        36
+        36,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -354,7 +406,7 @@
         40
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -386,28 +438,18 @@
         71
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
-    "2015": {
-      "minutesPlayed": 2594,
-      "points": 87,
-      "bps": 585
-    },
-    "2016": {
-      "minutesPlayed": 2894,
-      "points": 126,
-      "bps": 733
-    },
-    "id": 36,
-    "teamId": 2,
-    "name": "Jan Vertonghen",
-    "price": 6,
+    "id": 43,
+    "teamId": 17,
+    "name": "Ahmed El-Sayed Hegazi",
+    "price": 4.5,
     "thisSeason": {
-      "minutesPlayed": 1949,
-      "points": 76,
-      "bps": 453,
+      "minutesPlayed": 2036,
+      "points": 73,
+      "bps": 407,
       "last6GamesMinutes": [
         90,
         90,
@@ -417,28 +459,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 58,
-    "teamId": 10,
-    "name": "Antonio Rüdiger",
-    "price": 5.8,
-    "thisSeason": {
-      "minutesPlayed": 1284,
-      "points": 75,
-      "bps": 346,
-      "last6GamesMinutes": [
-        90,
-        0,
-        90,
-        90,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -457,11 +478,11 @@
     "name": "Ben Mee",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1800,
-      "points": 70,
-      "bps": 356,
+      "minutesPlayed": 1890,
+      "points": 72,
+      "bps": 370,
       "last6GamesMinutes": [
-        0,
+        90,
         90,
         90,
         90,
@@ -469,7 +490,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -483,9 +504,9 @@
     "name": "James Tarkowski",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 1710,
-      "points": 69,
-      "bps": 332,
+      "minutesPlayed": 1800,
+      "points": 71,
+      "bps": 353,
       "last6GamesMinutes": [
         90,
         90,
@@ -495,7 +516,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -514,19 +535,40 @@
     "name": "Aaron Cresswell",
     "price": 5.1,
     "thisSeason": {
-      "minutesPlayed": 1659,
-      "points": 68,
-      "bps": 342,
+      "minutesPlayed": 1749,
+      "points": 69,
+      "bps": 350,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
-        90,
-        75
+        75,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 51,
+    "teamId": 11,
+    "name": "Shane Duffy",
+    "price": 4.6,
+    "thisSeason": {
+      "minutesPlayed": 1962,
+      "points": 68,
+      "bps": 396,
+      "last6GamesMinutes": [
+        90,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -549,26 +591,31 @@
       "points": 67,
       "bps": 336,
       "last6GamesMinutes": [
-        0,
         90,
         0,
         0,
         90,
+        0,
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
-    "id": 43,
-    "teamId": 17,
-    "name": "Ahmed El-Sayed Hegazi",
-    "price": 4.5,
+    "2015": {
+      "minutesPlayed": 1155,
+      "points": 44,
+      "bps": 218
+    },
+    "id": 34,
+    "teamId": 19,
+    "name": "Jamaal Lascelles",
+    "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1946,
-      "points": 66,
-      "bps": 384,
+      "minutesPlayed": 1577,
+      "points": 67,
+      "bps": 309,
       "last6GamesMinutes": [
         90,
         90,
@@ -578,7 +625,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -609,28 +656,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 51,
-    "teamId": 11,
-    "name": "Shane Duffy",
-    "price": 4.6,
-    "thisSeason": {
-      "minutesPlayed": 1872,
-      "points": 66,
-      "bps": 373,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -639,9 +665,9 @@
     "name": "Mathias Jorgensen",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1980,
+      "minutesPlayed": 2070,
       "points": 65,
-      "bps": 372,
+      "bps": 388,
       "last6GamesMinutes": [
         90,
         90,
@@ -651,7 +677,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -660,9 +686,9 @@
     "name": "Christopher Schindler",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1856,
+      "minutesPlayed": 1946,
       "points": 65,
-      "bps": 424,
+      "bps": 439,
       "last6GamesMinutes": [
         90,
         90,
@@ -672,23 +698,49 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
-    "2015": {
-      "minutesPlayed": 1155,
-      "points": 44,
-      "bps": 218
+    "2016": {
+      "minutesPlayed": 2274,
+      "points": 90,
+      "bps": 513
     },
-    "id": 34,
-    "teamId": 19,
-    "name": "Jamaal Lascelles",
-    "price": 4.6,
+    "id": 190,
+    "teamId": 3,
+    "name": "Shkodran Mustafi",
+    "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1487,
+      "minutesPlayed": 1139,
       "points": 65,
-      "bps": 295,
+      "bps": 335,
+      "last6GamesMinutes": [
+        0,
+        45,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 2430,
+      "points": 94,
+      "bps": 541
+    },
+    "id": 37,
+    "teamId": 7,
+    "name": "Alfie Mawson",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 2070,
+      "points": 65,
+      "bps": 406,
       "last6GamesMinutes": [
         90,
         90,
@@ -698,7 +750,28 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 174,
+    "teamId": 11,
+    "name": "Bruno Saltor Grau",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 1635,
+      "points": 65,
+      "bps": 336,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        90,
+        13,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -723,86 +796,13 @@
       "last6GamesMinutes": [
         90,
         90,
-        90,
         79,
         90,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 2274,
-      "points": 90,
-      "bps": 513
-    },
-    "id": 190,
-    "teamId": 3,
-    "name": "Shkodran Mustafi",
-    "price": 5.4,
-    "thisSeason": {
-      "minutesPlayed": 1049,
-      "points": 64,
-      "bps": 313,
-      "last6GamesMinutes": [
-        14,
-        0,
-        45,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 2430,
-      "points": 94,
-      "bps": 541
-    },
-    "id": 37,
-    "teamId": 7,
-    "name": "Alfie Mawson",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 64,
-      "bps": 395,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 174,
-    "teamId": 11,
-    "name": "Bruno Saltor Grau",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 1545,
-      "points": 64,
-      "bps": 319,
-      "last6GamesMinutes": [
-        0,
-        90,
-        90,
-        0,
-        90,
-        13
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -817,19 +817,19 @@
     "name": "Joseph Gomez",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 1361,
-      "points": 62,
-      "bps": 348,
+      "minutesPlayed": 1451,
+      "points": 63,
+      "bps": 368,
       "last6GamesMinutes": [
-        10,
         90,
         90,
         0,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -843,19 +843,50 @@
     "name": "Ragnar Klavan",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 1171,
-      "points": 61,
-      "bps": 300,
+      "minutesPlayed": 1172,
+      "points": 62,
+      "bps": 303,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         1,
+        90,
+        1
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 979,
+      "points": 46,
+      "bps": 127
+    },
+    "2016": {
+      "minutesPlayed": 2485,
+      "points": 105,
+      "bps": 476
+    },
+    "id": 222,
+    "teamId": 10,
+    "name": "Victor Moses",
+    "price": 6.4,
+    "thisSeason": {
+      "minutesPlayed": 1152,
+      "points": 62,
+      "bps": 241,
+      "last6GamesMinutes": [
+        81,
+        80,
+        90,
+        56,
+        55,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -874,40 +905,19 @@
     "name": "Dejan Lovren",
     "price": 5.3,
     "thisSeason": {
-      "minutesPlayed": 1295,
-      "points": 60,
-      "bps": 305,
+      "minutesPlayed": 1385,
+      "points": 61,
+      "bps": 322,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         0,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 171,
-    "teamId": 10,
-    "name": "Andreas Christensen",
-    "price": 5.6,
-    "thisSeason": {
-      "minutesPlayed": 1223,
-      "points": 59,
-      "bps": 309,
-      "last6GamesMinutes": [
-        90,
-        79,
-        90,
-        90,
-        0,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -926,19 +936,71 @@
     "name": "Nathan Ake",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1912,
-      "points": 59,
-      "bps": 364,
+      "minutesPlayed": 2002,
+      "points": 61,
+      "bps": 379,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        30,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2590,
+      "points": 96,
+      "bps": 575
+    },
+    "2016": {
+      "minutesPlayed": 2637,
+      "points": 79,
+      "bps": 478
+    },
+    "id": 227,
+    "teamId": 17,
+    "name": "Jonny Evans",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 1734,
+      "points": 61,
+      "bps": 345,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
         90,
-        30
+        83
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 171,
+    "teamId": 10,
+    "name": "Andreas Christensen",
+    "price": 5.6,
+    "thisSeason": {
+      "minutesPlayed": 1280,
+      "points": 60,
+      "bps": 316,
+      "last6GamesMinutes": [
+        79,
+        90,
+        90,
+        0,
+        90,
+        57
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -947,9 +1009,9 @@
     "name": "Lewis Dunk",
     "price": 4.5,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 59,
-      "bps": 386,
+      "minutesPlayed": 2070,
+      "points": 60,
+      "bps": 403,
       "last6GamesMinutes": [
         90,
         90,
@@ -959,7 +1021,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -979,19 +1041,19 @@
     "name": "Charlie Daniels",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 1675,
-      "points": 58,
-      "bps": 336,
+      "minutesPlayed": 1737,
+      "points": 60,
+      "bps": 344,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         55,
-        90
+        90,
+        62
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1010,9 +1072,9 @@
     "name": "Ryan Bertrand",
     "price": 5.3,
     "thisSeason": {
-      "minutesPlayed": 1705,
-      "points": 58,
-      "bps": 344,
+      "minutesPlayed": 1795,
+      "points": 59,
+      "bps": 357,
       "last6GamesMinutes": [
         90,
         90,
@@ -1022,7 +1084,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1036,19 +1098,19 @@
     "name": "Joel Matip",
     "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 1351,
-      "points": 57,
-      "bps": 324,
+      "minutesPlayed": 1441,
+      "points": 58,
+      "bps": 343,
       "last6GamesMinutes": [
-        0,
         90,
         90,
         90,
         90,
-        1
+        1,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1067,9 +1129,9 @@
     "name": "Martin Olsson",
     "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1796,
-      "points": 56,
-      "bps": 285,
+      "minutesPlayed": 1886,
+      "points": 58,
+      "bps": 296,
       "last6GamesMinutes": [
         90,
         90,
@@ -1079,38 +1141,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 979,
-      "points": 46,
-      "bps": 127
-    },
-    "2016": {
-      "minutesPlayed": 2485,
-      "points": 105,
-      "bps": 476
-    },
-    "id": 222,
-    "teamId": 10,
-    "name": "Victor Moses",
-    "price": 6.4,
-    "thisSeason": {
-      "minutesPlayed": 1062,
-      "points": 56,
-      "bps": 215,
-      "last6GamesMinutes": [
-        90,
-        81,
-        80,
-        90,
-        56,
-        55
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1124,45 +1155,50 @@
     "name": "Ciaran Clark",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 1385,
-      "points": 55,
-      "bps": 262,
+      "minutesPlayed": 1475,
+      "points": 57,
+      "bps": 279,
       "last6GamesMinutes": [
-        0,
         0,
         90,
         0,
+        90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
-    "2016": {
-      "minutesPlayed": 3240,
-      "points": 90,
-      "bps": 631
+    "2015": {
+      "minutesPlayed": 391,
+      "points": 26,
+      "bps": 100
     },
-    "id": 142,
-    "teamId": 9,
-    "name": "Matthew Lowton",
-    "price": 4.4,
+    "2016": {
+      "minutesPlayed": 702,
+      "points": 45,
+      "bps": 201
+    },
+    "id": 226,
+    "teamId": 17,
+    "name": "Kieran Gibbs",
+    "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1170,
-      "points": 53,
-      "bps": 234,
+      "minutesPlayed": 1716,
+      "points": 57,
+      "bps": 307,
       "last6GamesMinutes": [
         90,
-        0,
-        0,
-        0,
-        0,
-        0
+        80,
+        90,
+        90,
+        90,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1181,19 +1217,107 @@
     "name": "Pablo Zabaleta",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1849,
-      "points": 53,
-      "bps": 332,
+      "minutesPlayed": 1939,
+      "points": 55,
+      "bps": 345,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         78,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3150,
+      "points": 135,
+      "bps": 693
+    },
+    "2016": {
+      "minutesPlayed": 1217,
+      "points": 52,
+      "bps": 282
+    },
+    "id": 143,
+    "teamId": 8,
+    "name": "Chris Smalling",
+    "price": 5.3,
+    "thisSeason": {
+      "minutesPlayed": 1275,
+      "points": 55,
+      "bps": 272,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 3240,
+      "points": 90,
+      "bps": 631
+    },
+    "id": 142,
+    "teamId": 9,
+    "name": "Matthew Lowton",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1170,
+      "points": 53,
+      "bps": 234,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1957,
+      "points": 53,
+      "bps": 357
+    },
+    "2016": {
+      "minutesPlayed": 3296,
+      "points": 178,
+      "bps": 778
+    },
+    "id": 176,
+    "teamId": 10,
+    "name": "Gary Cahill",
+    "price": 6.2,
+    "thisSeason": {
+      "minutesPlayed": 1256,
+      "points": 53,
+      "bps": 285,
+      "last6GamesMinutes": [
+        90,
+        0,
+        90,
+        90,
+        90,
+        32
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1217,45 +1341,14 @@
       "bps": 285,
       "last6GamesMinutes": [
         90,
-        90,
         45,
         90,
         0,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1957,
-      "points": 53,
-      "bps": 357
-    },
-    "2016": {
-      "minutesPlayed": 3296,
-      "points": 178,
-      "bps": 778
-    },
-    "id": 176,
-    "teamId": 10,
-    "name": "Gary Cahill",
-    "price": 6.2,
-    "thisSeason": {
-      "minutesPlayed": 1224,
-      "points": 52,
-      "bps": 280,
-      "last6GamesMinutes": [
-        0,
-        90,
-        0,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1269,9 +1362,9 @@
     "name": "Christian Kabasele",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1769,
-      "points": 51,
-      "bps": 313,
+      "minutesPlayed": 1859,
+      "points": 52,
+      "bps": 327,
       "last6GamesMinutes": [
         90,
         90,
@@ -1281,7 +1374,59 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3195,
+      "points": 114,
+      "bps": 695
+    },
+    "2016": {
+      "minutesPlayed": 3420,
+      "points": 112,
+      "bps": 777
+    },
+    "id": 167,
+    "teamId": 13,
+    "name": "Steve Cook",
+    "price": 4.7,
+    "thisSeason": {
+      "minutesPlayed": 1513,
+      "points": 52,
+      "bps": 263,
+      "last6GamesMinutes": [
+        34,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 59,
+    "teamId": 2,
+    "name": "Davinson Sánchez",
+    "price": 6,
+    "thisSeason": {
+      "minutesPlayed": 1370,
+      "points": 52,
+      "bps": 304,
+      "last6GamesMinutes": [
+        51,
+        90,
+        90,
+        58,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1302,100 +1447,7 @@
         6
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 391,
-      "points": 26,
-      "bps": 100
-    },
-    "2016": {
-      "minutesPlayed": 702,
-      "points": 45,
-      "bps": 201
-    },
-    "id": 226,
-    "teamId": 17,
-    "name": "Kieran Gibbs",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 1626,
-      "points": 51,
-      "bps": 285,
-      "last6GamesMinutes": [
-        90,
-        90,
-        80,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3195,
-      "points": 114,
-      "bps": 695
-    },
-    "2016": {
-      "minutesPlayed": 3420,
-      "points": 112,
-      "bps": 777
-    },
-    "id": 167,
-    "teamId": 13,
-    "name": "Steve Cook",
-    "price": 4.7,
-    "thisSeason": {
-      "minutesPlayed": 1423,
-      "points": 50,
-      "bps": 249,
-      "last6GamesMinutes": [
-        0,
-        34,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3150,
-      "points": 135,
-      "bps": 693
-    },
-    "2016": {
-      "minutesPlayed": 1217,
-      "points": 52,
-      "bps": 282
-    },
-    "id": 143,
-    "teamId": 8,
-    "name": "Chris Smalling",
-    "price": 5.3,
-    "thisSeason": {
-      "minutesPlayed": 1185,
-      "points": 49,
-      "bps": 243,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1416,7 +1468,7 @@
         75
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1435,19 +1487,19 @@
     "name": "Kurt Zouma",
     "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 1685,
-      "points": 47,
-      "bps": 325,
+      "minutesPlayed": 1775,
+      "points": 48,
+      "bps": 340,
       "last6GamesMinutes": [
-        90,
         65,
         90,
         90,
         0,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1466,19 +1518,19 @@
     "name": "Christian Fuchs",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1351,
-      "points": 47,
-      "bps": 257,
+      "minutesPlayed": 1368,
+      "points": 48,
+      "bps": 260,
       "last6GamesMinutes": [
-        90,
         0,
         90,
         0,
         90,
-        90
+        90,
+        17
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1497,71 +1549,19 @@
     "name": "Allan-Roméo Nyom",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1321,
-      "points": 46,
-      "bps": 244,
+      "minutesPlayed": 1330,
+      "points": 47,
+      "bps": 249,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         0,
         15,
-        0
+        0,
+        9
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2590,
-      "points": 96,
-      "bps": 575
-    },
-    "2016": {
-      "minutesPlayed": 2637,
-      "points": 79,
-      "bps": 478
-    },
-    "id": 227,
-    "teamId": 17,
-    "name": "Jonny Evans",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 1651,
-      "points": 46,
-      "bps": 303,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 59,
-    "teamId": 2,
-    "name": "Davinson Sánchez",
-    "price": 6,
-    "thisSeason": {
-      "minutesPlayed": 1280,
-      "points": 46,
-      "bps": 276,
-      "last6GamesMinutes": [
-        90,
-        51,
-        90,
-        90,
-        58,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1592,7 +1592,7 @@
         27
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1611,19 +1611,19 @@
     "name": "Jonjoe Kenny",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1184,
+      "minutesPlayed": 1274,
       "points": 45,
-      "bps": 262,
+      "bps": 271,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
-        90,
-        0
+        0,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1636,15 +1636,46 @@
       "points": 44,
       "bps": 161,
       "last6GamesMinutes": [
-        0,
         8,
         9,
         0,
         33,
-        34
+        34,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1961,
+      "points": 70,
+      "bps": 426
+    },
+    "2016": {
+      "minutesPlayed": 1974,
+      "points": 75,
+      "bps": 359
+    },
+    "id": 271,
+    "teamId": 20,
+    "name": "James Tomkins",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 1132,
+      "points": 44,
+      "bps": 231,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1675,7 +1706,121 @@
         56
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1811,
+      "points": 68,
+      "bps": 353
+    },
+    "id": 301,
+    "teamId": 19,
+    "name": "DeAndre Yedlin",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1625,
+      "points": 43,
+      "bps": 269,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1430,
+      "points": 38,
+      "bps": 210
+    },
+    "id": 302,
+    "teamId": 19,
+    "name": "Javier Manquillo",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1620,
+      "points": 43,
+      "bps": 224,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        0,
+        90,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2326,
+      "points": 76,
+      "bps": 458
+    },
+    "2016": {
+      "minutesPlayed": 1755,
+      "points": 45,
+      "bps": 322
+    },
+    "id": 223,
+    "teamId": 16,
+    "name": "Angelo Ogbonna",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 1620,
+      "points": 42,
+      "bps": 295,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2100,
+      "points": 84,
+      "bps": 495
+    },
+    "2016": {
+      "minutesPlayed": 3101,
+      "points": 104,
+      "bps": 645
+    },
+    "id": 214,
+    "teamId": 13,
+    "name": "Adam Smith",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1676,
+      "points": 41,
+      "bps": 308,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1684,19 +1829,19 @@
     "name": "Tommy Smith",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1449,
-      "points": 41,
-      "bps": 249,
+      "minutesPlayed": 1519,
+      "points": 40,
+      "bps": 251,
       "last6GamesMinutes": [
-        90,
         0,
         29,
         90,
         45,
-        81
+        81,
+        70
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1715,19 +1860,19 @@
     "name": "Cédric Soares",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 1354,
+      "minutesPlayed": 1444,
       "points": 40,
-      "bps": 231,
+      "bps": 234,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         86,
         90,
-        16
+        16,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1755,10 +1900,10 @@
         90,
         90,
         90,
-        90
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1777,9 +1922,9 @@
     "name": "Cuco Martina",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 1200,
+      "minutesPlayed": 1290,
       "points": 40,
-      "bps": 249,
+      "bps": 262,
       "last6GamesMinutes": [
         90,
         90,
@@ -1789,69 +1934,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2326,
-      "points": 76,
-      "bps": 458
-    },
-    "2016": {
-      "minutesPlayed": 1755,
-      "points": 45,
-      "bps": 322
-    },
-    "id": 223,
-    "teamId": 16,
-    "name": "Angelo Ogbonna",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 1530,
-      "points": 40,
-      "bps": 283,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2409,
-      "points": 123,
-      "bps": 520
-    },
-    "2016": {
-      "minutesPlayed": 3154,
-      "points": 139,
-      "bps": 682
-    },
-    "id": 141,
-    "teamId": 4,
-    "name": "James Milner",
-    "price": 6.1,
-    "thisSeason": {
-      "minutesPlayed": 924,
-      "points": 39,
-      "bps": 228,
-      "last6GamesMinutes": [
-        0,
-        0,
-        77,
-        15,
-        90,
-        4
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1882,38 +1965,7 @@
         63
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2100,
-      "points": 84,
-      "bps": 495
-    },
-    "2016": {
-      "minutesPlayed": 3101,
-      "points": 104,
-      "bps": 645
-    },
-    "id": 214,
-    "teamId": 13,
-    "name": "Adam Smith",
-    "price": 4.8,
-    "thisSeason": {
-      "minutesPlayed": 1586,
-      "points": 39,
-      "bps": 292,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1932,50 +1984,50 @@
     "name": "Andrew Robertson",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 794,
-      "points": 38,
-      "bps": 183,
+      "minutesPlayed": 884,
+      "points": 39,
+      "bps": 193,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         74,
         90,
-        0
+        0,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
     "2015": {
-      "minutesPlayed": 1961,
-      "points": 70,
-      "bps": 426
+      "minutesPlayed": 2409,
+      "points": 123,
+      "bps": 520
     },
     "2016": {
-      "minutesPlayed": 1974,
-      "points": 75,
-      "bps": 359
+      "minutesPlayed": 3154,
+      "points": 139,
+      "bps": 682
     },
-    "id": 271,
-    "teamId": 20,
-    "name": "James Tomkins",
-    "price": 4.3,
+    "id": 141,
+    "teamId": 4,
+    "name": "James Milner",
+    "price": 6.1,
     "thisSeason": {
-      "minutesPlayed": 1042,
+      "minutesPlayed": 935,
       "points": 38,
-      "bps": 212,
+      "bps": 228,
       "last6GamesMinutes": [
+        0,
+        77,
+        15,
         90,
-        90,
-        90,
-        90,
-        90,
-        90
+        4,
+        11
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -1990,19 +2042,19 @@
     "name": "Arthur Masuaku",
     "price": 4.5,
     "thisSeason": {
-      "minutesPlayed": 1143,
-      "points": 36,
-      "bps": 228,
+      "minutesPlayed": 1233,
+      "points": 38,
+      "bps": 241,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         72,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2020,15 +2072,41 @@
       "points": 36,
       "bps": 177,
       "last6GamesMinutes": [
-        79,
         0,
         0,
         90,
         0,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 662,
+      "points": 16,
+      "bps": 125
+    },
+    "id": 245,
+    "teamId": 7,
+    "name": "Mike van der Hoorn",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 883,
+      "points": 36,
+      "bps": 182,
+      "last6GamesMinutes": [
+        0,
+        0,
+        0,
+        0,
+        90,
+        64
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2059,7 +2137,7 @@
         31
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2076,7 +2154,7 @@
     "id": 151,
     "teamId": 5,
     "name": "Erik Pieters",
-    "price": 4.8,
+    "price": 4.7,
     "thisSeason": {
       "minutesPlayed": 1660,
       "points": 35,
@@ -2090,7 +2168,28 @@
         70
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 175,
+    "teamId": 11,
+    "name": "Gaëtan Bong",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 990,
+      "points": 34,
+      "bps": 204,
+      "last6GamesMinutes": [
+        90,
+        0,
+        0,
+        90,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2104,40 +2203,19 @@
     "name": "Mason Holgate",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 990,
+      "minutesPlayed": 1080,
       "points": 33,
-      "bps": 175,
+      "bps": 193,
       "last6GamesMinutes": [
         90,
-        90,
         0,
         90,
         0,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 175,
-    "teamId": 11,
-    "name": "Gaëtan Bong",
-    "price": 4.4,
-    "thisSeason": {
-      "minutesPlayed": 900,
-      "points": 33,
-      "bps": 194,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        0,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2168,33 +2246,7 @@
         19
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 662,
-      "points": 16,
-      "bps": 125
-    },
-    "id": 245,
-    "teamId": 7,
-    "name": "Mike van der Hoorn",
-    "price": 4.4,
-    "thisSeason": {
-      "minutesPlayed": 819,
-      "points": 29,
-      "bps": 162,
-      "last6GamesMinutes": [
-        90,
-        0,
-        0,
-        0,
-        0,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2203,19 +2255,19 @@
     "name": "Wesley Hoedt",
     "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1080,
-      "points": 29,
-      "bps": 228,
+      "minutesPlayed": 1170,
+      "points": 30,
+      "bps": 244,
       "last6GamesMinutes": [
         0,
-        0,
+        90,
         90,
         90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2224,19 +2276,19 @@
     "name": "Scott Malone",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 650,
+      "minutesPlayed": 740,
       "points": 29,
-      "bps": 133,
+      "bps": 143,
       "last6GamesMinutes": [
-        0,
         45,
         90,
         7,
         90,
-        14
+        14,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2255,19 +2307,19 @@
     "name": "Simon Francis",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 1522,
-      "points": 28,
-      "bps": 259,
+      "minutesPlayed": 1612,
+      "points": 29,
+      "bps": 267,
       "last6GamesMinutes": [
         90,
-        90,
         0,
+        90,
         90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2286,9 +2338,9 @@
     "name": "Phil Bardsley",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 810,
-      "points": 28,
-      "bps": 160,
+      "minutesPlayed": 900,
+      "points": 29,
+      "bps": 167,
       "last6GamesMinutes": [
         90,
         90,
@@ -2298,7 +2350,38 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2751,
+      "points": 79,
+      "bps": 527
+    },
+    "2016": {
+      "minutesPlayed": 1614,
+      "points": 50,
+      "bps": 261
+    },
+    "id": 261,
+    "teamId": 6,
+    "name": "Daryl Janmaat",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 855,
+      "points": 28,
+      "bps": 165,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2329,7 +2412,54 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 270,
+      "points": 3,
+      "bps": 39
+    },
+    "id": 262,
+    "teamId": 9,
+    "name": "Kevin Long",
+    "price": 4.1,
+    "thisSeason": {
+      "minutesPlayed": 450,
+      "points": 27,
+      "bps": 117,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        90,
+        0,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 303,
+    "teamId": 8,
+    "name": "Victor Lindelöf",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 743,
+      "points": 27,
+      "bps": 166,
+      "last6GamesMinutes": [
+        0,
+        90,
+        0,
+        90,
+        90,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2348,45 +2478,50 @@
     "name": "Phil Jagielka",
     "price": 4.7,
     "thisSeason": {
-      "minutesPlayed": 1084,
-      "points": 27,
-      "bps": 224,
+      "minutesPlayed": 1174,
+      "points": 26,
+      "bps": 234,
       "last6GamesMinutes": [
-        5,
         0,
         90,
         0,
         90,
-        0
+        0,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
-    "2016": {
-      "minutesPlayed": 270,
-      "points": 3,
-      "bps": 39
-    },
-    "id": 262,
-    "teamId": 9,
-    "name": "Kevin Long",
-    "price": 4.1,
-    "thisSeason": {
+    "2015": {
       "minutesPlayed": 450,
       "points": 27,
-      "bps": 117,
+      "bps": 135
+    },
+    "2016": {
+      "minutesPlayed": 688,
+      "points": 45,
+      "bps": 202
+    },
+    "id": 300,
+    "teamId": 8,
+    "name": "Luke Shaw",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 442,
+      "points": 25,
+      "bps": 115,
       "last6GamesMinutes": [
-        90,
+        0,
         0,
         90,
         90,
         90,
-        0
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2417,7 +2552,7 @@
         10
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2426,50 +2561,19 @@
     "name": "Marvin Zeegelaar",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 668,
-      "points": 23,
-      "bps": 133,
+      "minutesPlayed": 758,
+      "points": 24,
+      "bps": 144,
       "last6GamesMinutes": [
-        90,
         90,
         0,
         90,
         90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2751,
-      "points": 79,
-      "bps": 527
-    },
-    "2016": {
-      "minutesPlayed": 1614,
-      "points": 50,
-      "bps": 261
-    },
-    "id": 261,
-    "teamId": 6,
-    "name": "Daryl Janmaat",
-    "price": 4.8,
-    "thisSeason": {
-      "minutesPlayed": 765,
-      "points": 23,
-      "bps": 136,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2488,19 +2592,19 @@
     "name": "Kevin Wimmer",
     "price": 4.2,
     "thisSeason": {
-      "minutesPlayed": 1276,
-      "points": 18,
-      "bps": 157,
+      "minutesPlayed": 1321,
+      "points": 19,
+      "bps": 164,
       "last6GamesMinutes": [
-        24,
         90,
         90,
         90,
         90,
-        90
+        90,
+        45
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "def"
   },
   {
@@ -2518,52 +2622,21 @@
     "owned": true,
     "teamId": 2,
     "name": "Harry Kane",
-    "price": 12.9,
+    "price": 13,
     "thisSeason": {
-      "minutesPlayed": 1771,
-      "points": 134,
-      "bps": 478,
+      "minutesPlayed": 1861,
+      "points": 147,
+      "bps": 531,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         90,
         22,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2361,
-      "points": 184,
-      "bps": 655
-    },
-    "2016": {
-      "minutesPlayed": 2404,
-      "points": 175,
-      "bps": 640
-    },
-    "id": 111,
-    "teamId": 1,
-    "name": "Sergio Aguero",
-    "price": 11.7,
-    "thisSeason": {
-      "minutesPlayed": 1331,
-      "points": 111,
-      "bps": 455,
-      "last6GamesMinutes": [
-        90,
-        57,
-        90,
-        76,
-        67,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2582,19 +2655,50 @@
     "name": "Roberto Firmino",
     "price": 9.1,
     "thisSeason": {
-      "minutesPlayed": 1505,
-      "points": 109,
-      "bps": 443,
+      "minutesPlayed": 1595,
+      "points": 117,
+      "bps": 482,
       "last6GamesMinutes": [
-        90,
         76,
         90,
         67,
         90,
-        18
+        18,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2361,
+      "points": 184,
+      "bps": 655
+    },
+    "2016": {
+      "minutesPlayed": 2404,
+      "points": 175,
+      "bps": 640
+    },
+    "id": 111,
+    "teamId": 1,
+    "name": "Sergio Aguero",
+    "price": 11.7,
+    "thisSeason": {
+      "minutesPlayed": 1421,
+      "points": 116,
+      "bps": 470,
+      "last6GamesMinutes": [
+        57,
+        90,
+        76,
+        67,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2613,19 +2717,19 @@
     "name": "Romelu Lukaku",
     "price": 11.3,
     "thisSeason": {
-      "minutesPlayed": 1813,
-      "points": 99,
-      "bps": 345,
+      "minutesPlayed": 1903,
+      "points": 104,
+      "bps": 372,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
-        90,
-        13
+        13,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2643,42 +2747,42 @@
     "owned": true,
     "teamId": 12,
     "name": "Jamie Vardy",
-    "price": 8.6,
+    "price": 8.5,
     "thisSeason": {
-      "minutesPlayed": 1819,
-      "points": 97,
-      "bps": 342,
+      "minutesPlayed": 1900,
+      "points": 99,
+      "bps": 353,
       "last6GamesMinutes": [
-        89,
         71,
         84,
         90,
         90,
-        73
+        73,
+        81
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
     "id": 112,
     "teamId": 10,
     "name": "Alvaro Morata",
-    "price": 10.5,
+    "price": 10.4,
     "thisSeason": {
-      "minutesPlayed": 1424,
-      "points": 96,
-      "bps": 302,
+      "minutesPlayed": 1514,
+      "points": 97,
+      "bps": 300,
       "last6GamesMinutes": [
-        90,
         90,
         17,
         81,
         70,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2697,19 +2801,19 @@
     "name": "Wayne Rooney",
     "price": 7.5,
     "thisSeason": {
-      "minutesPlayed": 1338,
-      "points": 93,
+      "minutesPlayed": 1428,
+      "points": 94,
       "bps": 378,
       "last6GamesMinutes": [
-        79,
         82,
         76,
         88,
         45,
-        61
+        61,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2718,19 +2822,19 @@
     "name": "Alexandre Lacazette",
     "price": 10.3,
     "thisSeason": {
-      "minutesPlayed": 1514,
-      "points": 86,
-      "bps": 326,
+      "minutesPlayed": 1604,
+      "points": 88,
+      "bps": 336,
       "last6GamesMinutes": [
-        8,
         72,
         90,
         74,
         90,
-        79
+        79,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2756,7 +2860,7 @@
         22
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2775,19 +2879,19 @@
     "name": "Marcus Rashford",
     "price": 7.6,
     "thisSeason": {
-      "minutesPlayed": 1282,
-      "points": 71,
-      "bps": 264,
+      "minutesPlayed": 1292,
+      "points": 72,
+      "bps": 268,
       "last6GamesMinutes": [
-        24,
         78,
         19,
         90,
         76,
-        13
+        13,
+        10
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2796,19 +2900,50 @@
     "name": "Laurent Depoitre",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1220,
-      "points": 68,
-      "bps": 217,
+      "minutesPlayed": 1310,
+      "points": 70,
+      "bps": 214,
       "last6GamesMinutes": [
-        16,
         90,
         81,
         28,
         90,
-        8
+        8,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2349,
+      "points": 86,
+      "bps": 329
+    },
+    "2016": {
+      "minutesPlayed": 867,
+      "points": 39,
+      "bps": 122
+    },
+    "id": 124,
+    "teamId": 7,
+    "name": "Jordan Ayew",
+    "price": 5.1,
+    "thisSeason": {
+      "minutesPlayed": 1775,
+      "points": 70,
+      "bps": 235,
+      "last6GamesMinutes": [
+        16,
+        24,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2822,40 +2957,19 @@
     "name": "Dominic Calvert-Lewin",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1520,
-      "points": 67,
-      "bps": 191,
+      "minutesPlayed": 1548,
+      "points": 68,
+      "bps": 190,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         60,
         53,
-        9
+        9,
+        28
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "id": 114,
-    "teamId": 7,
-    "name": "Tammy Abraham",
-    "price": 5.6,
-    "thisSeason": {
-      "minutesPlayed": 1390,
-      "points": 64,
-      "bps": 184,
-      "last6GamesMinutes": [
-        14,
-        45,
-        85,
-        90,
-        28,
-        56
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2874,19 +2988,40 @@
     "name": "Shinji Okazaki",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 919,
-      "points": 64,
-      "bps": 236,
+      "minutesPlayed": 991,
+      "points": 65,
+      "bps": 243,
       "last6GamesMinutes": [
-        90,
         13,
         23,
         72,
         17,
-        90
+        90,
+        72
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "id": 114,
+    "teamId": 7,
+    "name": "Tammy Abraham",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1390,
+      "points": 64,
+      "bps": 184,
+      "last6GamesMinutes": [
+        14,
+        45,
+        85,
+        90,
+        28,
+        56
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2904,78 +3039,21 @@
     "owned": true,
     "teamId": 5,
     "name": "Mame Biram Diouf",
-    "price": 5.5,
+    "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 1650,
-      "points": 63,
-      "bps": 246,
+      "minutesPlayed": 1670,
+      "points": 64,
+      "bps": 243,
       "last6GamesMinutes": [
-        90,
         61,
         23,
         25,
         90,
-        33
+        33,
+        20
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2349,
-      "points": 86,
-      "bps": 329
-    },
-    "2016": {
-      "minutesPlayed": 867,
-      "points": 39,
-      "bps": 122
-    },
-    "id": 124,
-    "teamId": 7,
-    "name": "Jordan Ayew",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 1685,
-      "points": 62,
-      "bps": 208,
-      "last6GamesMinutes": [
-        90,
-        16,
-        24,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 802,
-      "points": 36,
-      "bps": 98
-    },
-    "id": 136,
-    "teamId": 11,
-    "name": "Glenn Murray",
-    "price": 5.7,
-    "thisSeason": {
-      "minutesPlayed": 1143,
-      "points": 59,
-      "bps": 162,
-      "last6GamesMinutes": [
-        18,
-        62,
-        3,
-        10,
-        61,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -2989,50 +3067,45 @@
     "name": "Andre Gray",
     "price": 6.3,
     "thisSeason": {
-      "minutesPlayed": 1130,
-      "points": 56,
-      "bps": 156,
+      "minutesPlayed": 1202,
+      "points": 62,
+      "bps": 184,
       "last6GamesMinutes": [
-        10,
         26,
         77,
         0,
         13,
-        90
+        90,
+        72
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
     "2015": {
-      "minutesPlayed": 211,
-      "points": 15,
-      "bps": 46
+      "minutesPlayed": 802,
+      "points": 36,
+      "bps": 98
     },
-    "2016": {
-      "minutesPlayed": 934,
-      "points": 62,
-      "bps": 218
-    },
-    "id": 251,
-    "teamId": 15,
-    "name": "Charlie Austin",
-    "price": 6,
+    "id": 136,
+    "teamId": 11,
+    "name": "Glenn Murray",
+    "price": 5.7,
     "thisSeason": {
-      "minutesPlayed": 596,
-      "points": 53,
-      "bps": 163,
+      "minutesPlayed": 1233,
+      "points": 61,
+      "bps": 167,
       "last6GamesMinutes": [
-        7,
+        62,
+        3,
+        10,
+        61,
         90,
-        85,
-        90,
-        29,
-        78
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3046,19 +3119,81 @@
     "name": "Jose Luis Mato Sanmartín",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1358,
-      "points": 52,
-      "bps": 169,
+      "minutesPlayed": 1384,
+      "points": 59,
+      "bps": 194,
       "last6GamesMinutes": [
-        23,
         90,
         90,
         61,
         83,
-        0
+        0,
+        26
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 771,
+      "points": 46,
+      "bps": 161
+    },
+    "2016": {
+      "minutesPlayed": 1361,
+      "points": 63,
+      "bps": 170
+    },
+    "id": 204,
+    "teamId": 13,
+    "name": "Callum Wilson",
+    "price": 5.7,
+    "thisSeason": {
+      "minutesPlayed": 886,
+      "points": 57,
+      "bps": 190,
+      "last6GamesMinutes": [
+        80,
+        71,
+        90,
+        84,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 351,
+      "points": 14,
+      "bps": 32
+    },
+    "2016": {
+      "minutesPlayed": 893,
+      "points": 73,
+      "bps": 170
+    },
+    "id": 130,
+    "teamId": 17,
+    "name": "Jay Rodriguez",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1785,
+      "points": 56,
+      "bps": 152,
+      "last6GamesMinutes": [
+        26,
+        29,
+        90,
+        90,
+        70,
+        78
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3089,38 +3224,33 @@
         38
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
     "2015": {
-      "minutesPlayed": 351,
-      "points": 14,
-      "bps": 32
+      "minutesPlayed": 2050,
+      "points": 93,
+      "bps": 334
     },
-    "2016": {
-      "minutesPlayed": 893,
-      "points": 73,
-      "bps": 170
-    },
-    "id": 130,
-    "teamId": 17,
-    "name": "Jay Rodriguez",
-    "price": 5.5,
+    "id": 129,
+    "teamId": 19,
+    "name": "Ayoze Pérez",
+    "price": 5.2,
     "thisSeason": {
-      "minutesPlayed": 1707,
-      "points": 51,
-      "bps": 136,
+      "minutesPlayed": 1326,
+      "points": 52,
+      "bps": 158,
       "last6GamesMinutes": [
-        19,
-        26,
-        29,
         90,
-        90,
-        70
+        14,
+        0,
+        18,
+        89,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3141,7 +3271,7 @@
         64
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3162,7 +3292,7 @@
         34
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3187,39 +3317,13 @@
       "last6GamesMinutes": [
         0,
         0,
-        0,
         29,
         36,
-        80
+        80,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2050,
-      "points": 93,
-      "bps": 334
-    },
-    "id": 129,
-    "teamId": 19,
-    "name": "Ayoze Pérez",
-    "price": 5.2,
-    "thisSeason": {
-      "minutesPlayed": 1236,
-      "points": 47,
-      "bps": 140,
-      "last6GamesMinutes": [
-        4,
-        90,
-        14,
-        0,
-        18,
-        89
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3233,19 +3337,19 @@
     "name": "Dwight Gayle",
     "price": 6.1,
     "thisSeason": {
-      "minutesPlayed": 977,
-      "points": 45,
-      "bps": 147,
+      "minutesPlayed": 1040,
+      "points": 47,
+      "bps": 148,
       "last6GamesMinutes": [
-        90,
         23,
         75,
         28,
         90,
-        26
+        26,
+        63
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3264,19 +3368,19 @@
     "name": "Peter Crouch",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 843,
-      "points": 45,
-      "bps": 154,
+      "minutesPlayed": 912,
+      "points": 47,
+      "bps": 159,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         0,
-        90
+        90,
+        69
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3295,50 +3399,19 @@
     "name": "Salomón Rondón",
     "price": 6,
     "thisSeason": {
-      "minutesPlayed": 1380,
-      "points": 45,
-      "bps": 117,
+      "minutesPlayed": 1470,
+      "points": 47,
+      "bps": 116,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         90,
         52,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 771,
-      "points": 46,
-      "bps": 161
-    },
-    "2016": {
-      "minutesPlayed": 1361,
-      "points": 63,
-      "bps": 170
-    },
-    "id": 204,
-    "teamId": 13,
-    "name": "Callum Wilson",
-    "price": 5.7,
-    "thisSeason": {
-      "minutesPlayed": 796,
-      "points": 45,
-      "bps": 155,
-      "last6GamesMinutes": [
-        10,
-        80,
-        71,
         90,
-        84,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3351,15 +3424,15 @@
       "points": 43,
       "bps": 138,
       "last6GamesMinutes": [
-        73,
         0,
         8,
         61,
         0,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3372,15 +3445,46 @@
       "points": 41,
       "bps": 110,
       "last6GamesMinutes": [
-        71,
         27,
         86,
         79,
         28,
+        0,
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "fwd"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2111,
+      "points": 109,
+      "bps": 343
+    },
+    "2016": {
+      "minutesPlayed": 1262,
+      "points": 57,
+      "bps": 159
+    },
+    "id": 307,
+    "teamId": 15,
+    "name": "Shane Long",
+    "price": 5.6,
+    "thisSeason": {
+      "minutesPlayed": 1019,
+      "points": 34,
+      "bps": 110,
+      "last6GamesMinutes": [
+        0,
+        0,
+        90,
+        79,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "fwd"
   },
   {
@@ -3400,9 +3504,9 @@
     "name": "David de Gea",
     "price": 5.9,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 114,
-      "bps": 475,
+      "minutesPlayed": 2070,
+      "points": 121,
+      "bps": 502,
       "last6GamesMinutes": [
         90,
         90,
@@ -3412,28 +3516,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "id": 6,
-    "teamId": 1,
-    "name": "Ederson Santana de Moraes",
-    "price": 5.5,
-    "thisSeason": {
-      "minutesPlayed": 2025,
-      "points": 96,
-      "bps": 406,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3452,9 +3535,9 @@
     "name": "Thibaut Courtois",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 93,
-      "bps": 406,
+      "minutesPlayed": 2070,
+      "points": 99,
+      "bps": 428,
       "last6GamesMinutes": [
         90,
         90,
@@ -3464,7 +3547,28 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "gk"
+  },
+  {
+    "id": 6,
+    "teamId": 1,
+    "name": "Ederson Santana de Moraes",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 2115,
+      "points": 97,
+      "bps": 424,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3474,9 +3578,9 @@
     "name": "Nick Pope",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1674,
-      "points": 93,
-      "bps": 415,
+      "minutesPlayed": 1764,
+      "points": 95,
+      "bps": 426,
       "last6GamesMinutes": [
         90,
         90,
@@ -3486,7 +3590,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3505,9 +3609,9 @@
     "name": "Lukasz Fabianski",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 89,
-      "bps": 452,
+      "minutesPlayed": 2070,
+      "points": 92,
+      "bps": 469,
       "last6GamesMinutes": [
         90,
         90,
@@ -3517,7 +3621,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3536,9 +3640,9 @@
     "name": "Jordan Pickford",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 88,
-      "bps": 442,
+      "minutesPlayed": 2070,
+      "points": 90,
+      "bps": 464,
       "last6GamesMinutes": [
         90,
         90,
@@ -3548,7 +3652,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3557,9 +3661,9 @@
     "name": "Mathew Ryan",
     "price": 4.5,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 87,
-      "bps": 425,
+      "minutesPlayed": 2070,
+      "points": 88,
+      "bps": 438,
       "last6GamesMinutes": [
         90,
         90,
@@ -3569,59 +3673,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "id": 3,
-    "teamId": 18,
-    "name": "Jonas Lossl",
-    "price": 4.6,
-    "thisSeason": {
-      "minutesPlayed": 1890,
-      "points": 84,
-      "bps": 431,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3060,
-      "points": 159,
-      "bps": 705
-    },
-    "2016": {
-      "minutesPlayed": 3097,
-      "points": 134,
-      "bps": 660
-    },
-    "id": 7,
-    "teamId": 3,
-    "name": "Petr Cech",
-    "price": 5.4,
-    "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 82,
-      "bps": 406,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3640,9 +3692,9 @@
     "name": "Kasper Schmeichel",
     "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 77,
-      "bps": 400,
+      "minutesPlayed": 2070,
+      "points": 88,
+      "bps": 437,
       "last6GamesMinutes": [
         90,
         90,
@@ -3652,7 +3704,59 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "gk"
+  },
+  {
+    "id": 3,
+    "teamId": 18,
+    "name": "Jonas Lossl",
+    "price": 4.6,
+    "thisSeason": {
+      "minutesPlayed": 1980,
+      "points": 84,
+      "bps": 443,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3060,
+      "points": 159,
+      "bps": 705
+    },
+    "2016": {
+      "minutesPlayed": 3097,
+      "points": 134,
+      "bps": 660
+    },
+    "id": 7,
+    "teamId": 3,
+    "name": "Petr Cech",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 2070,
+      "points": 84,
+      "bps": 419,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3671,71 +3775,9 @@
     "name": "Hugo Lloris",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1890,
-      "points": 77,
-      "bps": 383,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1620,
-      "points": 68,
-      "bps": 310
-    },
-    "2016": {
-      "minutesPlayed": 3420,
-      "points": 134,
-      "bps": 625
-    },
-    "id": 4,
-    "teamId": 15,
-    "name": "Fraser Forster",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 1800,
-      "points": 73,
-      "bps": 351,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        0,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1399,
-      "points": 55,
-      "bps": 293
-    },
-    "2016": {
-      "minutesPlayed": 180,
-      "points": 2,
-      "bps": 17
-    },
-    "id": 19,
-    "teamId": 13,
-    "name": "Asmir Begovic",
-    "price": 4.5,
-    "thisSeason": {
       "minutesPlayed": 1980,
-      "points": 69,
-      "bps": 365,
+      "points": 83,
+      "bps": 405,
       "last6GamesMinutes": [
         90,
         90,
@@ -3745,7 +3787,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3764,9 +3806,9 @@
     "name": "Ben Foster",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 1890,
-      "points": 69,
-      "bps": 348,
+      "minutesPlayed": 1980,
+      "points": 76,
+      "bps": 371,
       "last6GamesMinutes": [
         90,
         90,
@@ -3776,7 +3818,69 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1620,
+      "points": 68,
+      "bps": 310
+    },
+    "2016": {
+      "minutesPlayed": 3420,
+      "points": 134,
+      "bps": 625
+    },
+    "id": 4,
+    "teamId": 15,
+    "name": "Fraser Forster",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1800,
+      "points": 73,
+      "bps": 351,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        0,
+        0,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "gk"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1399,
+      "points": 55,
+      "bps": 293
+    },
+    "2016": {
+      "minutesPlayed": 180,
+      "points": 2,
+      "bps": 17
+    },
+    "id": 19,
+    "teamId": 13,
+    "name": "Asmir Begovic",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 2070,
+      "points": 71,
+      "bps": 378,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3799,15 +3903,15 @@
       "points": 67,
       "bps": 329,
       "last6GamesMinutes": [
-        0,
         90,
         90,
         90,
         0,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3826,9 +3930,9 @@
     "name": "Heurelho Gomes",
     "price": 4.5,
     "thisSeason": {
-      "minutesPlayed": 1948,
-      "points": 61,
-      "bps": 373,
+      "minutesPlayed": 2038,
+      "points": 62,
+      "bps": 386,
       "last6GamesMinutes": [
         90,
         90,
@@ -3838,7 +3942,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3863,13 +3967,13 @@
       "last6GamesMinutes": [
         0,
         0,
-        0,
         90,
         90,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3888,9 +3992,9 @@
     "name": "Jack Butland",
     "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1710,
-      "points": 52,
-      "bps": 333,
+      "minutesPlayed": 1800,
+      "points": 55,
+      "bps": 356,
       "last6GamesMinutes": [
         90,
         90,
@@ -3900,33 +4004,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "gk"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3109,
-      "points": 134,
-      "bps": 612
-    },
-    "id": 9,
-    "teamId": 16,
-    "name": "Joe Hart",
-    "price": 4.3,
-    "thisSeason": {
-      "minutesPlayed": 1260,
-      "points": 45,
-      "bps": 261,
-      "last6GamesMinutes": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3945,19 +4023,19 @@
     "name": "Wayne Hennessey",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 990,
-      "points": 39,
-      "bps": 211,
+      "minutesPlayed": 1080,
+      "points": 47,
+      "bps": 238,
       "last6GamesMinutes": [
         0,
         0,
         0,
-        0,
+        90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -3978,12 +4056,12 @@
         90,
         90,
         90,
-        90,
+        0,
         0,
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -4000,11 +4078,11 @@
     "id": 240,
     "teamId": 16,
     "name": "Adrián San Miguel del Castillo",
-    "price": 4.3,
+    "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 720,
-      "points": 31,
-      "bps": 156,
+      "minutesPlayed": 810,
+      "points": 33,
+      "bps": 166,
       "last6GamesMinutes": [
         90,
         90,
@@ -4014,7 +4092,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -4028,19 +4106,19 @@
     "name": "Karl Darlow",
     "price": 4.4,
     "thisSeason": {
-      "minutesPlayed": 540,
-      "points": 25,
-      "bps": 116,
+      "minutesPlayed": 630,
+      "points": 27,
+      "bps": 127,
       "last6GamesMinutes": [
+        0,
+        0,
+        0,
         90,
-        0,
-        0,
-        0,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "gk"
   },
   {
@@ -4052,21 +4130,21 @@
     "id": 221,
     "teamId": 4,
     "name": "Mohamed Salah",
-    "price": 10.1,
+    "price": 10.2,
     "thisSeason": {
-      "minutesPlayed": 1586,
-      "points": 168,
-      "bps": 471,
+      "minutesPlayed": 1673,
+      "points": 179,
+      "bps": 511,
       "last6GamesMinutes": [
-        66,
         90,
         70,
         90,
         68,
-        82
+        82,
+        87
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4085,19 +4163,19 @@
     "name": "Raheem Sterling",
     "price": 8.9,
     "thisSeason": {
-      "minutesPlayed": 1509,
-      "points": 146,
-      "bps": 464,
+      "minutesPlayed": 1579,
+      "points": 147,
+      "bps": 466,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         33,
-        90
+        90,
+        70
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4116,19 +4194,19 @@
     "name": "Kevin De Bruyne",
     "price": 10.2,
     "thisSeason": {
-      "minutesPlayed": 1964,
-      "points": 139,
-      "bps": 586,
+      "minutesPlayed": 2054,
+      "points": 141,
+      "bps": 601,
       "last6GamesMinutes": [
-        76,
         90,
         73,
         90,
         90,
-        78
+        78,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4147,19 +4225,19 @@
     "name": "Riyad Mahrez",
     "price": 8.6,
     "thisSeason": {
-      "minutesPlayed": 1759,
-      "points": 126,
-      "bps": 422,
+      "minutesPlayed": 1849,
+      "points": 129,
+      "bps": 438,
       "last6GamesMinutes": [
-        71,
         90,
         90,
         90,
         72,
-        76
+        76,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4179,19 +4257,19 @@
     "name": "Christian Eriksen",
     "price": 9.3,
     "thisSeason": {
-      "minutesPlayed": 1872,
-      "points": 115,
-      "bps": 452,
+      "minutesPlayed": 1958,
+      "points": 124,
+      "bps": 487,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
         90,
-        90
+        86
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4203,83 +4281,52 @@
     "id": 63,
     "teamId": 1,
     "name": "Leroy Sané",
-    "price": 8.5,
+    "price": 8.4,
     "thisSeason": {
-      "minutesPlayed": 1546,
-      "points": 107,
-      "bps": 375,
+      "minutesPlayed": 1636,
+      "points": 114,
+      "bps": 403,
       "last6GamesMinutes": [
-        0,
         84,
         66,
         7,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 1791,
-      "points": 96,
-      "bps": 431
+      "minutesPlayed": 1107,
+      "points": 70,
+      "bps": 230
     },
     "2016": {
-      "minutesPlayed": 2760,
-      "points": 130,
-      "bps": 621
+      "minutesPlayed": 2063,
+      "points": 174,
+      "bps": 512
     },
-    "id": 67,
-    "teamId": 1,
-    "name": "David Silva",
-    "price": 8.1,
+    "id": 180,
+    "teamId": 2,
+    "name": "Heung-Min Son",
+    "price": 8.2,
     "thisSeason": {
-      "minutesPlayed": 1606,
-      "points": 106,
-      "bps": 417,
+      "minutesPlayed": 1383,
+      "points": 112,
+      "bps": 355,
       "last6GamesMinutes": [
+        76,
+        77,
+        75,
         90,
         90,
-        90,
-        90,
-        0,
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1996,
-      "points": 129,
-      "bps": 465
-    },
-    "2016": {
-      "minutesPlayed": 2228,
-      "points": 171,
-      "bps": 631
-    },
-    "id": 92,
-    "teamId": 4,
-    "name": "Philippe Coutinho",
-    "price": 9.1,
-    "thisSeason": {
-      "minutesPlayed": 1109,
-      "points": 103,
-      "bps": 381,
-      "last6GamesMinutes": [
-        12,
-        90,
-        86,
-        83,
-        90,
-        88
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4298,19 +4345,50 @@
     "name": "Bamidele Alli",
     "price": 9,
     "thisSeason": {
-      "minutesPlayed": 1744,
-      "points": 102,
-      "bps": 320,
+      "minutesPlayed": 1834,
+      "points": 108,
+      "bps": 337,
       "last6GamesMinutes": [
-        16,
         83,
         86,
         83,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1791,
+      "points": 96,
+      "bps": 431
+    },
+    "2016": {
+      "minutesPlayed": 2760,
+      "points": 130,
+      "bps": 621
+    },
+    "id": 67,
+    "teamId": 1,
+    "name": "David Silva",
+    "price": 8,
+    "thisSeason": {
+      "minutesPlayed": 1606,
+      "points": 106,
+      "bps": 417,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        0,
+        90,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4318,52 +4396,21 @@
     "owned": true,
     "teamId": 11,
     "name": "Pascal Groß",
-    "price": 5.9,
+    "price": 5.8,
     "thisSeason": {
-      "minutesPlayed": 1685,
-      "points": 101,
-      "bps": 382,
+      "minutesPlayed": 1750,
+      "points": 103,
+      "bps": 388,
       "last6GamesMinutes": [
-        12,
         74,
         82,
         17,
         90,
-        87
+        87,
+        65
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1107,
-      "points": 70,
-      "bps": 230
-    },
-    "2016": {
-      "minutesPlayed": 2063,
-      "points": 174,
-      "bps": 512
-    },
-    "id": 180,
-    "teamId": 2,
-    "name": "Heung-Min Son",
-    "price": 8.1,
-    "thisSeason": {
-      "minutesPlayed": 1293,
-      "points": 99,
-      "bps": 312,
-      "last6GamesMinutes": [
-        89,
-        76,
-        77,
-        75,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4373,19 +4420,50 @@
     "name": "Richarlison de Andrade",
     "price": 6.4,
     "thisSeason": {
-      "minutesPlayed": 1811,
-      "points": 97,
-      "bps": 231,
+      "minutesPlayed": 1901,
+      "points": 99,
+      "bps": 239,
       "last6GamesMinutes": [
-        83,
         90,
         90,
         90,
         90,
-        0
+        0,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2632,
+      "points": 141,
+      "bps": 492
+    },
+    "2016": {
+      "minutesPlayed": 1553,
+      "points": 95,
+      "bps": 302
+    },
+    "id": 77,
+    "teamId": 8,
+    "name": "Anthony Martial",
+    "price": 8,
+    "thisSeason": {
+      "minutesPlayed": 988,
+      "points": 98,
+      "bps": 319,
+      "last6GamesMinutes": [
+        65,
+        11,
+        70,
+        25,
+        77,
+        79
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4409,15 +4487,15 @@
       "points": 97,
       "bps": 303,
       "last6GamesMinutes": [
-        81,
         88,
         88,
         90,
         90,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4434,21 +4512,21 @@
     "id": 153,
     "teamId": 10,
     "name": "Eden Hazard",
-    "price": 10.7,
+    "price": 10.6,
     "thisSeason": {
-      "minutesPlayed": 1191,
-      "points": 95,
-      "bps": 342,
+      "minutesPlayed": 1248,
+      "points": 96,
+      "bps": 353,
       "last6GamesMinutes": [
-        68,
         73,
         90,
         72,
         0,
-        81
+        81,
+        57
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4463,19 +4541,19 @@
     "name": "Abdoulaye Doucouré",
     "price": 5.3,
     "thisSeason": {
-      "minutesPlayed": 1881,
-      "points": 86,
-      "bps": 409,
+      "minutesPlayed": 1971,
+      "points": 95,
+      "bps": 441,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
-        90,
-        81
+        81,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4492,83 +4570,47 @@
     "id": 229,
     "teamId": 8,
     "name": "Jesse Lingard",
-    "price": 6.2,
+    "price": 6.4,
     "thisSeason": {
-      "minutesPlayed": 917,
-      "points": 86,
-      "bps": 264,
+      "minutesPlayed": 996,
+      "points": 88,
+      "bps": 271,
       "last6GamesMinutes": [
-        70,
         85,
         75,
         45,
         90,
-        86
+        86,
+        79
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
-    "2015": {
-      "minutesPlayed": 2632,
-      "points": 141,
-      "bps": 492
-    },
     "2016": {
-      "minutesPlayed": 1553,
-      "points": 95,
-      "bps": 302
+      "minutesPlayed": 2608,
+      "points": 115,
+      "bps": 512
     },
-    "id": 77,
+    "id": 91,
     "teamId": 8,
-    "name": "Anthony Martial",
+    "name": "Paul Pogba",
     "price": 8,
     "thisSeason": {
-      "minutesPlayed": 909,
+      "minutesPlayed": 1132,
       "points": 86,
-      "bps": 287,
+      "bps": 314,
       "last6GamesMinutes": [
-        90,
-        65,
-        11,
-        70,
-        25,
-        77
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2623,
-      "points": 119,
-      "bps": 514
-    },
-    "2016": {
-      "minutesPlayed": 1236,
-      "points": 56,
-      "bps": 240
-    },
-    "id": 73,
-    "teamId": 3,
-    "name": "Aaron Ramsey",
-    "price": 6.9,
-    "thisSeason": {
-      "minutesPlayed": 1196,
-      "points": 81,
-      "bps": 311,
-      "last6GamesMinutes": [
+        73,
         90,
         90,
         90,
-        72,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4587,19 +4629,154 @@
     "name": "Xherdan Shaqiri",
     "price": 6,
     "thisSeason": {
-      "minutesPlayed": 1614,
-      "points": 81,
-      "bps": 314,
+      "minutesPlayed": 1704,
+      "points": 83,
+      "bps": 333,
       "last6GamesMinutes": [
-        83,
         90,
         78,
         64,
         0,
-        56
+        56,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2623,
+      "points": 119,
+      "bps": 514
+    },
+    "2016": {
+      "minutesPlayed": 1236,
+      "points": 56,
+      "bps": 240
+    },
+    "id": 73,
+    "teamId": 3,
+    "name": "Aaron Ramsey",
+    "price": 6.9,
+    "thisSeason": {
+      "minutesPlayed": 1212,
+      "points": 82,
+      "bps": 312,
+      "last6GamesMinutes": [
+        90,
+        90,
+        72,
+        90,
+        90,
+        16
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2740,
+      "points": 135,
+      "bps": 605
+    },
+    "2016": {
+      "minutesPlayed": 1534,
+      "points": 114,
+      "bps": 441
+    },
+    "id": 103,
+    "teamId": 10,
+    "name": "Willian Borges Da Silva",
+    "price": 6.7,
+    "thisSeason": {
+      "minutesPlayed": 1108,
+      "points": 82,
+      "bps": 319,
+      "last6GamesMinutes": [
+        90,
+        70,
+        17,
+        90,
+        8,
+        32
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 78,
+    "teamId": 5,
+    "name": "Eric Maxim Choupo-Moting",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 1675,
+      "points": 82,
+      "bps": 246,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        9,
+        90,
+        60
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2750,
+      "points": 117,
+      "bps": 550
+    },
+    "2016": {
+      "minutesPlayed": 2412,
+      "points": 95,
+      "bps": 468
+    },
+    "id": 210,
+    "teamId": 12,
+    "name": "Marc Albrighton",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1657,
+      "points": 82,
+      "bps": 340,
+      "last6GamesMinutes": [
+        76,
+        90,
+        90,
+        82,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 79,
+    "teamId": 18,
+    "name": "Aaron Mooy",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 1978,
+      "points": 82,
+      "bps": 400,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4630,137 +4807,69 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 2740,
-      "points": 135,
-      "bps": 605
+      "minutesPlayed": 2599,
+      "points": 160,
+      "bps": 521
     },
     "2016": {
-      "minutesPlayed": 1534,
-      "points": 114,
-      "bps": 441
+      "minutesPlayed": 2242,
+      "points": 156,
+      "bps": 502
     },
-    "id": 103,
-    "teamId": 10,
-    "name": "Willian Borges Da Silva",
-    "price": 6.7,
+    "id": 216,
+    "teamId": 4,
+    "name": "Sadio Mané",
+    "price": 9.3,
     "thisSeason": {
       "minutesPlayed": 1076,
-      "points": 81,
-      "bps": 310,
+      "points": 77,
+      "bps": 277,
       "last6GamesMinutes": [
-        90,
-        90,
-        70,
-        17,
-        90,
-        8
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 78,
-    "teamId": 5,
-    "name": "Eric Maxim Choupo-Moting",
-    "price": 5.4,
-    "thisSeason": {
-      "minutesPlayed": 1615,
-      "points": 80,
-      "bps": 238,
-      "last6GamesMinutes": [
-        6,
         0,
-        90,
-        90,
-        9,
+        79,
+        0,
+        71,
+        71,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 2750,
+      "minutesPlayed": 2808,
+      "points": 165,
+      "bps": 573
+    },
+    "2016": {
+      "minutesPlayed": 2713,
       "points": 117,
-      "bps": 550
+      "bps": 401
     },
-    "2016": {
-      "minutesPlayed": 2412,
-      "points": 95,
-      "bps": 468
-    },
-    "id": 210,
-    "teamId": 12,
-    "name": "Marc Albrighton",
-    "price": 5.5,
+    "id": 248,
+    "teamId": 16,
+    "name": "Marko Arnautovic",
+    "price": 7,
     "thisSeason": {
-      "minutesPlayed": 1567,
-      "points": 79,
-      "bps": 331,
-      "last6GamesMinutes": [
-        18,
-        76,
-        90,
-        90,
-        82,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 79,
-    "teamId": 18,
-    "name": "Aaron Mooy",
-    "price": 5.4,
-    "thisSeason": {
-      "minutesPlayed": 1888,
-      "points": 77,
-      "bps": 379,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 2608,
-      "points": 115,
-      "bps": 512
-    },
-    "id": 91,
-    "teamId": 8,
-    "name": "Paul Pogba",
-    "price": 7.9,
-    "thisSeason": {
-      "minutesPlayed": 1042,
+      "minutesPlayed": 1177,
       "points": 75,
-      "bps": 276,
+      "bps": 234,
       "last6GamesMinutes": [
         90,
-        73,
+        78,
         90,
         90,
         90,
-        90
+        82
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4779,19 +4888,50 @@
     "name": "Fernando Luiz Rosa",
     "price": 5.1,
     "thisSeason": {
-      "minutesPlayed": 1811,
-      "points": 73,
-      "bps": 361,
+      "minutesPlayed": 1901,
+      "points": 74,
+      "bps": 375,
       "last6GamesMinutes": [
-        57,
         90,
         90,
         90,
         90,
-        70
+        70,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2889,
+      "points": 145,
+      "bps": 599
+    },
+    "2016": {
+      "minutesPlayed": 1614,
+      "points": 102,
+      "bps": 457
+    },
+    "id": 272,
+    "teamId": 8,
+    "name": "Juan Mata",
+    "price": 6.8,
+    "thisSeason": {
+      "minutesPlayed": 1256,
+      "points": 74,
+      "bps": 303,
+      "last6GamesMinutes": [
+        90,
+        82,
+        90,
+        90,
+        90,
+        82
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4822,7 +4962,33 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2975,
+      "points": 119,
+      "bps": 486
+    },
+    "id": 81,
+    "teamId": 19,
+    "name": "Matt Ritchie",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1823,
+      "points": 72,
+      "bps": 336,
+      "last6GamesMinutes": [
+        36,
+        90,
+        0,
+        71,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4845,129 +5011,15 @@
       "points": 71,
       "bps": 338,
       "last6GamesMinutes": [
-        90,
         7,
         90,
         90,
         90,
-        90
+        90,
+        0
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2889,
-      "points": 145,
-      "bps": 599
-    },
-    "2016": {
-      "minutesPlayed": 1614,
-      "points": 102,
-      "bps": 457
-    },
-    "id": 272,
-    "teamId": 8,
-    "name": "Juan Mata",
-    "price": 6.8,
-    "thisSeason": {
-      "minutesPlayed": 1174,
-      "points": 71,
-      "bps": 294,
-      "last6GamesMinutes": [
-        90,
-        90,
-        82,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2975,
-      "points": 119,
-      "bps": 486
-    },
-    "id": 81,
-    "teamId": 19,
-    "name": "Matt Ritchie",
-    "price": 5.5,
-    "thisSeason": {
-      "minutesPlayed": 1733,
-      "points": 70,
-      "bps": 318,
-      "last6GamesMinutes": [
-        73,
-        36,
-        90,
-        0,
-        71,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2599,
-      "points": 160,
-      "bps": 521
-    },
-    "2016": {
-      "minutesPlayed": 2242,
-      "points": 156,
-      "bps": 502
-    },
-    "id": 216,
-    "teamId": 4,
-    "name": "Sadio Mané",
-    "price": 9.3,
-    "thisSeason": {
-      "minutesPlayed": 986,
-      "points": 70,
-      "bps": 255,
-      "last6GamesMinutes": [
-        75,
-        0,
-        79,
-        0,
-        71,
-        71
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 2483,
-      "points": 85,
-      "bps": 506
-    },
-    "id": 80,
-    "teamId": 3,
-    "name": "Granit Xhaka",
-    "price": 5.3,
-    "thisSeason": {
-      "minutesPlayed": 1900,
-      "points": 68,
-      "bps": 336,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        86,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -4986,19 +5038,107 @@
     "name": "Dusan Tadic",
     "price": 6.3,
     "thisSeason": {
-      "minutesPlayed": 1522,
-      "points": 67,
-      "bps": 250,
+      "minutesPlayed": 1612,
+      "points": 71,
+      "bps": 270,
       "last6GamesMinutes": [
-        82,
         0,
         71,
         27,
         81,
-        78
+        78,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1910,
+      "points": 100,
+      "bps": 441
+    },
+    "2016": {
+      "minutesPlayed": 2708,
+      "points": 133,
+      "bps": 635
+    },
+    "id": 186,
+    "teamId": 16,
+    "name": "Manuel Lanzini",
+    "price": 6.8,
+    "thisSeason": {
+      "minutesPlayed": 1386,
+      "points": 71,
+      "bps": 334,
+      "last6GamesMinutes": [
+        90,
+        0,
+        90,
+        90,
+        84,
+        84
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 2483,
+      "points": 85,
+      "bps": 506
+    },
+    "id": 80,
+    "teamId": 3,
+    "name": "Granit Xhaka",
+    "price": 5.2,
+    "thisSeason": {
+      "minutesPlayed": 1990,
+      "points": 69,
+      "bps": 349,
+      "last6GamesMinutes": [
+        90,
+        90,
+        86,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2914,
+      "points": 158,
+      "bps": 568
+    },
+    "2016": {
+      "minutesPlayed": 3327,
+      "points": 181,
+      "bps": 684
+    },
+    "id": 199,
+    "teamId": 14,
+    "name": "Gylfi Sigurdsson",
+    "price": 8,
+    "thisSeason": {
+      "minutesPlayed": 1743,
+      "points": 67,
+      "bps": 295,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5022,45 +5162,14 @@
       "bps": 295,
       "last6GamesMinutes": [
         90,
-        90,
         0,
         90,
         90,
+        0,
         0
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2914,
-      "points": 158,
-      "bps": 568
-    },
-    "2016": {
-      "minutesPlayed": 3327,
-      "points": 181,
-      "bps": 684
-    },
-    "id": 199,
-    "teamId": 14,
-    "name": "Gylfi Sigurdsson",
-    "price": 8,
-    "thisSeason": {
-      "minutesPlayed": 1653,
-      "points": 65,
-      "bps": 287,
-      "last6GamesMinutes": [
-        84,
-        90,
-        90,
-        90,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5074,19 +5183,19 @@
     "name": "Johann Berg Gudmundsson",
     "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1604,
-      "points": 64,
-      "bps": 261,
+      "minutesPlayed": 1688,
+      "points": 66,
+      "bps": 275,
       "last6GamesMinutes": [
         90,
         90,
         90,
         90,
         90,
-        90
+        84
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5105,9 +5214,9 @@
     "name": "Wilfried Zaha",
     "price": 6.9,
     "thisSeason": {
-      "minutesPlayed": 1426,
-      "points": 63,
-      "bps": 180,
+      "minutesPlayed": 1516,
+      "points": 66,
+      "bps": 188,
       "last6GamesMinutes": [
         90,
         90,
@@ -5117,7 +5226,38 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2602,
+      "points": 112,
+      "bps": 596
+    },
+    "2016": {
+      "minutesPlayed": 2643,
+      "points": 77,
+      "bps": 450
+    },
+    "id": 87,
+    "teamId": 15,
+    "name": "Steven Davis",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1373,
+      "points": 66,
+      "bps": 315,
+      "last6GamesMinutes": [
+        0,
+        71,
+        0,
+        0,
+        20,
+        62
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5126,18 +5266,18 @@
     "name": "Christian Atsu",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1344,
-      "points": 63,
-      "bps": 193,
+      "minutesPlayed": 1434,
+      "points": 65,
+      "bps": 199,
       "last6GamesMinutes": [
-        53,
         90,
         19,
         90,
-        63
+        63,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5156,81 +5296,97 @@
     "name": "N'Golo Kanté",
     "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1644,
-      "points": 62,
-      "bps": 383,
+      "minutesPlayed": 1734,
+      "points": 64,
+      "bps": 395,
       "last6GamesMinutes": [
-        70,
         90,
         90,
         84,
         64,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
-    "2015": {
-      "minutesPlayed": 2035,
-      "points": 113,
-      "bps": 476
-    },
-    "2016": {
-      "minutesPlayed": 2140,
-      "points": 162,
-      "bps": 580
-    },
-    "id": 82,
+    "id": 89,
     "teamId": 10,
-    "name": "Pedro Rodríguez Ledesma",
-    "price": 7.7,
+    "name": "Tiemoué Bakayoko",
+    "price": 5,
     "thisSeason": {
-      "minutesPlayed": 940,
-      "points": 61,
-      "bps": 183,
+      "minutesPlayed": 1550,
+      "points": 64,
+      "bps": 282,
       "last6GamesMinutes": [
         90,
-        67,
-        62,
-        0,
         90,
-        0
+        90,
+        25,
+        90,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1224,
+      "points": 42,
+      "bps": 169
+    },
+    "id": 155,
+    "teamId": 20,
+    "name": "Luka Milivojevic",
+    "price": 4.6,
+    "thisSeason": {
+      "minutesPlayed": 1729,
+      "points": 64,
+      "bps": 290,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 2602,
-      "points": 112,
-      "bps": 596
+      "minutesPlayed": 928,
+      "points": 44,
+      "bps": 198
     },
     "2016": {
-      "minutesPlayed": 2643,
-      "points": 77,
-      "bps": 450
+      "minutesPlayed": 1564,
+      "points": 83,
+      "bps": 393
     },
-    "id": 87,
-    "teamId": 15,
-    "name": "Steven Davis",
-    "price": 4.9,
+    "id": 184,
+    "teamId": 4,
+    "name": "Alex Oxlade-Chamberlain",
+    "price": 5.6,
     "thisSeason": {
-      "minutesPlayed": 1311,
-      "points": 61,
-      "bps": 299,
+      "minutesPlayed": 1150,
+      "points": 64,
+      "bps": 297,
       "last6GamesMinutes": [
         90,
-        0,
-        71,
-        0,
-        0,
-        20
+        6,
+        90,
+        18,
+        90,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5249,66 +5405,50 @@
     "name": "Joe Allen",
     "price": 5.1,
     "thisSeason": {
-      "minutesPlayed": 1782,
-      "points": 61,
-      "bps": 316,
+      "minutesPlayed": 1872,
+      "points": 63,
+      "bps": 330,
       "last6GamesMinutes": [
-        90,
         90,
         90,
         90,
         0,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
-    "id": 89,
-    "teamId": 10,
-    "name": "Tiemoué Bakayoko",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 1460,
-      "points": 61,
-      "bps": 273,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        25,
-        90
-      ]
+    "2015": {
+      "minutesPlayed": 2035,
+      "points": 113,
+      "bps": 476
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
     "2016": {
-      "minutesPlayed": 1224,
-      "points": 42,
-      "bps": 169
+      "minutesPlayed": 2140,
+      "points": 162,
+      "bps": 580
     },
-    "id": 155,
-    "teamId": 20,
-    "name": "Luka Milivojevic",
-    "price": 4.6,
+    "id": 82,
+    "teamId": 10,
+    "name": "Pedro Rodríguez Ledesma",
+    "price": 7.7,
     "thisSeason": {
-      "minutesPlayed": 1639,
-      "points": 61,
-      "bps": 276,
+      "minutesPlayed": 972,
+      "points": 62,
+      "bps": 188,
       "last6GamesMinutes": [
+        67,
+        62,
+        0,
         90,
-        90,
-        90,
-        90,
-        90,
-        90
+        0,
+        32
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5327,9 +5467,9 @@
     "name": "Jack Cork",
     "price": 4.6,
     "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 60,
-      "bps": 313,
+      "minutesPlayed": 2070,
+      "points": 62,
+      "bps": 326,
       "last6GamesMinutes": [
         90,
         90,
@@ -5339,38 +5479,7 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2808,
-      "points": 165,
-      "bps": 573
-    },
-    "2016": {
-      "minutesPlayed": 2713,
-      "points": 117,
-      "bps": 401
-    },
-    "id": 248,
-    "teamId": 16,
-    "name": "Marko Arnautovic",
-    "price": 7,
-    "thisSeason": {
-      "minutesPlayed": 1095,
-      "points": 59,
-      "bps": 182,
-      "last6GamesMinutes": [
-        68,
-        90,
-        78,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5379,19 +5488,19 @@
     "name": "Anthony Knockaert",
     "price": 5.6,
     "thisSeason": {
-      "minutesPlayed": 1517,
-      "points": 59,
-      "bps": 256,
+      "minutesPlayed": 1607,
+      "points": 61,
+      "bps": 270,
       "last6GamesMinutes": [
-        90,
         83,
         90,
         8,
         90,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5400,19 +5509,19 @@
     "name": "Tom Ince",
     "price": 5.5,
     "thisSeason": {
-      "minutesPlayed": 1822,
-      "points": 58,
-      "bps": 186,
+      "minutesPlayed": 1912,
+      "points": 60,
+      "bps": 195,
       "last6GamesMinutes": [
-        90,
         71,
         90,
         90,
         54,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5426,19 +5535,40 @@
     "name": "Jeff Hendrick",
     "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 1474,
-      "points": 58,
-      "bps": 186,
+      "minutesPlayed": 1536,
+      "points": 60,
+      "bps": 191,
       "last6GamesMinutes": [
-        70,
         90,
         70,
         90,
         72,
-        70
+        70,
+        62
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 202,
+    "teamId": 11,
+    "name": "Davy Pröpper",
+    "price": 5.3,
+    "thisSeason": {
+      "minutesPlayed": 2055,
+      "points": 59,
+      "bps": 304,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        75
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5457,102 +5587,19 @@
     "name": "Cesc Fàbregas",
     "price": 6.8,
     "thisSeason": {
-      "minutesPlayed": 1345,
-      "points": 57,
-      "bps": 339,
+      "minutesPlayed": 1402,
+      "points": 58,
+      "bps": 349,
       "last6GamesMinutes": [
-        0,
         22,
         27,
         90,
         0,
-        70
+        70,
+        57
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 202,
-    "teamId": 11,
-    "name": "Davy Pröpper",
-    "price": 5.3,
-    "thisSeason": {
-      "minutesPlayed": 1980,
-      "points": 57,
-      "bps": 296,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1910,
-      "points": 100,
-      "bps": 441
-    },
-    "2016": {
-      "minutesPlayed": 2708,
-      "points": 133,
-      "bps": 635
-    },
-    "id": 186,
-    "teamId": 16,
-    "name": "Manuel Lanzini",
-    "price": 6.8,
-    "thisSeason": {
-      "minutesPlayed": 1302,
-      "points": 57,
-      "bps": 287,
-      "last6GamesMinutes": [
-        90,
-        90,
-        0,
-        90,
-        90,
-        84
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3375,
-      "points": 103,
-      "bps": 504
-    },
-    "2016": {
-      "minutesPlayed": 3231,
-      "points": 103,
-      "bps": 453
-    },
-    "id": 94,
-    "teamId": 5,
-    "name": "Darren Fletcher",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 1795,
-      "points": 55,
-      "bps": 279,
-      "last6GamesMinutes": [
-        90,
-        61,
-        66,
-        75,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5571,9 +5618,9 @@
     "name": "Nemanja Matic",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1943,
-      "points": 55,
-      "bps": 334,
+      "minutesPlayed": 2033,
+      "points": 58,
+      "bps": 352,
       "last6GamesMinutes": [
         90,
         90,
@@ -5583,38 +5630,64 @@
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 1613,
-      "points": 77,
-      "bps": 357
+      "minutesPlayed": 3375,
+      "points": 103,
+      "bps": 504
     },
     "2016": {
-      "minutesPlayed": 1848,
-      "points": 55,
-      "bps": 294
+      "minutesPlayed": 3231,
+      "points": 103,
+      "bps": 453
     },
-    "id": 84,
-    "teamId": 6,
-    "name": "Tom Cleverley",
-    "price": 5,
+    "id": 94,
+    "teamId": 5,
+    "name": "Darren Fletcher",
+    "price": 4.9,
     "thisSeason": {
-      "minutesPlayed": 1795,
-      "points": 54,
-      "bps": 287,
+      "minutesPlayed": 1885,
+      "points": 57,
+      "bps": 295,
       "last6GamesMinutes": [
+        61,
+        66,
+        75,
         90,
-        86,
-        90,
-        90,
-        90,
-        29
+        0,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1521,
+      "points": 59,
+      "bps": 288
+    },
+    "id": 185,
+    "teamId": 12,
+    "name": "Wilfred Ndidi",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 2040,
+      "points": 57,
+      "bps": 308,
+      "last6GamesMinutes": [
+        60,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5633,45 +5706,102 @@
     "name": "Tom Carroll",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 1690,
-      "points": 54,
-      "bps": 276,
+      "minutesPlayed": 1780,
+      "points": 56,
+      "bps": 278,
       "last6GamesMinutes": [
-        45,
         80,
         90,
         90,
         90,
-        77
+        77,
+        90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
-    "2016": {
-      "minutesPlayed": 1521,
-      "points": 59,
-      "bps": 288
+    "2015": {
+      "minutesPlayed": 1613,
+      "points": 77,
+      "bps": 357
     },
-    "id": 185,
-    "teamId": 12,
-    "name": "Wilfred Ndidi",
-    "price": 4.9,
+    "2016": {
+      "minutesPlayed": 1848,
+      "points": 55,
+      "bps": 294
+    },
+    "id": 84,
+    "teamId": 6,
+    "name": "Tom Cleverley",
+    "price": 5,
     "thisSeason": {
-      "minutesPlayed": 1950,
-      "points": 54,
-      "bps": 285,
+      "minutesPlayed": 1829,
+      "points": 55,
+      "bps": 290,
+      "last6GamesMinutes": [
+        86,
+        90,
+        90,
+        90,
+        29,
+        34
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 293,
+    "teamId": 6,
+    "name": "André Carrillo",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1332,
+      "points": 55,
+      "bps": 241,
       "last6GamesMinutes": [
         90,
-        60,
         90,
-        90,
+        89,
+        82,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2491,
+      "points": 65,
+      "bps": 443
+    },
+    "2016": {
+      "minutesPlayed": 2371,
+      "points": 104,
+      "bps": 436
+    },
+    "id": 230,
+    "teamId": 4,
+    "name": "Emre Can",
+    "price": 4.8,
+    "thisSeason": {
+      "minutesPlayed": 1433,
+      "points": 54,
+      "bps": 331,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        90,
+        90,
+        78
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5702,28 +5832,7 @@
         69
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 293,
-    "teamId": 6,
-    "name": "André Carrillo",
-    "price": 5.5,
-    "thisSeason": {
-      "minutesPlayed": 1242,
-      "points": 53,
-      "bps": 230,
-      "last6GamesMinutes": [
-        70,
-        90,
-        90,
-        89,
-        82,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5742,81 +5851,19 @@
     "name": "Demarai Gray",
     "price": 5.3,
     "thisSeason": {
-      "minutesPlayed": 1053,
-      "points": 52,
-      "bps": 201,
+      "minutesPlayed": 1061,
+      "points": 53,
+      "bps": 204,
       "last6GamesMinutes": [
-        18,
         90,
         79,
         17,
         90,
-        13
+        13,
+        8
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2491,
-      "points": 65,
-      "bps": 443
-    },
-    "2016": {
-      "minutesPlayed": 2371,
-      "points": 104,
-      "bps": 436
-    },
-    "id": 230,
-    "teamId": 4,
-    "name": "Emre Can",
-    "price": 4.8,
-    "thisSeason": {
-      "minutesPlayed": 1355,
-      "points": 52,
-      "bps": 305,
-      "last6GamesMinutes": [
-        90,
-        0,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 928,
-      "points": 44,
-      "bps": 198
-    },
-    "2016": {
-      "minutesPlayed": 1564,
-      "points": 83,
-      "bps": 393
-    },
-    "id": 184,
-    "teamId": 4,
-    "name": "Alex Oxlade-Chamberlain",
-    "price": 5.6,
-    "thisSeason": {
-      "minutesPlayed": 1060,
-      "points": 52,
-      "bps": 253,
-      "last6GamesMinutes": [
-        14,
-        90,
-        6,
-        90,
-        18,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5847,7 +5894,7 @@
         85
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5866,50 +5913,81 @@
     "name": "Georginio Wijnaldum",
     "price": 6.6,
     "thisSeason": {
-      "minutesPlayed": 1413,
-      "points": 50,
-      "bps": 226,
+      "minutesPlayed": 1503,
+      "points": 52,
+      "bps": 240,
       "last6GamesMinutes": [
-        75,
         90,
         10,
         90,
         7,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 2341,
-      "points": 110,
-      "bps": 420
+      "minutesPlayed": 1177,
+      "points": 61,
+      "bps": 223
     },
     "2016": {
-      "minutesPlayed": 2898,
-      "points": 126,
-      "bps": 483
+      "minutesPlayed": 1055,
+      "points": 36,
+      "bps": 133
     },
-    "id": 107,
-    "teamId": 15,
-    "name": "Nathan Redmond",
-    "price": 6,
+    "id": 306,
+    "teamId": 13,
+    "name": "Jordon Ibe",
+    "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1369,
-      "points": 47,
-      "bps": 200,
+      "minutesPlayed": 1291,
+      "points": 52,
+      "bps": 202,
       "last6GamesMinutes": [
-        28,
         90,
         90,
-        62,
-        5,
-        11
+        90,
+        90,
+        90,
+        85
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1088,
+      "points": 36,
+      "bps": 204
+    },
+    "2016": {
+      "minutesPlayed": 1763,
+      "points": 55,
+      "bps": 331
+    },
+    "id": 304,
+    "teamId": 16,
+    "name": "Pedro Obiang",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1468,
+      "points": 51,
+      "bps": 47,
+      "last6GamesMinutes": [
+        90,
+        90,
+        59,
+        45,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5928,19 +6006,221 @@
     "name": "James McArthur",
     "price": 4.3,
     "thisSeason": {
-      "minutesPlayed": 1026,
-      "points": 47,
-      "bps": 185,
+      "minutesPlayed": 1116,
+      "points": 50,
+      "bps": 192,
       "last6GamesMinutes": [
-        25,
         13,
         90,
         90,
         37,
+        90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3007,
+      "points": 110,
+      "bps": 558
+    },
+    "2016": {
+      "minutesPlayed": 2723,
+      "points": 79,
+      "bps": 438
+    },
+    "id": 211,
+    "teamId": 16,
+    "name": "Cheikhou Kouyaté",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 1456,
+      "points": 49,
+      "bps": 210,
+      "last6GamesMinutes": [
+        42,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1821,
+      "points": 89,
+      "bps": 256
+    },
+    "2016": {
+      "minutesPlayed": 2181,
+      "points": 115,
+      "bps": 357
+    },
+    "id": 98,
+    "teamId": 17,
+    "name": "Matt Phillips",
+    "price": 5.5,
+    "thisSeason": {
+      "minutesPlayed": 1049,
+      "points": 48,
+      "bps": 165,
+      "last6GamesMinutes": [
+        83,
+        90,
+        90,
+        87,
+        71,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2837,
+      "points": 76,
+      "bps": 494
+    },
+    "2016": {
+      "minutesPlayed": 2109,
+      "points": 68,
+      "bps": 371
+    },
+    "id": 108,
+    "teamId": 17,
+    "name": "Gareth Barry",
+    "price": 4.5,
+    "thisSeason": {
+      "minutesPlayed": 1537,
+      "points": 48,
+      "bps": 246,
+      "last6GamesMinutes": [
+        45,
+        90,
+        90,
+        90,
+        7,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 1764,
+      "points": 100,
+      "bps": 345
+    },
+    "id": 291,
+    "teamId": 13,
+    "name": "Ryan Fraser",
+    "price": 5.1,
+    "thisSeason": {
+      "minutesPlayed": 957,
+      "points": 48,
+      "bps": 178,
+      "last6GamesMinutes": [
+        90,
+        45,
+        90,
+        85,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2341,
+      "points": 110,
+      "bps": 420
+    },
+    "2016": {
+      "minutesPlayed": 2898,
+      "points": 126,
+      "bps": 483
+    },
+    "id": 107,
+    "teamId": 15,
+    "name": "Nathan Redmond",
+    "price": 5.9,
+    "thisSeason": {
+      "minutesPlayed": 1369,
+      "points": 47,
+      "bps": 200,
+      "last6GamesMinutes": [
+        90,
+        90,
+        62,
+        5,
+        11,
+        0
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 102,
+    "teamId": 11,
+    "name": "Solomon March",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 1314,
+      "points": 47,
+      "bps": 183,
+      "last6GamesMinutes": [
+        90,
+        90,
+        81,
+        90,
+        0,
+        45
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2927,
+      "points": 171,
+      "bps": 528
+    },
+    "2016": {
+      "minutesPlayed": 1439,
+      "points": 89,
+      "bps": 257
+    },
+    "id": 99,
+    "teamId": 16,
+    "name": "André Ayew",
+    "price": 6.8,
+    "thisSeason": {
+      "minutesPlayed": 886,
+      "points": 47,
+      "bps": 161,
+      "last6GamesMinutes": [
+        0,
+        78,
+        60,
+        0,
+        25,
+        7
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -5971,59 +6251,7 @@
         12
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 102,
-    "teamId": 11,
-    "name": "Solomon March",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 1269,
-      "points": 46,
-      "bps": 183,
-      "last6GamesMinutes": [
-        28,
-        90,
-        90,
-        81,
-        90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2927,
-      "points": 171,
-      "bps": 528
-    },
-    "2016": {
-      "minutesPlayed": 1439,
-      "points": 89,
-      "bps": 257
-    },
-    "id": 99,
-    "teamId": 16,
-    "name": "André Ayew",
-    "price": 6.8,
-    "thisSeason": {
-      "minutesPlayed": 879,
-      "points": 46,
-      "bps": 160,
-      "last6GamesMinutes": [
-        0,
-        0,
-        78,
-        60,
-        0,
-        25
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6046,77 +6274,15 @@
       "points": 46,
       "bps": 267,
       "last6GamesMinutes": [
-        76,
         84,
         75,
         52,
         75,
-        45
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1821,
-      "points": 89,
-      "bps": 256
-    },
-    "2016": {
-      "minutesPlayed": 2181,
-      "points": 115,
-      "bps": 357
-    },
-    "id": 98,
-    "teamId": 17,
-    "name": "Matt Phillips",
-    "price": 5.5,
-    "thisSeason": {
-      "minutesPlayed": 959,
-      "points": 45,
-      "bps": 154,
-      "last6GamesMinutes": [
-        31,
-        83,
-        90,
-        90,
-        87,
-        71
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2837,
-      "points": 76,
-      "bps": 494
-    },
-    "2016": {
-      "minutesPlayed": 2109,
-      "points": 68,
-      "bps": 371
-    },
-    "id": 108,
-    "teamId": 17,
-    "name": "Gareth Barry",
-    "price": 4.5,
-    "thisSeason": {
-      "minutesPlayed": 1447,
-      "points": 45,
-      "bps": 231,
-      "last6GamesMinutes": [
-        29,
         45,
-        90,
-        90,
-        90,
-        7
+        0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6125,81 +6291,19 @@
     "name": "José Heriberto Izquierdo Mena",
     "price": 5.9,
     "thisSeason": {
-      "minutesPlayed": 789,
-      "points": 45,
-      "bps": 135,
+      "minutesPlayed": 834,
+      "points": 46,
+      "bps": 136,
       "last6GamesMinutes": [
-        61,
         7,
         1,
         90,
         0,
-        90
+        90,
+        45
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1612,
-      "points": 45,
-      "bps": 293
-    },
-    "2016": {
-      "minutesPlayed": 3071,
-      "points": 80,
-      "bps": 566
-    },
-    "id": 218,
-    "teamId": 15,
-    "name": "Oriol Romeu Vidal",
-    "price": 4.3,
-    "thisSeason": {
-      "minutesPlayed": 1709,
-      "points": 44,
-      "bps": 301,
-      "last6GamesMinutes": [
-        45,
-        90,
-        0,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 3007,
-      "points": 110,
-      "bps": 558
-    },
-    "2016": {
-      "minutesPlayed": 2723,
-      "points": 79,
-      "bps": 438
-    },
-    "id": 211,
-    "teamId": 16,
-    "name": "Cheikhou Kouyaté",
-    "price": 5,
-    "thisSeason": {
-      "minutesPlayed": 1366,
-      "points": 44,
-      "bps": 194,
-      "last6GamesMinutes": [
-        90,
-        42,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6218,45 +6322,102 @@
     "name": "Idrissa Gueye",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1669,
-      "points": 44,
-      "bps": 311,
+      "minutesPlayed": 1759,
+      "points": 46,
+      "bps": 324,
       "last6GamesMinutes": [
-        90,
         90,
         50,
         0,
         70,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 1764,
-      "points": 100,
-      "bps": 345
-    },
-    "id": 291,
-    "teamId": 13,
-    "name": "Ryan Fraser",
-    "price": 5.1,
-    "thisSeason": {
-      "minutesPlayed": 867,
-      "points": 43,
-      "bps": 161,
-      "last6GamesMinutes": [
-        86,
-        90,
-        45,
-        90,
-        85,
+        0,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1612,
+      "points": 45,
+      "bps": 293
+    },
+    "2016": {
+      "minutesPlayed": 3071,
+      "points": 80,
+      "bps": 566
+    },
+    "id": 218,
+    "teamId": 15,
+    "name": "Oriol Romeu Vidal",
+    "price": 4.3,
+    "thisSeason": {
+      "minutesPlayed": 1799,
+      "points": 45,
+      "bps": 312,
+      "last6GamesMinutes": [
+        90,
+        0,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "id": 249,
+    "teamId": 19,
+    "name": "Mikel Merino",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 1145,
+      "points": 41,
+      "bps": 237,
+      "last6GamesMinutes": [
+        85,
+        81,
+        13,
+        75,
+        0,
+        8
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1529,
+      "points": 104,
+      "bps": 329
+    },
+    "2016": {
+      "minutesPlayed": 3131,
+      "points": 136,
+      "bps": 382
+    },
+    "id": 274,
+    "teamId": 20,
+    "name": "Christian Benteke",
+    "price": 7.6,
+    "thisSeason": {
+      "minutesPlayed": 1388,
+      "points": 41,
+      "bps": 52,
+      "last6GamesMinutes": [
+        90,
+        87,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6287,59 +6448,28 @@
         58
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
-    "id": 249,
-    "teamId": 19,
-    "name": "Mikel Merino",
-    "price": 5,
+    "id": 183,
+    "teamId": 18,
+    "name": "Rajiv van La Parra",
+    "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1137,
-      "points": 40,
-      "bps": 233,
-      "last6GamesMinutes": [
-        90,
-        85,
-        81,
-        13,
-        75,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1529,
-      "points": 104,
-      "bps": 329
-    },
-    "2016": {
-      "minutesPlayed": 3131,
-      "points": 136,
-      "bps": 382
-    },
-    "id": 274,
-    "teamId": 20,
-    "name": "Christian Benteke",
-    "price": 7.6,
-    "thisSeason": {
-      "minutesPlayed": 1298,
+      "minutesPlayed": 1204,
       "points": 36,
-      "bps": 46,
+      "bps": 127,
       "last6GamesMinutes": [
-        90,
-        90,
-        87,
+        63,
+        60,
+        61,
         90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6362,15 +6492,15 @@
       "points": 35,
       "bps": 165,
       "last6GamesMinutes": [
-        84,
         0,
         16,
         90,
         77,
+        0,
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6379,40 +6509,19 @@
     "name": "Vicente Iborra",
     "price": 5.8,
     "thisSeason": {
-      "minutesPlayed": 1054,
-      "points": 34,
-      "bps": 197,
+      "minutesPlayed": 1055,
+      "points": 35,
+      "bps": 199,
       "last6GamesMinutes": [
-        0,
         76,
         66,
         0,
         90,
-        0
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "id": 183,
-    "teamId": 18,
-    "name": "Rajiv van La Parra",
-    "price": 4.8,
-    "thisSeason": {
-      "minutesPlayed": 1114,
-      "points": 34,
-      "bps": 111,
-      "last6GamesMinutes": [
         0,
-        63,
-        60,
-        61,
-        90,
-        90
+        1
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6438,7 +6547,7 @@
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6457,19 +6566,19 @@
     "name": "Aaron Lennon",
     "price": 5.4,
     "thisSeason": {
-      "minutesPlayed": 755,
-      "points": 30,
-      "bps": 81,
+      "minutesPlayed": 788,
+      "points": 31,
+      "bps": 84,
       "last6GamesMinutes": [
-        60,
         78,
         45,
         29,
         90,
-        28
+        28,
+        33
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6488,19 +6597,81 @@
     "name": "Wilfried Bony",
     "price": 5.7,
     "thisSeason": {
-      "minutesPlayed": 650,
-      "points": 29,
+      "minutesPlayed": 669,
+      "points": 30,
       "bps": 94,
       "last6GamesMinutes": [
         90,
         90,
         90,
-        90,
         73,
-        4
+        4,
+        19
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 142,
+      "points": 6,
+      "bps": 23
+    },
+    "2016": {
+      "minutesPlayed": 1950,
+      "points": 61,
+      "bps": 312
+    },
+    "id": 305,
+    "teamId": 3,
+    "name": "Jack Wilshere",
+    "price": 5.4,
+    "thisSeason": {
+      "minutesPlayed": 716,
+      "points": 30,
+      "bps": 149,
+      "last6GamesMinutes": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 2265,
+      "points": 89,
+      "bps": 558
+    },
+    "2016": {
+      "minutesPlayed": 2056,
+      "points": 76,
+      "bps": 456
+    },
+    "id": 232,
+    "teamId": 2,
+    "name": "Mousa Dembélé",
+    "price": 4.9,
+    "thisSeason": {
+      "minutesPlayed": 958,
+      "points": 28,
+      "bps": 188,
+      "last6GamesMinutes": [
+        90,
+        12,
+        53,
+        0,
+        0,
+        81
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6524,45 +6695,14 @@
       "bps": 156,
       "last6GamesMinutes": [
         0,
-        0,
         90,
         0,
         12,
-        70
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 2265,
-      "points": 89,
-      "bps": 558
-    },
-    "2016": {
-      "minutesPlayed": 2056,
-      "points": 76,
-      "bps": 456
-    },
-    "id": 232,
-    "teamId": 2,
-    "name": "Mousa Dembélé",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 877,
-      "points": 25,
-      "bps": 167,
-      "last6GamesMinutes": [
-        23,
-        90,
-        12,
-        53,
-        0,
+        70,
         0
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
@@ -6583,235 +6723,209 @@
         57
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 450,
-      "points": 27,
-      "bps": 135
+      "minutesPlayed": 3384,
+      "points": 124,
+      "bps": 600
     },
     "2016": {
-      "minutesPlayed": 688,
-      "points": 45,
-      "bps": 202
+      "minutesPlayed": 3276,
+      "points": 102,
+      "bps": 500
     },
-    "id": 300,
-    "teamId": 8,
-    "name": "Luke Shaw",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 352,
-      "points": 19,
-      "bps": 91,
-      "last6GamesMinutes": [
-        82,
-        0,
-        0,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1811,
-      "points": 68,
-      "bps": 353
-    },
-    "id": 301,
-    "teamId": 19,
-    "name": "DeAndre Yedlin",
-    "price": 4.4,
-    "thisSeason": {
-      "minutesPlayed": 1535,
-      "points": 41,
-      "bps": 253,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2016": {
-      "minutesPlayed": 1430,
-      "points": 38,
-      "bps": 210
-    },
-    "id": 302,
-    "teamId": 19,
-    "name": "Javier Manquillo",
-    "price": 4.4,
-    "thisSeason": {
-      "minutesPlayed": 1620,
-      "points": 43,
-      "bps": 224,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        0,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "id": 303,
-    "teamId": 8,
-    "name": "Victor Lindelöf",
-    "price": 4.9,
-    "thisSeason": {
-      "minutesPlayed": 743,
-      "points": 27,
-      "bps": 166,
-      "last6GamesMinutes": [
-        0,
-        0,
-        90,
-        0,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "def"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1088,
-      "points": 36,
-      "bps": 204
-    },
-    "2016": {
-      "minutesPlayed": 1763,
-      "points": 55,
-      "bps": 331
-    },
-    "id": 304,
-    "teamId": 16,
-    "name": "Pedro Obiang",
-    "price": 4.4,
-    "thisSeason": {
-      "minutesPlayed": 1378,
-      "points": 49,
-      "bps": 34,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        59,
-        45,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 142,
-      "points": 6,
-      "bps": 23
-    },
-    "2016": {
-      "minutesPlayed": 1950,
-      "points": 61,
-      "bps": 312
-    },
-    "id": 305,
-    "teamId": 3,
-    "name": "Jack Wilshere",
-    "price": 5.4,
-    "thisSeason": {
-      "minutesPlayed": 626,
-      "points": 29,
-      "bps": 142,
-      "last6GamesMinutes": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ]
-    },
-    "lastUpdatedGw": 22,
-    "position": "mid"
-  },
-  {
-    "2015": {
-      "minutesPlayed": 1177,
-      "points": 61,
-      "bps": 223
-    },
-    "2016": {
-      "minutesPlayed": 1055,
-      "points": 36,
-      "bps": 133
-    },
-    "id": 306,
-    "teamId": 13,
-    "name": "Jordon Ibe",
+    "id": 310,
+    "teamId": 17,
+    "name": "Craig Dawson",
     "price": 4.8,
     "thisSeason": {
-      "minutesPlayed": 1206,
-      "points": 43,
-      "bps": 171,
+      "minutesPlayed": 1160,
+      "points": 48,
+      "bps": 211,
       "last6GamesMinutes": [
+        0,
         0,
         90,
         90,
+        90,
+        80
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 257,
+      "points": 22,
+      "bps": 104
+    },
+    "2016": {
+      "minutesPlayed": 97,
+      "points": 9,
+      "bps": 36
+    },
+    "id": 311,
+    "teamId": 20,
+    "name": "Timothy Fosu-Mensah",
+    "price": 4.4,
+    "thisSeason": {
+      "minutesPlayed": 1140,
+      "points": 32,
+      "bps": 220,
+      "last6GamesMinutes": [
+        0,
+        0,
+        10,
         90,
         90,
         90
       ]
     },
-    "lastUpdatedGw": 22,
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "id": 312,
+    "teamId": 2,
+    "name": "Serge Aurier",
+    "price": 5.9,
+    "thisSeason": {
+      "minutesPlayed": 906,
+      "points": 46,
+      "bps": 196,
+      "last6GamesMinutes": [
+        0,
+        90,
+        90,
+        0,
+        90,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 1545,
+      "points": 80,
+      "bps": 325
+    },
+    "2016": {
+      "minutesPlayed": 1883,
+      "points": 92,
+      "bps": 377
+    },
+    "id": 313,
+    "teamId": 15,
+    "name": "Timothy Fosu-Mensah",
+    "price": 5,
+    "thisSeason": {
+      "minutesPlayed": 937,
+      "points": 47,
+      "bps": 191,
+      "last6GamesMinutes": [
+        90,
+        90,
+        0,
+        90,
+        69,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "def"
+  },
+  {
+    "2016": {
+      "minutesPlayed": 704,
+      "points": 41,
+      "bps": 196
+    },
+    "id": 314,
+    "teamId": 1,
+    "name": "Ilkay Gündogan",
+    "price": 5.3,
+    "thisSeason": {
+      "minutesPlayed": 560,
+      "points": 43,
+      "bps": 167,
+      "last6GamesMinutes": [
+        82,
+        16,
+        90,
+        56,
+        0,
+        90
+      ]
+    },
+    "lastUpdatedGw": 23,
     "position": "mid"
   },
   {
     "2015": {
-      "minutesPlayed": 2111,
-      "points": 109,
-      "bps": 343
+      "minutesPlayed": 3196,
+      "points": 133,
+      "bps": 716
     },
     "2016": {
-      "minutesPlayed": 1262,
-      "points": 57,
-      "bps": 159
+      "minutesPlayed": 2389,
+      "points": 71,
+      "bps": 389
     },
-    "id": 307,
-    "teamId": 19,
-    "name": "Shane Long",
-    "price": 5.6,
+    "id": 315,
+    "teamId": 1,
+    "name": "Mark Noble",
+    "price": 5.3,
     "thisSeason": {
-      "minutesPlayed": 929,
-      "points": 32,
-      "bps": 105,
+      "minutesPlayed": 1050,
+      "points": 37,
+      "bps": 212,
       "last6GamesMinutes": [
+        34,
         0,
         0,
-        0,
+        45,
         90,
-        79,
         90
       ]
     },
-    "lastUpdatedGw": 22,
-    "position": "fwd"
+    "lastUpdatedGw": 23,
+    "position": "mid"
+  },
+  {
+    "2015": {
+      "minutesPlayed": 3263,
+      "points": 130,
+      "bps": 676
+    },
+    "2016": {
+      "minutesPlayed": 3043,
+      "points": 93,
+      "bps": 505
+    },
+    "id": 316,
+    "teamId": 2,
+    "name": "Eric Dier",
+    "price": 4.7,
+    "thisSeason": {
+      "minutesPlayed": 1924,
+      "points": 55,
+      "bps": 320,
+      "last6GamesMinutes": [
+        90,
+        82,
+        90,
+        90,
+        73,
+        73
+      ]
+    },
+    "lastUpdatedGw": 23,
+    "position": "mid"
   }
 ]
