@@ -2,7 +2,7 @@ const Promise = require("bluebird")
 const json2csv = require("json2csv")
 const fs = require("fs-extra")
 const {
-  assoc, compose, converge, descend, find, keys, merge, mergeAll, pick, prop, propEq, sortWith, sum, values,
+  compose, converge, descend, find, merge, mergeAll, pick, prop, propEq, sortWith,
 } = require("ramda")
 const getDb = require("../../init/db")
 const reportTypes = require("./report-types")
@@ -11,10 +11,7 @@ const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 const calculatePriceGrade = require("./calculate-price-grade")
-
-function round(value) {
-  return Number(Math.round(value + "e" + 2) + "e-" + 2)
-}
+const calculateDerivedData = require("./calculate-derived-data")
 
 function generateReport(teams, playersCollection, reportType) {
   return playersCollection.find(reportType.filter).project({_id: 0}).toArray()
@@ -22,7 +19,7 @@ function generateReport(teams, playersCollection, reportType) {
       return Promise.map(players, (player) => {
         const team = find(propEq("id", player.teamId), teams)
         return compose(
-          merge(pick(["id", "name", "price", "position", "owned"], player)),
+          merge(pick(["id", "name", "price", "position", "owned", "rating"], player)),
           converge(
             (...reports) => mergeAll(reports),
             [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
@@ -31,20 +28,7 @@ function generateReport(teams, playersCollection, reportType) {
       })
     })
     .then((playerReports) => {
-      return Promise.map(playerReports, (report) => {
-        const grade = compose(
-          sum,
-          values,
-          pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade"])
-        )(report)
-
-        return compose(
-          assoc("grade", grade),
-          assoc("overallRating", round(report.rating * report.playingChance / 100)),
-          assoc("owned", report.owned ? "owned" : ""),
-          pick(["name", "price", "position"])
-        )(report)
-      })
+      return Promise.map(playerReports, (report) => calculateDerivedData(report))
     })
     .then((playerReports) => {
       return sortWith([
@@ -53,7 +37,7 @@ function generateReport(teams, playersCollection, reportType) {
       ], playerReports)
     })
     .then((finalReport) => {
-      const fields = keys(finalReport[0])
+      const fields = reportType.fields
       const csvReport = json2csv({data: finalReport, fields})
       return fs.outputFile(`./${reportType.fileName}.csv`, csvReport)
     })
