@@ -402,6 +402,7 @@
       "bps": 541
     },
     "id": 37,
+    "owned": true,
     "teamId": 7,
     "name": "Alfie Mawson",
     "price": 5.1,
@@ -957,7 +958,6 @@
       "bps": 469
     },
     "id": 32,
-    "owned": true,
     "teamId": 15,
     "name": "Maya Yoshida",
     "price": 4.7,
