@@ -1,54 +1,23 @@
 const Promise = require("bluebird")
-const {map, tail} = require("ramda")
-const fs = require("fs-extra")
-const getDb = require("../../init/db")
+const {openWebsite} = require("./website/methods")
+const {TEAM_OPTIONS_IN_SELECTBOX_SELECTOR} = require("./website/selectors")
+const getTeamData = require("./get-team-data")
 
-function getTeamUpdateReport(db, gameweek) {
-  function mapTeamToReport(team) {
-    team.gwToUpdate = gameweek
-    team.fixtures = tail(team.fixtures)
-    return team
-  }
-
-  const teamsCollection = db.collection("teams")
-  return teamsCollection.find({lastUpdatedGw: {$lt: gameweek}}).project({_id: 0}).toArray()
-    .then(map(mapTeamToReport))
-    .then(teamReport => fs.writeJson("./teams-update.json", teamReport))
+function getListOfTeams() {
+  return openWebsite()
+    .evaluate((teamsSelector) => {
+      const teams = Array.from(document.querySelectorAll(teamsSelector))
+      return teams.map((element) => ({id: element.value, name: element.innerText}))
+    }, TEAM_OPTIONS_IN_SELECTBOX_SELECTOR)
+    .end()
 }
 
-function getPlayerUpdateReport(db, gameweek) {
-  function mapPlayerToReport(player) {
-    player.gwToUpdate = gameweek
-    player.injured = false
-    player.minutesPlayed = 0
-    player.points = 0
-    player.bps = 0
-    return player
-  }
-
-  const playersCollection = db.collection("players")
-  return playersCollection.find({lastUpdatedGw: {$lt: gameweek}})
-    .sort({teamId: 1, "thisSeason.points": -1})
-    .project({_id: 0, id: 1, name: 1, lastUpdatedGw: 1, price: 1}).toArray()
-    .then(map(mapPlayerToReport))
-    .then(playerReport => fs.writeJson("./players-update.json", playerReport))
+function createUpdateReport() {
+  return getListOfTeams()
+    .then((teams) => Promise.map([teams[0]], (team) => {
+      return getTeamData(team)
+    }))
+    .catch((err) => console.log("Error occurred", err))
 }
 
-function createUpdateReport(gameweek) {
-  return getDb().then((db) => {
-    if (!gameweek) throw new Error("Missing gameweek argument")
-
-    return Promise.all([
-      getTeamUpdateReport(db, gameweek),
-      getPlayerUpdateReport(db, gameweek),
-    ])
-  }).then(() => {
-    console.log("FINISHED COMPILING UPDATE REPORT")
-    process.exit(0)
-  }).catch((err) => {
-    console.error("ERROR OCCURRED", err)
-    process.exit(1)
-  })
-}
-
-createUpdateReport(parseInt(process.argv[2], 10))
+createUpdateReport()
