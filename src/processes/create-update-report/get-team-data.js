@@ -1,8 +1,14 @@
-const {openTeamFixturesPage} = require("./website/methods")
+const {getListOfTeamFixtures} = require("./website/methods")
 
-function getTeamData(team) {
-  return openTeamFixturesPage(team.id)
-    .end()
+function getTeamData(lastUpdatedGw, team) {
+  return getListOfTeamFixtures(team.id)
+    .then((console.log(`Fetched team update for ${team.name}`)))
+    .then((fixtures) => ({
+      id: team.id,
+      name: team.name,
+      fixtures,
+      lastUpdatedGw,
+    }))
 }
 
 module.exports = getTeamData

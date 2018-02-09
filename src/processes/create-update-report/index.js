@@ -1,23 +1,23 @@
 const Promise = require("bluebird")
-const {openWebsite} = require("./website/methods")
-const {TEAM_OPTIONS_IN_SELECTBOX_SELECTOR} = require("./website/selectors")
+const fs = require("fs-extra")
+const {getListOfTeams} = require("./website/methods")
 const getTeamData = require("./get-team-data")
 
-function getListOfTeams() {
-  return openWebsite()
-    .evaluate((teamsSelector) => {
-      const teams = Array.from(document.querySelectorAll(teamsSelector))
-      return teams.map((element) => ({id: element.value, name: element.innerText}))
-    }, TEAM_OPTIONS_IN_SELECTBOX_SELECTOR)
-    .end()
+const CONCURRENCY = 5
+
+function getTeamUpdateReport(lastUpdatedGw, teams) {
+  return Promise.map(teams, (team) => {
+    return getTeamData(lastUpdatedGw, team)
+  }, {concurrency: CONCURRENCY}).then(teamReport => {
+    return fs.writeJson("./teams-update.json", teamReport)
+  })
 }
 
-function createUpdateReport() {
+function createUpdateReport(lastUpdatedGw) {
+  if (!lastUpdatedGw) throw new Error("Missing gameweek argument")
   return getListOfTeams()
-    .then((teams) => Promise.map([teams[0]], (team) => {
-      return getTeamData(team)
-    }))
+    .then((teams) => getTeamUpdateReport(lastUpdatedGw, teams))
     .catch((err) => console.log("Error occurred", err))
 }
 
-createUpdateReport()
+createUpdateReport(parseInt(process.argv[2], 10))
