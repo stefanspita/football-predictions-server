@@ -1,4 +1,4 @@
-const {getListOfTeamFixtures} = require("./website/methods")
+const {getListOfTeamFixtures} = require("../../services/website/methods")
 
 function getTeamData(lastUpdatedGw, team) {
   return getListOfTeamFixtures(team.id)
