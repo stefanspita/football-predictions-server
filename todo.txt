@@ -1,0 +1,8 @@
+- first finish off the player script getting all data for all players ( possibly excluding ones with no points)
+- replace the last6GamesMinutes number with objects like {minutesPlayed, injured} // if minutesPlayed isn't 0, then injured is false
+- replace the init script with the new script (the init script should only be run at the start of a season)
+- the update script only gets information from the last row
+- run init script and migrate injuries information already in the db to the new format
+   - basically look for missing zeroes in last6GamesMinutes. When something missing, mark the gameweek for that player with injured: true
+- only then it's safe to overwrite what's in the db
+- update the rest of the scripts to work with the new data shape
