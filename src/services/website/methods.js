@@ -30,7 +30,15 @@ function getListOfTeamFixtures(teamId) {
     .end()
 }
 
-module.exports = {
-  getListOfTeamFixtures,
-  getListOfTeams,
+function getListOfInjuredPlayers(teamId) {
+  return openWebsite()
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .click(selectors.PLAYER_TABLE_ROW)
+    .evaluate((injurySelector) => {
+      const fixtures = Array.from(document.querySelectorAll(injurySelector))
+      return fixtures.map((elem) => parseInt(elem.innerText, 10))
+    }, selectors.PLAYER_INJURY)
+    .end()
 }
+
+module.exports = {getListOfTeamFixtures, getListOfTeams, getListOfInjuredPlayers}
