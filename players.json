@@ -104,6 +104,7 @@
       "bps": 612
     },
     "id": 22,
+    "owned": true,
     "teamId": 8,
     "name": "Antonio Valencia",
     "price": 6.8,
@@ -261,7 +262,6 @@
       "bps": 569
     },
     "id": 39,
-    "owned": true,
     "teamId": 3,
     "name": "Héctor Bellerín",
     "price": 6.1,
