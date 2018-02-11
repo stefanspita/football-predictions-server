@@ -15,9 +15,9 @@ function getTeamUpdateReport(lastUpdatedGw, teams) {
   })
 }
 
-function getPlayerUpdateReport(teams) {
+function getPlayerUpdateReport(lastUpdatedGw, teams) {
   return Promise.map(teams, (team) => {
-    return getPlayerData(team)
+    return getPlayerData(lastUpdatedGw, team)
   }, {concurrency: CONCURRENCY})
     .then((playersTeamReport) => flatten(playersTeamReport))
     .then(playerReport => {
