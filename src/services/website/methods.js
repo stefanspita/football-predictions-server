@@ -13,8 +13,11 @@ function openWebsite() {
 function getListOfTeams() {
   return openWebsite()
     .evaluate((teamsSelector) => {
-      const teams = Array.from(document.querySelectorAll(teamsSelector))
-      return teams.map((elem) => ({id: elem.value, name: elem.innerText}))
+      return $(teamsSelector)
+        .map(function() {
+          return {id: $(this).attr("value"), name: $(this).text()}
+        })
+        .get()
     }, selectors.TEAM_OPTIONS_IN_SELECTBOX)
     .end()
 }
@@ -26,8 +29,11 @@ function getListOfTeamFixtures(teamId) {
     .wait(selectors.PLAYER_FIXTURES_TAB)
     .click(selectors.PLAYER_FIXTURES_TAB)
     .evaluate((fixturesSelector) => {
-      const fixtures = Array.from(document.querySelectorAll(fixturesSelector))
-      return fixtures.map((elem) => parseInt(elem.innerText, 10))
+      return $(fixturesSelector)
+        .map(function() {
+          return parseInt($(this).text(), 10)
+        })
+        .get()
     }, selectors.NEXT_5_TEAM_FIXTURES)
     .end()
 }
