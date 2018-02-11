@@ -31,7 +31,7 @@ function createUpdateReport(lastUpdatedGw) {
     .then((teams) => {
       const team = [teams[0]]
       return getTeamUpdateReport(lastUpdatedGw, team)
-        .then(() => getPlayerUpdateReport(team))
+        .then(() => getPlayerUpdateReport(lastUpdatedGw, team))
     })
     .catch((err) => console.log("Error occurred", err))
 }
