@@ -1,7 +1,8 @@
 module.exports = {
   TEAM_LIST_SELECTBOX: "#ismjs-stats-filter",
-  PLAYER_TABLE_ROW: ".ism-table--el__name",
+  PLAYER_ROW_ID: ".ism-table--el__name",
   PLAYER_FIXTURES_TAB: "a[href='#ism-eiw-fixtures']",
+  UNAVAILABLE_PLAYERS: ".ism-icon--status-75, .ism-icon--status-50, .ism-icon--status-25, .ism-icon--status-0",
   TEAM_OPTIONS_IN_SELECTBOX: "optgroup[label='By Team'] option",
 
   // first 5 rows, last column

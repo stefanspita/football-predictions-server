@@ -1,3 +1,4 @@
+/* global $ */
 const Promise = require("bluebird")
 const Nightmare = require("nightmare")
 const selectors = require("./selectors")
@@ -6,6 +7,7 @@ function openWebsite() {
   const nightmare = new Nightmare({Promise})
   return nightmare
     .goto("https://fantasy.premierleague.com/a/statistics/total_points")
+    .inject("js", "node_modules/jquery/dist/jquery.min.js")
 }
 
 function getListOfTeams() {
@@ -20,7 +22,7 @@ function getListOfTeams() {
 function getListOfTeamFixtures(teamId) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(selectors.PLAYER_TABLE_ROW)
+    .click(selectors.PLAYER_ROW_ID)
     .wait(selectors.PLAYER_FIXTURES_TAB)
     .click(selectors.PLAYER_FIXTURES_TAB)
     .evaluate((fixturesSelector) => {
@@ -30,15 +32,18 @@ function getListOfTeamFixtures(teamId) {
     .end()
 }
 
-function getListOfInjuredPlayers(teamId) {
+function getListOfUnavailablePlayers(teamId) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(selectors.PLAYER_TABLE_ROW)
-    .evaluate((injurySelector) => {
-      const fixtures = Array.from(document.querySelectorAll(injurySelector))
-      return fixtures.map((elem) => parseInt(elem.innerText, 10))
-    }, selectors.PLAYER_INJURY)
+    .evaluate((unavailablePlayersSelector, playerIdSelector) => {
+      return $(unavailablePlayersSelector).parents("tr").find(playerIdSelector)
+        .map(function() {
+          return $(this).text()
+        })
+        .get()
+    }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ROW_ID)
     .end()
+
 }
 
-module.exports = {getListOfTeamFixtures, getListOfTeams, getListOfInjuredPlayers}
+module.exports = {getListOfTeamFixtures, getListOfTeams, getListOfUnavailablePlayers}
