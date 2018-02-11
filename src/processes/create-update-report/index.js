@@ -1,7 +1,9 @@
 const Promise = require("bluebird")
 const fs = require("fs-extra")
+const {flatten} = require("ramda")
 const {getListOfTeams} = require("../../services/website/methods")
 const getTeamData = require("./get-team-data")
+const getPlayerData = require("./get-player-data")
 
 const CONCURRENCY = 5
 
@@ -13,10 +15,24 @@ function getTeamUpdateReport(lastUpdatedGw, teams) {
   })
 }
 
+function getPlayerUpdateReport(teams) {
+  return Promise.map(teams, (team) => {
+    return getPlayerData(team)
+  }, {concurrency: CONCURRENCY})
+    .then((playersTeamReport) => flatten(playersTeamReport))
+    .then(playerReport => {
+      return fs.writeJson("./players-update.json", playerReport)
+    })
+}
+
 function createUpdateReport(lastUpdatedGw) {
   if (!lastUpdatedGw) throw new Error("Missing gameweek argument")
   return getListOfTeams()
-    .then((teams) => getTeamUpdateReport(lastUpdatedGw, teams))
+    .then((teams) => {
+      const team = [teams[0]]
+      return getTeamUpdateReport(lastUpdatedGw, team)
+        .then(() => getPlayerUpdateReport(team))
+    })
     .catch((err) => console.log("Error occurred", err))
 }
 

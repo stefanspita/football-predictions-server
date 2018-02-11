@@ -4,7 +4,7 @@ const Nightmare = require("nightmare")
 const selectors = require("./selectors")
 
 function openWebsite() {
-  const nightmare = new Nightmare({Promise})
+  const nightmare = new Nightmare({show: true, Promise})
   return nightmare
     .goto("https://fantasy.premierleague.com/a/statistics/total_points")
     .inject("js", "node_modules/jquery/dist/jquery.min.js")
@@ -49,7 +49,29 @@ function getListOfUnavailablePlayers(teamId) {
         .get()
     }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ROW_ID)
     .end()
-
 }
 
-module.exports = {getListOfTeamFixtures, getListOfTeams, getListOfUnavailablePlayers}
+function getListOfPlayersByTeam(teamId) {
+  return openWebsite()
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .evaluate((playerIdSelector) => {
+      return $(playerIdSelector)
+        .map(function() {
+          return $(this).text()
+        })
+        .get()
+    }, selectors.PLAYER_ROW_ID)
+    .end()
+}
+
+function getPlayerStats(teamId, playerIndex) {
+  return openWebsite()
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .click(`${selectors.PLAYER_ROW_ID}:nth-child(${playerIndex})`)
+    .wait(5000)
+    .end()
+}
+
+module.exports = {
+  getListOfTeamFixtures, getListOfTeams, getListOfUnavailablePlayers, getListOfPlayersByTeam, getPlayerStats,
+}
