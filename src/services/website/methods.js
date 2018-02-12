@@ -4,7 +4,7 @@ const Nightmare = require("nightmare")
 const selectors = require("./selectors")
 
 function openWebsite() {
-  const nightmare = new Nightmare({show: true, Promise})
+  const nightmare = new Nightmare({Promise})
   return nightmare
     .goto("https://fantasy.premierleague.com/a/statistics/total_points")
     .inject("js", "node_modules/jquery/dist/jquery.min.js")
@@ -68,7 +68,11 @@ function getPlayerStats(teamId, playerIndex) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
     .click(`${selectors.PLAYER_ROW_ID}:nth-child(${playerIndex})`)
-    .wait(5000)
+    .wait(selectors.PLAYER_NAME)
+    .evaluate((playerNameSelector) => {
+      const name = $(playerNameSelector).text()
+      return {name}
+    }, selectors.PLAYER_NAME)
     .end()
 }
 

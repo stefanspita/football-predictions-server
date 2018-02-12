@@ -7,4 +7,17 @@ module.exports = {
 
   // first 5 rows, last column
   NEXT_5_TEAM_FIXTURES: "#ism-eiw-fixtures table tr:nth-child(-n+5) td:last-child",
+
+
+  // player dialog
+  PLAYER_NAME: "#ismjs-dialog-title",
+  PLAYER_POSITION: ".properties__body__primary .ism-el-type",
+
+  // value selectors depend on heading selectors
+  PLAYER_PRICE_HEADING: "h3:contains(Price)",
+  PLAYER_SELECTED_PERCENTAGE_HEADING: "h3:contains(TSB)",
+  HEADING_VALUE: "ism-horizontal-data-list--basic__value",
+
+  PREVIOUS_SEASONS: "td:contains(2015/16), td:contains(2016/17)",
+  PREVIOUS_SEASONS_CELLS: "td:eq(0), td:eq(1), td:eq(2), td:eq(14)",
 }
