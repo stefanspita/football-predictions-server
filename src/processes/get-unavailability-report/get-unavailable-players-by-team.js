@@ -1,5 +1,5 @@
 const {tap} = require("ramda")
-const {getListOfUnavailablePlayers} = require("../../services/website/methods")
+const {getListOfUnavailablePlayers} = require("../../services/website")
 
 module.exports = function getUnavailablePlayersByTeam(team) {
   return getListOfUnavailablePlayers(team.id)

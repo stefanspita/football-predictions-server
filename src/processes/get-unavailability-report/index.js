@@ -1,6 +1,6 @@
 const Promise = require("bluebird")
 const fs = require("fs-extra")
-const {getListOfTeams} = require("../../services/website/methods")
+const {getListOfTeams} = require("../../services/website")
 const getUnavailablePlayersByTeam = require("./get-unavailable-players-by-team")
 
 const CONCURRENCY = 5

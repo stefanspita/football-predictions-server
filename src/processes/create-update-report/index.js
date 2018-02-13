@@ -1,7 +1,7 @@
 const Promise = require("bluebird")
 const fs = require("fs-extra")
 const {flatten} = require("ramda")
-const {getListOfTeams} = require("../../services/website/methods")
+const {getListOfTeams} = require("../../services/website")
 const getTeamData = require("./get-team-data")
 const getPlayerData = require("./get-player-data")
 

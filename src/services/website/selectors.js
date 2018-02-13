@@ -9,15 +9,21 @@ module.exports = {
   NEXT_5_TEAM_FIXTURES: "#ism-eiw-fixtures table tr:nth-child(-n+5) td:last-child",
 
 
-  // player dialog
+  // player stats inside dialog
   PLAYER_NAME: "#ismjs-dialog-title",
-  PLAYER_POSITION: ".properties__body__primary .ism-el-type",
+  PLAYER_POSITION: ".ism-eiw-properties__body__primary .ism-el-type",
+  PLAYER_PRICE: "li.ism-horizontal-data-list--basic__item:contains(Price) .ism-horizontal-data-list--basic__value",
+  PLAYER_SELECTED_PERCENTAGE: "li.ism-horizontal-data-list--basic__item:contains(TSB) .ism-horizontal-data-list--basic__value",
 
-  // value selectors depend on heading selectors
-  PLAYER_PRICE_HEADING: "h3:contains(Price)",
-  PLAYER_SELECTED_PERCENTAGE_HEADING: "h3:contains(TSB)",
-  HEADING_VALUE: "ism-horizontal-data-list--basic__value",
+  PREVIOUS_SEASONS: "#ismr-element-history-past tr:contains(2016/17), #ismr-element-history-past tr:contains(2015/16)",
+  PREVIOUS_SEASON_NAME: "td:eq(0)",
+  PREVIOUS_SEASON_POINTS: "td:eq(1)",
+  PREVIOUS_SEASON_MINUTES_PLAYED: "td:eq(2)",
+  PREVIOUS_SEASON_BONUS_POINTS: "td:eq(14)",
 
-  PREVIOUS_SEASONS: "td:contains(2015/16), td:contains(2016/17)",
-  PREVIOUS_SEASONS_CELLS: "td:eq(0), td:eq(1), td:eq(2), td:eq(14)",
+  CURRENT_SEASON: "#ismr-element-history-this tbody:eq(0) tr",
+  CURRENT_SEASON_ROUND: "td:eq(0)",
+  CURRENT_SEASON_POINTS: "td:eq(2)",
+  CURRENT_SEASON_MINUTES_PLAYED: "td:eq(3)",
+  CURRENT_SEASON_BONUS_POINTS: "td:eq(15)",
 }

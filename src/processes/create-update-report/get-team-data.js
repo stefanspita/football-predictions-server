@@ -1,5 +1,5 @@
 const {tap} = require("ramda")
-const {getListOfTeamFixtures} = require("../../services/website/methods")
+const {getListOfTeamFixtures} = require("../../services/website")
 
 function getTeamData(lastUpdatedGw, team) {
   return getListOfTeamFixtures(team.id)
