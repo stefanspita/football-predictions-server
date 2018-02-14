@@ -1,3 +1,4 @@
+- update player ownership in the db
 - the update script only gets information from the last row
 - replace the last6GamesMinutes number with objects like {minutesPlayed, injured}
   - if minutesPlayed isn't 0, then injured is false
