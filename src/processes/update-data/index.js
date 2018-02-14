@@ -15,7 +15,7 @@ function updatePlayers(db, players) {
   const playersCollection = db.collection("players")
   return playersCollection.deleteMany().then(() => {
     return playersCollection.insertMany(players).then(() => {
-      return playersCollection.createIndex({id: 1}, {unique: true})
+      return playersCollection.createIndex({id: 1, teamId: 1}, {unique: true})
     })
   })
 }
