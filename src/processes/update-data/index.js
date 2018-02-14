@@ -1,23 +1,31 @@
-const Promise = require("bluebird")
-const fs = require("fs-extra")
 const getDb = require("../../init/db")
-const updateTeams = require("./update-teams")
-const updatePlayers = require("./update-players")
-const updateLocalFiles = require("./update-local-files")
+const teams = require("../../../teams-update.json")
+const players = require("../../../players-update.json")
 
-const TEAMS_FILE_PATH = "./teams-update.json"
-const PLAYERS_FILE_PATH = "./players-update.json"
+function updateTeams(db, teams) {
+  const teamsCollection = db.collection("teams")
+  return teamsCollection.deleteMany().then(() => {
+    return teamsCollection.insertMany(teams).then(() => {
+      return teamsCollection.createIndex({id: 1}, {unique: true})
+    })
+  })
+}
 
-function updateDb() {
-  return Promise.all([
-    getDb(),
-    fs.readJson(TEAMS_FILE_PATH),
-    fs.readJson(PLAYERS_FILE_PATH),
-  ]).spread((db, teamsUpdate, playersUpdate) => {
+function updatePlayers(db, players) {
+  const playersCollection = db.collection("players")
+  return playersCollection.deleteMany().then(() => {
+    return playersCollection.insertMany(players).then(() => {
+      return playersCollection.createIndex({id: 1}, {unique: true})
+    })
+  })
+}
+
+function runInitDb() {
+  return getDb().then((db) => {
     return Promise.all([
-      updateTeams(db, teamsUpdate),
-      updatePlayers(db, playersUpdate),
-    ]).then(() => updateLocalFiles(db, fs))
+      updateTeams(db, teams),
+      updatePlayers(db, players),
+    ])
   }).then(() => {
     console.log("FINISHED UPDATING DB")
     process.exit(0)
@@ -27,4 +35,4 @@ function updateDb() {
   })
 }
 
-updateDb()
+runInitDb()

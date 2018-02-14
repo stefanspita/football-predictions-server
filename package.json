@@ -4,9 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "init": "node src/processes/init/index.js",
     "get-unavailability-report": "node src/processes/get-unavailability-report/index.js",
-    "create-update-report": "node src/processes/create-update-report/index.js",
+    "fetch-all": "node src/processes/fetch-all/index.js",
     "update-data": "node src/processes/update-data/index.js",
     "generate-report": "node src/processes/generate-report/index.js",
     "lint": "eslint src/",
