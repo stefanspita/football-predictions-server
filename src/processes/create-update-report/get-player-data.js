@@ -1,14 +1,19 @@
 const Promise = require("bluebird")
-const {curry, tap} = require("ramda")
+const {curry, merge, tap} = require("ramda")
 const {getListOfPlayersByTeam, getPlayerStats} = require("../../services/website")
 
 const aggregatePlayerInfo = curry((teamId, playerId, index) => {
-  return getPlayerStats(teamId, index + 1)
+  return getPlayerStats(teamId, index)
+    .then(merge({id: playerId, teamId}))
+    .catch((err) => {
+      console.log(`Error occurred getting data for ${playerId}, playing for ${teamId}`)
+      throw err
+    })
 })
 
-function getPlayerData(lastUpdatedGw, team) {
+function getPlayerData(team) {
   return getListOfPlayersByTeam(team.id)
-    .then((playerIds) => Promise.mapSeries([playerIds[0]], aggregatePlayerInfo(team.id)))
+    .then((playerIds) => Promise.mapSeries(playerIds, aggregatePlayerInfo(team.id)))
     .then(tap(() => console.log(`Fetched player data for ${team.name}`)))
 }
 

@@ -67,13 +67,13 @@ function getListOfPlayersByTeam(teamId) {
 function getPlayerStats(teamId, playerIndex) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(`${selectors.PLAYER_ROW_ID}:nth-child(${playerIndex})`)
+    .click(`${selectors.PLAYER_ROW_ID}:nth-child(${playerIndex + 1})`)
     .wait(selectors.PLAYER_NAME)
     .evaluate((selectors) => {
       const name = $(selectors.PLAYER_NAME).text()
       const position = $(selectors.PLAYER_POSITION).text()
-      const price = $(selectors.PLAYER_PRICE).text()
-      const selectionPercent = $(selectors.PLAYER_SELECTED_PERCENTAGE).text()
+      const price = parseFloat($(selectors.PLAYER_PRICE).text().slice(1), 10)
+      const selectionPercent = parseFloat($(selectors.PLAYER_SELECTED_PERCENTAGE).text().slice(0, -1), 10)
       const previousSeasons = $(selectors.PREVIOUS_SEASONS)
         .map(function() {
           const row = $(this)
