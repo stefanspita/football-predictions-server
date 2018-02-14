@@ -9,8 +9,6 @@
     "update-data": "node src/processes/update-data/index.js",
     "generate-report": "node src/processes/generate-report/index.js",
     "lint": "eslint src/",
-    "update-to-latest": "npm-check-updates -u",
-    "check-for-updates": "npm-check-updates",
     "test": "mocha",
     "test-watch": "mocha -w"
   },
@@ -29,8 +27,7 @@
     "chai": "^4.1.2",
     "eslint": "^4.9.0",
     "mocha": "^4.0.1",
-    "nodemon": "^1.11.0",
-    "npm-check-updates": "^2.13.0"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
