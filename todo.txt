@@ -1,6 +1,4 @@
-- replace the init script with the new script (the init script should only be run at the start of a season)
 - the update script only gets information from the last row
-- replace the last6GamesMinutes number with objects like {minutesPlayed, injured} // if minutesPlayed isn't 0, then injured is false
 - replace the last6GamesMinutes number with objects like {minutesPlayed, injured}
   - if minutesPlayed isn't 0, then injured is false
   - if the player is marked as unavailable in the temp file and hasn't played a single minute, then injured: true
@@ -8,3 +6,7 @@
    - basically look for missing zeroes in last6GamesMinutes. When something missing, mark the gameweek for that player with injured: true
 - only then it's safe to overwrite what's in the db
 - update the rest of the scripts to work with the new data shape
+
+- try to make it run faster
+  - sharing session between all players
+  - use chromeless
