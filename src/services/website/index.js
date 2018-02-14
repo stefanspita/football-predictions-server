@@ -25,7 +25,7 @@ function getListOfTeams() {
 function getListOfTeamFixtures(teamId) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(selectors.PLAYER_ROW_ID)
+    .click(selectors.PLAYER_ID)
     .wait(selectors.PLAYER_FIXTURES_TAB)
     .click(selectors.PLAYER_FIXTURES_TAB)
     .evaluate((fixturesSelector) => {
@@ -47,7 +47,7 @@ function getListOfUnavailablePlayers(teamId) {
           return $(this).text()
         })
         .get()
-    }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ROW_ID)
+    }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ID)
     .end()
 }
 
@@ -60,14 +60,14 @@ function getListOfPlayersByTeam(teamId) {
           return $(this).text()
         })
         .get()
-    }, selectors.PLAYER_ROW_ID)
+    }, selectors.PLAYER_ID)
     .end()
 }
 
 function getPlayerStats(teamId, playerIndex) {
   return openWebsite()
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(`${selectors.PLAYER_ROW_ID}:nth-child(${playerIndex + 1})`)
+    .click(`${selectors.PLAYER_ROW}:nth-child(${playerIndex + 1}) ${selectors.PLAYER_ID}`)
     .wait(selectors.PLAYER_NAME)
     .evaluate((selectors) => {
       const name = $(selectors.PLAYER_NAME).text()

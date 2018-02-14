@@ -5,6 +5,7 @@ const {getListOfPlayersByTeam, getPlayerStats} = require("../../services/website
 const aggregatePlayerInfo = curry((teamId, playerId, index) => {
   return getPlayerStats(teamId, index)
     .then(merge({id: playerId, teamId}))
+    .then((tap(() => console.log(`Successfully fetched data for ${playerId}, playing for ${teamId}`))))
     .catch((err) => {
       console.log(`Error occurred getting data for ${playerId}, playing for ${teamId}`)
       throw err
