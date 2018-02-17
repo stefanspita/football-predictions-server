@@ -11,7 +11,7 @@ const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 const calculatePriceGrade = require("./calculate-price-grade")
-const getDerivedPlayerStats = require("./calculate-derived-data")
+const getDerivedPlayerStats = require("./get-derived-player-stats")
 
 const getInitialPlayerStats = converge(
   (...reports) => mergeAll(reports),
