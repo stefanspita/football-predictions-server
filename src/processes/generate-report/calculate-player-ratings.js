@@ -1,4 +1,4 @@
-const {__, compose, divide, isNil, max, min, propEq, reduce, subtract} = require("ramda")
+const {__, compose, defaultTo, divide, find, max, min, propEq, reduce, subtract} = require("ramda")
 const {
   MAX_MINUTE_PER_BPS, MIN_MINUTE_PER_BPS, MAX_MINUTE_PER_POINT, MIN_MINUTE_PER_POINT,
   BPS_WEIGHT, POINTS_WEIGHT, WEIGHT_MULTIPLIER_CURRENT_SEASON, WEIGHT_MULTIPLIER_2_SEASONS_AGO,
@@ -8,9 +8,10 @@ const {findGradeDescending} = require("./utils")
 
 
 function calculateRating(stats, weight) {
-  if (isNil(stats)) return 0
-
   const {minutesPlayed, points, bps} = stats
+
+  if (minutesPlayed === 0) return 0
+
   const minutesPerBps = compose(
     divide(__, MAX_MINUTE_PER_BPS - MIN_MINUTE_PER_BPS),
     subtract(MAX_MINUTE_PER_BPS),
@@ -35,15 +36,18 @@ function getWeights(minutes_2_seasons_ago, minutes_last_season, minutes_current_
   const current_season = minutes_current_season * WEIGHT_MULTIPLIER_CURRENT_SEASON
   const totalMinutes = two_seasons_ago + last_season + current_season
 
-  const weight_2_seasons_ago = two_seasons_ago / totalMinutes
-  const weight_last_season = last_season / totalMinutes
-  const weight_current_season = totalMinutes / totalMinutes
+  const weight_2_seasons_ago = totalMinutes ? two_seasons_ago / totalMinutes : 0
+  const weight_last_season = totalMinutes ? last_season / totalMinutes : 0
+  const weight_current_season = totalMinutes ? current_season / totalMinutes : 0
 
   return {weight_2_seasons_ago, weight_last_season, weight_current_season}
 }
 
-function getPreviousSeasonsStats(season, previousSeasons) {
-  return find(propEq("season", season), previousSeasons)
+function getPreviousSeasonsStats(defaultStats, season, previousSeasons) {
+  return compose(
+    defaultTo(defaultStats),
+    find(propEq("season", season))
+  )(previousSeasons)
 }
 
 function getCurrentSeasonTotals(acc, roundStats) {
@@ -55,9 +59,9 @@ function getCurrentSeasonTotals(acc, roundStats) {
 }
 
 module.exports = function calculatePlayerRating({previousSeasons, currentSeason}) {
-  const two_seasons_ago_stats = getPreviousSeasonsStats(TWO_SEASONS_AGO, previousSeasons)
-  const last_season_stats = getPreviousSeasonsStats(LAST_SEASON, previousSeasons)
   const initialTotals = {minutesPlayed: 0, points: 0, bps: 0}
+  const two_seasons_ago_stats = getPreviousSeasonsStats(initialTotals, TWO_SEASONS_AGO, previousSeasons)
+  const last_season_stats = getPreviousSeasonsStats(initialTotals, LAST_SEASON, previousSeasons)
   const current_season_stats = reduce(getCurrentSeasonTotals, initialTotals, currentSeason)
 
   const {
