@@ -1,4 +1,6 @@
 module.exports = {
+  LAST_SEASON: "2015/16",
+  TWO_SEASONS_AGO: "2016/17",
   // mix/max thresholds for the metrics to calculate ratings
   MIN_MINUTE_PER_BPS: 3,
   MAX_MINUTE_PER_BPS: 10,
@@ -11,13 +13,13 @@ module.exports = {
 
   // rating weights per season
   WEIGHT_MULTIPLIER_CURRENT_SEASON: 2,
-  WEIGHT_MULTIPLIER_A_SEASON_AGO: 1,
+  WEIGHT_MULTIPLIER_LAST_SEASON: 1,
   WEIGHT_MULTIPLIER_2_SEASONS_AGO: 0.5,
 
   // confidence
   MINUTES_CONFIDENCE_THRESHOLD: 1500,
   WEIGHT_CONFIDENCE_CURRENT_SEASON: 0.7,
-  WEIGHT_CONFIDENCE_A_SEASON_AGO: 0.2,
+  WEIGHT_CONFIDENCE_LAST_SEASON: 0.2,
   WEIGHT_CONFIDENCE_2_SEASONS_AGO: 0.1,
 
   FIXTURE_DIFFICULTY_GROUPS: [{value: 1.5, points: 3}, {value: 3, points: 2}, {value: 4, points: 1}, {value: 5, points: 0}],
