@@ -2,7 +2,7 @@ const Promise = require("bluebird")
 const json2csv = require("json2csv")
 const fs = require("fs-extra")
 const {
-  compose, converge, descend, find, merge, mergeAll, pick, prop, propEq, sortWith,
+  both, compose, converge, descend, filter, find, lt, merge, mergeAll, pick, prop, propEq, sortWith,
 } = require("ramda")
 const getDb = require("../../init/db")
 const reportsOptions = require("./report-options")
@@ -28,6 +28,10 @@ function calculatePlayerStats(player, team) {
   )(player, team)
 }
 
+const ratingLowerThan50 = compose(lt(50), prop("overallRating"))
+const gradeLowerThan15 = compose(lt(15), prop("grade"))
+const filterLowScores = both(ratingLowerThan50, gradeLowerThan15)
+
 function generateReport(teams, playersCollection, reportOptions) {
   return playersCollection.find(reportOptions.filter).project({_id: 0}).toArray()
     .then((players) => {
@@ -36,6 +40,7 @@ function generateReport(teams, playersCollection, reportOptions) {
         return calculatePlayerStats(player, team)
       })
     })
+    .then(filter(filterLowScores))
     .then(sortWith([
       descend(prop("grade")),
       descend(prop("overallRating")),
