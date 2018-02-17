@@ -2,7 +2,7 @@ const {expect} = require("chai")
 const {PLAYING_CHANCE_GROUPS} = require("../rules")
 const calculatePlayingChance = require("../calculate-playing-chance")
 
-describe.only("calculate playing chance", function() {
+describe("calculate playing chance", function() {
   it("works with empty data", () => {
     const currentSeason = []
     const {playingChance, playingChance_grade} = calculatePlayingChance({currentSeason})
