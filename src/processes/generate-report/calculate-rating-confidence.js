@@ -1,6 +1,6 @@
 const {
-  MINUTES_CONFIDENCE_THRESHOLD, WEIGHT_CONFIDENCE_CURRENT_SEASON, WEIGHT_CONFIDENCE_2016,
-  WEIGHT_CONFIDENCE_2015, CONFIDENCE_GROUPS,
+  MINUTES_CONFIDENCE_THRESHOLD, WEIGHT_CONFIDENCE_CURRENT_SEASON, WEIGHT_CONFIDENCE_A_SEASON_AGO,
+  WEIGHT_CONFIDENCE_2_SEASONS_AGO, CONFIDENCE_GROUPS,
 } = require("./rules")
 const {findGradeDescending} = require("./utils")
 const {__, compose, divide, min, multiply} = require("ramda")
@@ -18,8 +18,8 @@ function calculateSeasonConfidence(season, weight) {
 }
 
 module.exports = function calculateRatingConfidence(player) {
-  const confidence_2015 = calculateSeasonConfidence(player["2015"], WEIGHT_CONFIDENCE_2015)
-  const confidence_2016 = calculateSeasonConfidence(player["2016"], WEIGHT_CONFIDENCE_2016)
+  const confidence_2015 = calculateSeasonConfidence(player["2015"], WEIGHT_CONFIDENCE_2_SEASONS_AGO)
+  const confidence_2016 = calculateSeasonConfidence(player["2016"], WEIGHT_CONFIDENCE_A_SEASON_AGO)
   const confidenceThisSeason = calculateSeasonConfidence(player.thisSeason, WEIGHT_CONFIDENCE_CURRENT_SEASON)
 
   const confidence = (confidence_2015 + confidence_2016 + confidenceThisSeason) * 100

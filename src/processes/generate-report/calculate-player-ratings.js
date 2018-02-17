@@ -1,8 +1,8 @@
 const {__, compose, divide, isNil, max, min, subtract} = require("ramda")
 const {
   MAX_MINUTE_PER_BPS, MIN_MINUTE_PER_BPS, MAX_MINUTE_PER_POINT, MIN_MINUTE_PER_POINT,
-  BPS_WEIGHT, POINTS_WEIGHT, WEIGHT_MULTIPLIER_CURRENT_SEASON, WEIGHT_MULTIPLIER_2015,
-  WEIGHT_MULTIPLIER_2016, RATING_GROUPS,
+  BPS_WEIGHT, POINTS_WEIGHT, WEIGHT_MULTIPLIER_CURRENT_SEASON, WEIGHT_MULTIPLIER_2_SEASONS_AGO,
+  WEIGHT_MULTIPLIER_A_SEASON_AGO, RATING_GROUPS,
 } = require("./rules")
 const {findGradeDescending} = require("./utils")
 
@@ -31,9 +31,9 @@ function calculateRating(stats, weight) {
 
 function getRatings(stats_2015, stats_2016, stats_2017) {
   const minutes_2015 = stats_2015 ?
-    stats_2015.minutesPlayed * WEIGHT_MULTIPLIER_2015 : 0
+    stats_2015.minutesPlayed * WEIGHT_MULTIPLIER_2_SEASONS_AGO : 0
   const minutes_2016 = stats_2016 ?
-    stats_2016.minutesPlayed * WEIGHT_MULTIPLIER_2016 : 0
+    stats_2016.minutesPlayed * WEIGHT_MULTIPLIER_A_SEASON_AGO : 0
   const minutes_2017 = stats_2017 ?
     stats_2017.minutesPlayed * WEIGHT_MULTIPLIER_CURRENT_SEASON : 0
   const totalMinutes = minutes_2015 + minutes_2016 + minutes_2017
