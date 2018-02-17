@@ -5,13 +5,18 @@ const {
   compose, converge, descend, find, merge, mergeAll, pick, prop, propEq, sortWith,
 } = require("ramda")
 const getDb = require("../../init/db")
-const reportTypes = require("./report-types")
+const reportOptions = require("./report-options")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 const calculatePriceGrade = require("./calculate-price-grade")
-const calculateDerivedData = require("./calculate-derived-data")
+const getDerivedPlayerStats = require("./calculate-derived-data")
+
+const getInitialPlayerStats = converge(
+  (...reports) => mergeAll(reports),
+  [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
+)
 
 function generateReport(teams, playersCollection, reportType) {
   return playersCollection.find(reportType.filter).project({_id: 0}).toArray()
@@ -19,17 +24,12 @@ function generateReport(teams, playersCollection, reportType) {
       return Promise.map(players, (player) => {
         const team = find(propEq("id", player.teamId), teams)
         return compose(
-          merge(pick(["id", "name", "price", "position", "owned", "rating"], player)),
-          converge(
-            (...reports) => mergeAll(reports),
-            [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
-          )
+          merge(pick(["name", "price", "position", "owned", "rating"], player)),
+          getInitialPlayerStats
         )(player, team)
       })
     })
-    .then((playerReports) => {
-      return Promise.map(playerReports, (report) => calculateDerivedData(report))
-    })
+    .then((playerReports) => Promise.map(playerReports, getDerivedPlayerStats))
     .then((playerReports) => {
       return sortWith([
         descend(prop("grade")),
@@ -49,7 +49,7 @@ function generateReports() {
     const playersCollection = db.collection("players")
     return teamsCollection.find().project({_id: 0}).toArray().then((teams) => {
       return Promise.map(
-        reportTypes,
+        reportOptions,
         (reportType) => generateReport(teams, playersCollection, reportType)
       )
     })
