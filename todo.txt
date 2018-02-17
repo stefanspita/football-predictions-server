@@ -3,6 +3,7 @@
 - replace the last6GamesMinutes number with objects like {minutesPlayed, injured}
   - if minutesPlayed isn't 0, then injured is false
   - if the player is marked as unavailable in the temp file and hasn't played a single minute, then injured: true
+  - preserve owned status from db
 - update the generate-report script to work with the new data shape
 
 - try to make it run faster
