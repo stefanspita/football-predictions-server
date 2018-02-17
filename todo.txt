@@ -1,14 +1,13 @@
-- update player ownership in the db
-- the update script only gets information from the last row
-- replace the last6GamesMinutes number with objects like {minutesPlayed, injured}
-  - if minutesPlayed isn't 0, then injured is false
-  - if the player is marked as unavailable in the temp file and hasn't played a single minute, then injured: true
-  - preserve owned status from db
-- update the generate-report script to work with the new data shape
+- rethink the point system
+- add selectionPercent to the report
 
 - try to make it run faster
   - sharing session between all players
-  - use chromeless
 
-- rethink the point system
-- add selectionPercent to the report
+- the update script only gets information from the last row
+- replace the last6GamesMinutes number with objects like {minutesPlayed, unavailable}
+  - if minutesPlayed isn't 0, then unavailable: false
+  - if the player is marked as unavailable in the temp file and hasn't played a single minute, then unavailable: true
+  - preserve owned status from db
+
+- the script getting player fixtures needs to be adjusted if teams skip rounds
