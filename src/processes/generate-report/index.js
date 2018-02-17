@@ -5,7 +5,7 @@ const {
   compose, converge, descend, find, merge, mergeAll, pick, prop, propEq, sortWith,
 } = require("ramda")
 const getDb = require("../../init/db")
-const reportOptions = require("./report-options")
+const reportsOptions = require("./report-options")
 const calculatePlayerRatings = require("./calculate-player-ratings")
 const calculatePlayingChance = require("./calculate-playing-chance")
 const calculateRatingConfidence = require("./calculate-rating-confidence")
@@ -18,28 +18,32 @@ const getInitialPlayerStats = converge(
   [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
 )
 
-function generateReport(teams, playersCollection, reportType) {
-  return playersCollection.find(reportType.filter).project({_id: 0}).toArray()
+function calculatePlayerStats(player, team) {
+  const playerMeta = pick(["name", "price", "position", "owned", "rating"], player)
+
+  return compose(
+    getDerivedPlayerStats,
+    merge(playerMeta),
+    getInitialPlayerStats
+  )(player, team)
+}
+
+function generateReport(teams, playersCollection, reportOptions) {
+  return playersCollection.find(reportOptions.filter).project({_id: 0}).toArray()
     .then((players) => {
       return Promise.map(players, (player) => {
         const team = find(propEq("id", player.teamId), teams)
-        return compose(
-          merge(pick(["name", "price", "position", "owned", "rating"], player)),
-          getInitialPlayerStats
-        )(player, team)
+        return calculatePlayerStats(player, team)
       })
     })
-    .then((playerReports) => Promise.map(playerReports, getDerivedPlayerStats))
-    .then((playerReports) => {
-      return sortWith([
-        descend(prop("grade")),
-        descend(prop("overallRating")),
-      ], playerReports)
-    })
+    .then(sortWith([
+      descend(prop("grade")),
+      descend(prop("overallRating")),
+    ]))
     .then((finalReport) => {
-      const fields = reportType.fields
+      const fields = reportOptions.fields
       const csvReport = json2csv({data: finalReport, fields})
-      return fs.outputFile(`./${reportType.fileName}.csv`, csvReport)
+      return fs.outputFile(`./${reportOptions.fileName}.csv`, csvReport)
     })
 }
 
@@ -49,8 +53,8 @@ function generateReports() {
     const playersCollection = db.collection("players")
     return teamsCollection.find().project({_id: 0}).toArray().then((teams) => {
       return Promise.map(
-        reportOptions,
-        (reportType) => generateReport(teams, playersCollection, reportType)
+        reportsOptions,
+        (reportOptions) => generateReport(teams, playersCollection, reportOptions)
       )
     })
   }).then(() => {
