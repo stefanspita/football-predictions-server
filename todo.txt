@@ -1,12 +1,12 @@
 - try to make it run faster
   - sharing session between all players
 
+- the script getting player fixtures needs to be adjusted if teams skip rounds
+
 - the update script only gets information from the last row
 - replace the last6GamesMinutes number with objects like {minutesPlayed, unavailable}
   - if minutesPlayed isn't 0, then unavailable: false
   - if the player is marked as unavailable in the temp file and hasn't played a single minute, then unavailable: true
   - preserve owned status from db
-
-- the script getting player fixtures needs to be adjusted if teams skip rounds
 
 - add validation for update scripts
