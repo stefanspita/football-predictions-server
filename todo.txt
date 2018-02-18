@@ -1,6 +1,3 @@
-- rethink the point system
-- add selectionPercent to the report
-
 - try to make it run faster
   - sharing session between all players
 
@@ -11,3 +8,5 @@
   - preserve owned status from db
 
 - the script getting player fixtures needs to be adjusted if teams skip rounds
+
+- add validation for update scripts
