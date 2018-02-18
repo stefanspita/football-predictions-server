@@ -8,7 +8,7 @@ function calculateOverallGrade(playerReport) {
   return compose(
     sum,
     values,
-    pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade"])
+    pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade", "selection_percent_grade"])
   )(playerReport)
 }
 

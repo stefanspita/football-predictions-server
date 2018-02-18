@@ -12,10 +12,18 @@ const calculateRatingConfidence = require("./calculate-rating-confidence")
 const calculateFixturesDifficulty = require("./calculate-fixtrues-difficulty")
 const calculatePriceGrade = require("./calculate-price-grade")
 const getDerivedPlayerStats = require("./get-derived-player-stats")
+const calculateSelectionPercentGrade = require("./calculate-selection-percent-grade")
 
 const getInitialPlayerStats = converge(
   (...reports) => mergeAll(reports),
-  [calculatePlayerRatings, calculatePlayingChance, calculateRatingConfidence, calculateFixturesDifficulty, calculatePriceGrade]
+  [
+    calculatePlayerRatings,
+    calculatePlayingChance,
+    calculateRatingConfidence,
+    calculateFixturesDifficulty,
+    calculatePriceGrade,
+    calculateSelectionPercentGrade,
+  ]
 )
 
 function calculatePlayerStats(player, team) {
