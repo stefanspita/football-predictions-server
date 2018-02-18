@@ -23,8 +23,8 @@ module.exports = {
   WEIGHT_CONFIDENCE_2_SEASONS_AGO: 0.1,
 
   FIXTURE_DIFFICULTY_GROUPS: [{value: 1.5, points: 3}, {value: 3, points: 2}, {value: 4, points: 1}, {value: 5, points: 0}],
-  PRICE_GROUPS: [{value: 5, points: 5}, {value: 6.5, points: 4}, {value: 8, points: 3}, {value: 10, points: 2}, {value: 12, points: 1}, {value: 15, points: 0}],
-  RATING_GROUPS: [{value: 85, points: 5}, {value: 75, points: 4}, {value: 65, points: 3}, {value: 55, points: 2}, {value: 40, points: 1}, {value: 0, points: 0}],
-  PLAYING_CHANCE_GROUPS: [{value: 80, points: 5}, {value: 70, points: 4}, {value: 60, points: 3}, {value: 50, points: 2}, {value: 40, points: 1}, {value: 0, points: 0}],
-  CONFIDENCE_GROUPS: [{value: 80, points: 5}, {value: 65, points: 4}, {value: 50, points: 3}, {value: 40, points: 2}, {value: 30, points: 1}, {value: 0, points: 0}],
+  PRICE_GROUPS: [{value: 6, points: 3}, {value: 8, points: 2}, {value: 10, points: 1}, {value: 15, points: 0}],
+  RATING_GROUPS: [{value: 85, points: 7}, {value: 80, points: 6}, {value: 75, points: 5}, {value: 70, points: 4}, {value: 65, points: 3}, {value: 60, points: 2}, {value: 50, points: 1}, {value: 0, points: 0}],
+  PLAYING_CHANCE_GROUPS: [{value: 90, points: 6}, {value: 80, points: 5}, {value: 70, points: 4}, {value: 60, points: 3}, {value: 50, points: 2}, {value: 40, points: 1}, {value: 0, points: 0}],
+  CONFIDENCE_GROUPS: [{value: 80, points: 5}, {value: 70, points: 4}, {value: 60, points: 3}, {value: 50, points: 2}, {value: 30, points: 1}, {value: 0, points: 0}],
 }
