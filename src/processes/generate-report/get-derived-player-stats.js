@@ -16,7 +16,7 @@ function calculateNextGameGrade(playerReport) {
   return compose(
     sum,
     values,
-    pick(["fixtureDifficulty_1_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade"])
+    pick(["fixtureDifficulty_1_grade", "rating_grade", "playingChance_grade", "confidence_grade"])
   )(playerReport)
 }
 
