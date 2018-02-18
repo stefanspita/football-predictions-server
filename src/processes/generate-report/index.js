@@ -28,7 +28,7 @@ function calculatePlayerStats(player, team) {
   )(player, team)
 }
 
-const ratingLowerThan50 = compose(lt(50), prop("overallRating"))
+const ratingLowerThan50 = compose(lt(40), prop("overallRating"))
 const gradeLowerThan15 = compose(lt(15), prop("grade"))
 const filterLowScores = both(ratingLowerThan50, gradeLowerThan15)
 
