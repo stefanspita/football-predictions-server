@@ -1,6 +1,3 @@
-- try to make it run faster
-  - sharing session between all players
-
 - the script getting player fixtures needs to be adjusted if teams skip rounds
 
 - the update script only gets information from the last row

@@ -64,8 +64,8 @@ function getListOfPlayersByTeam(teamId) {
     .end()
 }
 
-function getPlayerStats(teamId, playerIndex) {
-  return openWebsite()
+function getPlayerStats(session, teamId, playerIndex) {
+  return session
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
     .click(`${selectors.PLAYER_ROW}:nth-child(${playerIndex + 1}) ${selectors.PLAYER_ID}`)
     .wait(selectors.PLAYER_NAME)
@@ -98,9 +98,13 @@ function getPlayerStats(teamId, playerIndex) {
         .get()
       return {name, position, price, selectionPercent, previousSeasons, currentSeason}
     }, selectors)
-    .end()
+}
+
+function exitPlayerModal(session) {
+  return session.click(selectors.OVERLAY)
 }
 
 module.exports = {
-  getListOfTeamFixtures, getListOfTeams, getListOfUnavailablePlayers, getListOfPlayersByTeam, getPlayerStats,
+  openWebsite, getListOfTeamFixtures, getListOfTeams, exitPlayerModal,
+  getListOfUnavailablePlayers, getListOfPlayersByTeam, getPlayerStats,
 }
