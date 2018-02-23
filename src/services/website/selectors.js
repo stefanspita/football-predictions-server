@@ -8,7 +8,7 @@ module.exports = {
   OVERLAY: "#ismjs-dialog-overlay",
 
   // first 5 rows, last column
-  NEXT_5_TEAM_FIXTURES: "#ism-eiw-fixtures table tr:nth-child(-n+5) td:last-child",
+  TEAM_FIXTURES: "#ism-eiw-fixtures table tr td:last-child",
 
   // player stats inside dialog
   PLAYER_NAME: "#ismjs-dialog-title",

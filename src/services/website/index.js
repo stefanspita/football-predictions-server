@@ -30,11 +30,15 @@ function getListOfTeamFixtures(teamId) {
     .click(selectors.PLAYER_FIXTURES_TAB)
     .evaluate((fixturesSelector) => {
       return $(fixturesSelector)
+        .filter(function() {
+          return $(this).text().length !== 0
+        })
+        .slice(0, 5)
         .map(function() {
           return parseInt($(this).text(), 10)
         })
         .get()
-    }, selectors.NEXT_5_TEAM_FIXTURES)
+    }, selectors.TEAM_FIXTURES)
     .end()
 }
 
