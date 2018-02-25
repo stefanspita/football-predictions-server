@@ -45,17 +45,16 @@ function createUpdateReport(gameweek) {
     statisticsPage.getListOfTeams(session),
     getDb(),
   ])
+    .tap(() => session.end())
     .spread((teams, db) => {
       return getTeamUpdateReport(teams)
         .then(() => getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams))
     })
     .then(() => {
       console.log("FINISHED FETCHING ROUND DATA")
-      session.end()
       process.exit(0)
     }).catch((err) => {
       console.error("ERROR OCCURRED", err)
-      session.end()
       process.exit(1)
     })
 }

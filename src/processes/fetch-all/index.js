@@ -31,17 +31,16 @@ function getPlayerUpdateReport(teams) {
 function createUpdateReport() {
   const session = openWebsite()
   return statisticsPage.getListOfTeams(session)
+    .tap(() => session.end())
     .then((teams) => {
       return getTeamUpdateReport(teams)
         .then(() => getPlayerUpdateReport(teams))
     })
     .then(() => {
       console.log("FINISHED FETCHING ALL DATA")
-      session.end()
       process.exit(0)
     }).catch((err) => {
       console.error("ERROR OCCURRED", err)
-      session.end()
       process.exit(1)
     })
 }
