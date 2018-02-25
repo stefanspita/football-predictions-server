@@ -10,8 +10,8 @@ function openWebsite() {
     .inject("js", "node_modules/jquery/dist/jquery.min.js")
 }
 
-function getListOfTeams() {
-  return openWebsite()
+function getListOfTeams(session) {
+  return session
     .evaluate((teamsSelector) => {
       return $(teamsSelector)
         .map(function() {
@@ -19,7 +19,6 @@ function getListOfTeams() {
         })
         .get()
     }, selectors.TEAM_OPTIONS_IN_SELECTBOX)
-    .end()
 }
 
 function getListOfTeamFixtures(session, teamId) {

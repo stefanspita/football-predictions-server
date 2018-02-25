@@ -1,8 +1,6 @@
 const Promise = require("bluebird")
 const {append, assoc, compose, contains, find, isNil, propEq, reject} = require("ramda")
-const {
-  getListOfPlayersByTeam, getPlayerStats, openWebsite, exitPlayerModal,
-} = require("../../services/website")
+const {getListOfPlayersByTeam, getPlayerStats, exitPlayerModal} = require("../../services/website")
 
 function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
   const newRoundData = find(propEq("round", gameweek), newData.currentSeason)
@@ -35,8 +33,7 @@ function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) 
   )(newData)
 }
 
-function getPlayerData(playersDb, unavailablePlayers, gameweek, team) {
-  const session = openWebsite()
+function getPlayerData(session, playersDb, unavailablePlayers, gameweek, team) {
   return getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
@@ -56,7 +53,6 @@ function getPlayerData(playersDb, unavailablePlayers, gameweek, team) {
         })
     ))
     .tap(() => console.log(`Fetched player data for ${team.name}`))
-    .tap(() => session.end())
 }
 
 module.exports = getPlayerData

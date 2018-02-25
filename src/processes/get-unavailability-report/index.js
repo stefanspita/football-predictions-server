@@ -1,18 +1,27 @@
 const fs = require("fs-extra")
-const {getListOfTeams} = require("../../services/website")
+const {getListOfTeams, openWebsite} = require("../../services/website")
 const getUnavailablePlayersByTeam = require("./get-unavailable-players-by-team")
 
-function getUnavailablePlayersReport(teams) {
-  return getUnavailablePlayersByTeam(teams)
+function getUnavailablePlayersReport(session, teams) {
+  return getUnavailablePlayersByTeam(session, teams)
     .then(injuryReport => {
       return fs.writeJson("./injury-report.json", injuryReport)
     })
 }
 
 function createUnavailabilityReport() {
-  return getListOfTeams()
-    .then((teams) => getUnavailablePlayersReport(teams))
-    .catch((err) => console.log("Error occurred creating unavailable players report", err))
+  const session = openWebsite()
+  return getListOfTeams(session)
+    .then((teams) => getUnavailablePlayersReport(session, teams))
+    .then(() => {
+      console.log("FINISHED FETCHING UNAVAILABLE PLAYERS")
+      session.end()
+      process.exit(0)
+    }).catch((err) => {
+      console.error("ERROR OCCURRED", err)
+      session.end()
+      process.exit(1)
+    })
 }
 
 createUnavailabilityReport()

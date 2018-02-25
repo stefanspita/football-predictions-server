@@ -1,8 +1,7 @@
 const Promise = require("bluebird")
-const {getListOfUnavailablePlayers, openWebsite} = require("../../services/website")
+const {getListOfUnavailablePlayers} = require("../../services/website")
 
-module.exports = function getUnavailablePlayersByTeam(teams) {
-  const session = openWebsite()
+module.exports = function getUnavailablePlayersByTeam(session, teams) {
   return Promise.mapSeries(teams, (team) => {
     return getListOfUnavailablePlayers(session, team.id)
       .then((unavailablePlayers) => ({
@@ -12,5 +11,4 @@ module.exports = function getUnavailablePlayersByTeam(teams) {
       }))
       .tap(() => console.log(`Finished getting unavailable players for ${team.name}`))
   })
-    .tap(() => session.end())
 }

@@ -1,8 +1,7 @@
 const Promise = require("bluebird")
-const {getListOfTeamFixtures, openWebsite, exitPlayerModal} = require("../../services/website")
+const {getListOfTeamFixtures, exitPlayerModal} = require("../../services/website")
 
-function getTeamData(teams) {
-  const session = openWebsite()
+function getTeamData(session, teams) {
   return Promise.mapSeries(teams, (team) => {
     return getListOfTeamFixtures(session, team.id)
       .then((fixtures) => ({
@@ -17,7 +16,6 @@ function getTeamData(teams) {
         throw err
       })
   })
-    .tap(() => session.end())
 }
 
 module.exports = getTeamData
