@@ -5,6 +5,23 @@ function exitPlayerModal(session) {
   return session.click(selectors.OVERLAY)
 }
 
+function getListOfTeamFixtures(session) {
+  return session
+    .wait(selectors.PLAYER_FIXTURES_TAB)
+    .click(selectors.PLAYER_FIXTURES_TAB)
+    .evaluate((fixturesSelector) => {
+      return $(fixturesSelector)
+        .filter(function() {
+          return $(this).text().length !== 0
+        })
+        .slice(0, 5)
+        .map(function() {
+          return parseInt($(this).text(), 10)
+        })
+        .get()
+    }, selectors.TEAM_FIXTURES)
+}
+
 function getPlayerStats(session) {
   return session
     .wait(selectors.PLAYER_NAME)
@@ -39,4 +56,4 @@ function getPlayerStats(session) {
     }, selectors)
 }
 
-module.exports = {exitPlayerModal, getPlayerStats}
+module.exports = {exitPlayerModal, getPlayerStats, getListOfTeamFixtures}

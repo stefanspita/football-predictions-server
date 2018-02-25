@@ -1,9 +1,10 @@
 const Promise = require("bluebird")
-const {getListOfTeamFixtures, playerDetailsModal} = require("../../services/website")
+const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
 function getTeamData(session, teams) {
   return Promise.mapSeries(teams, (team) => {
-    return getListOfTeamFixtures(session, team.id)
+    return statisticsPage.openPlayerDetailModal(session, team.id, 0)
+      .then(() => playerDetailsModal.getListOfTeamFixtures(session))
       .then((fixtures) => ({
         id: team.id,
         name: team.name,
