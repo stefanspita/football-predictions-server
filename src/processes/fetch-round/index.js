@@ -8,15 +8,20 @@ const {statisticsPage, openWebsite} = require("../../services/website")
 const getTeamData = require("./get-team-data")
 const getPlayerData = require("./get-player-data")
 
-function getTeamUpdateReport(session, teams) {
+const CONCURRENCY = 4
+
+function getTeamUpdateReport(teams) {
+  const session = openWebsite()
   return getTeamData(session, teams)
+    .tap(() => session.end())
     .then(teamReport => {
       return fs.writeJson("./teams-update.json", teamReport)
     })
 }
 
-function getPlayerUpdateReport(session, db, unavailabilityReport, gameweek, teams) {
-  return Promise.mapSeries(teams, (team) => {
+function getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams) {
+  return Promise.map(teams, (team) => {
+    const session = openWebsite()
     const playersCollection = db.collection("players")
     const unavailablePlayers = compose(
       prop("unavailablePlayers"),
@@ -24,7 +29,8 @@ function getPlayerUpdateReport(session, db, unavailabilityReport, gameweek, team
     )(unavailabilityReport)
 
     return getPlayerData(session, playersCollection, unavailablePlayers, gameweek, team)
-  })
+      .tap(() => session.end())
+  }, {concurrency: CONCURRENCY})
     .then((playersTeamReport) => flatten(playersTeamReport))
     .then(playerReport => {
       return fs.writeJson("./players-update.json", playerReport)
@@ -40,8 +46,8 @@ function createUpdateReport(gameweek) {
     getDb(),
   ])
     .spread((teams, db) => {
-      return getTeamUpdateReport(session, teams)
-        .then(() => getPlayerUpdateReport(session, db, unavailabilityReport, gameweek, teams))
+      return getTeamUpdateReport(teams)
+        .then(() => getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams))
     })
     .then(() => {
       console.log("FINISHED FETCHING ROUND DATA")
