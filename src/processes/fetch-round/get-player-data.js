@@ -37,7 +37,7 @@ function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) 
 
 function getPlayerData(playersDb, unavailablePlayers, gameweek, team) {
   const session = openWebsite()
-  return getListOfPlayersByTeam(team.id)
+  return getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
       (playerId, index) => Promise.all([

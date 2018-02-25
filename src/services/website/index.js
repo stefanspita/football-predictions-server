@@ -53,8 +53,8 @@ function getListOfUnavailablePlayers(session, teamId) {
     }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ID)
 }
 
-function getListOfPlayersByTeam(teamId) {
-  return openWebsite()
+function getListOfPlayersByTeam(session, teamId) {
+  return session
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
     .evaluate((playerIdSelector) => {
       return $(playerIdSelector)
@@ -63,7 +63,6 @@ function getListOfPlayersByTeam(teamId) {
         })
         .get()
     }, selectors.PLAYER_ID)
-    .end()
 }
 
 function getPlayerStats(session, teamId, playerIndex) {

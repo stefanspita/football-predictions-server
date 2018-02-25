@@ -17,7 +17,7 @@ const aggregatePlayerInfo = curry((session, teamId, playerId, index) => {
 
 function getPlayerData(team) {
   const session = openWebsite()
-  return getListOfPlayersByTeam(team.id)
+  return getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
       aggregatePlayerInfo(session, team.id)
