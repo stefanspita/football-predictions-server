@@ -1,14 +1,14 @@
 const Promise = require("bluebird")
 const {curry, merge} = require("ramda")
 const {
-  getListOfPlayersByTeam, getPlayerStats, exitPlayerModal,
+  getListOfPlayersByTeam, getPlayerStats, playerDetailsModal,
 } = require("../../services/website")
 
 const aggregatePlayerInfo = curry((session, teamId, playerId, index) => {
   return getPlayerStats(session, teamId, index)
     .then(merge({id: playerId, teamId}))
     .tap(() => console.log(`Successfully fetched data for ${playerId}, playing for ${teamId}`))
-    .tap(() => exitPlayerModal(session))
+    .tap(() => playerDetailsModal.exitPlayerModal(session))
     .catch((err) => {
       console.log(`Error occurred getting data for ${playerId}, playing for ${teamId}`)
       throw err

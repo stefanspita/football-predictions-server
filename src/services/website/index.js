@@ -1,6 +1,8 @@
 /* global $ */
 const Promise = require("bluebird")
 const Nightmare = require("nightmare")
+const statisticsPage = require("./statistics")
+const playerDetailsModal = require("./player-details-modal")
 const selectors = require("./selectors")
 
 function openWebsite() {
@@ -8,17 +10,6 @@ function openWebsite() {
   return nightmare
     .goto("https://fantasy.premierleague.com/a/statistics/total_points")
     .inject("js", "node_modules/jquery/dist/jquery.min.js")
-}
-
-function getListOfTeams(session) {
-  return session
-    .evaluate((teamsSelector) => {
-      return $(teamsSelector)
-        .map(function() {
-          return {id: $(this).attr("value"), name: $(this).text()}
-        })
-        .get()
-    }, selectors.TEAM_OPTIONS_IN_SELECTBOX)
 }
 
 function getListOfTeamFixtures(session, teamId) {
@@ -100,11 +91,7 @@ function getPlayerStats(session, teamId, playerIndex) {
     }, selectors)
 }
 
-function exitPlayerModal(session) {
-  return session.click(selectors.OVERLAY)
-}
-
 module.exports = {
-  openWebsite, getListOfTeamFixtures, getListOfTeams, exitPlayerModal,
+  openWebsite, statisticsPage, playerDetailsModal, getListOfTeamFixtures,
   getListOfUnavailablePlayers, getListOfPlayersByTeam, getPlayerStats,
 }

@@ -1,5 +1,5 @@
 const fs = require("fs-extra")
-const {getListOfTeams, openWebsite} = require("../../services/website")
+const {statisticsPage, openWebsite} = require("../../services/website")
 const getUnavailablePlayersByTeam = require("./get-unavailable-players-by-team")
 
 function getUnavailablePlayersReport(session, teams) {
@@ -11,7 +11,7 @@ function getUnavailablePlayersReport(session, teams) {
 
 function createUnavailabilityReport() {
   const session = openWebsite()
-  return getListOfTeams(session)
+  return statisticsPage.getListOfTeams(session)
     .then((teams) => getUnavailablePlayersReport(session, teams))
     .then(() => {
       console.log("FINISHED FETCHING UNAVAILABLE PLAYERS")

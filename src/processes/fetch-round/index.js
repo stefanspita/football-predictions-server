@@ -3,7 +3,7 @@ const fs = require("fs-extra")
 const {compose, find, flatten, prop, propEq} = require("ramda")
 const unavailabilityReport = require("../../../injury-report.json")
 const getDb = require("../../init/db")
-const {getListOfTeams, openWebsite} = require("../../services/website")
+const {statisticsPage, openWebsite} = require("../../services/website")
 
 const getTeamData = require("./get-team-data")
 const getPlayerData = require("./get-player-data")
@@ -36,7 +36,7 @@ function createUpdateReport(gameweek) {
 
   const session = openWebsite()
   return Promise.all([
-    getListOfTeams(session),
+    statisticsPage.getListOfTeams(session),
     getDb(),
   ])
     .spread((teams, db) => {

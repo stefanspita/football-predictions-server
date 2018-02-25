@@ -1,7 +1,7 @@
 const Promise = require("bluebird")
 const fs = require("fs-extra")
 const {flatten} = require("ramda")
-const {getListOfTeams, openWebsite} = require("../../services/website")
+const {statisticsPage, openWebsite} = require("../../services/website")
 const getTeamData = require("./get-team-data")
 const getPlayerData = require("./get-player-data")
 
@@ -24,7 +24,7 @@ function getPlayerUpdateReport(session, teams) {
 
 function createUpdateReport() {
   const session = openWebsite()
-  return getListOfTeams(session)
+  return statisticsPage.getListOfTeams(session)
     .then((teams) => {
       return getTeamUpdateReport(session, teams)
         .then(() => getPlayerUpdateReport(session, teams))
