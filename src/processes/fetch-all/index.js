@@ -31,7 +31,13 @@ function createUpdateReport() {
       return getTeamUpdateReport(teams)
         .then(() => getPlayerUpdateReport(teams))
     })
-    .catch((err) => console.log("Error occurred", err))
+    .then(() => {
+      console.log("FINISHED FETCHING ALL DATA")
+      process.exit(0)
+    }).catch((err) => {
+      console.error("ERROR OCCURRED", err)
+      process.exit(1)
+    })
 }
 
 createUpdateReport()
