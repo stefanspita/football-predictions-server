@@ -6,6 +6,7 @@
   "scripts": {
     "get-unavailability-report": "node src/processes/get-unavailability-report/index.js",
     "fetch-all": "node src/processes/fetch-all/index.js",
+    "fetch-round": "node src/processes/fetch-round/index.js",
     "update-data": "node src/processes/update-data/index.js",
     "generate-report": "node src/processes/generate-report/index.js",
     "lint": "eslint src/",
