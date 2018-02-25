@@ -1,7 +1,7 @@
 const Promise = require("bluebird")
 const {curry, merge} = require("ramda")
 const {
-  getListOfPlayersByTeam, getPlayerStats, playerDetailsModal,
+  statisticsPage, getPlayerStats, playerDetailsModal,
 } = require("../../services/website")
 
 const aggregatePlayerInfo = curry((session, teamId, playerId, index) => {
@@ -16,7 +16,7 @@ const aggregatePlayerInfo = curry((session, teamId, playerId, index) => {
 })
 
 function getPlayerData(session, team) {
-  return getListOfPlayersByTeam(session, team.id)
+  return statisticsPage.getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
       aggregatePlayerInfo(session, team.id)

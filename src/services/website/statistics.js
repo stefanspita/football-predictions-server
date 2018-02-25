@@ -12,4 +12,16 @@ function getListOfTeams(session) {
     }, selectors.TEAM_OPTIONS_IN_SELECTBOX)
 }
 
-module.exports = {getListOfTeams}
+function getListOfPlayersByTeam(session, teamId) {
+  return session
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .evaluate((playerIdSelector) => {
+      return $(playerIdSelector)
+        .map(function() {
+          return $(this).text()
+        })
+        .get()
+    }, selectors.PLAYER_ID)
+}
+
+module.exports = {getListOfTeams, getListOfPlayersByTeam}

@@ -43,18 +43,6 @@ function getListOfUnavailablePlayers(session, teamId) {
     }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ID)
 }
 
-function getListOfPlayersByTeam(session, teamId) {
-  return session
-    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .evaluate((playerIdSelector) => {
-      return $(playerIdSelector)
-        .map(function() {
-          return $(this).text()
-        })
-        .get()
-    }, selectors.PLAYER_ID)
-}
-
 function getPlayerStats(session, teamId, playerIndex) {
   return session
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
@@ -93,5 +81,5 @@ function getPlayerStats(session, teamId, playerIndex) {
 
 module.exports = {
   openWebsite, statisticsPage, playerDetailsModal, getListOfTeamFixtures,
-  getListOfUnavailablePlayers, getListOfPlayersByTeam, getPlayerStats,
+  getListOfUnavailablePlayers, getPlayerStats,
 }
