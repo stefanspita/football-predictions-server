@@ -11,11 +11,10 @@ const getPlayerData = require("./get-player-data")
 const CONCURRENCY = 5
 
 function getTeamUpdateReport(teams) {
-  return Promise.map(teams, (team) => {
-    return getTeamData(team)
-  }, {concurrency: CONCURRENCY}).then(teamReport => {
-    return fs.writeJson("./teams-update.json", teamReport)
-  })
+  return getTeamData(teams)
+    .then(teamReport => {
+      return fs.writeJson("./teams-update.json", teamReport)
+    })
 }
 
 function getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams) {
