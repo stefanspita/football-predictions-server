@@ -8,7 +8,7 @@ const {getListOfTeams} = require("../../services/website")
 const getTeamData = require("./get-team-data")
 const getPlayerData = require("./get-player-data")
 
-const CONCURRENCY = 5
+const CONCURRENCY = 3
 
 function getTeamUpdateReport(teams) {
   return getTeamData(teams)
