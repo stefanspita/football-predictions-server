@@ -1,16 +1,12 @@
-const Promise = require("bluebird")
 const fs = require("fs-extra")
 const {getListOfTeams} = require("../../services/website")
 const getUnavailablePlayersByTeam = require("./get-unavailable-players-by-team")
 
-const CONCURRENCY = 5
-
 function getUnavailablePlayersReport(teams) {
-  return Promise.map(teams, (team) => {
-    return getUnavailablePlayersByTeam(team)
-  }, {concurrency: CONCURRENCY}).then(injuryReport => {
-    return fs.writeJson("./injury-report.json", injuryReport)
-  })
+  return getUnavailablePlayersByTeam(teams)
+    .then(injuryReport => {
+      return fs.writeJson("./injury-report.json", injuryReport)
+    })
 }
 
 function createUnavailabilityReport() {

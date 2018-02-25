@@ -1,12 +1,16 @@
-const {tap} = require("ramda")
-const {getListOfUnavailablePlayers} = require("../../services/website")
+const Promise = require("bluebird")
+const {getListOfUnavailablePlayers, openWebsite} = require("../../services/website")
 
-module.exports = function getUnavailablePlayersByTeam(team) {
-  return getListOfUnavailablePlayers(team.id)
-    .then(tap(() => console.log(`Finished getting unavailable players for ${team.name}`)))
-    .then((unavailablePlayers) => ({
-      teamId: team.id,
-      teamName: team.name,
-      unavailablePlayers,
-    }))
+module.exports = function getUnavailablePlayersByTeam(teams) {
+  const session = openWebsite()
+  return Promise.mapSeries(teams, (team) => {
+    return getListOfUnavailablePlayers(session, team.id)
+      .then((unavailablePlayers) => ({
+        teamId: team.id,
+        teamName: team.name,
+        unavailablePlayers,
+      }))
+      .tap(() => console.log(`Finished getting unavailable players for ${team.name}`))
+  })
+    .tap(() => session.end())
 }
