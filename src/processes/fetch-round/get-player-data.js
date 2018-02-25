@@ -4,7 +4,7 @@ const {
   getListOfPlayersByTeam, getPlayerStats, openWebsite, exitPlayerModal,
 } = require("../../services/website")
 
-function getRoundData(oldData, newData, gameweek, playerPossiblyUnavailable) {
+function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
   const newRoundData = find(propEq("round", gameweek), newData.currentSeason)
   if (isNil(newRoundData)) {
     throw new Error(`No new round data for ${newData.name}`)
@@ -15,12 +15,19 @@ function getRoundData(oldData, newData, gameweek, playerPossiblyUnavailable) {
   return newRoundData
 }
 
-function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) {
-  const newRoundData = getRoundData(oldData, newData, gameweek, playerPossiblyUnavailable)
-  const updatedCurrentSeason = compose(
+function getCurrentSeason(oldData, newData, newRoundData, gameweek) {
+  if (!oldData) {
+    return newData.currentSeason
+  }
+  return compose(
     append(newRoundData),
     reject(propEq("round", gameweek))
   )(oldData.currentSeason)
+}
+
+function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) {
+  const newRoundData = getRoundData(newData, gameweek, playerPossiblyUnavailable)
+  const updatedCurrentSeason = getCurrentSeason(oldData, newData, newRoundData, gameweek)
 
   return compose(
     assoc("lastUpdatedGameweek", gameweek),
