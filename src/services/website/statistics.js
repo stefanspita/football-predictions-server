@@ -24,4 +24,18 @@ function getListOfPlayersByTeam(session, teamId) {
     }, selectors.PLAYER_ID)
 }
 
-module.exports = {getListOfTeams, getListOfPlayersByTeam}
+function getListOfUnavailablePlayers(session, teamId) {
+  return session
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .evaluate((unavailablePlayersSelector, playerIdSelector) => {
+      return $(unavailablePlayersSelector).parents("tr").find(playerIdSelector)
+        .map(function() {
+          return $(this).text()
+        })
+        .get()
+    }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ID)
+}
+
+module.exports = {
+  getListOfTeams, getListOfPlayersByTeam, getListOfUnavailablePlayers,
+}
