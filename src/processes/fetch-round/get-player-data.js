@@ -1,6 +1,6 @@
 const Promise = require("bluebird")
 const {append, assoc, compose, contains, find, isNil, propEq, reject} = require("ramda")
-const {statisticsPage, getPlayerStats, playerDetailsModal} = require("../../services/website")
+const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
 function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
   const newRoundData = find(propEq("round", gameweek), newData.currentSeason)
@@ -33,13 +33,18 @@ function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) 
   )(newData)
 }
 
+function getNewPlayerStats(session, teamId, playerIndex) {
+  return statisticsPage.openPlayerDetailModal(session, teamId, playerIndex)
+    .then(() => playerDetailsModal.getPlayerStats(session))
+}
+
 function getPlayerData(session, playersDb, unavailablePlayers, gameweek, team) {
   return statisticsPage.getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
       (playerId, index) => Promise.all([
         playersDb.findOne({id: playerId, teamId: team.id}),
-        getPlayerStats(session, team.id, index),
+        getNewPlayerStats(session, team.id, index),
         contains(playerId, unavailablePlayers),
       ])
         .spread((oldData, newData, playerPossiblyUnavailable) => {

@@ -36,6 +36,13 @@ function getListOfUnavailablePlayers(session, teamId) {
     }, selectors.UNAVAILABLE_PLAYERS, selectors.PLAYER_ID)
 }
 
+function openPlayerDetailModal(session, teamId, playerIndex) {
+  return session
+    .select(selectors.TEAM_LIST_SELECTBOX, teamId)
+    .click(`${selectors.PLAYER_ROW}:nth-child(${playerIndex + 1}) ${selectors.PLAYER_ID}`)
+}
+
 module.exports = {
   getListOfTeams, getListOfPlayersByTeam, getListOfUnavailablePlayers,
+  openPlayerDetailModal,
 }
