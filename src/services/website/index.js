@@ -22,8 +22,8 @@ function getListOfTeams() {
     .end()
 }
 
-function getListOfTeamFixtures(teamId) {
-  return openWebsite()
+function getListOfTeamFixtures(session, teamId) {
+  return session
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
     .click(selectors.PLAYER_ID)
     .wait(selectors.PLAYER_FIXTURES_TAB)
@@ -39,7 +39,6 @@ function getListOfTeamFixtures(teamId) {
         })
         .get()
     }, selectors.TEAM_FIXTURES)
-    .end()
 }
 
 function getListOfUnavailablePlayers(teamId) {
