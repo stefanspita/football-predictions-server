@@ -28,6 +28,9 @@ function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) 
   const updatedCurrentSeason = getCurrentSeason(oldData, newData, newRoundData, gameweek)
 
   return compose(
+    assoc("id", oldData.id),
+    assoc("owned", oldData.owned),
+    assoc("teamId", oldData.teamId),
     assoc("lastUpdatedGameweek", gameweek),
     assoc("currentSeason", updatedCurrentSeason)
   )(newData)
