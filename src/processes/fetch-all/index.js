@@ -10,10 +10,10 @@ const CONCURRENCY = 4
 function getTeamUpdateReport(teams) {
   const session = openWebsite()
   return getTeamData(session, teams)
-    .tap(() => session.end())
     .then(teamReport => {
       return fs.writeJson("./teams-update.json", teamReport)
     })
+    .tap(() => session.end())
 }
 
 function getPlayerUpdateReport(teams) {
@@ -31,11 +31,11 @@ function getPlayerUpdateReport(teams) {
 function createUpdateReport() {
   const session = openWebsite()
   return statisticsPage.getListOfTeams(session)
-    .tap(() => session.end())
     .then((teams) => {
       return getTeamUpdateReport(teams)
         .then(() => getPlayerUpdateReport(teams))
     })
+    .tap(() => session.end())
     .then(() => {
       console.log("FINISHED FETCHING ALL DATA")
       process.exit(0)
