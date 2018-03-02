@@ -15,10 +15,10 @@ module.exports = function getDb() {
       authentication = `${mongoUser}:${mongoPwd}@`
     }
 
-    const uri = `mongodb://${authentication}${mongoHost}:${mongoPort}/${mongoDatabase}`
-    return mongodb.MongoClient.connect(uri, dbOpts).then((db) => {
+    const uri = `mongodb://${authentication}${mongoHost}:${mongoPort}`
+    return mongodb.MongoClient.connect(uri, dbOpts).then((client) => {
       console.log("Connected to db")
-      dbInstance = db
+      dbInstance = client.db(mongoDatabase)
       return dbInstance
     }).catch((err) => {
       console.error("Error connecting to db", err)
