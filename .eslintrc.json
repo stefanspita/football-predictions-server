@@ -1,7 +1,6 @@
 {
   "extends": "@mft/eslint-config-momentumft",
   "rules": {
-    "camelcase": 0,
-    "consistent-return": 0
+    "camelcase": 0
   }
 }
