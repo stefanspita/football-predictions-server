@@ -1,5 +1,5 @@
 const Promise = require("bluebird")
-const json2csv = require("json2csv")
+const {parse: json2csv} = require("json2csv")
 const fs = require("fs-extra")
 const {
   both, compose, converge, descend, filter, find, lt, merge, mergeAll, pick, prop, propEq, sortWith,
@@ -54,8 +54,8 @@ function generateReport(teams, playersCollection, reportOptions) {
       descend(prop("overallRating")),
     ]))
     .then((finalReport) => {
-      const fields = reportOptions.fields
-      const csvReport = json2csv({data: finalReport, fields})
+      const options = {fields: reportOptions.fields}
+      const csvReport = json2csv(finalReport, options)
       return fs.outputFile(`./${reportOptions.fileName}.csv`, csvReport)
     })
 }
