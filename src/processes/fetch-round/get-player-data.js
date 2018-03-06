@@ -1,5 +1,5 @@
 const Promise = require("bluebird")
-const {append, assoc, compose, contains, find, isNil, propEq, reject} = require("ramda")
+const {append, assoc, compose, contains, find, isNil, path, propEq, reject} = require("ramda")
 const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
 function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
@@ -23,14 +23,14 @@ function getCurrentSeason(oldData, newData, newRoundData, gameweek) {
   )(oldData.currentSeason)
 }
 
-function mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek) {
+function mergePlayerData({oldData, newData, playerPossiblyUnavailable, gameweek, playerId, teamId}) {
   const newRoundData = getRoundData(newData, gameweek, playerPossiblyUnavailable)
   const updatedCurrentSeason = getCurrentSeason(oldData, newData, newRoundData, gameweek)
 
   return compose(
-    assoc("id", oldData.id),
-    assoc("owned", oldData.owned),
-    assoc("teamId", oldData.teamId),
+    assoc("owned", path(["owned"], oldData)),
+    assoc("id", playerId),
+    assoc("teamId", teamId),
     assoc("lastUpdatedGameweek", gameweek),
     assoc("currentSeason", updatedCurrentSeason)
   )(newData)
@@ -42,21 +42,22 @@ function getNewPlayerStats(session, teamId, playerIndex) {
 }
 
 function getPlayerData(session, playersDb, unavailablePlayers, gameweek, team) {
-  return statisticsPage.getListOfPlayersByTeam(session, team.id)
+  const teamId = team.id
+  return statisticsPage.getListOfPlayersByTeam(session, teamId)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
       (playerId, index) => Promise.all([
-        playersDb.findOne({id: playerId, teamId: team.id}),
-        getNewPlayerStats(session, team.id, index),
+        playersDb.findOne({id: playerId, teamId}),
+        getNewPlayerStats(session, teamId, index),
         contains(playerId, unavailablePlayers),
       ])
         .spread((oldData, newData, playerPossiblyUnavailable) => {
-          return mergePlayerData(oldData, newData, playerPossiblyUnavailable, gameweek)
+          return mergePlayerData({oldData, newData, playerPossiblyUnavailable, gameweek, playerId, teamId})
         })
-        .tap(() => console.log(`Successfully fetched data for ${playerId}, playing for ${team.id}`))
+        .tap(() => console.log(`Successfully fetched data for ${playerId}, playing for ${teamId}`))
         .tap(() => playerDetailsModal.exitPlayerModal(session))
         .catch((err) => {
-          console.log(`Error occurred getting data for ${playerId}, playing for ${team.id}`)
+          console.log(`Error occurred getting data for ${playerId}, playing for ${teamId}`)
           throw err
         })
     ))
