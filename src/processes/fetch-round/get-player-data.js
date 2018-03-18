@@ -5,7 +5,7 @@ const {statisticsPage, playerDetailsModal} = require("../../services/website")
 function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
   const newRoundData = find(propEq("round", gameweek), newData.currentSeason)
   if (isNil(newRoundData)) {
-    throw new Error(`No new round data for ${newData.name}`)
+    return newRoundData
   }
   if (playerPossiblyUnavailable && newRoundData.minutesPlayed === 0) {
     return assoc("unavailable", true, newRoundData)
@@ -16,6 +16,9 @@ function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
 function getCurrentSeason(oldData, newData, newRoundData, gameweek) {
   if (!oldData) {
     return newData.currentSeason
+  }
+  if (!newRoundData) {
+    return oldData.currentSeason
   }
   return compose(
     append(newRoundData),
