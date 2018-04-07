@@ -1,37 +1,45 @@
 const Promise = require("bluebird")
-const {append, assoc, compose, contains, find, isNil, path, propEq, reject} = require("ramda")
+const {assoc, compose, concat, contains, filter, map, path, prop, propEq} = require("ramda")
 const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
-function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
-  const newRoundData = find(propEq("round", gameweek), newData.currentSeason)
-  if (isNil(newRoundData)) {
-    return newRoundData
+const getCurrentSeasonRounds = prop("currentSeason")
+
+function setUnavailabilityFlagForRound(playerPossiblyUnavailable, round) {
+  if (playerPossiblyUnavailable && round.minutesPlayed === 0) {
+    return assoc("unavailable", true, round)
   }
-  if (playerPossiblyUnavailable && newRoundData.minutesPlayed === 0) {
-    return assoc("unavailable", true, newRoundData)
-  }
-  return newRoundData
+  return round
 }
 
-function getCurrentSeason(oldData, newData, newRoundData, gameweek) {
+function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
+  const getCurrentRounds = filter(propEq("round", gameweek))
+  const checkIfPlayerCurrentlyUnavailable = map((round) => setUnavailabilityFlagForRound(playerPossiblyUnavailable, round))
+
+  return compose(
+    checkIfPlayerCurrentlyUnavailable,
+    getCurrentRounds,
+    getCurrentSeasonRounds
+  )(newData)
+}
+
+function getCurrentSeason(oldData, newData, newRounds) {
   if (!oldData) {
     return newData.currentSeason
   }
-  if (!newRoundData) {
-    return oldData.currentSeason
-  }
+
   return compose(
-    append(newRoundData),
-    reject(propEq("round", gameweek))
-  )(oldData.currentSeason)
+    concat(newRounds),
+    getCurrentSeasonRounds
+  )(oldData)
 }
 
 function mergePlayerData({oldData, newData, playerPossiblyUnavailable, gameweek, playerId, teamId}) {
-  const newRoundData = getRoundData(newData, gameweek, playerPossiblyUnavailable)
-  const updatedCurrentSeason = getCurrentSeason(oldData, newData, newRoundData, gameweek)
+  const newRoundsData = getRoundData(newData, gameweek, playerPossiblyUnavailable)
+  const updatedCurrentSeason = getCurrentSeason(oldData, newData, newRoundsData)
+  const playerOwned = path(["owned"], oldData)
 
   return compose(
-    assoc("owned", path(["owned"], oldData)),
+    assoc("owned", playerOwned),
     assoc("id", playerId),
     assoc("teamId", teamId),
     assoc("lastUpdatedGameweek", gameweek),
@@ -39,7 +47,7 @@ function mergePlayerData({oldData, newData, playerPossiblyUnavailable, gameweek,
   )(newData)
 }
 
-function getNewPlayerStats(session, teamId, playerIndex) {
+function getUpdatedPlayerStats(session, teamId, playerIndex) {
   return statisticsPage.openPlayerDetailModal(session, teamId, playerIndex)
     .then(() => playerDetailsModal.getPlayerStats(session))
 }
@@ -51,7 +59,7 @@ function getPlayerData(session, playersDb, unavailablePlayers, gameweek, team) {
       playerIds,
       (playerId, index) => Promise.all([
         playersDb.findOne({id: playerId, teamId}),
-        getNewPlayerStats(session, teamId, index),
+        getUpdatedPlayerStats(session, teamId, index),
         contains(playerId, unavailablePlayers),
       ])
         .spread((oldData, newData, playerPossiblyUnavailable) => {
