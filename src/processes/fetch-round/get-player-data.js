@@ -1,5 +1,5 @@
 const Promise = require("bluebird")
-const {assoc, compose, concat, contains, filter, map, path, prop, propEq} = require("ramda")
+const {__, assoc, compose, concat, contains, filter, map, path, prop, propEq} = require("ramda")
 const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
 const getCurrentSeasonRounds = prop("currentSeason")
@@ -28,7 +28,7 @@ function getCurrentSeason(oldData, newData, newRounds) {
   }
 
   return compose(
-    concat(newRounds),
+    concat(__, newRounds),
     getCurrentSeasonRounds
   )(oldData)
 }
