@@ -1,7 +1,7 @@
 const Promise = require("bluebird")
 const {statisticsPage, playerDetailsModal} = require("../../services/website")
 
-function getTeamData(session, teams) {
+function getTeamData(session, teams, lastUpdatedGameweek) {
   return Promise.mapSeries(teams, (team) => {
     return statisticsPage.openPlayerDetailModal(session, team.id, 0)
       .then(() => playerDetailsModal.getListOfTeamFixtures(session))
@@ -9,6 +9,7 @@ function getTeamData(session, teams) {
         id: team.id,
         name: team.name,
         fixtures,
+        lastUpdatedGameweek,
       }))
       .tap(() => console.log(`Fetched team update for ${team.name}`))
       .tap(() => playerDetailsModal.exitPlayerModal(session))

@@ -10,9 +10,9 @@ const getPlayerData = require("./get-player-data")
 
 const CONCURRENCY = 4
 
-function getTeamUpdateReport(teams) {
+function getTeamUpdateReport(teams, gameweek) {
   const session = openWebsite()
-  return getTeamData(session, teams)
+  return getTeamData(session, teams, gameweek)
     .tap(() => session.end())
     .then(teamReport => {
       return fs.writeJson("./teams-update.json", teamReport)
@@ -47,7 +47,7 @@ function createUpdateReport(gameweek) {
   ])
     .tap(() => session.end())
     .spread((teams, db) => {
-      return getTeamUpdateReport(teams)
+      return getTeamUpdateReport(teams, gameweek)
         .then(() => getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams))
     })
     .then(() => {
