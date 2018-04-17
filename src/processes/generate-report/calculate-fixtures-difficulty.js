@@ -1,18 +1,27 @@
-const {compose, head, min, sum, take} = require("ramda")
+const {__, compose, contains, divide, filter, multiply, pluck, sum} = require("ramda")
 const {FIXTURE_DIFFICULTY_GROUPS} = require("./rules")
 const {findGradeAscending} = require("./utils")
 
-module.exports = function calculateFixturesDifficulty(player, {fixtures}) {
-  const fixturesDifficulty_1 = head(fixtures)
+function getFixturesGrade(fixtures, roundNumbers) {
+  const numberOfRounds = roundNumbers.length
+  const relevantFixtures = filter(({round}) => contains(round, roundNumbers), fixtures)
 
-  const numberOfFixtures = min(3, fixtures.length)
-  const fixturesDifficulty_3_average = compose(sum, take(3))(fixtures) / numberOfFixtures
+  return compose(
+    multiply(relevantFixtures.length / numberOfRounds),
+    (averageDifficulty) => findGradeAscending(averageDifficulty, FIXTURE_DIFFICULTY_GROUPS),
+    divide(__, fixtures.length),
+    sum,
+    pluck("difficulty"),
+  )(relevantFixtures)
+}
 
-  const fixtureDifficulty_1_grade = findGradeAscending(fixturesDifficulty_1, FIXTURE_DIFFICULTY_GROUPS)
-  const fixtureDifficulty_3_grade = findGradeAscending(fixturesDifficulty_3_average, FIXTURE_DIFFICULTY_GROUPS)
+
+module.exports = function calculateFixturesDifficulty(player, {fixtures, lastUpdatedGameweek}) {
+  const nextRound = lastUpdatedGameweek + 1
+  const next3Rounds = [lastUpdatedGameweek + 1, lastUpdatedGameweek + 2, lastUpdatedGameweek + 3]
 
   return {
-    fixtureDifficulty_1_grade,
-    fixtureDifficulty_3_grade,
+    fixtureDifficulty_1_grade: getFixturesGrade(fixtures, [nextRound]),
+    fixtureDifficulty_3_grade: getFixturesGrade(fixtures, next3Rounds),
   }
 }
