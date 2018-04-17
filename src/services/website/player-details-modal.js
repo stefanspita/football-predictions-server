@@ -9,17 +9,21 @@ function getListOfTeamFixtures(session) {
   return session
     .wait(selectors.PLAYER_FIXTURES_TAB)
     .click(selectors.PLAYER_FIXTURES_TAB)
-    .evaluate((fixturesSelector) => {
-      return $(fixturesSelector)
+    .evaluate((selectors) => {
+      return $(selectors.TEAM_FIXTURES_ROWS)
         .filter(function() {
-          return $(this).text().length !== 0
+          const row = $(this)
+          return row.find(selectors.TEAM_FIXTURE_DIFFICULTY).text().length !== 0
         })
-        .slice(0, 5)
         .map(function() {
-          return parseInt($(this).text(), 10)
+          const row = $(this)
+          return {
+            round: parseInt(row.find(selectors.TEAM_FIXTURE_ROUND).text(), 10),
+            difficulty: parseInt(row.find(selectors.TEAM_FIXTURE_DIFFICULTY).text(), 10),
+          }
         })
         .get()
-    }, selectors.TEAM_FIXTURES)
+    }, selectors)
 }
 
 function getPlayerStats(session) {
