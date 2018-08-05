@@ -18,7 +18,7 @@ module.exports = {
   PLAYER_PRICE: "li.ism-horizontal-data-list--basic__item:contains(Price) .ism-horizontal-data-list--basic__value",
   PLAYER_SELECTED_PERCENTAGE: "li.ism-horizontal-data-list--basic__item:contains(TSB) .ism-horizontal-data-list--basic__value",
 
-  PREVIOUS_SEASONS: "#ismr-element-history-past tr:contains(2016/17), #ismr-element-history-past tr:contains(2015/16)",
+  PREVIOUS_SEASONS: "#ismr-element-history-past tbody tr",
   PREVIOUS_SEASON_NAME: "td:eq(0)",
   PREVIOUS_SEASON_POINTS: "td:eq(1)",
   PREVIOUS_SEASON_MINUTES_PLAYED: "td:eq(2)",
