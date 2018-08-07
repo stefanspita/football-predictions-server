@@ -1,6 +1,6 @@
 module.exports = {
-  LAST_SEASON: "2016/17",
-  TWO_SEASONS_AGO: "2017/18",
+  LAST_SEASON: "2017/18",
+  TWO_SEASONS_AGO: "2016/17",
   // mix/max thresholds for the metrics to calculate ratings
   MIN_MINUTE_PER_BPS: 3,
   MAX_MINUTE_PER_BPS: 10,
