@@ -37,7 +37,7 @@ function calculatePlayerStats(player, team) {
 }
 
 const ratingLowerThan40 = compose(lt(39), prop("overallRating"))
-const gradeLowerThan13 = compose(lt(12), prop("grade"))
+const gradeLowerThan13 = compose(lt(9), prop("grade"))
 const filterLowScores = both(ratingLowerThan40, gradeLowerThan13)
 
 function generateReport(teams, playersCollection, reportOptions) {
