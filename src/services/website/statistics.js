@@ -39,7 +39,7 @@ function getListOfUnavailablePlayers(session, teamId) {
 function openPlayerDetailModal(session, teamId, playerIndex) {
   return session
     .select(selectors.TEAM_LIST_SELECTBOX, teamId)
-    .click(`${selectors.PLAYER_ROW}:nth-child(${playerIndex + 1}) ${selectors.PLAYER_ID}`)
+    .click(`${selectors.PLAYER_ROW}:nth-child(${playerIndex + 1}) ${selectors.PLAYER_INFO}`)
 }
 
 module.exports = {

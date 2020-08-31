@@ -1,14 +1,15 @@
 module.exports = {
-  TEAM_LIST_SELECTBOX: "#ismjs-stats-filter",
-  PLAYER_ROW: "#ismr-main tbody tr",
-  PLAYER_ID: ".ism-table--el__name",
-  PLAYER_FIXTURES_TAB: "a[href='#ism-eiw-fixtures']",
+  TEAM_LIST_SELECTBOX: "#filter",
+  PLAYER_ROW: "#root table tbody tr",
+  PLAYER_ID: "td:nth-child(2) button div div div:nth-child(1)",
+  PLAYER_INFO: "td:nth-child(1) button",
+  PLAYER_FIXTURES_TAB: "a[href='#fixtures']",
   UNAVAILABLE_PLAYERS: ".ism-icon--status-75, .ism-icon--status-50, .ism-icon--status-25, .ism-icon--status-0",
   TEAM_OPTIONS_IN_SELECTBOX: "optgroup[label='By Team'] option",
-  OVERLAY: "#ismjs-dialog-overlay",
+  OVERLAY: "#root-dialog div[role=\"presentation\"]",
 
   // first 5 rows, last column
-  TEAM_FIXTURES_ROWS: "#ism-eiw-fixtures table tr",
+  TEAM_FIXTURES_ROWS: "#root-dialog table tr",
   TEAM_FIXTURE_ROUND: "td:eq(1)",
   TEAM_FIXTURE_DIFFICULTY: "td:eq(3)",
 
