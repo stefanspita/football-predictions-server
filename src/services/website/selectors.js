@@ -1,12 +1,12 @@
 module.exports = {
   TEAM_LIST_SELECTBOX: "#filter",
   PLAYER_ROW: "#root table tbody tr",
-  PLAYER_ID: "td:nth-child(2) button div div div:nth-child(1)",
-  PLAYER_INFO: "td:nth-child(1) button",
+  PLAYER_ID: "td:nth-child(2) div[class*='ElementInTable__Name']",
+  PLAYER_INFO: "td:nth-child(1) button[class*='ElementDialogButton']",
   PLAYER_FIXTURES_TAB: "a[href='#fixtures']",
   UNAVAILABLE_PLAYERS: ".ism-icon--status-75, .ism-icon--status-50, .ism-icon--status-25, .ism-icon--status-0",
   TEAM_OPTIONS_IN_SELECTBOX: "optgroup[label='By Team'] option",
-  OVERLAY: "#root-dialog div[role=\"presentation\"]",
+  OVERLAY: "#root-dialog div[class*='Dialog__Overlay']",
 
   // first 5 rows, last column
   TEAM_FIXTURES_ROWS: "#root-dialog table tr",
@@ -14,10 +14,10 @@ module.exports = {
   TEAM_FIXTURE_DIFFICULTY: "td:eq(3)",
 
   // player stats inside dialog
-  PLAYER_NAME: "#root-dialog h2",
-  PLAYER_POSITION: "span:first",
-  PLAYER_PRICE: "ul li div:contains(£)",
-  PLAYER_SELECTED_PERCENTAGE: "ul li div:contains(%)",
+  PLAYER_NAME: "#root-dialog h2[class*='ElementDialog__ElementHeading']",
+  PLAYER_POSITION: "#root-dialog span[class*='ElementDialog__ElementTypeLabel']",
+  PLAYER_PRICE: "ul li[class*='ElementDialog__StatItem'] div:contains(£)",
+  PLAYER_SELECTED_PERCENTAGE: "ul li[class*='ElementDialog__StatItem'] div:contains(%)",
 
   PREVIOUS_SEASONS: "table[class*='HistoryTable'] tbody tr",
   PREVIOUS_SEASON_NAME: "td:eq(0)",
