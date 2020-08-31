@@ -14,12 +14,12 @@ module.exports = {
   TEAM_FIXTURE_DIFFICULTY: "td:eq(3)",
 
   // player stats inside dialog
-  PLAYER_NAME: "#ismjs-dialog-title",
-  PLAYER_POSITION: ".ism-eiw-properties__body__primary .ism-el-type",
-  PLAYER_PRICE: "li.ism-horizontal-data-list--basic__item:contains(Price) .ism-horizontal-data-list--basic__value",
-  PLAYER_SELECTED_PERCENTAGE: "li.ism-horizontal-data-list--basic__item:contains(TSB) .ism-horizontal-data-list--basic__value",
+  PLAYER_NAME: "#root-dialog h2",
+  PLAYER_POSITION: "span:first",
+  PLAYER_PRICE: "ul li div:contains(£)",
+  PLAYER_SELECTED_PERCENTAGE: "ul li div:contains(%)",
 
-  PREVIOUS_SEASONS: "#ismr-element-history-past tbody tr",
+  PREVIOUS_SEASONS: "table[class*='HistoryTable'] tbody tr",
   PREVIOUS_SEASON_NAME: "td:eq(0)",
   PREVIOUS_SEASON_POINTS: "td:eq(1)",
   PREVIOUS_SEASON_MINUTES_PLAYED: "td:eq(2)",
