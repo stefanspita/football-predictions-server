@@ -9,14 +9,14 @@ function calculateSeasonConfidence(minutesPlayed, weight) {
   return compose(
     multiply(weight),
     divide(__, MINUTES_CONFIDENCE_THRESHOLD),
-    min(MINUTES_CONFIDENCE_THRESHOLD)
+    min(MINUTES_CONFIDENCE_THRESHOLD),
   )(minutesPlayed)
 }
 
 function getPastSeasonsMinutes(season, previousSeasons) {
   return compose(
     propOr(0, "minutesPlayed"),
-    find(propEq("season", season))
+    find(propEq("season", season)),
   )(previousSeasons)
 }
 

@@ -9,7 +9,7 @@ function calculateOverallGrade(playerReport) {
     round,
     sum,
     values,
-    pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade", "selection_percent_grade"])
+    pick(["fixtureDifficulty_3_grade", "rating_grade", "playingChance_grade", "confidence_grade", "price_grade", "selection_percent_grade"]),
   )(playerReport)
 }
 
@@ -18,7 +18,7 @@ function calculateNextGameGrade(playerReport) {
     round,
     sum,
     values,
-    pick(["fixtureDifficulty_1_grade", "rating_grade", "playingChance_grade", "confidence_grade"])
+    pick(["fixtureDifficulty_1_grade", "rating_grade", "playingChance_grade", "confidence_grade"]),
   )(playerReport)
 }
 
@@ -32,7 +32,7 @@ function calculateDerivedData(playerReport) {
     assoc("grade", calculateOverallGrade(playerReport)),
     assoc("rating", round(playerReport.rating)),
     assoc("overallRating", calculateOverallRating(playerReport)),
-    assoc("owned", playerReport.owned ? "owned" : "")
+    assoc("owned", playerReport.owned ? "owned" : ""),
   )(playerReport)
 }
 

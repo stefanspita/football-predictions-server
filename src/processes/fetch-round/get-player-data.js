@@ -18,7 +18,7 @@ function getRoundData(newData, gameweek, playerPossiblyUnavailable) {
   return compose(
     checkIfPlayerCurrentlyUnavailable,
     getCurrentRounds,
-    getCurrentSeasonRounds
+    getCurrentSeasonRounds,
   )(newData)
 }
 
@@ -29,7 +29,7 @@ function getCurrentSeason(oldData, newData, newRounds) {
 
   return compose(
     concat(__, newRounds),
-    getCurrentSeasonRounds
+    getCurrentSeasonRounds,
   )(oldData)
 }
 
@@ -43,7 +43,7 @@ function mergePlayerData({oldData, newData, playerPossiblyUnavailable, gameweek,
     assoc("id", playerId),
     assoc("teamId", teamId),
     assoc("lastUpdatedGameweek", gameweek),
-    assoc("currentSeason", updatedCurrentSeason)
+    assoc("currentSeason", updatedCurrentSeason),
   )(newData)
 }
 
@@ -70,7 +70,7 @@ function getPlayerData(session, playersDb, unavailablePlayers, gameweek, team) {
         .catch((err) => {
           console.log(`Error occurred getting data for ${playerId}, playing for ${teamId}`)
           throw err
-        })
+        }),
     ))
     .tap(() => console.log(`Fetched player data for ${team.name}`))
 }

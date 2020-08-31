@@ -18,7 +18,7 @@ function getWeights(previousSeasonMinutes, currentSeason) {
       divide(__, NUMBER_OF_PREVIOUS_GAMES),
       min(NUMBER_OF_PREVIOUS_GAMES),
       length,
-      filter(roundsFilter)
+      filter(roundsFilter),
     )(currentSeason)
   }
 
@@ -29,7 +29,7 @@ function getWeights(previousSeasonMinutes, currentSeason) {
 function getPlayingChances(previousSeasonMinutes, currentSeason) {
   const previousSeasonPlayingChance = compose(
     multiply(100),
-    divide(__, NUMBER_OF_MINUTES_IN_A_SEASON)
+    divide(__, NUMBER_OF_MINUTES_IN_A_SEASON),
   )(previousSeasonMinutes)
 
   const currentSeasonPlayingChance = compose(
@@ -38,7 +38,7 @@ function getPlayingChances(previousSeasonMinutes, currentSeason) {
     sum,
     pluck("minutesPlayed"),
     takeLast(NUMBER_OF_PREVIOUS_GAMES),
-    filter(roundsFilter)
+    filter(roundsFilter),
   )(currentSeason)
 
   return {previousSeasonPlayingChance, currentSeasonPlayingChance}
@@ -46,7 +46,7 @@ function getPlayingChances(previousSeasonMinutes, currentSeason) {
 
 const getPreviousSeasonMinutes = compose(
   propOr(0, "minutesPlayed"),
-  find(propEq("season", LAST_SEASON))
+  find(propEq("season", LAST_SEASON)),
 )
 
 module.exports = function calculatePlayingChance({currentSeason, previousSeasons}) {

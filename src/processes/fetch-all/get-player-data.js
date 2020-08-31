@@ -20,7 +20,7 @@ function getPlayerData(session, team) {
   return statisticsPage.getListOfPlayersByTeam(session, team.id)
     .then((playerIds) => Promise.mapSeries(
       playerIds,
-      aggregatePlayerInfo(session, team.id)
+      aggregatePlayerInfo(session, team.id),
     ))
     .tap(() => console.log(`Fetched player data for ${team.name}`))
 }

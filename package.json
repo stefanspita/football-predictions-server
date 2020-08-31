@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/stefanspita/football-predictions-server#readme",
   "devDependencies": {
-    "@mft/eslint-config-momentumft": "^3.1.4",
+    "@mft/eslint-config-momentumft": "^4.0.0",
     "chai": "^4.1.2",
-    "eslint": "^4.18.1",
+    "eslint": "^6.0.0",
     "husky": "^0.14.3",
     "mocha": "^5.0.0",
     "nodemon": "^1.17.1"

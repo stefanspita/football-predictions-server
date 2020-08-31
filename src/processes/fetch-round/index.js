@@ -25,7 +25,7 @@ function getPlayerUpdateReport(db, unavailabilityReport, gameweek, teams) {
     const playersCollection = db.collection("players")
     const unavailablePlayers = compose(
       prop("unavailablePlayers"),
-      find(propEq("teamId", team.id))
+      find(propEq("teamId", team.id)),
     )(unavailabilityReport)
 
     return getPlayerData(session, playersCollection, unavailablePlayers, gameweek, team)

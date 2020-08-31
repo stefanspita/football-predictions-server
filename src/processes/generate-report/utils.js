@@ -7,7 +7,7 @@ module.exports = {
       find((group) => {
         if (difficulty <= group.value) return true
         return false
-      })
+      }),
     )(groups)
   }),
 
@@ -17,7 +17,7 @@ module.exports = {
       find((group) => {
         if (difficulty >= group.value) return true
         return false
-      })
+      }),
     )(groups)
   }),
 }

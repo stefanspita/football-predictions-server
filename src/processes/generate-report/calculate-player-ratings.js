@@ -16,14 +16,14 @@ function calculateRating(stats, weight) {
     divide(__, MAX_MINUTE_PER_BPS - MIN_MINUTE_PER_BPS),
     subtract(MAX_MINUTE_PER_BPS),
     max(MIN_MINUTE_PER_BPS),
-    min(MAX_MINUTE_PER_BPS)
+    min(MAX_MINUTE_PER_BPS),
   )(minutesPlayed / bps)
 
   const minutesPerPoint = compose(
     divide(__, MAX_MINUTE_PER_POINT - MIN_MINUTE_PER_POINT),
     subtract(MAX_MINUTE_PER_POINT),
     max(MIN_MINUTE_PER_POINT),
-    min(MAX_MINUTE_PER_POINT)
+    min(MAX_MINUTE_PER_POINT),
   )(minutesPlayed / points)
 
   const rating = minutesPerBps * BPS_WEIGHT + minutesPerPoint * POINTS_WEIGHT
@@ -46,7 +46,7 @@ function getWeights(minutes_2_seasons_ago, minutes_last_season, minutes_current_
 function getPreviousSeasonsStats(defaultStats, season, previousSeasons) {
   return compose(
     defaultTo(defaultStats),
-    find(propEq("season", season))
+    find(propEq("season", season)),
   )(previousSeasons)
 }
 

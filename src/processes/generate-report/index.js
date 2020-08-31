@@ -23,7 +23,7 @@ const getInitialPlayerStats = converge(
     calculateFixturesDifficulty,
     calculatePriceGrade,
     calculateSelectionPercentGrade,
-  ]
+  ],
 )
 
 function calculatePlayerStats(player, team) {
@@ -32,7 +32,7 @@ function calculatePlayerStats(player, team) {
   return compose(
     getDerivedPlayerStats,
     merge(playerMeta),
-    getInitialPlayerStats
+    getInitialPlayerStats,
   )(player, team)
 }
 
@@ -67,7 +67,7 @@ function generateReports() {
     return teamsCollection.find().project({_id: 0}).toArray().then((teams) => {
       return Promise.map(
         reportsOptions,
-        (reportOptions) => generateReport(teams, playersCollection, reportOptions)
+        (reportOptions) => generateReport(teams, playersCollection, reportOptions),
       )
     })
   }).then(() => {
