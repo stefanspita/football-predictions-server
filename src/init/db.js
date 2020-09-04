@@ -4,6 +4,7 @@ const {mongoHost, mongoPort, mongoUser, mongoPwd, mongoDatabase} = require("conf
 
 const dbOpts = {
   promiseLibrary: Promise,
+  useUnifiedTopology: true,
 }
 
 let dbInstance
