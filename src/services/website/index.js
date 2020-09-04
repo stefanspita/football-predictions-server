@@ -6,7 +6,7 @@ const playerDetailsModal = require("./player-details-modal")
 function openWebsite() {
   const nightmare = new Nightmare({Promise})
   return nightmare
-    .goto("https://fantasy.premierleague.com/a/statistics/total_points")
+    .goto("https://fantasy.premierleague.com/statistics")
     .inject("js", "node_modules/jquery/dist/jquery.min.js")
 }
 

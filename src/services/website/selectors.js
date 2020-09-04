@@ -4,7 +4,7 @@ module.exports = {
   PLAYER_ID: "td:nth-child(2) div[class*='ElementInTable__Name']",
   PLAYER_INFO: "td:nth-child(1) button[class*='ElementDialogButton']",
   PLAYER_FIXTURES_TAB: "a[href='#fixtures']",
-  UNAVAILABLE_PLAYERS: ".ism-icon--status-75, .ism-icon--status-50, .ism-icon--status-25, .ism-icon--status-0",
+  UNAVAILABLE_PLAYERS: "td:nth-child(1) svg[class*='StyledStatus']",
   TEAM_OPTIONS_IN_SELECTBOX: "optgroup[label='By Team'] option",
   OVERLAY: "#root-dialog div[class*='Dialog__Overlay']",
 
