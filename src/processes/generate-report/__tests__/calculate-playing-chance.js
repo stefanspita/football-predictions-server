@@ -45,7 +45,7 @@ describe("calculate playing chance", function() {
       const previousSeasons = [
         {
           "minutesPlayed": 3420,
-          "season": "2017/18",
+          "season": "2019/20",
         },
       ]
 
@@ -62,7 +62,7 @@ describe("calculate playing chance", function() {
       const previousSeasons = [
         {
           "minutesPlayed": 3420 / 3,
-          "season": "2017/18",
+          "season": "2019/20",
         },
       ]
 
