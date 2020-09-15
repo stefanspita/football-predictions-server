@@ -30,22 +30,28 @@ function getPlayerStats(session) {
   return session
     .wait(selectors.PLAYER_NAME)
     .evaluate((selectors) => {
+      let previousSeasons = []
       const name = $(selectors.PLAYER_NAME).text()
       const position = $(selectors.PLAYER_NAME).siblings(selectors.PLAYER_POSITION).text()
       const price = parseFloat($(selectors.PLAYER_PRICE).text().slice(1), 10)
       const selectionPercent = parseFloat($(selectors.PLAYER_SELECTED_PERCENTAGE).text().slice(0, -1), 10)
-      const previousSeasons = $(selectors.PREVIOUS_SEASONS)
-        .map(function() {
-          const row = $(this)
-          return {
-            season: row.find(selectors.PREVIOUS_SEASON_NAME).text(),
-            points: parseInt(row.find(selectors.PREVIOUS_SEASON_POINTS).text(), 10),
-            minutesPlayed: parseInt(row.find(selectors.PREVIOUS_SEASON_MINUTES_PLAYED).text(), 10),
-            bps: parseInt(row.find(selectors.PREVIOUS_SEASON_BONUS_POINTS).text(), 10),
-          }
-        })
-        .get()
-      const currentSeason = $(selectors.CURRENT_SEASON)
+
+      const previousSeasonsHeader = $(selectors.PREVIOUS_SEASONS_HEADER_TEXT)
+      if (previousSeasonsHeader.length) {
+        previousSeasons = $(selectors.HISTORY_TABLE).last().find(selectors.PREVIOUS_SEASONS)
+          .map(function() {
+            const row = $(this)
+            return {
+              season: row.find(selectors.PREVIOUS_SEASON_NAME).text(),
+              points: parseInt(row.find(selectors.PREVIOUS_SEASON_POINTS).text(), 10),
+              minutesPlayed: parseInt(row.find(selectors.PREVIOUS_SEASON_MINUTES_PLAYED).text(), 10),
+              bps: parseInt(row.find(selectors.PREVIOUS_SEASON_BONUS_POINTS).text(), 10),
+            }
+          })
+          .get()
+      }
+
+      const currentSeason = $(selectors.CURRENT_SEASON_HEADER_TEXT).siblings().find(selectors.CURRENT_SEASON)
         .map(function() {
           const row = $(this)
           return {

@@ -19,15 +19,19 @@ module.exports = {
   PLAYER_PRICE: "ul li[class*='ElementDialog__StatItem'] div:contains(£)",
   PLAYER_SELECTED_PERCENTAGE: "ul li[class*='ElementDialog__StatItem'] div:contains(%)",
 
-  PREVIOUS_SEASONS: "table[class*='HistoryTable'] tbody tr",
+  PREVIOUS_SEASONS_HEADER_TEXT: "h3:contains('Previous Seasons')",
+  PREVIOUS_SEASONS: "tbody tr",
   PREVIOUS_SEASON_NAME: "td:eq(0)",
   PREVIOUS_SEASON_POINTS: "td:eq(1)",
   PREVIOUS_SEASON_MINUTES_PLAYED: "td:eq(2)",
   PREVIOUS_SEASON_BONUS_POINTS: "td:eq(14)",
 
-  CURRENT_SEASON: "#ismr-element-history-this tbody:eq(0) tr",
+  CURRENT_SEASON_HEADER_TEXT: "h3:contains('This Season')",
+  CURRENT_SEASON: "table[class*='HistoryTable'] tbody tr",
   CURRENT_SEASON_ROUND: "td:eq(0)",
   CURRENT_SEASON_POINTS: "td:eq(2)",
   CURRENT_SEASON_MINUTES_PLAYED: "td:eq(3)",
   CURRENT_SEASON_BONUS_POINTS: "td:eq(15)",
+
+  HISTORY_TABLE: "table[class*='HistoryTable']",
 }
