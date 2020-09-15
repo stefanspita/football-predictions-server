@@ -27,5 +27,5 @@ module.exports = {
   RATING_GROUPS: [{value: 85, points: 7}, {value: 80, points: 6}, {value: 75, points: 5}, {value: 70, points: 4}, {value: 65, points: 3}, {value: 60, points: 2}, {value: 50, points: 1}, {value: 0, points: 0}],
   PLAYING_CHANCE_GROUPS: [{value: 90, points: 6}, {value: 80, points: 5}, {value: 70, points: 4}, {value: 60, points: 3}, {value: 50, points: 2}, {value: 40, points: 1}, {value: 0, points: 0}],
   CONFIDENCE_GROUPS: [{value: 70, points: 4}, {value: 55, points: 3}, {value: 40, points: 2}, {value: 25, points: 1}, {value: 0, points: 0}],
-  SELECTION_PERCENTAGE_GROUPS: [{value: 40, points: 2}, {value: 20, points: 0}, {value: 10, points: 1}, {value: 0, points: 2}],
+  SELECTION_PERCENTAGE_GROUPS: [{value: 20, points: 0}, {value: 10, points: 1}, {value: 0, points: 2}],
 }
