@@ -62,6 +62,8 @@ function getPlayerStats(session) {
           }
         })
         .get()
+        .filter((row) => row.round)
+
       return {name, position, price, selectionPercent, previousSeasons, currentSeason}
     }, selectors)
 }
