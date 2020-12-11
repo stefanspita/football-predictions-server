@@ -9,6 +9,7 @@
     "fetch-round": "node src/processes/fetch-round/index.js",
     "update-data": "node src/processes/update-data/index.js",
     "generate-report": "node src/processes/generate-report/index.js",
+    "generate-simple-report": "node src/processes/generate-simple-report/index.js",
     "lint": "eslint src/",
     "test": "mocha",
     "test-watch": "mocha -w"
